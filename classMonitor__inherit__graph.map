@@ -1,0 +1,3 @@
+<map id="Monitor" name="Monitor">
+<area shape="rect" id="node2" href="$classAbstractMonitor.html" title="{AbstractMonitor\n|# m_id\l# m_monitorManager\l|+ AbstractMonitor()\l+ id()\l+ ~AbstractMonitor()\l+ isActive()\l+ mute()\l+ stop()\l+ start()\l+ slotPlay()\l+ slotRewind()\l+ slotForward()\l+ refreshMonitorIfActive()\l+ slotMouseSeek()\l+ slotActivateMonitor()\l+ slotSwitchFullScreen()\l}" alt="" coords="12,131,205,413"/>
+</map>

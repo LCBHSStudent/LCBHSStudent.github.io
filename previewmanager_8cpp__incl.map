@@ -1,0 +1,22 @@
+<map id="src/timeline2/view/previewmanager.cpp" name="src/timeline2/view/previewmanager.cpp">
+<area shape="rect" id="node2" href="$previewmanager_8h.html" title="previewmanager.h" alt="" coords="3946,95,4089,121"/>
+<area shape="rect" id="node13" href="$core_8h.html" title="core.h" alt="" coords="3366,95,3429,121"/>
+<area shape="rect" id="node27" href="$docundostack_8hpp.html" title="doc/docundostack.hpp" alt="" coords="3962,244,4129,271"/>
+<area shape="rect" id="node28" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="966,95,1106,121"/>
+<area shape="rect" id="node37" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="2268,95,2407,121"/>
+<area shape="rect" id="node43" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="5,169,189,196"/>
+<area shape="rect" id="node46" href="$timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="509,95,760,121"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="1727,244,1830,271"/>
+<area shape="rect" id="node4" href="$gentime_8h.html" title="gentime.h" alt="" coords="1999,319,2087,345"/>
+<area shape="rect" id="node14" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="2957,169,3107,196"/>
+<area shape="rect" id="node17" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="3131,169,3298,196"/>
+<area shape="rect" id="node18" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="2152,244,2275,271"/>
+<area shape="rect" id="node26" href="$timecode_8h.html" title="timecode.h" alt="" coords="2639,244,2734,271"/>
+<area shape="rect" id="node35" href="$subtitlemodel_8hpp.html" title="../bin/model/subtitlemodel.hpp" alt="" coords="2079,169,2300,196"/>
+<area shape="rect" id="node38" href="$abstractmonitor_8h.html" title="abstractmonitor.h" alt="" coords="2426,169,2563,196"/>
+<area shape="rect" id="node39" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="1828,169,2055,196"/>
+<area shape="rect" id="node40" href="$sharedframe_8h.html" title="scopes/sharedframe.h" alt="" coords="1381,169,1547,196"/>
+<area shape="rect" id="node41" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="2690,169,2830,196"/>
+<area shape="rect" id="node44" href="$profileinfo_8hpp.html" title="profileinfo.hpp" alt="" coords="39,244,155,271"/>
+<area shape="rect" id="node47" href="$audioCorrelation_8h.html" title="lib/audio/audioCorrelation.h" alt="" coords="315,169,517,196"/>
+</map>

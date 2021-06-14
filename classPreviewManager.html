@@ -1,0 +1,888 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: PreviewManager类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classPreviewManager-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PreviewManager类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Handles timeline preview. This manager creates an additional video track on top of the current timeline and renders chunks (small video files of 25 frames) that are added on this track when rendered. This allow us to get a preview with a smooth playback of our project. Only the preview zone is rendered. Once defined, a preview zone shows as a red line below the timeline ruler. As chunks are rendered, the zone turns to green.  
+ <a href="classPreviewManager.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="previewmanager_8h_source.html">previewmanager.h</a>&gt;</code></p>
+<div class="dynheader">
+类 PreviewManager 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classPreviewManager__inherit__graph.png" border="0" usemap="#PreviewManager_inherit__map" alt="Inheritance graph"/></div>
+<map name="PreviewManager_inherit__map" id="PreviewManager_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+PreviewManager 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classPreviewManager__coll__graph.png" border="0" usemap="#PreviewManager_coll__map" alt="Collaboration graph"/></div>
+<map name="PreviewManager_coll__map" id="PreviewManager_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:a3660390d0483db56378a2e11753d2aec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a3660390d0483db56378a2e11753d2aec">startPreviewRender</a> ()</td></tr>
+<tr class="memdesc:a3660390d0483db56378a2e11753d2aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Prepare and start rendering.  <a href="#a3660390d0483db56378a2e11753d2aec">更多...</a><br /></td></tr>
+<tr class="separator:a3660390d0483db56378a2e11753d2aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2642219f66999674f0b4724554c3d1c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a2642219f66999674f0b4724554c3d1c7">gotPreviewRender</a> (int frame, const QString &amp;file, int progress)</td></tr>
+<tr class="memdesc:a2642219f66999674f0b4724554c3d1c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">: A chunk has been created, notify ruler.  <a href="#a2642219f66999674f0b4724554c3d1c7">更多...</a><br /></td></tr>
+<tr class="separator:a2642219f66999674f0b4724554c3d1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:afee083dfc1c0faf57502e5cf75088635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#afee083dfc1c0faf57502e5cf75088635">abortPreview</a> ()</td></tr>
+<tr class="separator:afee083dfc1c0faf57502e5cf75088635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade579177983ee6f081e2adea459263f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#ade579177983ee6f081e2adea459263f0">cleanupOldPreviews</a> ()</td></tr>
+<tr class="separator:ade579177983ee6f081e2adea459263f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827a733188dd561fb25b8db509bfea6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a827a733188dd561fb25b8db509bfea6b">previewRender</a> (int frame, const QString &amp;file, int progress)</td></tr>
+<tr class="separator:a827a733188dd561fb25b8db509bfea6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a0130fd524a3b0cfdf9f1135b111b81b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a0130fd524a3b0cfdf9f1135b111b81b9">PreviewManager</a> (<a class="el" href="classTimelineController.html">TimelineController</a> *controller, Mlt::Tractor *tractor)</td></tr>
+<tr class="separator:a0130fd524a3b0cfdf9f1135b111b81b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9f504a8a6c6317fa940b8e56165dc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a2d9f504a8a6c6317fa940b8e56165dc9">~PreviewManager</a> () override</td></tr>
+<tr class="separator:a2d9f504a8a6c6317fa940b8e56165dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaddfb0a583d6abcbd755483b59c74d6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#aaddfb0a583d6abcbd755483b59c74d6a">initialize</a> ()</td></tr>
+<tr class="memdesc:aaddfb0a583d6abcbd755483b59c74d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">: initialize base variables, return false if error.  <a href="#aaddfb0a583d6abcbd755483b59c74d6a">更多...</a><br /></td></tr>
+<tr class="separator:aaddfb0a583d6abcbd755483b59c74d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ed07baf1838e1d621acb4fa1db92d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a88ed07baf1838e1d621acb4fa1db92d3">invalidatePreview</a> (int startFrame, int endFrame)</td></tr>
+<tr class="memdesc:a88ed07baf1838e1d621acb4fa1db92d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">: a timeline operation caused changes to frames between startFrame and endFrame.  <a href="#a88ed07baf1838e1d621acb4fa1db92d3">更多...</a><br /></td></tr>
+<tr class="separator:a88ed07baf1838e1d621acb4fa1db92d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a8233ab779a47934a9afdd6b265cd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a48a8233ab779a47934a9afdd6b265cd8">invalidatePreviews</a> (const QVariantList chunks)</td></tr>
+<tr class="memdesc:a48a8233ab779a47934a9afdd6b265cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">: after a small delay (some operations trigger several invalidatePreview calls), take care of these invalidated chunks.  <a href="#a48a8233ab779a47934a9afdd6b265cd8">更多...</a><br /></td></tr>
+<tr class="separator:a48a8233ab779a47934a9afdd6b265cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e378c86fcbb5232de487d7c5cfd338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#af3e378c86fcbb5232de487d7c5cfd338">addPreviewRange</a> (const QPoint zone, bool add)</td></tr>
+<tr class="memdesc:af3e378c86fcbb5232de487d7c5cfd338"><td class="mdescLeft">&#160;</td><td class="mdescRight">: user adds current timeline zone to the preview zone.  <a href="#af3e378c86fcbb5232de487d7c5cfd338">更多...</a><br /></td></tr>
+<tr class="separator:af3e378c86fcbb5232de487d7c5cfd338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a28e25a61a607f270cd05ac507a5462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a5a28e25a61a607f270cd05ac507a5462">clearPreviewRange</a> (bool resetZones)</td></tr>
+<tr class="memdesc:a5a28e25a61a607f270cd05ac507a5462"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Remove all existing previews.  <a href="#a5a28e25a61a607f270cd05ac507a5462">更多...</a><br /></td></tr>
+<tr class="separator:a5a28e25a61a607f270cd05ac507a5462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d917c4c8c36376151b1adb5c1eb4dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a0d917c4c8c36376151b1adb5c1eb4dba">abortRendering</a> ()</td></tr>
+<tr class="memdesc:a0d917c4c8c36376151b1adb5c1eb4dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">: stops current rendering process.  <a href="#a0d917c4c8c36376151b1adb5c1eb4dba">更多...</a><br /></td></tr>
+<tr class="separator:a0d917c4c8c36376151b1adb5c1eb4dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6202dee1d883c704c9e4c7666c1ee16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#af6202dee1d883c704c9e4c7666c1ee16">loadParams</a> ()</td></tr>
+<tr class="memdesc:af6202dee1d883c704c9e4c7666c1ee16"><td class="mdescLeft">&#160;</td><td class="mdescRight">: rendering parameters have changed, reload them.  <a href="#af6202dee1d883c704c9e4c7666c1ee16">更多...</a><br /></td></tr>
+<tr class="separator:af6202dee1d883c704c9e4c7666c1ee16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583cb4a76689b5ab73f8a56d0b287dde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a583cb4a76689b5ab73f8a56d0b287dde">buildPreviewTrack</a> ()</td></tr>
+<tr class="memdesc:a583cb4a76689b5ab73f8a56d0b287dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Create the preview track if not existing.  <a href="#a583cb4a76689b5ab73f8a56d0b287dde">更多...</a><br /></td></tr>
+<tr class="separator:a583cb4a76689b5ab73f8a56d0b287dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df0b980214b1ec39c43116b295bcb05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a8df0b980214b1ec39c43116b295bcb05">deletePreviewTrack</a> ()</td></tr>
+<tr class="memdesc:a8df0b980214b1ec39c43116b295bcb05"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Delete the preview track.  <a href="#a8df0b980214b1ec39c43116b295bcb05">更多...</a><br /></td></tr>
+<tr class="separator:a8df0b980214b1ec39c43116b295bcb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054e8d6319bc916ac80bea63bf18c53d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a054e8d6319bc916ac80bea63bf18c53d">reconnectTrack</a> ()</td></tr>
+<tr class="memdesc:a054e8d6319bc916ac80bea63bf18c53d"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Whenever we save or render our project, we remove the preview track so it is not saved.  <a href="#a054e8d6319bc916ac80bea63bf18c53d">更多...</a><br /></td></tr>
+<tr class="separator:a054e8d6319bc916ac80bea63bf18c53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd01beb6d2f882c3810ee965da0e7cd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#acd01beb6d2f882c3810ee965da0e7cd7">disconnectTrack</a> ()</td></tr>
+<tr class="memdesc:acd01beb6d2f882c3810ee965da0e7cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">: After project save or render, re-add our preview track.  <a href="#acd01beb6d2f882c3810ee965da0e7cd7">更多...</a><br /></td></tr>
+<tr class="separator:acd01beb6d2f882c3810ee965da0e7cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dfa6db22038ab5084aaa07953a9fd01"><td class="memItemLeft" align="right" valign="top">const QDir&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a0dfa6db22038ab5084aaa07953a9fd01">getCacheDir</a> () const </td></tr>
+<tr class="memdesc:a0dfa6db22038ab5084aaa07953a9fd01"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Returns directory currently used to store the preview files.  <a href="#a0dfa6db22038ab5084aaa07953a9fd01">更多...</a><br /></td></tr>
+<tr class="separator:a0dfa6db22038ab5084aaa07953a9fd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065c6b22bff111a69dcd971775a498d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a065c6b22bff111a69dcd971775a498d6">loadChunks</a> (QVariantList <a class="el" href="classPreviewManager.html#a2722a96fd31e8dcc0956e512fdf1800a">previewChunks</a>, QVariantList dirtyChunks, const QDateTime &amp;documentDate)</td></tr>
+<tr class="memdesc:a065c6b22bff111a69dcd971775a498d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Load existing ruler chunks.  <a href="#a065c6b22bff111a69dcd971775a498d6">更多...</a><br /></td></tr>
+<tr class="separator:a065c6b22bff111a69dcd971775a498d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada4bfa7101bfdedc05881efd4a38811f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#ada4bfa7101bfdedc05881efd4a38811f">setOverlayTrack</a> (Mlt::Playlist *overlay)</td></tr>
+<tr class="separator:ada4bfa7101bfdedc05881efd4a38811f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254151d905ad71bcba9be40c905dd6b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a254151d905ad71bcba9be40c905dd6b4">removeOverlayTrack</a> ()</td></tr>
+<tr class="memdesc:a254151d905ad71bcba9be40c905dd6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the effect compare overlay track.  <a href="#a254151d905ad71bcba9be40c905dd6b4">更多...</a><br /></td></tr>
+<tr class="separator:a254151d905ad71bcba9be40c905dd6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2722a96fd31e8dcc0956e512fdf1800a"><td class="memItemLeft" align="right" valign="top">QPair&lt; QStringList, QStringList &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a2722a96fd31e8dcc0956e512fdf1800a">previewChunks</a> () const </td></tr>
+<tr class="memdesc:a2722a96fd31e8dcc0956e512fdf1800a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of existing chunks.  <a href="#a2722a96fd31e8dcc0956e512fdf1800a">更多...</a><br /></td></tr>
+<tr class="separator:a2722a96fd31e8dcc0956e512fdf1800a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2a1cb3cc2fe793ed1e4c1168147885"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#abf2a1cb3cc2fe793ed1e4c1168147885">hasOverlayTrack</a> () const </td></tr>
+<tr class="separator:abf2a1cb3cc2fe793ed1e4c1168147885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64ce37cb2180017835ebc8734f14d7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#aa64ce37cb2180017835ebc8734f14d7c">hasPreviewTrack</a> () const </td></tr>
+<tr class="separator:aa64ce37cb2180017835ebc8734f14d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e98fd30ea7c9f810279b09a63b14b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#ad9e98fd30ea7c9f810279b09a63b14b2">addedTracks</a> () const </td></tr>
+<tr class="separator:ad9e98fd30ea7c9f810279b09a63b14b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a6598e558ef5aaa9ada6a82632e22e620"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a6598e558ef5aaa9ada6a82632e22e620">workingPreview</a></td></tr>
+<tr class="memdesc:a6598e558ef5aaa9ada6a82632e22e620"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current preview chunk being processed, -1 if none.  <a href="#a6598e558ef5aaa9ada6a82632e22e620">更多...</a><br /></td></tr>
+<tr class="separator:a6598e558ef5aaa9ada6a82632e22e620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:adf78d4461baf545a33662be25c5f9d03"><td class="memItemLeft" align="right" valign="top">QVariantList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#adf78d4461baf545a33662be25c5f9d03">m_renderedChunks</a></td></tr>
+<tr class="separator:adf78d4461baf545a33662be25c5f9d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2a4a7cb453a6c018acedc22ad1e1302"><td class="memItemLeft" align="right" valign="top">QVariantList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#ad2a4a7cb453a6c018acedc22ad1e1302">m_dirtyChunks</a></td></tr>
+<tr class="separator:ad2a4a7cb453a6c018acedc22ad1e1302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:a6a58cb31c458fe59a5e94e6301e2bfc9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPreviewManager.html#a6a58cb31c458fe59a5e94e6301e2bfc9">TimelineController</a></td></tr>
+<tr class="separator:a6a58cb31c458fe59a5e94e6301e2bfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Handles timeline preview. This manager creates an additional video track on top of the current timeline and renders chunks (small video files of 25 frames) that are added on this track when rendered. This allow us to get a preview with a smooth playback of our project. Only the preview zone is rendered. Once defined, a preview zone shows as a red line below the timeline ruler. As chunks are rendered, the zone turns to green. </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a0130fd524a3b0cfdf9f1135b111b81b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PreviewManager::PreviewManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTimelineController.html">TimelineController</a> *&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mlt::Tractor *&#160;</td>
+          <td class="paramname"><em>tractor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d9f504a8a6c6317fa940b8e56165dc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PreviewManager::~PreviewManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="afee083dfc1c0faf57502e5cf75088635"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::abortPreview </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d917c4c8c36376151b1adb5c1eb4dba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::abortRendering </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: stops current rendering process. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad9e98fd30ea7c9f810279b09a63b14b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PreviewManager::addedTracks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af3e378c86fcbb5232de487d7c5cfd338"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::addPreviewRange </td>
+          <td>(</td>
+          <td class="paramtype">const QPoint&#160;</td>
+          <td class="paramname"><em>zone</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>add</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: user adds current timeline zone to the preview zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a583cb4a76689b5ab73f8a56d0b287dde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreviewManager::buildPreviewTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Create the preview track if not existing. </p>
+
+</div>
+</div>
+<a class="anchor" id="ade579177983ee6f081e2adea459263f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::cleanupOldPreviews </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5a28e25a61a607f270cd05ac507a5462"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::clearPreviewRange </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>resetZones</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Remove all existing previews. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8df0b980214b1ec39c43116b295bcb05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::deletePreviewTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Delete the preview track. </p>
+
+</div>
+</div>
+<a class="anchor" id="acd01beb6d2f882c3810ee965da0e7cd7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::disconnectTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: After project save or render, re-add our preview track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0dfa6db22038ab5084aaa07953a9fd01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QDir PreviewManager::getCacheDir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Returns directory currently used to store the preview files. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2642219f66999674f0b4724554c3d1c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::gotPreviewRender </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>: A chunk has been created, notify ruler. </p>
+
+</div>
+</div>
+<a class="anchor" id="abf2a1cb3cc2fe793ed1e4c1168147885"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreviewManager::hasOverlayTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa64ce37cb2180017835ebc8734f14d7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreviewManager::hasPreviewTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaddfb0a583d6abcbd755483b59c74d6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreviewManager::initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: initialize base variables, return false if error. </p>
+
+</div>
+</div>
+<a class="anchor" id="a88ed07baf1838e1d621acb4fa1db92d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::invalidatePreview </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endFrame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: a timeline operation caused changes to frames between startFrame and endFrame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a48a8233ab779a47934a9afdd6b265cd8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::invalidatePreviews </td>
+          <td>(</td>
+          <td class="paramtype">const QVariantList&#160;</td>
+          <td class="paramname"><em>chunks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: after a small delay (some operations trigger several invalidatePreview calls), take care of these invalidated chunks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a065c6b22bff111a69dcd971775a498d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::loadChunks </td>
+          <td>(</td>
+          <td class="paramtype">QVariantList&#160;</td>
+          <td class="paramname"><em>previewChunks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariantList&#160;</td>
+          <td class="paramname"><em>dirtyChunks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QDateTime &amp;&#160;</td>
+          <td class="paramname"><em>documentDate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Load existing ruler chunks. </p>
+
+</div>
+</div>
+<a class="anchor" id="af6202dee1d883c704c9e4c7666c1ee16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PreviewManager::loadParams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: rendering parameters have changed, reload them. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2722a96fd31e8dcc0956e512fdf1800a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPair&lt; QStringList, QStringList &gt; PreviewManager::previewChunks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the list of existing chunks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a827a733188dd561fb25b8db509bfea6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::previewRender </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a054e8d6319bc916ac80bea63bf18c53d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::reconnectTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Whenever we save or render our project, we remove the preview track so it is not saved. </p>
+
+</div>
+</div>
+<a class="anchor" id="a254151d905ad71bcba9be40c905dd6b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::removeOverlayTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove the effect compare overlay track. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada4bfa7101bfdedc05881efd4a38811f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PreviewManager::setOverlayTrack </td>
+          <td>(</td>
+          <td class="paramtype">Mlt::Playlist *&#160;</td>
+          <td class="paramname"><em>overlay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3660390d0483db56378a2e11753d2aec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PreviewManager::startPreviewRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>: Prepare and start rendering. </p>
+
+</div>
+</div>
+<h2 class="groupheader">友元及相关函数文档</h2>
+<a class="anchor" id="a6a58cb31c458fe59a5e94e6301e2bfc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineController.html">TimelineController</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ad2a4a7cb453a6c018acedc22ad1e1302"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariantList PreviewManager::m_dirtyChunks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adf78d4461baf545a33662be25c5f9d03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariantList PreviewManager::m_renderedChunks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6598e558ef5aaa9ada6a82632e22e620"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PreviewManager::workingPreview</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The current preview chunk being processed, -1 if none. </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/timeline2/view/<a class="el" href="previewmanager_8h_source.html">previewmanager.h</a></li>
+<li>src/timeline2/view/<a class="el" href="previewmanager_8cpp.html">previewmanager.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

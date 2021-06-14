@@ -1,0 +1,4 @@
+<map id="AudioGraphSpectrum" name="AudioGraphSpectrum">
+<area shape="rect" id="node2" href="$classScopeWidget.html" title="The ScopeWidget provides a common interface for all scopes in Shotcut. " alt="" coords="125,204,271,369"/>
+<area shape="rect" id="node4" href="$classDataQueue.html" title="{DataQueue\&lt; SharedFrame \&gt;\n||+ DataQueue()\l+ ~DataQueue()\l+ push()\l+ pop()\l+ count()\l}" alt="" coords="150,5,361,141"/>
+</map>

@@ -1,0 +1,131 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/assets/view/widgets/abstractparamwidget.hpp 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_10713331a9c2c730d0277dc05e8141d6.html">assets</a></li><li class="navelem"><a class="el" href="dir_a0d2a0c1542c5e05aa2f0846a7cbebaf.html">view</a></li><li class="navelem"><a class="el" href="dir_91ff046831ad821683bd0f3339be33d6.html">widgets</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">abstractparamwidget.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="abstractparamwidget_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2016 by Nicolas Carion                                  *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   This file is part of Kdenlive. See www.kdenlive.org.                  *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) version 3 or any later version accepted by the       *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *   membership of KDE e.V. (or its successor approved  by the membership  *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   of KDE e.V.), which shall act as a proxy defined in Section 14 of     *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   version 3 of the license.                                             *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   This program is distributed in the hope that it will be useful,       *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *   along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;. *</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef ABSTRACTPARAMWIDGET_H</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define ABSTRACTPARAMWIDGET_H</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;QDebug&gt;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;QPersistentModelIndex&gt;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span><a class="code" href="classAssetParameterModel.html">AssetParameterModel</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classAbstractParamWidget.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="classAbstractParamWidget.html">AbstractParamWidget</a> : <span class="keyword">public</span> QWidget</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classAbstractParamWidget.html#a236b03adff79a4f63546869616189115">AbstractParamWidget</a>() = <span class="keyword">delete</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classAbstractParamWidget.html#a236b03adff79a4f63546869616189115">AbstractParamWidget</a>(std::shared_ptr&lt;AssetParameterModel&gt; model, QModelIndex index, QWidget *parent);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="classAbstractParamWidget.html#a42c9d9933fc359b1a135c80ff2cf6675">~AbstractParamWidget</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">static</span> <a class="code" href="classAbstractParamWidget.html">AbstractParamWidget</a> *<a class="code" href="classAbstractParamWidget.html#ad9c6a6d9f029108adad8961301254e4b">construct</a>(<span class="keyword">const</span> std::shared_ptr&lt;AssetParameterModel&gt; &amp;model, QModelIndex index, QSize frameSize, QWidget *parent);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;signals:</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#a9068418333764bbe78981fa9ac233916">valueChanged</a>(QModelIndex, QString, <span class="keywordtype">bool</span>);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#a678512f5b16a955454a369ed8b6cb231">valuesChanged</a>(<span class="keyword">const</span> QList &lt;QModelIndex&gt;, <span class="keyword">const</span> QStringList&amp;, <span class="keywordtype">bool</span>);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#a64749db7310c200c1c03ff8a4c7a640e">disableCurrentFilter</a>(<span class="keywordtype">bool</span>);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#ace98b4c490ad8878b4697bfdf6d46022">seekToPos</a>(<span class="keywordtype">int</span>);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#a068cd874bbe190e53f0239d86f3399f0">updateHeight</a>(<span class="keywordtype">int</span> height = -1);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#a846d4d014c8ba68ad85995a5eb23884d">activateEffect</a>();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classAbstractParamWidget.html#aa59e32fcdbd08a6f020a770f10d973da">   71</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#aa59e32fcdbd08a6f020a770f10d973da">slotShowComment</a>(<span class="keywordtype">bool</span>) { qDebug() &lt;&lt; <span class="stringliteral">&quot;DEBUG: show_comment not correctly overridden&quot;</span>; }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#a21c108b49ed6d86ab8d9d21e97d62b8e">slotRefresh</a>() = 0;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classAbstractParamWidget.html#ad7a5af7ef0ccc4cee3fb23b1153c6e2f">   79</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAbstractParamWidget.html#ad7a5af7ef0ccc4cee3fb23b1153c6e2f">slotInitMonitor</a>(<span class="keywordtype">bool</span> <span class="comment">/*active*/</span>) {}</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classAbstractParamWidget.html#a08b30310c9fb231f354354cdb978528b">   82</a></span>&#160;    std::shared_ptr&lt;AssetParameterModel&gt; <a class="code" href="classAbstractParamWidget.html#a08b30310c9fb231f354354cdb978528b">m_model</a>;</div><div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="classAbstractParamWidget.html#a9672af7666d4770cf3843af7b8dda72c">   83</a></span>&#160;    QPersistentModelIndex <a class="code" href="classAbstractParamWidget.html#a9672af7666d4770cf3843af7b8dda72c">m_index</a>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;};</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classAbstractParamWidget_html_a9068418333764bbe78981fa9ac233916"><div class="ttname"><a href="classAbstractParamWidget.html#a9068418333764bbe78981fa9ac233916">AbstractParamWidget::valueChanged</a></div><div class="ttdeci">void valueChanged(QModelIndex, QString, bool)</div><div class="ttdoc">Signal sent when the parameters hold by the widgets are modified The index corresponds which paramete...</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a236b03adff79a4f63546869616189115"><div class="ttname"><a href="classAbstractParamWidget.html#a236b03adff79a4f63546869616189115">AbstractParamWidget::AbstractParamWidget</a></div><div class="ttdeci">AbstractParamWidget()=delete</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_ad7a5af7ef0ccc4cee3fb23b1153c6e2f"><div class="ttname"><a href="classAbstractParamWidget.html#ad7a5af7ef0ccc4cee3fb23b1153c6e2f">AbstractParamWidget::slotInitMonitor</a></div><div class="ttdeci">virtual void slotInitMonitor(bool)</div><div class="ttdoc">initialize qml keyframe view after creating it </div><div class="ttdef"><b>Definition:</b> abstractparamwidget.hpp:79</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a9672af7666d4770cf3843af7b8dda72c"><div class="ttname"><a href="classAbstractParamWidget.html#a9672af7666d4770cf3843af7b8dda72c">AbstractParamWidget::m_index</a></div><div class="ttdeci">QPersistentModelIndex m_index</div><div class="ttdef"><b>Definition:</b> abstractparamwidget.hpp:83</div></div>
+<div class="ttc" id="classAbstractParamWidget_html"><div class="ttname"><a href="classAbstractParamWidget.html">AbstractParamWidget</a></div><div class="ttdoc">Base class of all the widgets representing a parameter of an asset (effect or transition) ...</div><div class="ttdef"><b>Definition:</b> abstractparamwidget.hpp:35</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_aa59e32fcdbd08a6f020a770f10d973da"><div class="ttname"><a href="classAbstractParamWidget.html#aa59e32fcdbd08a6f020a770f10d973da">AbstractParamWidget::slotShowComment</a></div><div class="ttdeci">virtual void slotShowComment(bool)</div><div class="ttdoc">Toggle the comments on or off. </div><div class="ttdef"><b>Definition:</b> abstractparamwidget.hpp:71</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a21c108b49ed6d86ab8d9d21e97d62b8e"><div class="ttname"><a href="classAbstractParamWidget.html#a21c108b49ed6d86ab8d9d21e97d62b8e">AbstractParamWidget::slotRefresh</a></div><div class="ttdeci">virtual void slotRefresh()=0</div><div class="ttdoc">refresh the properties to reflect changes in the model </div></div>
+<div class="ttc" id="classAbstractParamWidget_html_ad9c6a6d9f029108adad8961301254e4b"><div class="ttname"><a href="classAbstractParamWidget.html#ad9c6a6d9f029108adad8961301254e4b">AbstractParamWidget::construct</a></div><div class="ttdeci">static AbstractParamWidget * construct(const std::shared_ptr&lt; AssetParameterModel &gt; &amp;model, QModelIndex index, QSize frameSize, QWidget *parent)</div><div class="ttdoc">Factory method to construct a parameter widget. </div><div class="ttdef"><b>Definition:</b> abstractparamwidget.cpp:74</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_ace98b4c490ad8878b4697bfdf6d46022"><div class="ttname"><a href="classAbstractParamWidget.html#ace98b4c490ad8878b4697bfdf6d46022">AbstractParamWidget::seekToPos</a></div><div class="ttdeci">void seekToPos(int)</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a678512f5b16a955454a369ed8b6cb231"><div class="ttname"><a href="classAbstractParamWidget.html#a678512f5b16a955454a369ed8b6cb231">AbstractParamWidget::valuesChanged</a></div><div class="ttdeci">void valuesChanged(const QList&lt; QModelIndex &gt;, const QStringList &amp;, bool)</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a068cd874bbe190e53f0239d86f3399f0"><div class="ttname"><a href="classAbstractParamWidget.html#a068cd874bbe190e53f0239d86f3399f0">AbstractParamWidget::updateHeight</a></div><div class="ttdeci">void updateHeight(int height=-1)</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a64749db7310c200c1c03ff8a4c7a640e"><div class="ttname"><a href="classAbstractParamWidget.html#a64749db7310c200c1c03ff8a4c7a640e">AbstractParamWidget::disableCurrentFilter</a></div><div class="ttdeci">void disableCurrentFilter(bool)</div><div class="ttdoc">Signal sent when the filter needs to be deactivated or reactivated. This happens for example when the...</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a08b30310c9fb231f354354cdb978528b"><div class="ttname"><a href="classAbstractParamWidget.html#a08b30310c9fb231f354354cdb978528b">AbstractParamWidget::m_model</a></div><div class="ttdeci">std::shared_ptr&lt; AssetParameterModel &gt; m_model</div><div class="ttdef"><b>Definition:</b> abstractparamwidget.hpp:82</div></div>
+<div class="ttc" id="classAssetParameterModel_html"><div class="ttname"><a href="classAssetParameterModel.html">AssetParameterModel</a></div><div class="ttdoc">This class is the model for a list of parameters. The behaviour of a transition or an effect is typic...</div><div class="ttdef"><b>Definition:</b> assetparametermodel.hpp:73</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a42c9d9933fc359b1a135c80ff2cf6675"><div class="ttname"><a href="classAbstractParamWidget.html#a42c9d9933fc359b1a135c80ff2cf6675">AbstractParamWidget::~AbstractParamWidget</a></div><div class="ttdeci">~AbstractParamWidget() override=default</div></div>
+<div class="ttc" id="classAbstractParamWidget_html_a846d4d014c8ba68ad85995a5eb23884d"><div class="ttname"><a href="classAbstractParamWidget.html#a846d4d014c8ba68ad85995a5eb23884d">AbstractParamWidget::activateEffect</a></div><div class="ttdeci">void activateEffect()</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

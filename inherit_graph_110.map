@@ -1,0 +1,3 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classThumbnailCache.html" title="This class class is an interface to the caches that store thumbnails. In Kdenlive, we use two such caches, a persistent that is stored on disk to allow thumbnails to be reused when reopening. The other one is a volatile LRU cache that lives in memory. Note that for the volatile cache uses a custom implementation. QCache is not suitable since it operates on pointers and since the object is removed from the cache when accessed. KImageCache is not suitable since it lacks a way to remove objects from the cache. Note that this class is a Singleton. " alt="" coords="5,5,136,32"/>
+</map>

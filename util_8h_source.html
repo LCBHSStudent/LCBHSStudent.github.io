@@ -1,0 +1,142 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/utils/util.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">util.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="util_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef UTIL_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define UTIL_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QDoubleSpinBox&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QTemporaryFile&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QFileDialog&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classUtil.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classUtil.html">Util</a> {</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;     <a class="code" href="classUtil.html">Util</a>() = <span class="keyword">delete</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    ~<a class="code" href="classUtil.html">Util</a>() = <span class="keyword">delete</span>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classUtil.html#a3c21e8161f3e4bf394de6a3dcf937d3c">printStackTrace</a>();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#ab3f994c5fe4b928521ed51ee69c2b21a">baseName</a>(<span class="keyword">const</span> QString &amp;filePath);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classUtil.html#a58519c2b19117a2de021466b851c98cf">setColorsToHighlight</a>(QWidget* widget, QPalette::ColorRole role = QPalette::Window);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classUtil.html#ad27184e0f4df95053f3c18099f17ef43">showInFolder</a>(<span class="keyword">const</span> QString &amp;path);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#acc3299418c6efa3c3e34a24d66d7de08">warnIfNotWritable</a>(<span class="keyword">const</span> QString&amp; filePath, QWidget* parent, <span class="keyword">const</span> QString&amp; caption);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#ad74794bd1f482cebf4f08d5378db52cb">removeFileScheme</a>(QUrl &amp;url);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">static</span> QStringList <a class="code" href="classUtil.html#a339d510c7c8d3496ac0d90e666820e44">sortedFileList</a>(<span class="keyword">const</span> QList&lt;QUrl&gt;&amp; urls);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classUtil.html#a2d504f8556d18d5d2ae469d8aaf119ac">coerceMultiple</a>(<span class="keywordtype">int</span> value, <span class="keywordtype">int</span> multiple = 2);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">static</span> QList&lt;QUrl&gt; <a class="code" href="classUtil.html#ab953bc55c2085eb1ea23071530dfa032">expandDirectories</a>(<span class="keyword">const</span> QList&lt;QUrl&gt;&amp; urls);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#a31445c5abc012830590e39e7acba19af">isDecimalPoint</a>(QChar ch);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#a1084bd16aaaeed448a5d06935214a2bb">isNumeric</a>(QString&amp; str);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#a28f70e06ba442a2ffb2c8c76864d19ae">convertNumericString</a>(QString&amp; str, QChar decimalPoint);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#aeb116b6c36ec12da1155634b3a2c024a">convertDecimalPoints</a>(QString&amp; str, QChar decimalPoint);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classUtil.html#add43fec16660cf8050fe30cf7a608b78">showFrameRateDialog</a>(<span class="keyword">const</span> QString&amp; caption, <span class="keywordtype">int</span> numerator, QDoubleSpinBox* spinner, QWidget* parent = Q_NULLPTR);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">static</span> QTemporaryFile* <a class="code" href="classUtil.html#ab6ae4eabf1b11f0c91ad7436b89ccc19">writableTemporaryFile</a>(<span class="keyword">const</span> QString&amp; filePath = QString(), <span class="keyword">const</span> QString&amp; templateName = QString());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#a89cf51574573de90c052128466015879">getFileHash</a>(<span class="keyword">const</span> QString&amp; path);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#a98d19d48b417bbc5b574ed674771575b">hasDriveLetter</a>(<span class="keyword">const</span> QString&amp; path);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">static</span> QFileDialog::Options <a class="code" href="classUtil.html#a606c0d9e9945a99ad3c45175f21e1979">getFileDialogOptions</a>();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtil.html#a07c8c54ac09f69eb297cf814342ff196">isMemoryLow</a>();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#a1fcdd742febc2ef931827e2c21aede0e">getRandomCacheFilename</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#a2fedd6805324221b6af9c79dfc880d8b">getDateBasedPathString</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#adc1d9e5bff23c6117269b990b5806c46">getTimeBasedFilename</a>(<span class="keyword">const</span> QString&amp; suffix);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classUtil.html#a9632e5f8aa0038c657f77c08fcce8845">convertColorString</a>(<span class="keyword">const</span> QColor &amp;color, <span class="keyword">const</span> QString&amp; type = <span class="stringliteral">&quot;HEX&quot;</span>);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classUtil.html#ad05a591b09f8041ff5340d74aa5dadad">createFile</a>(QString filePath, QString fileName);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classUtil.html#a6df9b430bdf9d3eadb6fff419c985104">getWindowWidthMultiplyingPower</a>();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code" href="classUtil.html#a59932d2a185eb0e578b88903272506c3">getWindowHeightMultiplyingPower</a>(); </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif // UTIL_H</span></div><div class="ttc" id="classUtil_html_a6df9b430bdf9d3eadb6fff419c985104"><div class="ttname"><a href="classUtil.html#a6df9b430bdf9d3eadb6fff419c985104">Util::getWindowWidthMultiplyingPower</a></div><div class="ttdeci">static float getWindowWidthMultiplyingPower()</div><div class="ttdef"><b>Definition:</b> util.cpp:504</div></div>
+<div class="ttc" id="classUtil_html_ab953bc55c2085eb1ea23071530dfa032"><div class="ttname"><a href="classUtil.html#ab953bc55c2085eb1ea23071530dfa032">Util::expandDirectories</a></div><div class="ttdeci">static QList&lt; QUrl &gt; expandDirectories(const QList&lt; QUrl &gt; &amp;urls)</div><div class="ttdef"><b>Definition:</b> util.cpp:237</div></div>
+<div class="ttc" id="classUtil_html_a3c21e8161f3e4bf394de6a3dcf937d3c"><div class="ttname"><a href="classUtil.html#a3c21e8161f3e4bf394de6a3dcf937d3c">Util::printStackTrace</a></div><div class="ttdeci">static void printStackTrace()</div><div class="ttdef"><b>Definition:</b> util.cpp:35</div></div>
+<div class="ttc" id="classUtil_html_a98d19d48b417bbc5b574ed674771575b"><div class="ttname"><a href="classUtil.html#a98d19d48b417bbc5b574ed674771575b">Util::hasDriveLetter</a></div><div class="ttdeci">static bool hasDriveLetter(const QString &amp;path)</div><div class="ttdef"><b>Definition:</b> util.cpp:358</div></div>
+<div class="ttc" id="classUtil_html_a2d504f8556d18d5d2ae469d8aaf119ac"><div class="ttname"><a href="classUtil.html#a2d504f8556d18d5d2ae469d8aaf119ac">Util::coerceMultiple</a></div><div class="ttdeci">static int coerceMultiple(int value, int multiple=2)</div><div class="ttdef"><b>Definition:</b> util.cpp:233</div></div>
+<div class="ttc" id="classUtil_html_a31445c5abc012830590e39e7acba19af"><div class="ttname"><a href="classUtil.html#a31445c5abc012830590e39e7acba19af">Util::isDecimalPoint</a></div><div class="ttdeci">static bool isDecimalPoint(QChar ch)</div><div class="ttdef"><b>Definition:</b> util.cpp:253</div></div>
+<div class="ttc" id="classUtil_html_a07c8c54ac09f69eb297cf814342ff196"><div class="ttname"><a href="classUtil.html#a07c8c54ac09f69eb297cf814342ff196">Util::isMemoryLow</a></div><div class="ttdeci">static bool isMemoryLow()</div><div class="ttdef"><b>Definition:</b> util.cpp:374</div></div>
+<div class="ttc" id="classUtil_html_add43fec16660cf8050fe30cf7a608b78"><div class="ttname"><a href="classUtil.html#add43fec16660cf8050fe30cf7a608b78">Util::showFrameRateDialog</a></div><div class="ttdeci">static void showFrameRateDialog(const QString &amp;caption, int numerator, QDoubleSpinBox *spinner, QWidget *parent=Q_NULLPTR)</div><div class="ttdef"><b>Definition:</b> util.cpp:302</div></div>
+<div class="ttc" id="classUtil_html_a59932d2a185eb0e578b88903272506c3"><div class="ttname"><a href="classUtil.html#a59932d2a185eb0e578b88903272506c3">Util::getWindowHeightMultiplyingPower</a></div><div class="ttdeci">static float getWindowHeightMultiplyingPower()</div><div class="ttdef"><b>Definition:</b> util.cpp:508</div></div>
+<div class="ttc" id="classUtil_html_ab3f994c5fe4b928521ed51ee69c2b21a"><div class="ttname"><a href="classUtil.html#ab3f994c5fe4b928521ed51ee69c2b21a">Util::baseName</a></div><div class="ttdeci">static QString baseName(const QString &amp;filePath)</div><div class="ttdef"><b>Definition:</b> util.cpp:87</div></div>
+<div class="ttc" id="classUtil_html_a28f70e06ba442a2ffb2c8c76864d19ae"><div class="ttname"><a href="classUtil.html#a28f70e06ba442a2ffb2c8c76864d19ae">Util::convertNumericString</a></div><div class="ttdeci">static bool convertNumericString(QString &amp;str, QChar decimalPoint)</div><div class="ttdef"><b>Definition:</b> util.cpp:271</div></div>
+<div class="ttc" id="classUtil_html_a2fedd6805324221b6af9c79dfc880d8b"><div class="ttname"><a href="classUtil.html#a2fedd6805324221b6af9c79dfc880d8b">Util::getDateBasedPathString</a></div><div class="ttdeci">static QString getDateBasedPathString()</div><div class="ttdef"><b>Definition:</b> util.cpp:438</div></div>
+<div class="ttc" id="classUtil_html_a1fcdd742febc2ef931827e2c21aede0e"><div class="ttname"><a href="classUtil.html#a1fcdd742febc2ef931827e2c21aede0e">Util::getRandomCacheFilename</a></div><div class="ttdeci">static QString getRandomCacheFilename()</div><div class="ttdef"><b>Definition:</b> util.cpp:432</div></div>
+<div class="ttc" id="classUtil_html_ab6ae4eabf1b11f0c91ad7436b89ccc19"><div class="ttname"><a href="classUtil.html#ab6ae4eabf1b11f0c91ad7436b89ccc19">Util::writableTemporaryFile</a></div><div class="ttdeci">static QTemporaryFile * writableTemporaryFile(const QString &amp;filePath=QString(), const QString &amp;templateName=QString())</div><div class="ttdef"><b>Definition:</b> util.cpp:319</div></div>
+<div class="ttc" id="classUtil_html"><div class="ttname"><a href="classUtil.html">Util</a></div><div class="ttdef"><b>Definition:</b> util.h:9</div></div>
+<div class="ttc" id="classUtil_html_a9632e5f8aa0038c657f77c08fcce8845"><div class="ttname"><a href="classUtil.html#a9632e5f8aa0038c657f77c08fcce8845">Util::convertColorString</a></div><div class="ttdeci">static QString convertColorString(const QColor &amp;color, const QString &amp;type=&quot;HEX&quot;)</div><div class="ttdef"><b>Definition:</b> util.cpp:446</div></div>
+<div class="ttc" id="classUtil_html_a58519c2b19117a2de021466b851c98cf"><div class="ttname"><a href="classUtil.html#a58519c2b19117a2de021466b851c98cf">Util::setColorsToHighlight</a></div><div class="ttdeci">static void setColorsToHighlight(QWidget *widget, QPalette::ColorRole role=QPalette::Window)</div><div class="ttdef"><b>Definition:</b> util.cpp:95</div></div>
+<div class="ttc" id="classUtil_html_aeb116b6c36ec12da1155634b3a2c024a"><div class="ttname"><a href="classUtil.html#aeb116b6c36ec12da1155634b3a2c024a">Util::convertDecimalPoints</a></div><div class="ttdeci">static bool convertDecimalPoints(QString &amp;str, QChar decimalPoint)</div><div class="ttdef"><b>Definition:</b> util.cpp:286</div></div>
+<div class="ttc" id="classUtil_html_a606c0d9e9945a99ad3c45175f21e1979"><div class="ttname"><a href="classUtil.html#a606c0d9e9945a99ad3c45175f21e1979">Util::getFileDialogOptions</a></div><div class="ttdeci">static QFileDialog::Options getFileDialogOptions()</div><div class="ttdef"><b>Definition:</b> util.cpp:363</div></div>
+<div class="ttc" id="classUtil_html_a89cf51574573de90c052128466015879"><div class="ttname"><a href="classUtil.html#a89cf51574573de90c052128466015879">Util::getFileHash</a></div><div class="ttdeci">static QString getFileHash(const QString &amp;path)</div><div class="ttdef"><b>Definition:</b> util.cpp:338</div></div>
+<div class="ttc" id="classUtil_html_a1084bd16aaaeed448a5d06935214a2bb"><div class="ttname"><a href="classUtil.html#a1084bd16aaaeed448a5d06935214a2bb">Util::isNumeric</a></div><div class="ttdeci">static bool isNumeric(QString &amp;str)</div><div class="ttdef"><b>Definition:</b> util.cpp:261</div></div>
+<div class="ttc" id="classUtil_html_ad74794bd1f482cebf4f08d5378db52cb"><div class="ttname"><a href="classUtil.html#ad74794bd1f482cebf4f08d5378db52cb">Util::removeFileScheme</a></div><div class="ttdeci">static QString removeFileScheme(QUrl &amp;url)</div><div class="ttdef"><b>Definition:</b> util.cpp:168</div></div>
+<div class="ttc" id="classUtil_html_acc3299418c6efa3c3e34a24d66d7de08"><div class="ttname"><a href="classUtil.html#acc3299418c6efa3c3e34a24d66d7de08">Util::warnIfNotWritable</a></div><div class="ttdeci">static bool warnIfNotWritable(const QString &amp;filePath, QWidget *parent, const QString &amp;caption)</div><div class="ttdef"><b>Definition:</b> util.cpp:148</div></div>
+<div class="ttc" id="classUtil_html_a339d510c7c8d3496ac0d90e666820e44"><div class="ttname"><a href="classUtil.html#a339d510c7c8d3496ac0d90e666820e44">Util::sortedFileList</a></div><div class="ttdeci">static QStringList sortedFileList(const QList&lt; QUrl &gt; &amp;urls)</div><div class="ttdef"><b>Definition:</b> util.cpp:190</div></div>
+<div class="ttc" id="classUtil_html_adc1d9e5bff23c6117269b990b5806c46"><div class="ttname"><a href="classUtil.html#adc1d9e5bff23c6117269b990b5806c46">Util::getTimeBasedFilename</a></div><div class="ttdeci">static QString getTimeBasedFilename(const QString &amp;suffix)</div><div class="ttdef"><b>Definition:</b> util.cpp:442</div></div>
+<div class="ttc" id="classUtil_html_ad05a591b09f8041ff5340d74aa5dadad"><div class="ttname"><a href="classUtil.html#ad05a591b09f8041ff5340d74aa5dadad">Util::createFile</a></div><div class="ttdeci">static void createFile(QString filePath, QString fileName)</div><div class="ttdef"><b>Definition:</b> util.cpp:470</div></div>
+<div class="ttc" id="classUtil_html_ad27184e0f4df95053f3c18099f17ef43"><div class="ttname"><a href="classUtil.html#ad27184e0f4df95053f3c18099f17ef43">Util::showInFolder</a></div><div class="ttdeci">static void showInFolder(const QString &amp;path)</div><div class="ttdef"><b>Definition:</b> util.cpp:119</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

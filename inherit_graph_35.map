@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classFrameRenderer.html" title="FrameRenderer" alt="" coords="131,5,253,32"/>
+<area shape="rect" id="node3" href="$classRenderThread.html" title="RenderThread" alt="" coords="135,56,249,83"/>
+<area shape="rect" id="node4" href="$classShuttleThread.html" title="ShuttleThread" alt="" coords="135,107,249,133"/>
+</map>

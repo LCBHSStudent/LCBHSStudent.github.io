@@ -1,0 +1,6 @@
+<map id="AssetParameterModel" name="AssetParameterModel">
+<area shape="rect" id="node6" href="$classCompositionModel.html" title="This class represents a Composition object, as viewed by the backend. In general, the Gui associated ..." alt="" coords="5,1035,213,1420"/>
+<area shape="rect" id="node7" href="$classEffectItemModel.html" title="This represents an effect of the effectstack. " alt="" coords="237,1057,392,1398"/>
+<area shape="rect" id="node3" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; AssetParameter\lModel \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="207,300,427,421"/>
+<area shape="rect" id="node4" href="$classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="240,160,395,252"/>
+</map>

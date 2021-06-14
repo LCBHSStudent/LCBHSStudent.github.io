@@ -1,0 +1,9 @@
+<map id="src/scopes/audioscopes/spectrogram.h" name="src/scopes/audioscopes/spectrogram.h">
+<area shape="rect" id="node2" href="$abstractaudioscopewidget_8h.html" title="abstractaudioscopewidget.h" alt="" coords="539,95,745,121"/>
+<area shape="rect" id="node19" href="$fftTools_8h.html" title="lib/audio/fftTools.h" alt="" coords="1015,95,1157,121"/>
+<area shape="rect" id="node5" href="$definitions_8h.html" title="../../definitions.h" alt="" coords="744,177,871,203"/>
+<area shape="rect" id="node15" href="$abstractscopewidget_8h.html" title="../abstractscopewidget.h" alt="" coords="175,177,357,203"/>
+<area shape="rect" id="node6" href="$gentime_8h.html" title="gentime.h" alt="" coords="582,259,670,285"/>
+<area shape="rect" id="node20" href="$kiss__fftr_8h.html" title="../external/kiss_fft\l/tools/kiss_fftr.h" alt="" coords="1311,169,1450,211"/>
+<area shape="rect" id="node21" href="$kiss__fft_8h.html" title="../kiss_fft.h" alt="" coords="1379,259,1473,285"/>
+</map>

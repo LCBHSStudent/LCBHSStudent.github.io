@@ -1,0 +1,4 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classMoveableItem.html" title="MoveableItem\&lt; Mlt::\lProducer \&gt;" alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node2" href="$classClipModel.html" title="This class represents a Clip object, as viewed by the backend. In general, the Gui associated with it..." alt="" coords="213,13,300,39"/>
+</map>

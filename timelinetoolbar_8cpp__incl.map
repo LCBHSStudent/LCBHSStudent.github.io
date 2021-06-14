@@ -1,0 +1,21 @@
+<map id="src/widgets/timelinetoolbar.cpp" name="src/widgets/timelinetoolbar.cpp">
+<area shape="rect" id="node2" href="$timelinetoolbar_8h.html" title="timelinetoolbar.h" alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node6" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="1369,80,1485,107"/>
+<area shape="rect" id="node34" href="$core_8h.html" title="core.h" alt="" coords="3617,80,3679,107"/>
+<area shape="rect" id="node42" href="$timelinetabs_8hpp.html" title="timeline2/view/timelinetabs.hpp" alt="" coords="4063,80,4297,107"/>
+<area shape="rect" id="node43" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="3443,80,3541,107"/>
+<area shape="rect" id="node44" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2783,80,2923,107"/>
+<area shape="rect" id="node45" href="$appconsts_8h.html" title="appconsts.h" alt="" coords="4213,155,4313,181"/>
+<area shape="rect" id="node46" href="$timelinewidget_8h.html" title="timeline2/view/timelinewidget.h" alt="" coords="3703,80,3937,107"/>
+<area shape="rect" id="node47" href="$timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="3160,80,3411,107"/>
+<area shape="rect" id="node48" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="4388,155,4527,181"/>
+<area shape="rect" id="node49" href="$monitorproxy_8h.html" title="monitor/monitorproxy.h" alt="" coords="2777,155,2951,181"/>
+<area shape="rect" id="node22" href="$bin_8h.html" title="bin/bin.h" alt="" coords="1998,155,2077,181"/>
+<area shape="rect" id="node25" href="$definitions_8h.html" title="definitions.h" alt="" coords="3007,229,3110,256"/>
+<area shape="rect" id="node26" href="$gentime_8h.html" title="gentime.h" alt="" coords="2671,304,2759,331"/>
+<area shape="rect" id="node29" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2433,155,2599,181"/>
+<area shape="rect" id="node30" href="$statusbarmessagelabel_8h.html" title="statusbarmessagelabel.h" alt="" coords="1464,155,1651,181"/>
+<area shape="rect" id="node32" href="$otioconvertions_8h.html" title="utils/otioconvertions.h" alt="" coords="2975,155,3142,181"/>
+<area shape="rect" id="node35" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="3935,155,4086,181"/>
+<area shape="rect" id="node37" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="3591,155,3713,181"/>
+</map>

@@ -1,0 +1,140 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/assets/assetlist/model/assettreemodel.hpp 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_10713331a9c2c730d0277dc05e8141d6.html">assets</a></li><li class="navelem"><a class="el" href="dir_2bd392b759e7999924629be4af0a61d8.html">assetlist</a></li><li class="navelem"><a class="el" href="dir_cf0b4a90964fbbf1aced2c51fa259e99.html">model</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">assettreemodel.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="assettreemodel_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2017 by Nicolas Carion                                  *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   This file is part of Kdenlive. See www.kdenlive.org.                  *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) version 3 or any later version accepted by the       *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *   membership of KDE e.V. (or its successor approved  by the membership  *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   of KDE e.V.), which shall act as a proxy defined in Section 14 of     *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   version 3 of the license.                                             *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   This program is distributed in the hope that it will be useful,       *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *   along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;. *</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef ASSETTREEMODEL_H</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define ASSETTREEMODEL_H</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="abstracttreemodel_8hpp.html">abstractmodel/abstracttreemodel.hpp</a>&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">class </span><a class="code" href="classTreeItem.html">TreeItem</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span>QMenu;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span>KActionCategory;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classAssetTreeModel.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="classAssetTreeModel.html">AssetTreeModel</a> : <span class="keyword">public</span> <a class="code" href="classAbstractTreeModel.html">AbstractTreeModel</a></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classAssetTreeModel.html#a66fe04de9c9f300907c1ff46c7ce4a3b">AssetTreeModel</a>(QObject *<a class="code" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a> = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba4e56c0944aa3a161d11ad783e8f9da60">   39</a></span>&#160;    <span class="keyword">enum</span> { <a class="code" href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba38375532e24b4c6fee75a358276129e0">IdRole</a> = Qt::UserRole + 1, <a class="code" href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba71cee7f110e823f6c9f920c58a636cc3">NameRole</a>, <a class="code" href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9bafb024dd43d1364474f33b7b2ec669c8b">FavoriteRole</a>, <a class="code" href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba4e56c0944aa3a161d11ad783e8f9da60">TypeRole</a> };</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// Helper function to retrieve name</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    QString <a class="code" href="classAssetTreeModel.html#aeb31c1e4e252fdfdc186fa1f8d9962ad">getName</a>(<span class="keyword">const</span> QModelIndex &amp;<a class="code" href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">index</a>) <span class="keyword">const</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Helper function to retrieve description</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    QString <a class="code" href="classAssetTreeModel.html#a510440fddf1ddfd0515f6a74a41cb1a7">getDescription</a>(<span class="keywordtype">bool</span> isEffect, <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// Helper function to retrieve if an effect is categorized as favorite</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classAssetTreeModel.html#a210047ede55355e9c0f0ae751adc24c7">isFavorite</a>(<span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QHash&lt;int, QByteArray&gt; <a class="code" href="classAssetTreeModel.html#a005a75512f3ac703360c14c1a62270a8">roleNames</a>() <span class="keyword">const override</span>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    QVariant <a class="code" href="classAssetTreeModel.html#a540860141f05e54ebc66ff80260d1967">data</a>(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">int</span> role) <span class="keyword">const override</span>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAssetTreeModel.html#af114f0749c5dcd0fa8e885f784b32561">reloadAssetMenu</a>(QMenu *effectsMenu, KActionCategory *effectActions) = 0;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAssetTreeModel.html#a2ce4b04802b481b84149921f70a72abb">setFavorite</a>(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">bool</span> favorite, <span class="keywordtype">bool</span> isEffect) = 0;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAssetTreeModel.html#abbee69ee4c6a7eee097eda0d0c9d266b">deleteEffect</a>(<span class="keyword">const</span> QModelIndex &amp;index) = 0;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classAssetTreeModel.html#abd59cd28433a398e2df335d6cf6f70a0">editCustomAsset</a>( <span class="keyword">const</span> QString newName,<span class="keyword">const</span> QString newDescription,<span class="keyword">const</span> QModelIndex &amp;index) = 0;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// for convenience, we store the column of each data field</span></div><div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classAssetTreeModel.html#a0e3e30f22de75151b8ec66f6280e378a">   55</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classAssetTreeModel.html#a0c387ce8bd223ee891ae89ed84ac3c8a">nameCol</a>, <a class="code" href="classAssetTreeModel.html#a2d136bddc7559724cf66990f50e90c3f">idCol</a>, <a class="code" href="classAssetTreeModel.html#a27943739f38e94d881af0d7390952d69">favCol</a>, <a class="code" href="classAssetTreeModel.html#a0e3e30f22de75151b8ec66f6280e378a">typeCol</a>, <a class="code" href="classAssetTreeModel.html#a323921f6ab0495b4d6afd999e511cff7">preferredCol</a>;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classAssetTreeModel_html_af245e35cde065aa9292c0d8cf430ef9ba4e56c0944aa3a161d11ad783e8f9da60"><div class="ttname"><a href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba4e56c0944aa3a161d11ad783e8f9da60">AssetTreeModel::TypeRole</a></div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:39</div></div>
+<div class="ttc" id="classAssetTreeModel_html_af245e35cde065aa9292c0d8cf430ef9ba38375532e24b4c6fee75a358276129e0"><div class="ttname"><a href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba38375532e24b4c6fee75a358276129e0">AssetTreeModel::IdRole</a></div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:39</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a210047ede55355e9c0f0ae751adc24c7"><div class="ttname"><a href="classAssetTreeModel.html#a210047ede55355e9c0f0ae751adc24c7">AssetTreeModel::isFavorite</a></div><div class="ttdeci">bool isFavorite(const QModelIndex &amp;index) const </div><div class="ttdef"><b>Definition:</b> assettreemodel.cpp:60</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a005a75512f3ac703360c14c1a62270a8"><div class="ttname"><a href="classAssetTreeModel.html#a005a75512f3ac703360c14c1a62270a8">AssetTreeModel::roleNames</a></div><div class="ttdeci">QHash&lt; int, QByteArray &gt; roleNames() const  override</div><div class="ttdef"><b>Definition:</b> assettreemodel.cpp:38</div></div>
+<div class="ttc" id="classAssetTreeModel_html_aeb31c1e4e252fdfdc186fa1f8d9962ad"><div class="ttname"><a href="classAssetTreeModel.html#aeb31c1e4e252fdfdc186fa1f8d9962ad">AssetTreeModel::getName</a></div><div class="ttdeci">QString getName(const QModelIndex &amp;index) const </div><div class="ttdef"><b>Definition:</b> assettreemodel.cpp:48</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a27943739f38e94d881af0d7390952d69"><div class="ttname"><a href="classAssetTreeModel.html#a27943739f38e94d881af0d7390952d69">AssetTreeModel::favCol</a></div><div class="ttdeci">static int favCol</div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:55</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a66fe04de9c9f300907c1ff46c7ce4a3b"><div class="ttname"><a href="classAssetTreeModel.html#a66fe04de9c9f300907c1ff46c7ce4a3b">AssetTreeModel::AssetTreeModel</a></div><div class="ttdeci">AssetTreeModel(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> assettreemodel.cpp:33</div></div>
+<div class="ttc" id="classAbstractTreeModel_html_a84faffe11e274cc2c39bda6186c9ee8e"><div class="ttname"><a href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">AbstractTreeModel::index</a></div><div class="ttdeci">QModelIndex index(int row, int column, const QModelIndex &amp;parent=QModelIndex()) const  override</div><div class="ttdef"><b>Definition:</b> abstracttreemodel.cpp:92</div></div>
+<div class="ttc" id="classAbstractTreeModel_html_aec5715ea0a2f64ffee9c5344b050880a"><div class="ttname"><a href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">AbstractTreeModel::parent</a></div><div class="ttdeci">QModelIndex parent(const QModelIndex &amp;index) const  override</div><div class="ttdef"><b>Definition:</b> abstracttreemodel.cpp:109</div></div>
+<div class="ttc" id="classAssetTreeModel_html_af114f0749c5dcd0fa8e885f784b32561"><div class="ttname"><a href="classAssetTreeModel.html#af114f0749c5dcd0fa8e885f784b32561">AssetTreeModel::reloadAssetMenu</a></div><div class="ttdeci">virtual void reloadAssetMenu(QMenu *effectsMenu, KActionCategory *effectActions)=0</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a0e3e30f22de75151b8ec66f6280e378a"><div class="ttname"><a href="classAssetTreeModel.html#a0e3e30f22de75151b8ec66f6280e378a">AssetTreeModel::typeCol</a></div><div class="ttdeci">static int typeCol</div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:55</div></div>
+<div class="ttc" id="classAbstractTreeModel_html"><div class="ttname"><a href="classAbstractTreeModel.html">AbstractTreeModel</a></div><div class="ttdoc">This class represents a generic tree hierarchy. </div><div class="ttdef"><b>Definition:</b> abstracttreemodel.hpp:34</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a2d136bddc7559724cf66990f50e90c3f"><div class="ttname"><a href="classAssetTreeModel.html#a2d136bddc7559724cf66990f50e90c3f">AssetTreeModel::idCol</a></div><div class="ttdeci">static int idCol</div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:55</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a540860141f05e54ebc66ff80260d1967"><div class="ttname"><a href="classAssetTreeModel.html#a540860141f05e54ebc66ff80260d1967">AssetTreeModel::data</a></div><div class="ttdeci">QVariant data(const QModelIndex &amp;index, int role) const  override</div><div class="ttdef"><b>Definition:</b> assettreemodel.cpp:92</div></div>
+<div class="ttc" id="classAssetTreeModel_html_af245e35cde065aa9292c0d8cf430ef9ba71cee7f110e823f6c9f920c58a636cc3"><div class="ttname"><a href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9ba71cee7f110e823f6c9f920c58a636cc3">AssetTreeModel::NameRole</a></div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:39</div></div>
+<div class="ttc" id="classTreeItem_html"><div class="ttname"><a href="classTreeItem.html">TreeItem</a></div><div class="ttdoc">This class is a generic class to represent items of a tree-like model. It works in tandem with Abstra...</div><div class="ttdef"><b>Definition:</b> treeitem.hpp:48</div></div>
+<div class="ttc" id="classAssetTreeModel_html_af245e35cde065aa9292c0d8cf430ef9bafb024dd43d1364474f33b7b2ec669c8b"><div class="ttname"><a href="classAssetTreeModel.html#af245e35cde065aa9292c0d8cf430ef9bafb024dd43d1364474f33b7b2ec669c8b">AssetTreeModel::FavoriteRole</a></div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:39</div></div>
+<div class="ttc" id="classAssetTreeModel_html_abd59cd28433a398e2df335d6cf6f70a0"><div class="ttname"><a href="classAssetTreeModel.html#abd59cd28433a398e2df335d6cf6f70a0">AssetTreeModel::editCustomAsset</a></div><div class="ttdeci">virtual void editCustomAsset(const QString newName, const QString newDescription, const QModelIndex &amp;index)=0</div></div>
+<div class="ttc" id="classAssetTreeModel_html_abbee69ee4c6a7eee097eda0d0c9d266b"><div class="ttname"><a href="classAssetTreeModel.html#abbee69ee4c6a7eee097eda0d0c9d266b">AssetTreeModel::deleteEffect</a></div><div class="ttdeci">virtual void deleteEffect(const QModelIndex &amp;index)=0</div></div>
+<div class="ttc" id="classAssetTreeModel_html"><div class="ttname"><a href="classAssetTreeModel.html">AssetTreeModel</a></div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:33</div></div>
+<div class="ttc" id="abstracttreemodel_8hpp_html"><div class="ttname"><a href="abstracttreemodel_8hpp.html">abstracttreemodel.hpp</a></div></div>
+<div class="ttc" id="classAssetTreeModel_html_a323921f6ab0495b4d6afd999e511cff7"><div class="ttname"><a href="classAssetTreeModel.html#a323921f6ab0495b4d6afd999e511cff7">AssetTreeModel::preferredCol</a></div><div class="ttdeci">static int preferredCol</div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:55</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a0c387ce8bd223ee891ae89ed84ac3c8a"><div class="ttname"><a href="classAssetTreeModel.html#a0c387ce8bd223ee891ae89ed84ac3c8a">AssetTreeModel::nameCol</a></div><div class="ttdeci">static int nameCol</div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:55</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a2ce4b04802b481b84149921f70a72abb"><div class="ttname"><a href="classAssetTreeModel.html#a2ce4b04802b481b84149921f70a72abb">AssetTreeModel::setFavorite</a></div><div class="ttdeci">virtual void setFavorite(const QModelIndex &amp;index, bool favorite, bool isEffect)=0</div></div>
+<div class="ttc" id="classAssetTreeModel_html_a510440fddf1ddfd0515f6a74a41cb1a7"><div class="ttname"><a href="classAssetTreeModel.html#a510440fddf1ddfd0515f6a74a41cb1a7">AssetTreeModel::getDescription</a></div><div class="ttdeci">QString getDescription(bool isEffect, const QModelIndex &amp;index) const </div><div class="ttdef"><b>Definition:</b> assettreemodel.cpp:72</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

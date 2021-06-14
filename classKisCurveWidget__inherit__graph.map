@@ -1,0 +1,4 @@
+<map id="KisCurveWidget" name="KisCurveWidget">
+<area shape="rect" id="node2" href="$classAbstractCurveWidget.html" title="{AbstractCurveWidget\l\&lt; KisCubicCurve \&gt;\n|# m_zoomLevel\l# m_gridLines\l# m_pixmap\l# m_pixmapCache\l# m_pixmapIsDirty\l# m_currentPointIndex\l# m_maxPoints\l# m_wWidth\l# m_wHeight\l# m_state\l# m_curve\l# m_grabRadius\l|+ ~AbstractCurveWidget()\l+ AbstractCurveWidget()\l+ hasHandles()\l+ setMaxPoints()\l+ setPixmap()\l+ gridLines()\l+ setGridLines()\l+ setFromString()\l+ reset()\l+ toString()\l和 6 更多...\l# paintBackground()\l# heightForWidth()\l# resizeEvent()\l# leaveEvent()\l# mouseReleaseEvent()\l# keyPressEvent()\l# isCurrentPointExtremal()\l}" alt="" coords="34,315,233,817"/>
+<area shape="rect" id="node3" href="$class____dummy__AbstractCurveWidget.html" title="This class is a workaround to be able to use templating in the actual class Note that Qt doesn&#39;t supp..." alt="" coords="5,131,261,267"/>
+</map>

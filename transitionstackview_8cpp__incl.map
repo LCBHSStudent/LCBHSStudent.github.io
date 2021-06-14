@@ -1,0 +1,19 @@
+<map id="src/transitions/view/transitionstackview.cpp" name="src/transitions/view/transitionstackview.cpp">
+<area shape="rect" id="node2" href="$transitionstackview_8hpp.html" title="transitionstackview.hpp" alt="" coords="2841,184,3019,211"/>
+<area shape="rect" id="node16" href="$keyframemodellist_8hpp.html" title="assets/keyframes/model\l/keyframemodellist.hpp" alt="" coords="1047,95,1229,136"/>
+<area shape="rect" id="node18" href="$assetparametermodel_8hpp.html" title="assets/model/assetparametermodel.hpp" alt="" coords="403,259,689,285"/>
+<area shape="rect" id="node28" href="$core_8h.html" title="core.h" alt="" coords="2124,184,2187,211"/>
+<area shape="rect" id="node39" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="3593,184,3731,211"/>
+<area shape="rect" id="node3" href="$assetparameterview_8hpp.html" title="assets/view/assetparameterview.hpp" alt="" coords="3181,259,3445,285"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="2307,333,2409,360"/>
+<area shape="rect" id="node5" href="$gentime_8h.html" title="gentime.h" alt="" coords="3539,408,3627,435"/>
+<area shape="rect" id="node17" href="$keyframemodel_8hpp.html" title="keyframemodel.hpp" alt="" coords="845,184,999,211"/>
+<area shape="rect" id="node24" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="865,333,987,360"/>
+<area shape="rect" id="node29" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="1271,259,1421,285"/>
+<area shape="rect" id="node31" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2001,259,2168,285"/>
+<area shape="rect" id="node38" href="$timecode_8h.html" title="timecode.h" alt="" coords="3723,333,3817,360"/>
+<area shape="rect" id="node40" href="$abstractmonitor_8h.html" title="abstractmonitor.h" alt="" coords="2968,259,3105,285"/>
+<area shape="rect" id="node41" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="1497,259,1723,285"/>
+<area shape="rect" id="node42" href="$sharedframe_8h.html" title="scopes/sharedframe.h" alt="" coords="3888,259,4055,285"/>
+<area shape="rect" id="node43" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="3672,259,3812,285"/>
+</map>

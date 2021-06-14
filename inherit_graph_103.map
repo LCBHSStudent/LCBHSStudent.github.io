@@ -1,0 +1,98 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classClipController.html" title="Provides a convenience wrapper around the project Bin clip producers. It also holds a QList of track ..." alt="" coords="1036,107,1147,133"/>
+<area shape="rect" id="node2" href="$classProjectClip.html" title="Represents a clip in the project (not timeline). It will be displayed as a bin item that can be dragg..." alt="" coords="1270,107,1362,133"/>
+<area shape="rect" id="node4" href="$classAbstractTreeModel.html" title="This class represents a generic tree hierarchy. " alt="" coords="276,1601,419,1628"/>
+<area shape="rect" id="node11" href="$classClipSnapModel.html" title="This class represents the snap points of a clip of the timeline. Basically, one can add or remove sna..." alt="" coords="288,1799,407,1825"/>
+<area shape="rect" id="node12" href="$classenable__shared__from__this__virtual__base.html" title="enable_shared_from\l_this_virtual_base" alt="" coords="270,1131,425,1173"/>
+<area shape="rect" id="node5" href="$classAssetTreeModel.html" title="AssetTreeModel" alt="" coords="550,1693,675,1720"/>
+<area shape="rect" id="node8" href="$classEffectStackModel.html" title="EffectStackModel" alt="" coords="545,1541,680,1568"/>
+<area shape="rect" id="node9" href="$classProfileTreeModel.html" title="ProfileTreeModel" alt="" coords="547,1592,678,1619"/>
+<area shape="rect" id="node10" href="$classProjectItemModel.html" title="Acts as an adaptor to be able to use BinModel with item views. " alt="" coords="544,1643,681,1669"/>
+<area shape="rect" id="node6" href="$classEffectTreeModel.html" title="EffectTreeModel" alt="" coords="790,1693,917,1720"/>
+<area shape="rect" id="node7" href="$classTransitionTreeModel.html" title="TransitionTreeModel" alt="" coords="777,1643,929,1669"/>
+<area shape="rect" id="node13" href="$structenable__shared__from__this__virtual.html" title="enable_shared_from\l_this_virtual\&lt; T \&gt;" alt="" coords="535,1475,690,1517"/>
+<area shape="rect" id="node14" href="$structenable__shared__from__this__virtual.html" title="enable_shared_from\l_this_virtual\&lt; AssetParameter\lModel \&gt;" alt="" coords="503,780,723,836"/>
+<area shape="rect" id="node18" href="$structenable__shared__from__this__virtual.html" title="enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;" alt="" coords="518,433,707,474"/>
+<area shape="rect" id="node15" href="$classAssetParameterModel.html" title="This class is the model for a list of parameters. The behaviour of a transition or an effect is typic..." alt="" coords="771,208,936,235"/>
+<area shape="rect" id="node16" href="$classCompositionModel.html" title="This class represents a Composition object, as viewed by the backend. In general, the Gui associated ..." alt="" coords="1019,208,1163,235"/>
+<area shape="rect" id="node17" href="$classEffectItemModel.html" title="This represents an effect of the effectstack. " alt="" coords="1251,56,1381,83"/>
+<area shape="rect" id="node19" href="$classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="814,157,893,184"/>
+<area shape="rect" id="node20" href="$classAbstractEffectItem.html" title="This represents an effect of the effectstack. " alt="" coords="1020,5,1163,32"/>
+<area shape="rect" id="node22" href="$classAbstractProjectItem.html" title="Base class for all project items (clips, folders, ...). " alt="" coords="1016,157,1167,184"/>
+<area shape="rect" id="node21" href="$classEffectGroupModel.html" title="This represents a group of effects of the effectstack. " alt="" coords="1247,5,1385,32"/>
+<area shape="rect" id="node23" href="$classProjectFolder.html" title="A folder in the bin. " alt="" coords="1263,157,1369,184"/>
+<area shape="rect" id="node24" href="$classProjectSubClip.html" title="Represents a clip in the project (not timeline). " alt="" coords="1258,208,1374,235"/>
+<area shape="rect" id="node25" href="$classMoveableItem.html" title="MoveableItem\&lt; Mlt::\lTransition \&gt;" alt="" coords="773,259,933,301"/>
+<area shape="rect" id="node27" href="$classQAbstractItemModel__shared__from__this.html" title="QAbstractItemModel\l_shared_from_this\&lt; T \&gt;" alt="" coords="257,1653,437,1694"/>
+<area shape="rect" id="node28" href="$classQAbstractItemModel__shared__from__this.html" title="QAbstractItemModel\l_shared_from_this\&lt; Timeline\lModel \&gt;" alt="" coords="240,1719,455,1775"/>
+<area shape="rect" id="node29" href="$classTimelineModel.html" title="This class represents a Timeline object, as viewed by the backend. In general, the Gui associated wit..." alt="" coords="553,1744,672,1771"/>
+<area shape="rect" id="node30" href="$classTimelineItemModel.html" title="This class is the thin wrapper around the TimelineModel that provides interface for the QML..." alt="" coords="779,1744,928,1771"/>
+<area shape="rect" id="node32" href="$classKeyframeModel.html" title="This class is the model for a list of keyframes. A keyframe is defined by a time, a type and a value ..." alt="" coords="791,1576,916,1603"/>
+<area shape="rect" id="node33" href="$classMarkerListModel.html" title="This class is the model for a list of markers. A marker is defined by a time, a type (the color used ..." alt="" coords="788,1424,919,1451"/>
+<area shape="rect" id="node34" href="$classPatternsModel.html" title="PatternsModel" alt="" coords="796,1475,911,1501"/>
+<area shape="rect" id="node35" href="$classSubtitleModel.html" title="This class is the model for a list of subtitles. " alt="" coords="797,1525,909,1552"/>
+<area shape="rect" id="node37" href="$classAbstractRender.html" title="AbstractRender" alt="" coords="1030,1323,1153,1349"/>
+<area shape="rect" id="node39" href="$classAbstractTask.html" title="AbstractTask" alt="" coords="1039,2691,1144,2717"/>
+<area shape="rect" id="node50" href="$classAppConsts.html" title="AppConsts" alt="" coords="1046,1373,1137,1400"/>
+<area shape="rect" id="node51" href="$classAssetController.html" title="用于设置项目资源的效果属性(filter/effect)和转场混合属性(transition/mix) 开放接口至QtQuick Components�¾..." alt="" coords="1030,1424,1153,1451"/>
+<area shape="rect" id="node52" href="$classAudioCorrelation.html" title="AudioCorrelation" alt="" coords="1026,1475,1157,1501"/>
+<area shape="rect" id="node53" href="$classAudioEnvelope.html" title="AudioEnvelope" alt="" coords="1032,1525,1151,1552"/>
+<area shape="rect" id="node54" href="$classBinPlaylist.html" title="This class is a wrapper around a melt playlist that allows one to store the Bin. Clips that are in th..." alt="" coords="1046,1576,1137,1603"/>
+<area shape="rect" id="node55" href="$classClipboardProxy.html" title="Provides an interface to the clipboard, to use directly from QML Inspired by https://stackoverflow.com/questions/40092352/passing&#45;qclipboard&#45;to&#45;qml. " alt="" coords="1031,1627,1152,1653"/>
+<area shape="rect" id="node56" href="$classColorPickerItem.html" title="ColorPickerItem" alt="" coords="1029,1677,1154,1704"/>
+<area shape="rect" id="node57" href="$classColorTools.html" title="@todo Describe class ColorTools " alt="" coords="1047,1728,1136,1755"/>
+<area shape="rect" id="node58" href="$classCore.html" title="Singleton that provides access to the different parts of Kdenlive. " alt="" coords="1065,1779,1117,1805"/>
+<area shape="rect" id="node59" href="$classDockAreaOrientationManager.html" title="Handles functionality to set the orientation of the DockWidgetAreas. " alt="" coords="984,1829,1199,1856"/>
+<area shape="rect" id="node60" href="$classDocumentChecker.html" title="DocumentChecker" alt="" coords="1021,1880,1162,1907"/>
+<area shape="rect" id="node61" href="$classEffectListWidgetProxy.html" title="EffectListWidgetProxy" alt="" coords="1009,1931,1174,1957"/>
+<area shape="rect" id="node62" href="$classFileWatcher.html" title="This class is responsible for watching all files used in the project and triggers a reload notificati..." alt="" coords="1042,1981,1141,2008"/>
+<area shape="rect" id="node63" href="$classFramelessHelper.html" title="FramelessHelper" alt="" coords="1025,2032,1157,2059"/>
+<area shape="rect" id="node64" href="$classHideTitleBars.html" title="Handles functionality to switch the title bars of the dock widgets on/off. " alt="" coords="1036,2083,1147,2109"/>
+<area shape="rect" id="node65" href="$classHistogramGenerator.html" title="HistogramGenerator" alt="" coords="1014,2133,1169,2160"/>
+<area shape="rect" id="node66" href="$classJogManager.html" title="Turns JogShuttle support on/off according to KdenliveSettings and connects between JogShuttleAction a..." alt="" coords="1042,2184,1141,2211"/>
+<area shape="rect" id="node67" href="$classJogShuttle.html" title="JogShuttle" alt="" coords="1047,2235,1135,2261"/>
+<area shape="rect" id="node68" href="$classJogShuttleAction.html" title="JogShuttleAction" alt="" coords="1027,2285,1156,2312"/>
+<area shape="rect" id="node69" href="$classJogShuttleConfig.html" title="JogShuttleConfig" alt="" coords="1027,2336,1156,2363"/>
+<area shape="rect" id="node70" href="$classKdenliveDoc.html" title="Represents a kdenlive project file. " alt="" coords="1039,2387,1143,2413"/>
+<area shape="rect" id="node71" href="$classKeyframeModelList.html" title="This class is a container for the keyframe models. If an asset has several keyframable parameters..." alt="" coords="1017,2437,1165,2464"/>
+<area shape="rect" id="node72" href="$classKeyframeMonitorHelper.html" title="This class helps manage effects that receive data from the monitor&#39;s qml overlay to translate the dat..." alt="" coords="1002,2488,1181,2515"/>
+<area shape="rect" id="node75" href="$classLayoutManagement.html" title="LayoutManagement" alt="" coords="1015,2539,1167,2565"/>
+<area shape="rect" id="node76" href="$classLineEventEater.html" title="@todo Describe class LineEventEater " alt="" coords="1031,2589,1151,2616"/>
+<area shape="rect" id="node77" href="$classMediaCapture.html" title="MediaCapture" alt="" coords="1035,259,1148,285"/>
+<area shape="rect" id="node78" href="$classMonitorManager.html" title="MonitorManager" alt="" coords="1027,309,1156,336"/>
+<area shape="rect" id="node79" href="$classMonitorProxy.html" title="This class is a wrapper around the monitor / glwidget and handles communication with the qml overlay ..." alt="" coords="1037,360,1146,387"/>
+<area shape="rect" id="node80" href="$classNativeWindowHelper.html" title="NativeWindowHelper" alt="" coords="1011,411,1171,437"/>
+<area shape="rect" id="node81" href="$classNotesPlugin.html" title="Handles connection of NotesWidget. " alt="" coords="1041,461,1141,488"/>
+<area shape="rect" id="node82" href="$classOtioConvertions.html" title="OtioConvertions" alt="" coords="1028,512,1155,539"/>
+<area shape="rect" id="node83" href="$classPreviewManager.html" title="Handles timeline preview. This manager creates an additional video track on top of the current timeli..." alt="" coords="1026,563,1157,589"/>
+<area shape="rect" id="node84" href="$classProjectManager.html" title="Takes care of interaction with projects. " alt="" coords="1029,613,1153,640"/>
+<area shape="rect" id="node85" href="$classProviderModel.html" title="ProviderModel" alt="" coords="1033,664,1149,691"/>
+<area shape="rect" id="node86" href="$classQmlManager.html" title="Manages all Qml monitor overlays. " alt="" coords="1038,715,1145,741"/>
+<area shape="rect" id="node87" href="$classQmlRichText.html" title="QmlRichText" alt="" coords="1039,765,1143,792"/>
+<area shape="rect" id="node88" href="$classQuickEventEater.html" title="QuickEventEater" alt="" coords="1026,816,1157,843"/>
+<area shape="rect" id="node89" href="$classRecManager.html" title="All recording specific features are gathered here. " alt="" coords="1040,867,1143,893"/>
+<area shape="rect" id="node90" href="$classRGBParadeGenerator.html" title="RGBParadeGenerator" alt="" coords="1012,917,1171,944"/>
+<area shape="rect" id="node91" href="$classScopeManager.html" title="Manages communication between Scopes and Renderer. " alt="" coords="1032,968,1151,995"/>
+<area shape="rect" id="node92" href="$classShiftEnterFilter.html" title="ShiftEnterFilter" alt="" coords="1032,1019,1151,1045"/>
+<area shape="rect" id="node93" href="$classTaskManager.html" title="This class is responsible for clip jobs management. " alt="" coords="1037,1069,1145,1096"/>
+<area shape="rect" id="node94" href="$classTimelineController.html" title="TimelineController" alt="" coords="1020,1120,1163,1147"/>
+<area shape="rect" id="node95" href="$classTransitionListWidgetProxy.html" title="TransitionListWidgetProxy" alt="" coords="996,1171,1187,1197"/>
+<area shape="rect" id="node96" href="$classVectorscopeGenerator.html" title="VectorscopeGenerator" alt="" coords="1008,1221,1175,1248"/>
+<area shape="rect" id="node97" href="$classWaveformGenerator.html" title="WaveformGenerator" alt="" coords="1014,1272,1169,1299"/>
+<area shape="rect" id="node98" href="$classWindowFramelessHelper.html" title="WindowFramelessHelper" alt="" coords="999,2741,1183,2768"/>
+<area shape="rect" id="node38" href="$classMltDeviceCapture.html" title="Interface for MLT capture. Capturing started by MltDeviceCapture::slotStartCapture () Capturing is st..." alt="" coords="1247,1323,1385,1349"/>
+<area shape="rect" id="node40" href="$classAudioLevelsTask.html" title="AudioLevelsTask" alt="" coords="1251,2615,1381,2641"/>
+<area shape="rect" id="node41" href="$classCacheTask.html" title="CacheTask" alt="" coords="1271,2665,1361,2692"/>
+<area shape="rect" id="node42" href="$classClipLoadTask.html" title="ClipLoadTask" alt="" coords="1263,2716,1369,2743"/>
+<area shape="rect" id="node43" href="$classCutTask.html" title="CutTask" alt="" coords="1279,2767,1353,2793"/>
+<area shape="rect" id="node44" href="$classFilterTask.html" title="FilterTask" alt="" coords="1274,2817,1358,2844"/>
+<area shape="rect" id="node45" href="$classProxyTask.html" title="ProxyTask" alt="" coords="1272,2868,1360,2895"/>
+<area shape="rect" id="node46" href="$classSceneSplitTask.html" title="SceneSplitTask" alt="" coords="1257,2919,1375,2945"/>
+<area shape="rect" id="node47" href="$classSpeedTask.html" title="SpeedTask" alt="" coords="1271,2969,1361,2996"/>
+<area shape="rect" id="node48" href="$classStabilizeTask.html" title="StabilizeTask" alt="" coords="1263,2513,1369,2540"/>
+<area shape="rect" id="node49" href="$classTranscodeTask.html" title="TranscodeTask" alt="" coords="1258,2564,1374,2591"/>
+<area shape="rect" id="node73" href="$classCornersHelper.html" title="CornersHelper" alt="" coords="1259,2412,1373,2439"/>
+<area shape="rect" id="node74" href="$classRotoHelper.html" title="@todo Describe class RotoHelper " alt="" coords="1269,2463,1363,2489"/>
+<area shape="rect" id="node101" href="$classSnapInterface.html" title="This is a base class for snap models (timeline, clips) Implements only basic functions like add or re..." alt="" coords="43,1824,155,1851"/>
+<area shape="rect" id="node102" href="$classSnapModel.html" title="This class represents the snap points of the timeline. Basically, one can add or remove snap points..." alt="" coords="300,1849,395,1876"/>
+</map>

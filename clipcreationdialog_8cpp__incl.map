@@ -1,0 +1,20 @@
+<map id="src/dialogs/clipcreationdialog.cpp" name="src/dialogs/clipcreationdialog.cpp">
+<area shape="rect" id="node2" href="$clipcreationdialog_8h.html" title="clipcreationdialog.h" alt="" coords="29,80,180,107"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="677,155,780,181"/>
+<area shape="rect" id="node7" href="$bin_8h.html" title="bin/bin.h" alt="" coords="1985,80,2064,107"/>
+<area shape="rect" id="node23" href="$bincommands_8h.html" title="bin/bincommands.h" alt="" coords="2292,80,2443,107"/>
+<area shape="rect" id="node25" href="$clipcreator_8hpp.html" title="bin/clipcreator.hpp" alt="" coords="256,80,399,107"/>
+<area shape="rect" id="node27" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1835,80,1961,107"/>
+<area shape="rect" id="node28" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="552,80,727,107"/>
+<area shape="rect" id="node29" href="$core_8h.html" title="core.h" alt="" coords="1592,80,1655,107"/>
+<area shape="rect" id="node30" href="$docundostack_8hpp.html" title="doc/docundostack.hpp" alt="" coords="2467,80,2633,107"/>
+<area shape="rect" id="node31" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="1212,80,1352,107"/>
+<area shape="rect" id="node33" href="$slideshowclip_8h.html" title="project/dialogs/slideshowclip.h" alt="" coords="801,80,1024,107"/>
+<area shape="rect" id="node34" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="1376,80,1516,107"/>
+<area shape="rect" id="node35" href="$titlewidget_8h.html" title="titler/titlewidget.h" alt="" coords="1049,80,1187,107"/>
+<area shape="rect" id="node36" href="$titletemplatedialog_8h.html" title="titletemplatedialog.h" alt="" coords="2824,80,2983,107"/>
+<area shape="rect" id="node39" href="$devices_8hpp.html" title="utils/devices.hpp" alt="" coords="1679,80,1811,107"/>
+<area shape="rect" id="node40" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="423,80,527,107"/>
+<area shape="rect" id="node8" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1637,155,1799,181"/>
+<area shape="rect" id="node9" href="$timecode_8h.html" title="timecode.h" alt="" coords="1172,155,1267,181"/>
+</map>

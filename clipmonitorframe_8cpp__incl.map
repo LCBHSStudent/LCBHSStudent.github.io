@@ -1,0 +1,15 @@
+<map id="src/widgets/clipmonitorframe.cpp" name="src/widgets/clipmonitorframe.cpp">
+<area shape="rect" id="node2" href="$clipmonitorframe_8h.html" title="clipmonitorframe.h" alt="" coords="336,80,483,107"/>
+<area shape="rect" id="node5" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="811,80,949,107"/>
+<area shape="rect" id="node35" href="$glwidget_8h.html" title="monitor/glwidget.h" alt="" coords="1955,80,2101,107"/>
+<area shape="rect" id="node49" href="$monitorproxy_8h.html" title="monitor/monitorproxy.h" alt="" coords="3471,155,3646,181"/>
+<area shape="rect" id="node3" href="$framelessmovablewidget_8h.html" title="framelessmovablewidget.h" alt="" coords="5,155,205,181"/>
+<area shape="rect" id="node6" href="$abstractmonitor_8h.html" title="abstractmonitor.h" alt="" coords="1215,155,1353,181"/>
+<area shape="rect" id="node7" href="$definitions_8h.html" title="definitions.h" alt="" coords="1233,229,1335,256"/>
+<area shape="rect" id="node8" href="$gentime_8h.html" title="gentime.h" alt="" coords="335,304,423,331"/>
+<area shape="rect" id="node21" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="767,155,993,181"/>
+<area shape="rect" id="node27" href="$sharedframe_8h.html" title="scopes/sharedframe.h" alt="" coords="1377,155,1543,181"/>
+<area shape="rect" id="node30" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="295,155,435,181"/>
+<area shape="rect" id="node22" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="677,229,800,256"/>
+<area shape="rect" id="node31" href="$timecode_8h.html" title="timecode.h" alt="" coords="331,229,426,256"/>
+</map>

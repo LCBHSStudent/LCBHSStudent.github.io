@@ -1,0 +1,2133 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: KeyframeModel类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classKeyframeModel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">KeyframeModel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This class is the model for a list of keyframes. A keyframe is defined by a time, a type and a value We store them in a sorted fashion using a std::map.  
+ <a href="classKeyframeModel.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="keyframemodel_8hpp_source.html">keyframemodel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 KeyframeModel 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classKeyframeModel__inherit__graph.png" border="0" usemap="#KeyframeModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="KeyframeModel_inherit__map" id="KeyframeModel_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+KeyframeModel 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classKeyframeModel__coll__graph.png" border="0" usemap="#KeyframeModel_coll__map" alt="Collaboration graph"/></div>
+<map name="KeyframeModel_coll__map" id="KeyframeModel_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:ae0b1fc8c51a870f6bb373744b1d70cf7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="classKeyframeModel.html#ae0b1fc8c51a870f6bb373744b1d70cf7a0a14aa5a0b10f0c2f03fcdcf20f7e655">TypeRole</a> = Qt::UserRole + 1, 
+<a class="el" href="classKeyframeModel.html#ae0b1fc8c51a870f6bb373744b1d70cf7a717dc1b564c802845fca614706db9d32">PosRole</a>, 
+<a class="el" href="classKeyframeModel.html#ae0b1fc8c51a870f6bb373744b1d70cf7a4a442f61910f67136a065c5ee602dfa6">FrameRole</a>, 
+<a class="el" href="classKeyframeModel.html#ae0b1fc8c51a870f6bb373744b1d70cf7a1c31c87c6f02ac5b030d9c1eddb893fb">ValueRole</a>, 
+<br />
+&#160;&#160;<a class="el" href="classKeyframeModel.html#ae0b1fc8c51a870f6bb373744b1d70cf7a8b2094c952e3ee620e40fca674706ee8">NormalizedValueRole</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae0b1fc8c51a870f6bb373744b1d70cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:aea4aae84f6b7b4cf4207a08e9e442939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aea4aae84f6b7b4cf4207a08e9e442939">modelChanged</a> ()</td></tr>
+<tr class="separator:aea4aae84f6b7b4cf4207a08e9e442939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a5f5327c396907786b1686effb9acfe78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a5f5327c396907786b1686effb9acfe78">KeyframeModel</a> (std::weak_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; model, const QModelIndex &amp;index, std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; undo_stack, QObject *parent=nullptr)</td></tr>
+<tr class="memdesc:a5f5327c396907786b1686effb9acfe78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a keyframe list bound to the given effect.  <a href="#a5f5327c396907786b1686effb9acfe78">更多...</a><br /></td></tr>
+<tr class="separator:a5f5327c396907786b1686effb9acfe78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25388c45cfdf88e9f05b301bd08ab568"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a25388c45cfdf88e9f05b301bd08ab568">moveKeyframe</a> (int oldPos, int pos, bool logUndo)</td></tr>
+<tr class="memdesc:a25388c45cfdf88e9f05b301bd08ab568"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves a keyframe  <a href="#a25388c45cfdf88e9f05b301bd08ab568">更多...</a><br /></td></tr>
+<tr class="separator:a25388c45cfdf88e9f05b301bd08ab568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32b4adb136cfe4a0dce770ff2f396c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ae32b4adb136cfe4a0dce770ff2f396c6">offsetKeyframes</a> (int oldPos, int pos, bool logUndo)</td></tr>
+<tr class="separator:ae32b4adb136cfe4a0dce770ff2f396c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5d65a8e10847af03f2fbddb6097cc1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a0c5d65a8e10847af03f2fbddb6097cc1">moveKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> oldPos, <a class="el" href="classGenTime.html">GenTime</a> pos, QVariant newVal, bool logUndo)</td></tr>
+<tr class="separator:a0c5d65a8e10847af03f2fbddb6097cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f0f2dc4aebd40937448a0b325f90f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a69f0f2dc4aebd40937448a0b325f90f4">moveKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> oldPos, <a class="el" href="classGenTime.html">GenTime</a> pos, QVariant newVal, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:a69f0f2dc4aebd40937448a0b325f90f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4f345bdef2ac5e4dd7f3f00729fada"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a9f4f345bdef2ac5e4dd7f3f00729fada">updateKeyframe</a> (int pos, double newVal)</td></tr>
+<tr class="memdesc:a9f4f345bdef2ac5e4dd7f3f00729fada"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the value of a keyframe  <a href="#a9f4f345bdef2ac5e4dd7f3f00729fada">更多...</a><br /></td></tr>
+<tr class="separator:a9f4f345bdef2ac5e4dd7f3f00729fada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14400d99a38b8264644bac07841a1240"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a14400d99a38b8264644bac07841a1240">updateKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, QVariant value)</td></tr>
+<tr class="separator:a14400d99a38b8264644bac07841a1240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed70d220978b5c28c6dc3f620bb1d51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aeed70d220978b5c28c6dc3f620bb1d51">updateKeyframeType</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, int type, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:aeed70d220978b5c28c6dc3f620bb1d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2553f5e3073fc08352a762b2fd2795d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ad2553f5e3073fc08352a762b2fd2795d">updateKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, const QVariant &amp;value, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool update=true)</td></tr>
+<tr class="separator:ad2553f5e3073fc08352a762b2fd2795d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc1403c3414a7d4df9030ae1c066d50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aabc1403c3414a7d4df9030ae1c066d50">directUpdateKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, QVariant value)</td></tr>
+<tr class="memdesc:aabc1403c3414a7d4df9030ae1c066d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the value of a keyframe, without any management of undo/redo  <a href="#aabc1403c3414a7d4df9030ae1c066d50">更多...</a><br /></td></tr>
+<tr class="separator:aabc1403c3414a7d4df9030ae1c066d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e44177b8ad08aca9c343e8569dafa59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a4e44177b8ad08aca9c343e8569dafa59">getKeyframe</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos, bool *ok) const </td></tr>
+<tr class="memdesc:a4e44177b8ad08aca9c343e8569dafa59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a keyframe data at given pos ok is a return parameter, set to true if everything went good.  <a href="#a4e44177b8ad08aca9c343e8569dafa59">更多...</a><br /></td></tr>
+<tr class="separator:a4e44177b8ad08aca9c343e8569dafa59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d1002eacef9bfa523d5f8bb194404ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a6d1002eacef9bfa523d5f8bb194404ad">singleKeyframe</a> () const </td></tr>
+<tr class="memdesc:a6d1002eacef9bfa523d5f8bb194404ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we only have 1 keyframe.  <a href="#a6d1002eacef9bfa523d5f8bb194404ad">更多...</a><br /></td></tr>
+<tr class="separator:a6d1002eacef9bfa523d5f8bb194404ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96c760485ad73ecff03c41c1d38730e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a96c760485ad73ecff03c41c1d38730e6">getNextKeyframe</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos, bool *ok) const </td></tr>
+<tr class="memdesc:a96c760485ad73ecff03c41c1d38730e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the keyframe located after given position. If there is a keyframe at given position it is ignored.  <a href="#a96c760485ad73ecff03c41c1d38730e6">更多...</a><br /></td></tr>
+<tr class="separator:a96c760485ad73ecff03c41c1d38730e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ce4e17f86eba2fbf32341159d7d297"><td class="memItemLeft" align="right" valign="top"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a25ce4e17f86eba2fbf32341159d7d297">getPrevKeyframe</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos, bool *ok) const </td></tr>
+<tr class="memdesc:a25ce4e17f86eba2fbf32341159d7d297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the keyframe located before given position. If there is a keyframe at given position it is ignored.  <a href="#a25ce4e17f86eba2fbf32341159d7d297">更多...</a><br /></td></tr>
+<tr class="separator:a25ce4e17f86eba2fbf32341159d7d297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a378db9565b3cb7571f1d9f8034edab4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a378db9565b3cb7571f1d9f8034edab4f">getClosestKeyframe</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos, bool *ok) const </td></tr>
+<tr class="memdesc:a378db9565b3cb7571f1d9f8034edab4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the closest keyframe from given position.  <a href="#a378db9565b3cb7571f1d9f8034edab4f">更多...</a><br /></td></tr>
+<tr class="separator:a378db9565b3cb7571f1d9f8034edab4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac070980369c4a722cc51d7062425d674"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ac070980369c4a722cc51d7062425d674">hasKeyframe</a> (int frame) const </td></tr>
+<tr class="memdesc:ac070980369c4a722cc51d7062425d674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a keyframe exists at given pos Notice that add/remove queries are done in real time (gentime), but this request is made in frame.  <a href="#ac070980369c4a722cc51d7062425d674">更多...</a><br /></td></tr>
+<tr class="separator:ac070980369c4a722cc51d7062425d674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d7342282a2c9d92c4ed8186efc335e"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a28d7342282a2c9d92c4ed8186efc335e">hasKeyframe</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos) const </td></tr>
+<tr class="separator:a28d7342282a2c9d92c4ed8186efc335e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e007beba21749cdf9488c25e95dd267"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a2e007beba21749cdf9488c25e95dd267">realValue</a> (double normalizedValue) const </td></tr>
+<tr class="separator:a2e007beba21749cdf9488c25e95dd267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f369fea75ab222f41c0d0ba1d8c3209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a5f369fea75ab222f41c0d0ba1d8c3209">refresh</a> ()</td></tr>
+<tr class="memdesc:a5f369fea75ab222f41c0d0ba1d8c3209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the value from the model and update itself accordingly.  <a href="#a5f369fea75ab222f41c0d0ba1d8c3209">更多...</a><br /></td></tr>
+<tr class="separator:a5f369fea75ab222f41c0d0ba1d8c3209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb438c7fe7e3a2c659d3c69b03e5c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#abfb438c7fe7e3a2c659d3c69b03e5c56">reset</a> ()</td></tr>
+<tr class="memdesc:abfb438c7fe7e3a2c659d3c69b03e5c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset all values to their default.  <a href="#abfb438c7fe7e3a2c659d3c69b03e5c56">更多...</a><br /></td></tr>
+<tr class="separator:abfb438c7fe7e3a2c659d3c69b03e5c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af34b9f7c39a41ad9835c9e34a788fee4"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#af34b9f7c39a41ad9835c9e34a788fee4">getInterpolatedValue</a> (int pos) const </td></tr>
+<tr class="memdesc:af34b9f7c39a41ad9835c9e34a788fee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the interpolated value at given pos.  <a href="#af34b9f7c39a41ad9835c9e34a788fee4">更多...</a><br /></td></tr>
+<tr class="separator:af34b9f7c39a41ad9835c9e34a788fee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af35230e1c8766154c08773dd0de31fd0"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#af35230e1c8766154c08773dd0de31fd0">getInterpolatedValue</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos) const </td></tr>
+<tr class="separator:af35230e1c8766154c08773dd0de31fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa700f92c3b11e52a655b89e6ac9d4f9"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aaa700f92c3b11e52a655b89e6ac9d4f9">updateInterpolated</a> (const QVariant &amp;interpValue, double val)</td></tr>
+<tr class="separator:aaa700f92c3b11e52a655b89e6ac9d4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92bd0704e981df1fefbe592090c911d7"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a92bd0704e981df1fefbe592090c911d7">getNormalizedValue</a> (double newVal) const </td></tr>
+<tr class="memdesc:a92bd0704e981df1fefbe592090c911d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the real value from a normalized one.  <a href="#a92bd0704e981df1fefbe592090c911d7">更多...</a><br /></td></tr>
+<tr class="separator:a92bd0704e981df1fefbe592090c911d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3796b4753f12cd42e5cf88db31ad76ab"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a3796b4753f12cd42e5cf88db31ad76ab">data</a> (const QModelIndex &amp;index, int role) const  override</td></tr>
+<tr class="separator:a3796b4753f12cd42e5cf88db31ad76ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248d48ec7949afd55e5ff75d923183c1"><td class="memItemLeft" align="right" valign="top">QHash&lt; int, QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a248d48ec7949afd55e5ff75d923183c1">roleNames</a> () const  override</td></tr>
+<tr class="separator:a248d48ec7949afd55e5ff75d923183c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004443998ed8402d406c3af199fb32ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a004443998ed8402d406c3af199fb32ba">rowCount</a> (const QModelIndex &amp;parent=QModelIndex()) const  override</td></tr>
+<tr class="separator:a004443998ed8402d406c3af199fb32ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44535f1873b52499bf648e15773928ee"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a44535f1873b52499bf648e15773928ee">begin</a> () -&gt; decltype(m_keyframeList.begin())</td></tr>
+<tr class="separator:a44535f1873b52499bf648e15773928ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f10f9f6f71ff9bdf9cf33f3717e0ab"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a96f10f9f6f71ff9bdf9cf33f3717e0ab">end</a> () -&gt; decltype(m_keyframeList.end())</td></tr>
+<tr class="separator:a96f10f9f6f71ff9bdf9cf33f3717e0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:ad7a3e39b723e5c9b485fe77927032e52"><td class="memItemLeft" align="right" valign="top">static QList&lt; QPoint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ad7a3e39b723e5c9b485fe77927032e52">getRanges</a> (const QString &amp;animData, const std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; &amp;model)</td></tr>
+<tr class="separator:ad7a3e39b723e5c9b485fe77927032e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a936d2882dc0c27077d3ab7a80f0367ed"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; Mlt::Properties &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a936d2882dc0c27077d3ab7a80f0367ed">getAnimation</a> (std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; model, const QString &amp;animData, int duration=0)</td></tr>
+<tr class="separator:a936d2882dc0c27077d3ab7a80f0367ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0defc60aaa9da768864355d1bba6a1ff"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a0defc60aaa9da768864355d1bba6a1ff">getAnimationStringWithOffset</a> (std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; model, const QString &amp;animData, int offset)</td></tr>
+<tr class="separator:a0defc60aaa9da768864355d1bba6a1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:abea147ad72eaccb1bb364eaceb0a5bee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#abea147ad72eaccb1bb364eaceb0a5bee">addKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a> type, QVariant value)</td></tr>
+<tr class="memdesc:abea147ad72eaccb1bb364eaceb0a5bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">These methods should ONLY be called by keyframemodellist to ensure synchronisation with keyframes from other parameters.  <a href="#abea147ad72eaccb1bb364eaceb0a5bee">更多...</a><br /></td></tr>
+<tr class="separator:abea147ad72eaccb1bb364eaceb0a5bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8dc960e355d14a3077d40bf2031e8a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ad8dc960e355d14a3077d40bf2031e8a0">addKeyframe</a> (int frame, double normalizedValue)</td></tr>
+<tr class="separator:ad8dc960e355d14a3077d40bf2031e8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa65fb3ee892998175856a79d63ebed72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aa65fb3ee892998175856a79d63ebed72">addKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a> type, QVariant value, bool notify, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:aa65fb3ee892998175856a79d63ebed72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same function but accumulates undo/redo.  <a href="#aa65fb3ee892998175856a79d63ebed72">更多...</a><br /></td></tr>
+<tr class="separator:aa65fb3ee892998175856a79d63ebed72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa288fafced314535725d6219c2ba4050"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aa288fafced314535725d6219c2ba4050">removeKeyframe</a> (int frame)</td></tr>
+<tr class="memdesc:aa288fafced314535725d6219c2ba4050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the keyframe at the given position.  <a href="#aa288fafced314535725d6219c2ba4050">更多...</a><br /></td></tr>
+<tr class="separator:aa288fafced314535725d6219c2ba4050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7111acb19380f89ba64d3e2a6d59d911"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a7111acb19380f89ba64d3e2a6d59d911">moveKeyframe</a> (int oldPos, int pos, QVariant newVal)</td></tr>
+<tr class="separator:a7111acb19380f89ba64d3e2a6d59d911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f1e12bd717255a9ba51bb2dc8ff347"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aa6f1e12bd717255a9ba51bb2dc8ff347">duplicateKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> srcPos, <a class="el" href="classGenTime.html">GenTime</a> dstPos, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:aa6f1e12bd717255a9ba51bb2dc8ff347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicate a keyframe at the given position.  <a href="#aa6f1e12bd717255a9ba51bb2dc8ff347">更多...</a><br /></td></tr>
+<tr class="separator:aa6f1e12bd717255a9ba51bb2dc8ff347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b61b7bed1cc71c904b6dfc52f0d118"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ab8b61b7bed1cc71c904b6dfc52f0d118">removeKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos)</td></tr>
+<tr class="separator:ab8b61b7bed1cc71c904b6dfc52f0d118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c04724224de7d32d51273e09e7e01d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a75c04724224de7d32d51273e09e7e01d">removeAllKeyframes</a> ()</td></tr>
+<tr class="memdesc:a75c04724224de7d32d51273e09e7e01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete all the keyframes of the model.  <a href="#a75c04724224de7d32d51273e09e7e01d">更多...</a><br /></td></tr>
+<tr class="separator:a75c04724224de7d32d51273e09e7e01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d44c5a83df850b2b47a76f6c7f7b0f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a04d44c5a83df850b2b47a76f6c7f7b0f">removeAllKeyframes</a> (<a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:a04d44c5a83df850b2b47a76f6c7f7b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9f2fe313d4ee468b5a0c5215a7ef7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a4b9f2fe313d4ee468b5a0c5215a7ef7c">removeNextKeyframes</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:a4b9f2fe313d4ee468b5a0c5215a7ef7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf45efd7d84a3d18676e1e35d374456d"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="classGenTime.html">GenTime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#abf45efd7d84a3d18676e1e35d374456d">getKeyframePos</a> () const </td></tr>
+<tr class="separator:abf45efd7d84a3d18676e1e35d374456d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f62a40f2c7065bb10e5f51508143d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a45f62a40f2c7065bb10e5f51508143d7">removeKeyframe</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool notify=true)</td></tr>
+<tr class="memdesc:a45f62a40f2c7065bb10e5f51508143d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same function but accumulates undo/redo.  <a href="#a45f62a40f2c7065bb10e5f51508143d7">更多...</a><br /></td></tr>
+<tr class="separator:a45f62a40f2c7065bb10e5f51508143d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9376fd96c8350587aa0c3e115e5d25df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a9376fd96c8350587aa0c3e115e5d25df">updateKeyframe_lambda</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a> type, const QVariant &amp;value, bool notify)</td></tr>
+<tr class="memdesc:a9376fd96c8350587aa0c3e115e5d25df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that generate a lambda to change type / value of given keyframe.  <a href="#a9376fd96c8350587aa0c3e115e5d25df">更多...</a><br /></td></tr>
+<tr class="separator:a9376fd96c8350587aa0c3e115e5d25df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced129d14a8c484cd1e87ccf59cfd43f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#aced129d14a8c484cd1e87ccf59cfd43f">addKeyframe_lambda</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a> type, const QVariant &amp;value, bool notify)</td></tr>
+<tr class="memdesc:aced129d14a8c484cd1e87ccf59cfd43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that generate a lambda to add given keyframe.  <a href="#aced129d14a8c484cd1e87ccf59cfd43f">更多...</a><br /></td></tr>
+<tr class="separator:aced129d14a8c484cd1e87ccf59cfd43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96bc38e7b81781e6912124d4e542c01a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a96bc38e7b81781e6912124d4e542c01a">deleteKeyframe_lambda</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, bool notify)</td></tr>
+<tr class="memdesc:a96bc38e7b81781e6912124d4e542c01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that generate a lambda to remove given keyframe.  <a href="#a96bc38e7b81781e6912124d4e542c01a">更多...</a><br /></td></tr>
+<tr class="separator:a96bc38e7b81781e6912124d4e542c01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1021c4a54548d763b8a7e43f02dada"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a2c1021c4a54548d763b8a7e43f02dada">setup</a> ()</td></tr>
+<tr class="memdesc:a2c1021c4a54548d763b8a7e43f02dada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects the signals of this object.  <a href="#a2c1021c4a54548d763b8a7e43f02dada">更多...</a><br /></td></tr>
+<tr class="separator:a2c1021c4a54548d763b8a7e43f02dada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c216a6d72120348fbc08d493e0a7ec5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a2c216a6d72120348fbc08d493e0a7ec5">sendModification</a> ()</td></tr>
+<tr class="memdesc:a2c216a6d72120348fbc08d493e0a7ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commit the modification to the model.  <a href="#a2c216a6d72120348fbc08d493e0a7ec5">更多...</a><br /></td></tr>
+<tr class="separator:a2c216a6d72120348fbc08d493e0a7ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba7ef743dbf5e9e81323d9721844e2a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a5ba7ef743dbf5e9e81323d9721844e2a">getAnimProperty</a> () const </td></tr>
+<tr class="memdesc:a5ba7ef743dbf5e9e81323d9721844e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the keyframes as a <a class="el" href="namespaceMlt.html">Mlt</a> Anim Property string. It is defined as pairs of frame and value, separated by ; Example : "0|=50; 50|=100; 100=200; 200~=60;" Spaces are ignored by <a class="el" href="namespaceMlt.html">Mlt</a>. |= represents a discrete keyframe, = a linear one and ~= a Catmull-Rom spline  <a href="#a5ba7ef743dbf5e9e81323d9721844e2a">更多...</a><br /></td></tr>
+<tr class="separator:a5ba7ef743dbf5e9e81323d9721844e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21115b0f9777b68aa08c45410532b248"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a21115b0f9777b68aa08c45410532b248">getRotoProperty</a> () const </td></tr>
+<tr class="separator:a21115b0f9777b68aa08c45410532b248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630079c4a6ca68d3d3224b2db666d44d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a630079c4a6ca68d3d3224b2db666d44d">resetAnimProperty</a> (const QString &amp;prop)</td></tr>
+<tr class="memdesc:a630079c4a6ca68d3d3224b2db666d44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function clears all existing keyframes, and reloads its data from the string passed  <a href="#a630079c4a6ca68d3d3224b2db666d44d">更多...</a><br /></td></tr>
+<tr class="separator:a630079c4a6ca68d3d3224b2db666d44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57486b24974a042319035b4849de0eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#ac57486b24974a042319035b4849de0eb">parseAnimProperty</a> (const QString &amp;prop)</td></tr>
+<tr class="memdesc:ac57486b24974a042319035b4849de0eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function does the opposite of getAnimProperty: given a MLT representation of an animation, build the corresponding model  <a href="#ac57486b24974a042319035b4849de0eb">更多...</a><br /></td></tr>
+<tr class="separator:ac57486b24974a042319035b4849de0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add08b808ab2315021d4baeb6c53ff21a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#add08b808ab2315021d4baeb6c53ff21a">parseRotoProperty</a> (const QString &amp;prop)</td></tr>
+<tr class="separator:add08b808ab2315021d4baeb6c53ff21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:a536de40fb355e6edcb1359bd65294810"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a536de40fb355e6edcb1359bd65294810">KeyframeModelList</a></td></tr>
+<tr class="separator:a536de40fb355e6edcb1359bd65294810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88888351d0ccfbcca9ef8dfcb7e255ed"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a88888351d0ccfbcca9ef8dfcb7e255ed">KeyframeWidget</a></td></tr>
+<tr class="separator:a88888351d0ccfbcca9ef8dfcb7e255ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411a9359bf00a189a44871518f24162f"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKeyframeModel.html#a411a9359bf00a189a44871518f24162f">KeyframeImport</a></td></tr>
+<tr class="separator:a411a9359bf00a189a44871518f24162f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>This class is the model for a list of keyframes. A keyframe is defined by a time, a type and a value We store them in a sorted fashion using a std::map. </p>
+</div><h2 class="groupheader">成员枚举类型说明</h2>
+<a class="anchor" id="ae0b1fc8c51a870f6bb373744b1d70cf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a class="anchor" id="ae0b1fc8c51a870f6bb373744b1d70cf7a0a14aa5a0b10f0c2f03fcdcf20f7e655"></a>TypeRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae0b1fc8c51a870f6bb373744b1d70cf7a717dc1b564c802845fca614706db9d32"></a>PosRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae0b1fc8c51a870f6bb373744b1d70cf7a4a442f61910f67136a065c5ee602dfa6"></a>FrameRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae0b1fc8c51a870f6bb373744b1d70cf7a1c31c87c6f02ac5b030d9c1eddb893fb"></a>ValueRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae0b1fc8c51a870f6bb373744b1d70cf7a8b2094c952e3ee620e40fca674706ee8"></a>NormalizedValueRole&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a5f5327c396907786b1686effb9acfe78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyframeModel::KeyframeModel </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td>
+          <td class="paramname"><em>undo_stack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a keyframe list bound to the given effect. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">init_value</td><td>is the value taken by the param at time 0. </td></tr>
+    <tr><td class="paramname">model</td><td>is the asset this parameter belong to </td></tr>
+    <tr><td class="paramname">index</td><td>is the index of this parameter in its model </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="abea147ad72eaccb1bb364eaceb0a5bee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::addKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>These methods should ONLY be called by keyframemodellist to ensure synchronisation with keyframes from other parameters. </p>
+<p>Adds a keyframe at the given position. If there is already one then we update it. </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>defines the position of the keyframe, relative to the clip </td></tr>
+    <tr><td class="paramname">type</td><td>is the type of the keyframe. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad8dc960e355d14a3077d40bf2031e8a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::addKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>normalizedValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa65fb3ee892998175856a79d63ebed72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::addKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>notify</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same function but accumulates undo/redo. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">notify</td><td>if true, send a signal to model </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aced129d14a8c484cd1e87ccf59cfd43f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> KeyframeModel::addKeyframe_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>notify</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that generate a lambda to add given keyframe. </p>
+
+</div>
+</div>
+<a class="anchor" id="a44535f1873b52499bf648e15773928ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto KeyframeModel::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; decltype(m_keyframeList.begin()) </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3796b4753f12cd42e5cf88db31ad76ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant KeyframeModel::data </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>role</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a96bc38e7b81781e6912124d4e542c01a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> KeyframeModel::deleteKeyframe_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>notify</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that generate a lambda to remove given keyframe. </p>
+
+</div>
+</div>
+<a class="anchor" id="aabc1403c3414a7d4df9030ae1c066d50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::directUpdateKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the value of a keyframe, without any management of undo/redo </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>is the position of the keyframe </td></tr>
+    <tr><td class="paramname">value</td><td>is the new value of the param </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6f1e12bd717255a9ba51bb2dc8ff347"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::duplicateKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>srcPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>dstPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Duplicate a keyframe at the given position. </p>
+
+</div>
+</div>
+<a class="anchor" id="a96f10f9f6f71ff9bdf9cf33f3717e0ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto KeyframeModel::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; decltype(m_keyframeList.end()) </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a936d2882dc0c27077d3ab7a80f0367ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; Mlt::Properties &gt; KeyframeModel::getAnimation </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>animData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0defc60aaa9da768864355d1bba6a1ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString KeyframeModel::getAnimationStringWithOffset </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>animData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ba7ef743dbf5e9e81323d9721844e2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString KeyframeModel::getAnimProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the keyframes as a <a class="el" href="namespaceMlt.html">Mlt</a> Anim Property string. It is defined as pairs of frame and value, separated by ; Example : "0|=50; 50|=100; 100=200; 200~=60;" Spaces are ignored by <a class="el" href="namespaceMlt.html">Mlt</a>. |= represents a discrete keyframe, = a linear one and ~= a Catmull-Rom spline </p>
+
+</div>
+</div>
+<a class="anchor" id="a378db9565b3cb7571f1d9f8034edab4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a> KeyframeModel::getClosestKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>ok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the closest keyframe from given position. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ok</td><td>is a return parameter to tell if a keyframe was found. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af34b9f7c39a41ad9835c9e34a788fee4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant KeyframeModel::getInterpolatedValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the interpolated value at given pos. </p>
+
+</div>
+</div>
+<a class="anchor" id="af35230e1c8766154c08773dd0de31fd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant KeyframeModel::getInterpolatedValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4e44177b8ad08aca9c343e8569dafa59"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a> KeyframeModel::getKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>ok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a keyframe data at given pos ok is a return parameter, set to true if everything went good. </p>
+
+</div>
+</div>
+<a class="anchor" id="abf45efd7d84a3d18676e1e35d374456d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="classGenTime.html">GenTime</a> &gt; KeyframeModel::getKeyframePos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a96c760485ad73ecff03c41c1d38730e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a> KeyframeModel::getNextKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>ok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the keyframe located after given position. If there is a keyframe at given position it is ignored. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ok</td><td>is a return parameter to tell if a keyframe was found. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a92bd0704e981df1fefbe592090c911d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant KeyframeModel::getNormalizedValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newVal</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the real value from a normalized one. </p>
+
+</div>
+</div>
+<a class="anchor" id="a25ce4e17f86eba2fbf32341159d7d297"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="keyframemodel_8hpp.html#a7a5d683b00d741838d075619b00b9e13">Keyframe</a> KeyframeModel::getPrevKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>ok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the keyframe located before given position. If there is a keyframe at given position it is ignored. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ok</td><td>is a return parameter to tell if a keyframe was found. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad7a3e39b723e5c9b485fe77927032e52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QPoint &gt; KeyframeModel::getRanges </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>animData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>model</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a21115b0f9777b68aa08c45410532b248"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString KeyframeModel::getRotoProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac070980369c4a722cc51d7062425d674"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::hasKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if a keyframe exists at given pos Notice that add/remove queries are done in real time (gentime), but this request is made in frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a28d7342282a2c9d92c4ed8186efc335e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::hasKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aea4aae84f6b7b4cf4207a08e9e442939"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::modelChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7111acb19380f89ba64d3e2a6d59d911"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::moveKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>newVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25388c45cfdf88e9f05b301bd08ab568"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::moveKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>moves a keyframe </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">oldPos</td><td>is the old position of the keyframe </td></tr>
+    <tr><td class="paramname">pos</td><td>defines the new position of the keyframe, relative to the clip </td></tr>
+    <tr><td class="paramname">logUndo</td><td>if true, then an undo object is created </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0c5d65a8e10847af03f2fbddb6097cc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::moveKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>oldPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>newVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69f0f2dc4aebd40937448a0b325f90f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::moveKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>oldPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>newVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae32b4adb136cfe4a0dce770ff2f396c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::offsetKeyframes </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac57486b24974a042319035b4849de0eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::parseAnimProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this function does the opposite of getAnimProperty: given a MLT representation of an animation, build the corresponding model </p>
+
+</div>
+</div>
+<a class="anchor" id="add08b808ab2315021d4baeb6c53ff21a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::parseRotoProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2e007beba21749cdf9488c25e95dd267"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString KeyframeModel::realValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>normalizedValue</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f369fea75ab222f41c0d0ba1d8c3209"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::refresh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the value from the model and update itself accordingly. </p>
+
+</div>
+</div>
+<a class="anchor" id="a75c04724224de7d32d51273e09e7e01d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::removeAllKeyframes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete all the keyframes of the model. </p>
+
+</div>
+</div>
+<a class="anchor" id="a04d44c5a83df850b2b47a76f6c7f7b0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::removeAllKeyframes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa288fafced314535725d6219c2ba4050"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::removeKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes the keyframe at the given position. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab8b61b7bed1cc71c904b6dfc52f0d118"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::removeKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a45f62a40f2c7065bb10e5f51508143d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::removeKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>notify</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same function but accumulates undo/redo. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b9f2fe313d4ee468b5a0c5215a7ef7c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::removeNextKeyframes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abfb438c7fe7e3a2c659d3c69b03e5c56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset all values to their default. </p>
+
+</div>
+</div>
+<a class="anchor" id="a630079c4a6ca68d3d3224b2db666d44d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::resetAnimProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this function clears all existing keyframes, and reloads its data from the string passed </p>
+
+</div>
+</div>
+<a class="anchor" id="a248d48ec7949afd55e5ff75d923183c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt; int, QByteArray &gt; KeyframeModel::roleNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a004443998ed8402d406c3af199fb32ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int KeyframeModel::rowCount </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>QModelIndex()</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2c216a6d72120348fbc08d493e0a7ec5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::sendModification </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Commit the modification to the model. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2c1021c4a54548d763b8a7e43f02dada"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyframeModel::setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Connects the signals of this object. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6d1002eacef9bfa523d5f8bb194404ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::singleKeyframe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if we only have 1 keyframe. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaa700f92c3b11e52a655b89e6ac9d4f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant KeyframeModel::updateInterpolated </td>
+          <td>(</td>
+          <td class="paramtype">const QVariant &amp;&#160;</td>
+          <td class="paramname"><em>interpValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9f4f345bdef2ac5e4dd7f3f00729fada"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::updateKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the value of a keyframe </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">old</td><td>is the position of the keyframe </td></tr>
+    <tr><td class="paramname">value</td><td>is the new value of the param </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a14400d99a38b8264644bac07841a1240"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::updateKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad2553f5e3073fc08352a762b2fd2795d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::updateKeyframe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9376fd96c8350587aa0c3e115e5d25df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> KeyframeModel::updateKeyframe_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="keyframemodel_8hpp.html#a6ac48eb0b5ae76798f69683a12018c8d">KeyframeType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>notify</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that generate a lambda to change type / value of given keyframe. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeed70d220978b5c28c6dc3f620bb1d51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyframeModel::updateKeyframeType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">友元及相关函数文档</h2>
+<a class="anchor" id="a411a9359bf00a189a44871518f24162f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classKeyframeImport.html">KeyframeImport</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a536de40fb355e6edcb1359bd65294810"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classKeyframeModelList.html">KeyframeModelList</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a88888351d0ccfbcca9ef8dfcb7e255ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classKeyframeWidget.html">KeyframeWidget</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/assets/keyframes/model/<a class="el" href="keyframemodel_8hpp_source.html">keyframemodel.hpp</a></li>
+<li>src/assets/keyframes/model/<a class="el" href="keyframemodel_8cpp.html">keyframemodel.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

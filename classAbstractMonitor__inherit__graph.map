@@ -1,0 +1,3 @@
+<map id="AbstractMonitor" name="AbstractMonitor">
+<area shape="rect" id="node3" href="$classMonitor.html" title="{Monitor\n||+ Monitor()\l+ ~Monitor()\l+ resetProfile()\l+ resetConsumer()\l+ setCustomProfile()\l+ setupMenu()\l+ sceneList()\l+ activeClipId()\l+ position()\l+ updateTimecodeFormat()\l和 46 更多...\l+ slotSetScreen()\l+ slotPreviewResource()\l+ updateClipProducer()\l+ updateClipProducer()\l+ slotOpenClip()\l+ slotRefreshMonitor()\l+ slotSeek()\l+ stop()\l+ start()\l+ switchPlay()\l和 34 更多...\l# mousePressEvent()\l# mouseReleaseEvent()\l# mouseDoubleClickEvent()\l# resizeEvent()\l# keyPressEvent()\l# wheelEvent()\l# mouseMoveEvent()\l# mimeTypes()\l# updateBgColor()\l}" alt="" coords="5,461,212,979"/>
+</map>

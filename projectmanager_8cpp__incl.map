@@ -1,0 +1,26 @@
+<map id="src/project/projectmanager.cpp" name="src/project/projectmanager.cpp">
+<area shape="rect" id="node2" href="$projectmanager_8h.html" title="projectmanager.h" alt="" coords="2675,87,2811,114"/>
+<area shape="rect" id="node14" href="$bin_8h.html" title="bin/bin.h" alt="" coords="415,169,494,196"/>
+<area shape="rect" id="node16" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="3691,87,3866,114"/>
+<area shape="rect" id="node17" href="$core_8h.html" title="core.h" alt="" coords="453,87,515,114"/>
+<area shape="rect" id="node18" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2459,87,2599,114"/>
+<area shape="rect" id="node21" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="313,87,429,114"/>
+<area shape="rect" id="node23" href="$monitormanager_8h.html" title="monitor/monitormanager.h" alt="" coords="2835,87,3032,114"/>
+<area shape="rect" id="node24" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="1184,87,1368,114"/>
+<area shape="rect" id="node25" href="$archivewidget_8h.html" title="project/dialogs/archivewidget.h" alt="" coords="1392,87,1619,114"/>
+<area shape="rect" id="node26" href="$backupwidget_8h.html" title="project/dialogs/backupwidget.h" alt="" coords="5,169,229,196"/>
+<area shape="rect" id="node27" href="$noteswidget_8h.html" title="project/dialogs/noteswidget.h" alt="" coords="4057,87,4271,114"/>
+<area shape="rect" id="node28" href="$projectsettings_8h.html" title="project/dialogs/projectsettings.h" alt="" coords="4295,87,4526,114"/>
+<area shape="rect" id="node29" href="$thumbnailcache_8hpp.html" title="utils/thumbnailcache.hpp" alt="" coords="2248,87,2435,114"/>
+<area shape="rect" id="node30" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="2120,87,2224,114"/>
+<area shape="rect" id="node31" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="723,87,949,114"/>
+<area shape="rect" id="node32" href="$profilerepository_8hpp.html" title="profiles/profilerepository.hpp" alt="" coords="1889,87,2095,114"/>
+<area shape="rect" id="node33" href="$notesplugin_8h.html" title="project/notesplugin.h" alt="" coords="539,87,698,114"/>
+<area shape="rect" id="node34" href="$meltBuilder_8hpp.html" title="timeline2/model/builders\l/meltBuilder.hpp" alt="" coords="974,80,1159,121"/>
+<area shape="rect" id="node35" href="$timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="3315,87,3565,114"/>
+<area shape="rect" id="node37" href="$timelinewidget_8h.html" title="timeline2/view/timelinewidget.h" alt="" coords="3057,87,3290,114"/>
+<area shape="rect" id="node49" href="$mixermanager_8hpp.html" title="audiomixer/mixermanager.hpp" alt="" coords="1643,87,1864,114"/>
+<area shape="rect" id="node50" href="$localeHandling_8h.html" title="lib/localeHandling.h" alt="" coords="6017,87,6167,114"/>
+<area shape="rect" id="node3" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="570,169,737,196"/>
+<area shape="rect" id="node11" href="$timelineitemmodel_8hpp.html" title="timeline2/model/timelineitemmodel.hpp" alt="" coords="3115,169,3402,196"/>
+</map>

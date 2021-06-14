@@ -1,0 +1,24 @@
+<map id="src/doc/kdenlivedoc.cpp" name="src/doc/kdenlivedoc.cpp">
+<area shape="rect" id="node2" href="$kdenlivedoc_8h.html" title="kdenlivedoc.h" alt="" coords="509,80,622,107"/>
+<area shape="rect" id="node10" href="$subtitlemodel_8hpp.html" title="../bin/model/subtitlemodel.hpp" alt="" coords="2162,155,2383,181"/>
+<area shape="rect" id="node11" href="$bin_8h.html" title="bin/bin.h" alt="" coords="2390,229,2469,256"/>
+<area shape="rect" id="node13" href="$bincommands_8h.html" title="bin/bincommands.h" alt="" coords="2841,80,2992,107"/>
+<area shape="rect" id="node14" href="$binplaylist_8hpp.html" title="bin/binplaylist.hpp" alt="" coords="28,155,170,181"/>
+<area shape="rect" id="node15" href="$clipcreator_8hpp.html" title="bin/clipcreator.hpp" alt="" coords="654,155,797,181"/>
+<area shape="rect" id="node16" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="822,155,1048,181"/>
+<area shape="rect" id="node17" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="2296,80,2422,107"/>
+<area shape="rect" id="node18" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="2408,155,2614,181"/>
+<area shape="rect" id="node19" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="3410,80,3585,107"/>
+<area shape="rect" id="node20" href="$core_8h.html" title="core.h" alt="" coords="1073,155,1136,181"/>
+<area shape="rect" id="node21" href="$profilesdialog_8h.html" title="dialogs/profilesdialog.h" alt="" coords="2740,155,2914,181"/>
+<area shape="rect" id="node22" href="$documentchecker_8h.html" title="documentchecker.h" alt="" coords="148,229,296,256"/>
+<area shape="rect" id="node23" href="$documentvalidator_8h.html" title="documentvalidator.h" alt="" coords="3016,80,3172,107"/>
+<area shape="rect" id="node24" href="$docundostack_8hpp.html" title="docundostack.hpp" alt="" coords="3609,80,3749,107"/>
+<area shape="rect" id="node25" href="$effectsrepository_8hpp.html" title="effects/effectsrepository.hpp" alt="" coords="1160,155,1366,181"/>
+<area shape="rect" id="node27" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="2701,80,2817,107"/>
+<area shape="rect" id="node29" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="1391,155,1575,181"/>
+<area shape="rect" id="node30" href="$profilerepository_8hpp.html" title="profiles/profilerepository.hpp" alt="" coords="1600,155,1806,181"/>
+<area shape="rect" id="node31" href="$projectcommands_8h.html" title="project/projectcommands.h" alt="" coords="3940,80,4140,107"/>
+<area shape="rect" id="node32" href="$titlewidget_8h.html" title="titler/titlewidget.h" alt="" coords="3196,80,3335,107"/>
+<area shape="rect" id="node33" href="$transitionsrepository_8hpp.html" title="transitions/transitionsrepository.hpp" alt="" coords="1831,155,2087,181"/>
+</map>

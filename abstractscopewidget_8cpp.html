@@ -1,0 +1,289 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/scopes/abstractscopewidget.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a9467051079209066578434d9c78104b.html">scopes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a> &#124;
+<a href="#var-members">变量</a>  </div>
+  <div class="headertitle">
+<div class="title">abstractscopewidget.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="abstractscopewidget_8h_source.html">abstractscopewidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="monitor_8h_source.html">monitor/monitor.h</a>&quot;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QMenu&gt;</code><br />
+<code>#include &lt;QMouseEvent&gt;</code><br />
+<code>#include &lt;QPainter&gt;</code><br />
+<code>#include &lt;QtConcurrent&gt;</code><br />
+<code>#include &quot;klocalizedstring.h&quot;</code><br />
+<code>#include &lt;KConfigGroup&gt;</code><br />
+<code>#include &lt;KSharedConfig&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+abstractscopewidget.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="abstractscopewidget_8cpp__incl.png" border="0" usemap="#src_2scopes_2abstractscopewidget_8cpp" alt=""/></div>
+<map name="src_2scopes_2abstractscopewidget_8cpp" id="src_2scopes_2abstractscopewidget_8cpp">
+<area shape="rect" id="node2" href="abstractscopewidget_8h.html" title="abstractscopewidget.h" alt="" coords="164,80,333,107"/>
+<area shape="rect" id="node7" href="monitor_8h.html" title="monitor/monitor.h" alt="" coords="1071,80,1210,107"/>
+<area shape="rect" id="node8" href="abstractmonitor_8h.html" title="abstractmonitor.h" alt="" coords="1072,155,1209,181"/>
+<area shape="rect" id="node9" href="definitions_8h.html" title="definitions.h" alt="" coords="1292,229,1395,256"/>
+<area shape="rect" id="node10" href="gentime_8h.html" title="gentime.h" alt="" coords="711,304,799,331"/>
+<area shape="rect" id="node22" href="markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="1470,155,1697,181"/>
+<area shape="rect" id="node30" href="sharedframe_8h.html" title="scopes/sharedframe.h" alt="" coords="327,155,493,181"/>
+<area shape="rect" id="node33" href="timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="517,155,657,181"/>
+<area shape="rect" id="node23" href="undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1595,229,1718,256"/>
+<area shape="rect" id="node34" href="timecode_8h.html" title="timecode.h" alt="" coords="465,229,560,256"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a7a5e05af11c27fc81ddce758d3fc1439"><td class="memItemLeft" align="right" valign="top">const QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="abstractscopewidget_8cpp.html#a7a5e05af11c27fc81ddce758d3fc1439">light</a> (250, 238, 226, 255)</td></tr>
+<tr class="separator:a7a5e05af11c27fc81ddce758d3fc1439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3779fdb30c9bd9cf78a971dd6f7ea4"><td class="memItemLeft" align="right" valign="top">const QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="abstractscopewidget_8cpp.html#a7d3779fdb30c9bd9cf78a971dd6f7ea4">dark</a> (40, 40, 39, 255)</td></tr>
+<tr class="separator:a7d3779fdb30c9bd9cf78a971dd6f7ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69739503e9ff263f1d511e2834baed22"><td class="memItemLeft" align="right" valign="top">const QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="abstractscopewidget_8cpp.html#a69739503e9ff263f1d511e2834baed22">dark2</a> (25, 25, 23, 255)</td></tr>
+<tr class="separator:a69739503e9ff263f1d511e2834baed22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+变量</h2></td></tr>
+<tr class="memitem:afafe223af329d3a5778c89bc8e80c377"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="abstractscopewidget_8cpp.html#afafe223af329d3a5778c89bc8e80c377">REALTIME_FPS</a> = 30</td></tr>
+<tr class="separator:afafe223af329d3a5778c89bc8e80c377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="a7d3779fdb30c9bd9cf78a971dd6f7ea4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QColor dark </td>
+          <td>(</td>
+          <td class="paramtype">40&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">40&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">39&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">255&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69739503e9ff263f1d511e2834baed22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QColor dark2 </td>
+          <td>(</td>
+          <td class="paramtype">25&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">25&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">23&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">255&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7a5e05af11c27fc81ddce758d3fc1439"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QColor light </td>
+          <td>(</td>
+          <td class="paramtype">250&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">238&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">226&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">255&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">变量说明</h2>
+<a class="anchor" id="afafe223af329d3a5778c89bc8e80c377"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int REALTIME_FPS = 30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

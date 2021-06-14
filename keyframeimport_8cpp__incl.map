@@ -1,0 +1,17 @@
+<map id="src/assets/view/widgets/keyframeimport.cpp" name="src/assets/view/widgets/keyframeimport.cpp">
+<area shape="rect" id="node15" href="$keyframeview_8hpp.html" title="assets/keyframes/view\l/keyframeview.hpp" alt="" coords="1662,95,1834,136"/>
+<area shape="rect" id="node23" href="$core_8h.html" title="core.h" alt="" coords="1509,191,1571,218"/>
+<area shape="rect" id="node35" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2597,191,2737,218"/>
+<area shape="rect" id="node46" href="$keyframeimport_8h.html" title="keyframeimport.h" alt="" coords="2007,191,2145,218"/>
+<area shape="rect" id="node47" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="5,191,189,218"/>
+<area shape="rect" id="node48" href="$positionwidget_8h.html" title="widgets/positionwidget.h" alt="" coords="1858,102,2043,129"/>
+<area shape="rect" id="node49" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="2919,102,3017,129"/>
+<area shape="rect" id="node16" href="$keyframemodel_8hpp.html" title="assets/keyframes/model\l/keyframemodel.hpp" alt="" coords="315,273,498,315"/>
+<area shape="rect" id="node20" href="$keyframemodellist_8hpp.html" title="assets/keyframes/model\l/keyframemodellist.hpp" alt="" coords="495,184,678,225"/>
+<area shape="rect" id="node17" href="$definitions_8h.html" title="definitions.h" alt="" coords="1366,363,1469,389"/>
+<area shape="rect" id="node19" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="489,363,612,389"/>
+<area shape="rect" id="node24" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="726,281,877,307"/>
+<area shape="rect" id="node26" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="1003,281,1170,307"/>
+<area shape="rect" id="node34" href="$timecode_8h.html" title="timecode.h" alt="" coords="1979,281,2074,307"/>
+<area shape="rect" id="node43" href="$subtitlemodel_8hpp.html" title="../bin/model/subtitlemodel.hpp" alt="" coords="2291,281,2512,307"/>
+</map>

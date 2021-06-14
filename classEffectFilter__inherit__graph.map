@@ -1,0 +1,3 @@
+<map id="EffectFilter" name="EffectFilter">
+<area shape="rect" id="node2" href="$classAssetFilter.html" title="{AssetFilter\n|# m_name_enabled\l# m_name_value\l|+ AssetFilter()\l+ setFilterName()\l+ isVisible()\l+ reloadFilterOnFavorite()\l+ getCategories()\l+ getNextChild()\l+ getPreviousChild()\l+ firstVisibleItem()\l+ getCategory()\l+ getModelIndex()\l+ getProxyIndex()\l# filterAcceptsRow()\l# lessThan()\l# filterName()\l# applyAll()\l}" alt="" coords="5,131,196,428"/>
+</map>

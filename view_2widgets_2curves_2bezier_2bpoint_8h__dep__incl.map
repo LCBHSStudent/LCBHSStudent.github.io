@@ -1,0 +1,13 @@
+<map id="src/assets/view/widgets/curves/bezier/bpoint.h" name="src/assets/view/widgets/curves/bezier/bpoint.h">
+<area shape="rect" id="node2" href="$abstractcurvewidget_8h.html" title="src/assets/view/widgets\l/curves/abstractcurvewidget.h" alt="" coords="270,95,488,136"/>
+<area shape="rect" id="node3" href="$beziersplineeditor_8h.html" title="src/assets/view/widgets\l/curves/bezier/beziersplineeditor.h" alt="" coords="403,191,648,233"/>
+<area shape="rect" id="node10" href="$cubicbezierspline_8h.html" title="src/assets/view/widgets\l/curves/bezier/cubicbezierspline.h" alt="" coords="563,95,806,136"/>
+<area shape="rect" id="node12" href="$view_2widgets_2curves_2bezier_2bpoint_8cpp.html" title="src/assets/view/widgets\l/curves/bezier/bpoint.cpp" alt="" coords="830,95,1016,136"/>
+<area shape="rect" id="node8" href="$kis__curve__widget_8h.html" title="src/assets/view/widgets\l/curves/cubic/kis_curve\l_widget.h" alt="" coords="42,184,220,240"/>
+<area shape="rect" id="node4" href="$abstractparamwidget_8cpp.html" title="src/assets/view/widgets\l/abstractparamwidget.cpp" alt="" coords="258,481,450,523"/>
+<area shape="rect" id="node5" href="$curveparamwidget_8h.html" title="src/assets/view/widgets\l/curves/curveparamwidget.h" alt="" coords="250,392,457,433"/>
+<area shape="rect" id="node6" href="$curveparamwidget_8ipp.html" title="src/assets/view/widgets\l/curves/curveparamwidget.ipp" alt="" coords="244,295,463,337"/>
+<area shape="rect" id="node7" href="$beziersplineeditor_8cpp.html" title="src/assets/view/widgets\l/curves/bezier/beziersplineeditor.cpp" alt="" coords="588,295,848,337"/>
+<area shape="rect" id="node9" href="$kis__curve__widget_8cpp.html" title="src/assets/view/widgets\l/curves/cubic/kis_curve\l_widget.cpp" alt="" coords="42,288,220,344"/>
+<area shape="rect" id="node11" href="$cubicbezierspline_8cpp.html" title="src/assets/view/widgets\l/curves/bezier/cubicbezierspline.cpp" alt="" coords="724,191,981,233"/>
+</map>

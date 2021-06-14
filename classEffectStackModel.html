@@ -1,0 +1,1773 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: EffectStackModel类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="classEffectStackModel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">EffectStackModel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="effectstackmodel_8hpp_source.html">effectstackmodel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 EffectStackModel 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classEffectStackModel__inherit__graph.png" border="0" usemap="#EffectStackModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="EffectStackModel_inherit__map" id="EffectStackModel_inherit__map">
+<area shape="rect" id="node2" href="classAbstractTreeModel.html" title="This class represents a generic tree hierarchy. " alt="" coords="89,145,302,604"/>
+</map>
+</div>
+<div class="dynheader">
+EffectStackModel 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classEffectStackModel__coll__graph.png" border="0" usemap="#EffectStackModel_coll__map" alt="Collaboration graph"/></div>
+<map name="EffectStackModel_coll__map" id="EffectStackModel_coll__map">
+<area shape="rect" id="node2" href="classAbstractTreeModel.html" title="This class represents a generic tree hierarchy. " alt="" coords="89,145,302,604"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:ad466e3b125b145338fb8a6e44ac2d3da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ad466e3b125b145338fb8a6e44ac2d3da">removeEffect</a> (const std::shared_ptr&lt; <a class="el" href="classEffectItemModel.html">EffectItemModel</a> &gt; &amp;effect)</td></tr>
+<tr class="memdesc:ad466e3b125b145338fb8a6e44ac2d3da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an effect from the stack.  <a href="#ad466e3b125b145338fb8a6e44ac2d3da">更多...</a><br /></td></tr>
+<tr class="separator:ad466e3b125b145338fb8a6e44ac2d3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a8fc1c0fdcefa9c9424b4d069e739609a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a8fc1c0fdcefa9c9424b4d069e739609a">modelChanged</a> ()</td></tr>
+<tr class="memdesc:a8fc1c0fdcefa9c9424b4d069e739609a"><td class="mdescLeft">&#160;</td><td class="mdescRight">: This signal is connected to the project clip for bin clips and activates the reload of effects on child (timeline) producers  <a href="#a8fc1c0fdcefa9c9424b4d069e739609a">更多...</a><br /></td></tr>
+<tr class="separator:a8fc1c0fdcefa9c9424b4d069e739609a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52904ccb0282a0d60c8c886646378e14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a52904ccb0282a0d60c8c886646378e14">enabledStateChanged</a> ()</td></tr>
+<tr class="separator:a52904ccb0282a0d60c8c886646378e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f47358e56d1fc88832ca9069a4e536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ac7f47358e56d1fc88832ca9069a4e536">updateMasterZones</a> ()</td></tr>
+<tr class="memdesc:ac7f47358e56d1fc88832ca9069a4e536"><td class="mdescLeft">&#160;</td><td class="mdescRight">: The master effect stack zones changed, update  <a href="#ac7f47358e56d1fc88832ca9069a4e536">更多...</a><br /></td></tr>
+<tr class="separator:ac7f47358e56d1fc88832ca9069a4e536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38fc954c776df98c433fde129604ce16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a38fc954c776df98c433fde129604ce16">currentChanged</a> (QModelIndex ix, bool active)</td></tr>
+<tr class="memdesc:a38fc954c776df98c433fde129604ce16"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Currently active effect changed  <a href="#a38fc954c776df98c433fde129604ce16">更多...</a><br /></td></tr>
+<tr class="separator:a38fc954c776df98c433fde129604ce16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aacb3fa4a7ac196dc895bc0ba4a86f43d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#aacb3fa4a7ac196dc895bc0ba4a86f43d">appendEffect</a> (const QString &amp;effectId, bool makeCurrent=false)</td></tr>
+<tr class="memdesc:aacb3fa4a7ac196dc895bc0ba4a86f43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an effect at the bottom of the stack.  <a href="#aacb3fa4a7ac196dc895bc0ba4a86f43d">更多...</a><br /></td></tr>
+<tr class="separator:aacb3fa4a7ac196dc895bc0ba4a86f43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d9f0aece2ecb764e7a7ef6329a955d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a27d9f0aece2ecb764e7a7ef6329a955d">copyEffect</a> (const std::shared_ptr&lt; <a class="el" href="classAbstractEffectItem.html">AbstractEffectItem</a> &gt; &amp;sourceItem, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, bool logUndo=true)</td></tr>
+<tr class="memdesc:a27d9f0aece2ecb764e7a7ef6329a955d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy an existing effect and append it at the bottom of the stack.  <a href="#a27d9f0aece2ecb764e7a7ef6329a955d">更多...</a><br /></td></tr>
+<tr class="separator:a27d9f0aece2ecb764e7a7ef6329a955d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed9f0793653f5112d6a8b74a325265d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#aed9f0793653f5112d6a8b74a325265d0">copyXmlEffect</a> (QDomElement effect)</td></tr>
+<tr class="separator:aed9f0793653f5112d6a8b74a325265d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37830861e0923fe6264999ffd590e491"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a37830861e0923fe6264999ffd590e491">importEffects</a> (const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;sourceStack, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state)</td></tr>
+<tr class="memdesc:a37830861e0923fe6264999ffd590e491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import all effects from the given effect stack.  <a href="#a37830861e0923fe6264999ffd590e491">更多...</a><br /></td></tr>
+<tr class="separator:a37830861e0923fe6264999ffd590e491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b6a086dd97b49ac2980aa17d45735c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#aa7b6a086dd97b49ac2980aa17d45735c">importEffects</a> (const std::weak_ptr&lt; Mlt::Service &gt; &amp;service, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, bool alreadyExist=false, QString originalDecimalPoint=QString())</td></tr>
+<tr class="separator:aa7b6a086dd97b49ac2980aa17d45735c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a31037772117ece050dceb39bc5ac36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a8a31037772117ece050dceb39bc5ac36">removeFade</a> (bool fromStart)</td></tr>
+<tr class="separator:a8a31037772117ece050dceb39bc5ac36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2d892bed16c2d529514108b6137ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a2d2d892bed16c2d529514108b6137ec8">setEffectStackEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:a2d2d892bed16c2d529514108b6137ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function change the global (timeline-wise) enabled state of the effects.  <a href="#a2d2d892bed16c2d529514108b6137ec8">更多...</a><br /></td></tr>
+<tr class="separator:a2d2d892bed16c2d529514108b6137ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05597ff723e193751d7fe4eec7484eb2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classAbstractEffectItem.html">AbstractEffectItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a05597ff723e193751d7fe4eec7484eb2">getEffectStackRow</a> (int row, const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;parentItem=nullptr)</td></tr>
+<tr class="memdesc:a05597ff723e193751d7fe4eec7484eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an effect or group from the stack (at the given row)  <a href="#a05597ff723e193751d7fe4eec7484eb2">更多...</a><br /></td></tr>
+<tr class="separator:a05597ff723e193751d7fe4eec7484eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46142fe275738fdd1411fd01174f575f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a46142fe275738fdd1411fd01174f575f">getAssetModelById</a> (const QString &amp;effectId)</td></tr>
+<tr class="separator:a46142fe275738fdd1411fd01174f575f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c55315a181d30bc6657e899fa8e66a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#aa2c55315a181d30bc6657e899fa8e66a">moveEffect</a> (int destRow, const std::shared_ptr&lt; <a class="el" href="classAbstractEffectItem.html">AbstractEffectItem</a> &gt; &amp;item)</td></tr>
+<tr class="memdesc:aa2c55315a181d30bc6657e899fa8e66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move an effect in the stack.  <a href="#aa2c55315a181d30bc6657e899fa8e66a">更多...</a><br /></td></tr>
+<tr class="separator:aa2c55315a181d30bc6657e899fa8e66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda03d5fa2dc98d05fef07408625f284"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#abda03d5fa2dc98d05fef07408625f284">setActiveEffect</a> (int ix)</td></tr>
+<tr class="memdesc:abda03d5fa2dc98d05fef07408625f284"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set effect in row as current one.  <a href="#abda03d5fa2dc98d05fef07408625f284">更多...</a><br /></td></tr>
+<tr class="separator:abda03d5fa2dc98d05fef07408625f284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc50cdb5d96c4037e68ea12d999528f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#aebc50cdb5d96c4037e68ea12d999528f">getActiveEffect</a> () const </td></tr>
+<tr class="memdesc:aebc50cdb5d96c4037e68ea12d999528f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get currently active effect row.  <a href="#aebc50cdb5d96c4037e68ea12d999528f">更多...</a><br /></td></tr>
+<tr class="separator:aebc50cdb5d96c4037e68ea12d999528f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919acf9bb8d5c135986e8d14ffb3c8c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a919acf9bb8d5c135986e8d14ffb3c8c0">adjustFadeLength</a> (int duration, bool fromStart, bool audioFade, bool videoFade, bool logUndo)</td></tr>
+<tr class="memdesc:a919acf9bb8d5c135986e8d14ffb3c8c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjust an effect duration (useful for fades)  <a href="#a919acf9bb8d5c135986e8d14ffb3c8c0">更多...</a><br /></td></tr>
+<tr class="separator:a919acf9bb8d5c135986e8d14ffb3c8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab195316db1e718bef322e0e8892c00ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ab195316db1e718bef322e0e8892c00ac">adjustStackLength</a> (bool adjustFromEnd, int oldIn, int oldDuration, int newIn, int duration, int offset, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool logUndo)</td></tr>
+<tr class="separator:ab195316db1e718bef322e0e8892c00ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571b076f3ea55d67621709ef278d5534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a571b076f3ea55d67621709ef278d5534">slotCreateGroup</a> (const std::shared_ptr&lt; <a class="el" href="classEffectItemModel.html">EffectItemModel</a> &gt; &amp;childEffect)</td></tr>
+<tr class="separator:a571b076f3ea55d67621709ef278d5534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f8e01add2afe7695677af631034082e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a5f8e01add2afe7695677af631034082e">getOwnerId</a> () const </td></tr>
+<tr class="memdesc:a5f8e01add2afe7695677af631034082e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the owner of the stack.  <a href="#a5f8e01add2afe7695677af631034082e">更多...</a><br /></td></tr>
+<tr class="separator:a5f8e01add2afe7695677af631034082e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa915cc963ed892de15925ebafe8b0d48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#aa915cc963ed892de15925ebafe8b0d48">getFadePosition</a> (bool fromStart)</td></tr>
+<tr class="separator:aa915cc963ed892de15925ebafe8b0d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8a02248a00ccd6b6464b4a2f32c818"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a2e8a02248a00ccd6b6464b4a2f32c818">adjust</a> (const QString &amp;effectId, const QString &amp;effectName, double value)</td></tr>
+<tr class="separator:a2e8a02248a00ccd6b6464b4a2f32c818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3ded6fca5066cc15e6b50c4fb57d0c"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a1d3ded6fca5066cc15e6b50c4fb57d0c">hasFilter</a> (const QString &amp;effectId) const </td></tr>
+<tr class="memdesc:a1d3ded6fca5066cc15e6b50c4fb57d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the stack contains an effect with the given Id.  <a href="#a1d3ded6fca5066cc15e6b50c4fb57d0c">更多...</a><br /></td></tr>
+<tr class="separator:a1d3ded6fca5066cc15e6b50c4fb57d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62ac89a18af7d84a1fcd10d9bd389582"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a62ac89a18af7d84a1fcd10d9bd389582">filterIndex</a> (const QString &amp;effectId) const </td></tr>
+<tr class="memdesc:a62ac89a18af7d84a1fcd10d9bd389582"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回过滤器下标，若不存在返回 {-1}  <a href="#a62ac89a18af7d84a1fcd10d9bd389582">更多...</a><br /></td></tr>
+<tr class="separator:a62ac89a18af7d84a1fcd10d9bd389582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788d9ca43a64351ca6431fee4e8cc534"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a788d9ca43a64351ca6431fee4e8cc534">getFilterParam</a> (const QString &amp;effectId, const QString &amp;paramName)</td></tr>
+<tr class="separator:a788d9ca43a64351ca6431fee4e8cc534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557fcd86451bff04ea41568d264028a0"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classKeyframeModel.html">KeyframeModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a557fcd86451bff04ea41568d264028a0">getEffectKeyframeModel</a> ()</td></tr>
+<tr class="memdesc:a557fcd86451bff04ea41568d264028a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the active effect's keyframe model  <a href="#a557fcd86451bff04ea41568d264028a0">更多...</a><br /></td></tr>
+<tr class="separator:a557fcd86451bff04ea41568d264028a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ef4ceb9466e6a448f8fd8e987276da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ad8ef4ceb9466e6a448f8fd8e987276da">addEffectKeyFrame</a> (int frame, double normalisedVal)</td></tr>
+<tr class="separator:ad8ef4ceb9466e6a448f8fd8e987276da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af73c709a1ce3a7078281e9a530b30157"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#af73c709a1ce3a7078281e9a530b30157">removeKeyFrame</a> (int frame)</td></tr>
+<tr class="memdesc:af73c709a1ce3a7078281e9a530b30157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a keyframe in all model parameters.  <a href="#af73c709a1ce3a7078281e9a530b30157">更多...</a><br /></td></tr>
+<tr class="separator:af73c709a1ce3a7078281e9a530b30157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8994aae0958355a97b86cf975cb5f67a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a8994aae0958355a97b86cf975cb5f67a">updateKeyFrame</a> (int oldFrame, int newFrame, QVariant normalisedVal)</td></tr>
+<tr class="separator:a8994aae0958355a97b86cf975cb5f67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a705c47e354c4037a7a883e6fa0c74632"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a705c47e354c4037a7a883e6fa0c74632">hasKeyFrame</a> (int frame)</td></tr>
+<tr class="memdesc:a705c47e354c4037a7a883e6fa0c74632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if active effect has a keyframe at pos p.  <a href="#a705c47e354c4037a7a883e6fa0c74632">更多...</a><br /></td></tr>
+<tr class="separator:a705c47e354c4037a7a883e6fa0c74632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae87ea581076f5cd9a41dd9094bd050"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a6ae87ea581076f5cd9a41dd9094bd050">cleanFadeEffects</a> (bool outEffects, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:a6ae87ea581076f5cd9a41dd9094bd050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove unwanted fade effects, mostly after a cut operation.  <a href="#a6ae87ea581076f5cd9a41dd9094bd050">更多...</a><br /></td></tr>
+<tr class="separator:a6ae87ea581076f5cd9a41dd9094bd050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18de102331e561113e701160a4e0fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#af18de102331e561113e701160a4e0fc8">resetService</a> (std::weak_ptr&lt; Mlt::Service &gt; service)</td></tr>
+<tr class="memdesc:af18de102331e561113e701160a4e0fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all the services associated with this stack and replace them with the given one.  <a href="#af18de102331e561113e701160a4e0fc8">更多...</a><br /></td></tr>
+<tr class="separator:af18de102331e561113e701160a4e0fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47af33881a9ec1b5eb2d18d170a6b0fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a47af33881a9ec1b5eb2d18d170a6b0fa">addService</a> (std::weak_ptr&lt; Mlt::Service &gt; service)</td></tr>
+<tr class="memdesc:a47af33881a9ec1b5eb2d18d170a6b0fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a new service to be managed by this stack.  <a href="#a47af33881a9ec1b5eb2d18d170a6b0fa">更多...</a><br /></td></tr>
+<tr class="separator:a47af33881a9ec1b5eb2d18d170a6b0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb81bc4020160405fd35825ec7b9e3a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#acb81bc4020160405fd35825ec7b9e3a9">loadService</a> (std::weak_ptr&lt; Mlt::Service &gt; service)</td></tr>
+<tr class="memdesc:acb81bc4020160405fd35825ec7b9e3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an existing service to be managed by this stack (on document load)  <a href="#acb81bc4020160405fd35825ec7b9e3a9">更多...</a><br /></td></tr>
+<tr class="separator:acb81bc4020160405fd35825ec7b9e3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2d8322171966596cce45fe1603b17e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ae2d8322171966596cce45fe1603b17e1">removeService</a> (const std::shared_ptr&lt; Mlt::Service &gt; &amp;service)</td></tr>
+<tr class="memdesc:ae2d8322171966596cce45fe1603b17e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a service from those managed by this stack.  <a href="#ae2d8322171966596cce45fe1603b17e1">更多...</a><br /></td></tr>
+<tr class="separator:ae2d8322171966596cce45fe1603b17e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdc2bd08fff67f0c7dd018ecb8bcd54"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a1fdc2bd08fff67f0c7dd018ecb8bcd54">effectNames</a> () const </td></tr>
+<tr class="memdesc:a1fdc2bd08fff67f0c7dd018ecb8bcd54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a comma separated list of effect names.  <a href="#a1fdc2bd08fff67f0c7dd018ecb8bcd54">更多...</a><br /></td></tr>
+<tr class="separator:a1fdc2bd08fff67f0c7dd018ecb8bcd54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb8094a055381a1bad171f1fdf8f4c8"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#affb8094a055381a1bad171f1fdf8f4c8">externalFiles</a> () const </td></tr>
+<tr class="memdesc:affb8094a055381a1bad171f1fdf8f4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of external file urls used by the effects (e.g. LUTs)  <a href="#affb8094a055381a1bad171f1fdf8f4c8">更多...</a><br /></td></tr>
+<tr class="separator:affb8094a055381a1bad171f1fdf8f4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a365533403f3919d30400ef58d7fa2118"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a365533403f3919d30400ef58d7fa2118">isStackEnabled</a> () const </td></tr>
+<tr class="separator:a365533403f3919d30400ef58d7fa2118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700a5dbe80deada5c7223d613c4b60bf"><td class="memItemLeft" align="right" valign="top">QDomElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a700a5dbe80deada5c7223d613c4b60bf">toXml</a> (QDomDocument &amp;document)</td></tr>
+<tr class="memdesc:a700a5dbe80deada5c7223d613c4b60bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an XML representation of the effect stack with all parameters.  <a href="#a700a5dbe80deada5c7223d613c4b60bf">更多...</a><br /></td></tr>
+<tr class="separator:a700a5dbe80deada5c7223d613c4b60bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c5c62bc5050fac100ac013eb115466"><td class="memItemLeft" align="right" valign="top">QDomElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ae8c5c62bc5050fac100ac013eb115466">rowToXml</a> (int row, QDomDocument &amp;document)</td></tr>
+<tr class="memdesc:ae8c5c62bc5050fac100ac013eb115466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an XML representation of one of the effect in the stack with all parameters.  <a href="#ae8c5c62bc5050fac100ac013eb115466">更多...</a><br /></td></tr>
+<tr class="separator:ae8c5c62bc5050fac100ac013eb115466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e8219771e0db7bed87380bea50c03f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a28e8219771e0db7bed87380bea50c03f">fromXml</a> (const QDomElement &amp;effectsXml, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:a28e8219771e0db7bed87380bea50c03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an effect stack from an XML representation.  <a href="#a28e8219771e0db7bed87380bea50c03f">更多...</a><br /></td></tr>
+<tr class="separator:a28e8219771e0db7bed87380bea50c03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ea61739cda39ae53b4d60d5ca593fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#af8ea61739cda39ae53b4d60d5ca593fa">removeCurrentEffect</a> ()</td></tr>
+<tr class="memdesc:af8ea61739cda39ae53b4d60d5ca593fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete active effect from stack.  <a href="#af8ea61739cda39ae53b4d60d5ca593fa">更多...</a><br /></td></tr>
+<tr class="separator:af8ea61739cda39ae53b4d60d5ca593fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210ffdd6bcf96b284a57ae8a97e7ff48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a210ffdd6bcf96b284a57ae8a97e7ff48">checkConsistency</a> () override</td></tr>
+<tr class="memdesc:a210ffdd6bcf96b284a57ae8a97e7ff48"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a convenience function that helps check if the tree is in a valid state.  <a href="#a210ffdd6bcf96b284a57ae8a97e7ff48">更多...</a><br /></td></tr>
+<tr class="separator:a210ffdd6bcf96b284a57ae8a97e7ff48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c51b9708a326c37f73ccf4ed377603"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a77c51b9708a326c37f73ccf4ed377603">hasEffect</a> (const QString &amp;assetId) const </td></tr>
+<tr class="memdesc:a77c51b9708a326c37f73ccf4ed377603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if an asset id is already added to this effect stack.  <a href="#a77c51b9708a326c37f73ccf4ed377603">更多...</a><br /></td></tr>
+<tr class="separator:a77c51b9708a326c37f73ccf4ed377603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d9bf35e67ab49e8f5215d941c5c547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#af6d9bf35e67ab49e8f5215d941c5c547">removeAllEffects</a> (<a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:af6d9bf35e67ab49e8f5215d941c5c547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all effects for this stack.  <a href="#af6d9bf35e67ab49e8f5215d941c5c547">更多...</a><br /></td></tr>
+<tr class="separator:af6d9bf35e67ab49e8f5215d941c5c547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007ae07c916eb84950b48b6c65526c67"><td class="memItemLeft" align="right" valign="top">QVariantList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a007ae07c916eb84950b48b6c65526c67">getEffectZones</a> () const </td></tr>
+<tr class="memdesc:a007ae07c916eb84950b48b6c65526c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of zones for all effects.  <a href="#a007ae07c916eb84950b48b6c65526c67">更多...</a><br /></td></tr>
+<tr class="separator:a007ae07c916eb84950b48b6c65526c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classAbstractTreeModel"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAbstractTreeModel')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a></td></tr>
+<tr class="memitem:a455f2d9e898a977674d1f1415172519a inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a455f2d9e898a977674d1f1415172519a">~AbstractTreeModel</a> () override</td></tr>
+<tr class="separator:a455f2d9e898a977674d1f1415172519a inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1750fa0de07caf7e2edfb587b55100 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a0d1750fa0de07caf7e2edfb587b55100">getIndexFromItem</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;item) const </td></tr>
+<tr class="memdesc:a0d1750fa0de07caf7e2edfb587b55100 inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an item from the hierarchy, construct the corresponding ModelIndex.  <a href="#a0d1750fa0de07caf7e2edfb587b55100">更多...</a><br /></td></tr>
+<tr class="separator:a0d1750fa0de07caf7e2edfb587b55100 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03e5398a27991ed8a650ef6cda5bb0f1 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a03e5398a27991ed8a650ef6cda5bb0f1">getIndexFromId</a> (int id) const </td></tr>
+<tr class="memdesc:a03e5398a27991ed8a650ef6cda5bb0f1 inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an item id, construct the corresponding ModelIndex.  <a href="#a03e5398a27991ed8a650ef6cda5bb0f1">更多...</a><br /></td></tr>
+<tr class="separator:a03e5398a27991ed8a650ef6cda5bb0f1 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33cbd0471c26e104b28f72b49de5931 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#ab33cbd0471c26e104b28f72b49de5931">getItemById</a> (int id) const </td></tr>
+<tr class="memdesc:ab33cbd0471c26e104b28f72b49de5931 inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a ptr to an item given its id.  <a href="#ab33cbd0471c26e104b28f72b49de5931">更多...</a><br /></td></tr>
+<tr class="separator:ab33cbd0471c26e104b28f72b49de5931 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a147bb0582c80a344410969e8d3b5e0e0 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a147bb0582c80a344410969e8d3b5e0e0">getRoot</a> () const </td></tr>
+<tr class="memdesc:a147bb0582c80a344410969e8d3b5e0e0 inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a ptr to the root of the tree.  <a href="#a147bb0582c80a344410969e8d3b5e0e0">更多...</a><br /></td></tr>
+<tr class="separator:a147bb0582c80a344410969e8d3b5e0e0 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422ba3dcdacae83c464067e03b54c392 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a422ba3dcdacae83c464067e03b54c392">data</a> (const QModelIndex &amp;<a class="el" href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">index</a>, int role) const  override</td></tr>
+<tr class="separator:a422ba3dcdacae83c464067e03b54c392 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb5a80cab7c299b7296212f6316d5fe inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">Qt::ItemFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#aefb5a80cab7c299b7296212f6316d5fe">flags</a> (const QModelIndex &amp;<a class="el" href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">index</a>) const  override</td></tr>
+<tr class="separator:aefb5a80cab7c299b7296212f6316d5fe inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49bf2a0698282d80c9d10488352935c inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#ab49bf2a0698282d80c9d10488352935c">headerData</a> (int section, Qt::Orientation orientation, int role=Qt::DisplayRole) const  override</td></tr>
+<tr class="separator:ab49bf2a0698282d80c9d10488352935c inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84faffe11e274cc2c39bda6186c9ee8e inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">index</a> (int row, int column, const QModelIndex &amp;<a class="el" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a>=QModelIndex()) const  override</td></tr>
+<tr class="separator:a84faffe11e274cc2c39bda6186c9ee8e inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5715ea0a2f64ffee9c5344b050880a inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a> (const QModelIndex &amp;<a class="el" href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">index</a>) const  override</td></tr>
+<tr class="separator:aec5715ea0a2f64ffee9c5344b050880a inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390614e16a3221455793dc7cef013992 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a390614e16a3221455793dc7cef013992">rowCount</a> (const QModelIndex &amp;<a class="el" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a>=QModelIndex()) const  override</td></tr>
+<tr class="separator:a390614e16a3221455793dc7cef013992 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91b60db21134c2fa892c1e30eb4f514d inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a91b60db21134c2fa892c1e30eb4f514d">columnCount</a> (const QModelIndex &amp;<a class="el" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a>=QModelIndex()) const  override</td></tr>
+<tr class="separator:a91b60db21134c2fa892c1e30eb4f514d inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbe6e4d5b1fab423a6f66e116b4345f6 inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#afbe6e4d5b1fab423a6f66e116b4345f6">addItem_lambda</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;new_item, int parentId)</td></tr>
+<tr class="memdesc:afbe6e4d5b1fab423a6f66e116b4345f6 inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to generate a lambda that adds an item to the tree.  <a href="#afbe6e4d5b1fab423a6f66e116b4345f6">更多...</a><br /></td></tr>
+<tr class="separator:afbe6e4d5b1fab423a6f66e116b4345f6 inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84d227723a4b3ae2e38f9c40ac3ee1b inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#af84d227723a4b3ae2e38f9c40ac3ee1b">removeItem_lambda</a> (int id)</td></tr>
+<tr class="memdesc:af84d227723a4b3ae2e38f9c40ac3ee1b inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to generate a lambda that removes an item from the tree.  <a href="#af84d227723a4b3ae2e38f9c40ac3ee1b">更多...</a><br /></td></tr>
+<tr class="separator:af84d227723a4b3ae2e38f9c40ac3ee1b inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67158c0af211f5456979964e35e03fff inherit pub_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a67158c0af211f5456979964e35e03fff">moveItem_lambda</a> (int id, int destRow, bool force=false)</td></tr>
+<tr class="memdesc:a67158c0af211f5456979964e35e03fff inherit pub_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to generate a lambda that changes the row of an item.  <a href="#a67158c0af211f5456979964e35e03fff">更多...</a><br /></td></tr>
+<tr class="separator:a67158c0af211f5456979964e35e03fff inherit pub_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a3d1eab293b2f93c9e108468ea408a274"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a3d1eab293b2f93c9e108468ea408a274">construct</a> (std::weak_ptr&lt; Mlt::Service &gt; service, <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> ownerId, std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; undo_stack)</td></tr>
+<tr class="memdesc:a3d1eab293b2f93c9e108468ea408a274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an effect stack and returns a shared ptr to the constructed object.  <a href="#a3d1eab293b2f93c9e108468ea408a274">更多...</a><br /></td></tr>
+<tr class="separator:a3d1eab293b2f93c9e108468ea408a274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classAbstractTreeModel"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classAbstractTreeModel')"><img src="closed.png" alt="-"/>&#160;静态 Public 成员函数 继承自 <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a></td></tr>
+<tr class="memitem:a2729ffd8fb5da8e08d842af60407a2e4 inherit pub_static_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a2729ffd8fb5da8e08d842af60407a2e4">construct</a> (QObject *<a class="el" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a>=nullptr)</td></tr>
+<tr class="memdesc:a2729ffd8fb5da8e08d842af60407a2e4 inherit pub_static_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a TreeModel.  <a href="#a2729ffd8fb5da8e08d842af60407a2e4">更多...</a><br /></td></tr>
+<tr class="separator:a2729ffd8fb5da8e08d842af60407a2e4 inherit pub_static_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a3a161c0f5b3fc47560788a0e95291a24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a3a161c0f5b3fc47560788a0e95291a24">EffectStackModel</a> (std::weak_ptr&lt; Mlt::Service &gt; service, <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> ownerId, std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; undo_stack)</td></tr>
+<tr class="separator:a3a161c0f5b3fc47560788a0e95291a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcf413491a2b64748cddfce71a306cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a9fcf413491a2b64748cddfce71a306cd">registerItem</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;item) override</td></tr>
+<tr class="memdesc:a9fcf413491a2b64748cddfce71a306cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the existence of a new element.  <a href="#a9fcf413491a2b64748cddfce71a306cd">更多...</a><br /></td></tr>
+<tr class="separator:a9fcf413491a2b64748cddfce71a306cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a7a46c68c497ae7b45e6589b5b8170c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a5a7a46c68c497ae7b45e6589b5b8170c">deregisterItem</a> (int id, <a class="el" href="classTreeItem.html">TreeItem</a> *item) override</td></tr>
+<tr class="memdesc:a5a7a46c68c497ae7b45e6589b5b8170c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregister the existence of a new element.  <a href="#a5a7a46c68c497ae7b45e6589b5b8170c">更多...</a><br /></td></tr>
+<tr class="separator:a5a7a46c68c497ae7b45e6589b5b8170c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classAbstractTreeModel"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classAbstractTreeModel')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a></td></tr>
+<tr class="memitem:ab5f920f46e3f37025c57910c51ee6480 inherit pro_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#ab5f920f46e3f37025c57910c51ee6480">AbstractTreeModel</a> (QObject *<a class="el" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a>=nullptr)</td></tr>
+<tr class="separator:ab5f920f46e3f37025c57910c51ee6480 inherit pro_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992bb9860859b250717433f600d788e0 inherit pro_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a992bb9860859b250717433f600d788e0">notifyRowAboutToAppend</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;item)</td></tr>
+<tr class="memdesc:a992bb9860859b250717433f600d788e0 inherit pro_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the appropriate notification related to a row that we are appending.  <a href="#a992bb9860859b250717433f600d788e0">更多...</a><br /></td></tr>
+<tr class="separator:a992bb9860859b250717433f600d788e0 inherit pro_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e481b2ed03c3f4995a3c38d12181d9e inherit pro_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a4e481b2ed03c3f4995a3c38d12181d9e">notifyRowAppended</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;row)</td></tr>
+<tr class="memdesc:a4e481b2ed03c3f4995a3c38d12181d9e inherit pro_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the appropriate notification related to a row that we have appended.  <a href="#a4e481b2ed03c3f4995a3c38d12181d9e">更多...</a><br /></td></tr>
+<tr class="separator:a4e481b2ed03c3f4995a3c38d12181d9e inherit pro_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851f7b179430faef6b95c0b43f9125ba inherit pro_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a851f7b179430faef6b95c0b43f9125ba">notifyRowAboutToDelete</a> (std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; item, int row)</td></tr>
+<tr class="memdesc:a851f7b179430faef6b95c0b43f9125ba inherit pro_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the appropriate notification related to a row that we are deleting.  <a href="#a851f7b179430faef6b95c0b43f9125ba">更多...</a><br /></td></tr>
+<tr class="separator:a851f7b179430faef6b95c0b43f9125ba inherit pro_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17a7ad7c626959c1083a2afe3fac3dc inherit pro_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#ad17a7ad7c626959c1083a2afe3fac3dc">notifyRowDeleted</a> ()</td></tr>
+<tr class="memdesc:ad17a7ad7c626959c1083a2afe3fac3dc inherit pro_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the appropriate notification related to a row that we have appended.  <a href="#ad17a7ad7c626959c1083a2afe3fac3dc">更多...</a><br /></td></tr>
+<tr class="separator:ad17a7ad7c626959c1083a2afe3fac3dc inherit pro_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a1b25858f116328b41cfe691feb6ecf5b"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a1b25858f116328b41cfe691feb6ecf5b">m_masterService</a></td></tr>
+<tr class="separator:a1b25858f116328b41cfe691feb6ecf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56b14c8221af02cc5ae209d1fea6ff2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::weak_ptr&lt; Mlt::Service &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#ab56b14c8221af02cc5ae209d1fea6ff2">m_childServices</a></td></tr>
+<tr class="separator:ab56b14c8221af02cc5ae209d1fea6ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af69724cb71b894cca15187da48174031"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#af69724cb71b894cca15187da48174031">m_effectStackEnabled</a></td></tr>
+<tr class="separator:af69724cb71b894cca15187da48174031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e98e79c164f26819cefad9e2c5a4e35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a9e98e79c164f26819cefad9e2c5a4e35">m_ownerId</a></td></tr>
+<tr class="separator:a9e98e79c164f26819cefad9e2c5a4e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93d99732d39ed26a0be60f31025576d5"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffectStackModel.html#a93d99732d39ed26a0be60f31025576d5">m_undoStack</a></td></tr>
+<tr class="separator:a93d99732d39ed26a0be60f31025576d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classAbstractTreeModel"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classAbstractTreeModel')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a></td></tr>
+<tr class="memitem:a96b3dd1dbaa90a1fad19f7653cf92a27 inherit pro_attribs_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a96b3dd1dbaa90a1fad19f7653cf92a27">rootItem</a></td></tr>
+<tr class="separator:a96b3dd1dbaa90a1fad19f7653cf92a27 inherit pro_attribs_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6d46bcf96d984e30f3499032ce89b6 inherit pro_attribs_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, std::weak_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#aad6d46bcf96d984e30f3499032ce89b6">m_allItems</a></td></tr>
+<tr class="separator:aad6d46bcf96d984e30f3499032ce89b6 inherit pro_attribs_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pro_static_methods_classAbstractTreeModel"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classAbstractTreeModel')"><img src="closed.png" alt="-"/>&#160;静态 Protected 成员函数 继承自 <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a></td></tr>
+<tr class="memitem:a666260a351f40d329897f2d34fd39e5f inherit pro_static_methods_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a666260a351f40d329897f2d34fd39e5f">getNextId</a> ()</td></tr>
+<tr class="memdesc:a666260a351f40d329897f2d34fd39e5f inherit pro_static_methods_classAbstractTreeModel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next valid id to give to a new element.  <a href="#a666260a351f40d329897f2d34fd39e5f">更多...</a><br /></td></tr>
+<tr class="separator:a666260a351f40d329897f2d34fd39e5f inherit pro_static_methods_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_classAbstractTreeModel"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classAbstractTreeModel')"><img src="closed.png" alt="-"/>&#160;静态 Protected 属性 继承自 <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a></td></tr>
+<tr class="memitem:a53047122c2c69b717fa5865a9fa91417 inherit pro_static_attribs_classAbstractTreeModel"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractTreeModel.html#a53047122c2c69b717fa5865a9fa91417">currentTreeId</a> = 0</td></tr>
+<tr class="separator:a53047122c2c69b717fa5865a9fa91417 inherit pro_static_attribs_classAbstractTreeModel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a3a161c0f5b3fc47560788a0e95291a24"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EffectStackModel::EffectStackModel </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>ownerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td>
+          <td class="paramname"><em>undo_stack</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="ad8ef4ceb9466e6a448f8fd8e987276da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::addEffectKeyFrame </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>normalisedVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add a keyframe in all model parameters </p>
+
+</div>
+</div>
+<a class="anchor" id="a47af33881a9ec1b5eb2d18d170a6b0fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::addService </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a new service to be managed by this stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e8a02248a00ccd6b6464b4a2f32c818"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::adjust </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a919acf9bb8d5c135986e8d14ffb3c8c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::adjustFadeLength </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fromStart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>audioFade</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>videoFade</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adjust an effect duration (useful for fades) </p>
+
+</div>
+</div>
+<a class="anchor" id="ab195316db1e718bef322e0e8892c00ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::adjustStackLength </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>adjustFromEnd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldIn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newIn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aacb3fa4a7ac196dc895bc0ba4a86f43d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::appendEffect </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>makeCurrent</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add an effect at the bottom of the stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="a210ffdd6bcf96b284a57ae8a97e7ff48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::checkConsistency </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a convenience function that helps check if the tree is in a valid state. </p>
+
+<p>重载 <a class="el" href="classAbstractTreeModel.html#a313bb8c738acff7cb3cd8a016f628aeb">AbstractTreeModel</a> .</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ae87ea581076f5cd9a41dd9094bd050"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::cleanFadeEffects </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>outEffects</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove unwanted fade effects, mostly after a cut operation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d1eab293b2f93c9e108468ea408a274"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; EffectStackModel::construct </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>ownerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td>
+          <td class="paramname"><em>undo_stack</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs an effect stack and returns a shared ptr to the constructed object. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">service</td><td>is the mlt object on which we will plant the effects </td></tr>
+    <tr><td class="paramname">ownerId</td><td>is some information about the actual object to which the effects are applied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a27d9f0aece2ecb764e7a7ef6329a955d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::copyEffect </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classAbstractEffectItem.html">AbstractEffectItem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sourceItem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy an existing effect and append it at the bottom of the stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed9f0793653f5112d6a8b74a325265d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::copyXmlEffect </td>
+          <td>(</td>
+          <td class="paramtype">QDomElement&#160;</td>
+          <td class="paramname"><em>effect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a38fc954c776df98c433fde129604ce16"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::currentChanged </td>
+          <td>(</td>
+          <td class="paramtype">QModelIndex&#160;</td>
+          <td class="paramname"><em>ix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>active</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>: Currently active effect changed </p>
+
+</div>
+</div>
+<a class="anchor" id="a5a7a46c68c497ae7b45e6589b5b8170c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::deregisterItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTreeItem.html">TreeItem</a> *&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deregister the existence of a new element. </p>
+
+<p>重载 <a class="el" href="classAbstractTreeModel.html#a4e384b9e99733e636a0dfd32d1e06cb7">AbstractTreeModel</a> .</p>
+
+</div>
+</div>
+<a class="anchor" id="a1fdc2bd08fff67f0c7dd018ecb8bcd54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString EffectStackModel::effectNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a comma separated list of effect names. </p>
+
+</div>
+</div>
+<a class="anchor" id="a52904ccb0282a0d60c8c886646378e14"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::enabledStateChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="affb8094a055381a1bad171f1fdf8f4c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList EffectStackModel::externalFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of external file urls used by the effects (e.g. LUTs) </p>
+
+</div>
+</div>
+<a class="anchor" id="a62ac89a18af7d84a1fcd10d9bd389582"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int EffectStackModel::filterIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>返回过滤器下标，若不存在返回 {-1} </p>
+
+</div>
+</div>
+<a class="anchor" id="a28e8219771e0db7bed87380bea50c03f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::fromXml </td>
+          <td>(</td>
+          <td class="paramtype">const QDomElement &amp;&#160;</td>
+          <td class="paramname"><em>effectsXml</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load an effect stack from an XML representation. </p>
+
+</div>
+</div>
+<a class="anchor" id="aebc50cdb5d96c4037e68ea12d999528f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int EffectStackModel::getActiveEffect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get currently active effect row. </p>
+
+</div>
+</div>
+<a class="anchor" id="a46142fe275738fdd1411fd01174f575f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; EffectStackModel::getAssetModelById </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a557fcd86451bff04ea41568d264028a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classKeyframeModel.html">KeyframeModel</a> * EffectStackModel::getEffectKeyframeModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the active effect's keyframe model </p>
+
+</div>
+</div>
+<a class="anchor" id="a05597ff723e193751d7fe4eec7484eb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classAbstractEffectItem.html">AbstractEffectItem</a> &gt; EffectStackModel::getEffectStackRow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parentItem</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an effect or group from the stack (at the given row) </p>
+
+</div>
+</div>
+<a class="anchor" id="a007ae07c916eb84950b48b6c65526c67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariantList EffectStackModel::getEffectZones </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of zones for all effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa915cc963ed892de15925ebafe8b0d48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int EffectStackModel::getFadePosition </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fromStart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a788d9ca43a64351ca6431fee4e8cc534"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double EffectStackModel::getFilterParam </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>paramName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f8e01add2afe7695677af631034082e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> EffectStackModel::getOwnerId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the id of the owner of the stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="a77c51b9708a326c37f73ccf4ed377603"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::hasEffect </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>assetId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true if an asset id is already added to this effect stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1d3ded6fca5066cc15e6b50c4fb57d0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::hasFilter </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the stack contains an effect with the given Id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a705c47e354c4037a7a883e6fa0c74632"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::hasKeyFrame </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if active effect has a keyframe at pos p. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37830861e0923fe6264999ffd590e491"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::importEffects </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sourceStack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Import all effects from the given effect stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7b6a086dd97b49ac2980aa17d45735c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::importEffects </td>
+          <td>(</td>
+          <td class="paramtype">const std::weak_ptr&lt; Mlt::Service &gt; &amp;&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>alreadyExist</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>originalDecimalPoint</em> = <code>QString()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a365533403f3919d30400ef58d7fa2118"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::isStackEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb81bc4020160405fd35825ec7b9e3a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::loadService </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append an existing service to be managed by this stack (on document load) </p>
+
+</div>
+</div>
+<a class="anchor" id="a8fc1c0fdcefa9c9424b4d069e739609a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::modelChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>: This signal is connected to the project clip for bin clips and activates the reload of effects on child (timeline) producers </p>
+
+</div>
+</div>
+<a class="anchor" id="aa2c55315a181d30bc6657e899fa8e66a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::moveEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destRow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classAbstractEffectItem.html">AbstractEffectItem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move an effect in the stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9fcf413491a2b64748cddfce71a306cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::registerItem </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register the existence of a new element. </p>
+
+<p>重载 <a class="el" href="classAbstractTreeModel.html#ac4353a911aeeafe5d55661338383a49a">AbstractTreeModel</a> .</p>
+
+</div>
+</div>
+<a class="anchor" id="af6d9bf35e67ab49e8f5215d941c5c547"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::removeAllEffects </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove all effects for this stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="af8ea61739cda39ae53b4d60d5ca593fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::removeCurrentEffect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete active effect from stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad466e3b125b145338fb8a6e44ac2d3da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::removeEffect </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classEffectItemModel.html">EffectItemModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>effect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete an effect from the stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a31037772117ece050dceb39bc5ac36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::removeFade </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fromStart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af73c709a1ce3a7078281e9a530b30157"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::removeKeyFrame </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove a keyframe in all model parameters. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae2d8322171966596cce45fe1603b17e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::removeService </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; Mlt::Service &gt; &amp;&#160;</td>
+          <td class="paramname"><em>service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove a service from those managed by this stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="af18de102331e561113e701160a4e0fc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::resetService </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove all the services associated with this stack and replace them with the given one. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae8c5c62bc5050fac100ac013eb115466"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDomElement EffectStackModel::rowToXml </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDomDocument &amp;&#160;</td>
+          <td class="paramname"><em>document</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an XML representation of one of the effect in the stack with all parameters. </p>
+
+</div>
+</div>
+<a class="anchor" id="abda03d5fa2dc98d05fef07408625f284"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::setActiveEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set effect in row as current one. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d2d892bed16c2d529514108b6137ec8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::setEffectStackEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function change the global (timeline-wise) enabled state of the effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="a571b076f3ea55d67621709ef278d5534"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::slotCreateGroup </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classEffectItemModel.html">EffectItemModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>childEffect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a700a5dbe80deada5c7223d613c4b60bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDomElement EffectStackModel::toXml </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&#160;</td>
+          <td class="paramname"><em>document</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an XML representation of the effect stack with all parameters. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8994aae0958355a97b86cf975cb5f67a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::updateKeyFrame </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>normalisedVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Update a keyframe in all model parameters (with value updated only in first parameter) </p>
+
+</div>
+</div>
+<a class="anchor" id="ac7f47358e56d1fc88832ca9069a4e536"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EffectStackModel::updateMasterZones </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>: The master effect stack zones changed, update </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ab56b14c8221af02cc5ae209d1fea6ff2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::weak_ptr&lt;Mlt::Service&gt; &gt; EffectStackModel::m_childServices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af69724cb71b894cca15187da48174031"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EffectStackModel::m_effectStackEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1b25858f116328b41cfe691feb6ecf5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::weak_ptr&lt;Mlt::Service&gt; EffectStackModel::m_masterService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9e98e79c164f26819cefad9e2c5a4e35"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> EffectStackModel::m_ownerId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a93d99732d39ed26a0be60f31025576d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::weak_ptr&lt;<a class="el" href="classDocUndoStack.html">DocUndoStack</a>&gt; EffectStackModel::m_undoStack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/effects/effectstack/model/<a class="el" href="effectstackmodel_8hpp_source.html">effectstackmodel.hpp</a></li>
+<li>src/effects/effectstack/model/<a class="el" href="effectstackmodel_8cpp.html">effectstackmodel.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

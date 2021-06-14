@@ -1,0 +1,13 @@
+<map id="src/timeline2/model/moveableItem.ipp" name="src/timeline2/model/moveableItem.ipp">
+<area shape="rect" id="node2" href="$moveableItem_8hpp.html" title="src/timeline2/model\l/moveableItem.hpp" alt="" coords="689,95,841,136"/>
+<area shape="rect" id="node3" href="$clipmodel_8hpp.html" title="src/timeline2/model\l/clipmodel.hpp" alt="" coords="596,184,748,225"/>
+<area shape="rect" id="node11" href="$compositionmodel_8hpp.html" title="src/timeline2/model\l/compositionmodel.hpp" alt="" coords="773,184,947,225"/>
+<area shape="rect" id="node4" href="$meltBuilder_8cpp.html" title="src/timeline2/model\l/builders/meltBuilder.cpp" alt="" coords="5,273,189,315"/>
+<area shape="rect" id="node5" href="$clipmodel_8cpp.html" title="src/timeline2/model\l/clipmodel.cpp" alt="" coords="213,273,365,315"/>
+<area shape="rect" id="node6" href="$timelinefunctions_8cpp.html" title="src/timeline2/model\l/timelinefunctions.cpp" alt="" coords="390,273,557,315"/>
+<area shape="rect" id="node7" href="$timelineitemmodel_8cpp.html" title="src/timeline2/model\l/timelineitemmodel.cpp" alt="" coords="581,273,760,315"/>
+<area shape="rect" id="node8" href="$timelinemodel_8cpp.html" title="src/timeline2/model\l/timelinemodel.cpp" alt="" coords="784,273,936,315"/>
+<area shape="rect" id="node9" href="$trackmodel_8cpp.html" title="src/timeline2/model\l/trackmodel.cpp" alt="" coords="960,273,1112,315"/>
+<area shape="rect" id="node10" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="1136,273,1304,315"/>
+<area shape="rect" id="node12" href="$compositionmodel_8cpp.html" title="src/timeline2/model\l/compositionmodel.cpp" alt="" coords="1329,273,1503,315"/>
+</map>

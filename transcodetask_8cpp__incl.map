@@ -1,0 +1,15 @@
+<map id="src/jobs/transcodetask.cpp" name="src/jobs/transcodetask.cpp">
+<area shape="rect" id="node2" href="$transcodetask_8h.html" title="transcodetask.h" alt="" coords="428,80,555,107"/>
+<area shape="rect" id="node5" href="$bin_8h.html" title="bin/bin.h" alt="" coords="979,155,1057,181"/>
+<area shape="rect" id="node24" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="1255,80,1371,107"/>
+<area shape="rect" id="node39" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="333,155,460,181"/>
+<area shape="rect" id="node40" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="233,80,373,107"/>
+<area shape="rect" id="node41" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1056,80,1231,107"/>
+<area shape="rect" id="node42" href="$clipcreator_8hpp.html" title="bin/clipcreator.hpp" alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node43" href="$core_8h.html" title="core.h" alt="" coords="503,155,565,181"/>
+<area shape="rect" id="node44" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="709,80,849,107"/>
+<area shape="rect" id="node46" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="1614,80,1713,107"/>
+<area shape="rect" id="node3" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="194,155,309,181"/>
+<area shape="rect" id="node6" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="70,229,233,256"/>
+<area shape="rect" id="node7" href="$timecode_8h.html" title="timecode.h" alt="" coords="452,229,547,256"/>
+</map>

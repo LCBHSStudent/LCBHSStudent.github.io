@@ -1,0 +1,138 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/qml/qmlcursorarea.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1d81f7f4362e4398c0a695c4e466fcb0.html">qml</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">qmlcursorarea.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="qmlcursorarea_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef QML_CURSORAREA_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define QML_CURSORAREA_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QQuickItem&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QQmlComponent&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="symbols_8h.html">symbols.h</a>&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classQmlCursorArea.html">QmlCursorArea</a>: <span class="keyword">public</span> QQuickItem {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    </div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    Q_ENUMS(<a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5a">Cursor</a>)</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    </div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a006135db5c0df75c34a614d4ea0612e4">   13</a></span>&#160;    Q_PROPERTY(QQmlComponent *<a class="code" href="classQmlCursorArea.html#a74dc2e1a044a1f05bccc25eaaa65432c">delegate</a> READ <a class="code" href="classQmlCursorArea.html#a74dc2e1a044a1f05bccc25eaaa65432c">delegate</a> WRITE <a class="code" href="classQmlCursorArea.html#a9df32479e531d42195c26dea44c76815">setDelegate</a> NOTIFY <a class="code" href="classQmlCursorArea.html#a261480894669e5ba8934dd26a8b534a6">delegateChanged</a>)</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    </div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;public:</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5a">   16</a></span>&#160;    enum <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5a">Cursor</a> {</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa231b66673a0398eb466086e63832c5f9">   17</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa231b66673a0398eb466086e63832c5f9">DefaultCursor</a>,</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa16eeed38c011f9336484a12532e31e4d">   18</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa16eeed38c011f9336484a12532e31e4d">IBeamCursor</a>,</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa7f7e9efc2715507c55ca0c85d8ab21e9">   19</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa7f7e9efc2715507c55ca0c85d8ab21e9">ArrowCursor</a>,</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa76ca7bae06a36680cf815563cf818bb1">   20</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa76ca7bae06a36680cf815563cf818bb1">SizeHorCursor</a>,</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa590d8498ee5e3109bcc919868b7ef553">   21</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa590d8498ee5e3109bcc919868b7ef553">SizeVerCursor</a>,</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa00383ca5cd6d0e1a439fc8078fa63344">   22</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa00383ca5cd6d0e1a439fc8078fa63344">SizeAllCursor</a>,</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aad046833838da1512a1062182a665f358">   23</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aad046833838da1512a1062182a665f358">SplitHCursor</a>,</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aadb1a608e04c512a8052eb33b50a109bb">   24</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aadb1a608e04c512a8052eb33b50a109bb">SplitVCursor</a>,</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa613c7fb493c5754f02887d78a1a79bfe">   25</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa613c7fb493c5754f02887d78a1a79bfe">WaitCursor</a>,</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aac4f7903fa8573b85ce3ef48879e9e32d">   26</a></span>&#160;        <a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aac4f7903fa8573b85ce3ef48879e9e32d">PointingHandCursor</a></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">private</span>:    </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="symbols_8h.html#abe84af8643f76f1dfdee7cdb18f418bb">REGISTER_PROPERTY</a>(<a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5a">Cursor</a>, cursor)</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="symbols_8h.html#abe84af8643f76f1dfdee7cdb18f418bb">REGISTER_PROPERTY</a>(<span class="keywordtype">int</span>, hotX)</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="symbols_8h.html#abe84af8643f76f1dfdee7cdb18f418bb">REGISTER_PROPERTY</a>(<span class="keywordtype">int</span>, hotY)</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;public:</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    explicit </div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classQmlCursorArea.html">QmlCursorArea</a>(QQuickItem* parent = <span class="keywordtype">nullptr</span>);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    virtual </div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        ~<a class="code" href="classQmlCursorArea.html">QmlCursorArea</a>();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    QQmlComponent* </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classQmlCursorArea.html#a74dc2e1a044a1f05bccc25eaaa65432c">delegate</a>() const;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    Q_INVOKABLE static <span class="keywordtype">void</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classQmlCursorArea.html#a14a3f30c5e630835a4ab792382d4e4ff">setCursor</a>(<a class="code" href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5a">Cursor</a>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> </div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classQmlCursorArea.html#a9df32479e531d42195c26dea44c76815">setDelegate</a>(QQmlComponent* <a class="code" href="classQmlCursorArea.html#a74dc2e1a044a1f05bccc25eaaa65432c">delegate</a>);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;signals:</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlCursorArea.html#a79a79918d54e84bcd27ea651ec973439">cursorChanged</a>();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlCursorArea.html#a261480894669e5ba8934dd26a8b534a6">delegateChanged</a>();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlCursorArea.html#a4b9ff1fbddb647abddd453926c7c834c">hotXChanged</a>();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlCursorArea.html#a61262c81ffab5733b88d3051bd97b8ef">hotYChanged</a>();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    </div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;protected:</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlCursorArea.html#a7b7af1a30bbeb1b7d2eb3a3ae5508b15">hoverEnterEvent</a>(QHoverEvent *event);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlCursorArea.html#ae250be6a894344f5a9cddcbbf579d8f1">hoverLeaveEvent</a>(QHoverEvent *event);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    </div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;private:</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    QQmlComponent* </div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        m_delegate = <span class="keywordtype">nullptr</span>;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    </div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    QCursor </div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        createCustomCursor();</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif // QML_CURSORAREA_H</span></div><div class="ttc" id="classQmlCursorArea_html_a14a3f30c5e630835a4ab792382d4e4ff"><div class="ttname"><a href="classQmlCursorArea.html#a14a3f30c5e630835a4ab792382d4e4ff">QmlCursorArea::setCursor</a></div><div class="ttdeci">static Q_INVOKABLE void setCursor(Cursor)</div><div class="ttdef"><b>Definition:</b> qmlcursorarea.cpp:34</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5a"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5a">QmlCursorArea::Cursor</a></div><div class="ttdeci">Cursor</div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:16</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa16eeed38c011f9336484a12532e31e4d"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa16eeed38c011f9336484a12532e31e4d">QmlCursorArea::IBeamCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:18</div></div>
+<div class="ttc" id="symbols_8h_html_abe84af8643f76f1dfdee7cdb18f418bb"><div class="ttname"><a href="symbols_8h.html#abe84af8643f76f1dfdee7cdb18f418bb">REGISTER_PROPERTY</a></div><div class="ttdeci">#define REGISTER_PROPERTY(__TYPE__, __NAME__)                                                                                                                                                                                                                                  </div><div class="ttdef"><b>Definition:</b> symbols.h:8</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9df32479e531d42195c26dea44c76815"><div class="ttname"><a href="classQmlCursorArea.html#a9df32479e531d42195c26dea44c76815">QmlCursorArea::setDelegate</a></div><div class="ttdeci">void setDelegate(QQmlComponent *delegate)</div><div class="ttdef"><b>Definition:</b> qmlcursorarea.cpp:103</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa590d8498ee5e3109bcc919868b7ef553"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa590d8498ee5e3109bcc919868b7ef553">QmlCursorArea::SizeVerCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:21</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa7f7e9efc2715507c55ca0c85d8ab21e9"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa7f7e9efc2715507c55ca0c85d8ab21e9">QmlCursorArea::ArrowCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:19</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a7b7af1a30bbeb1b7d2eb3a3ae5508b15"><div class="ttname"><a href="classQmlCursorArea.html#a7b7af1a30bbeb1b7d2eb3a3ae5508b15">QmlCursorArea::hoverEnterEvent</a></div><div class="ttdeci">void hoverEnterEvent(QHoverEvent *event)</div><div class="ttdef"><b>Definition:</b> qmlcursorarea.cpp:22</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a4b9ff1fbddb647abddd453926c7c834c"><div class="ttname"><a href="classQmlCursorArea.html#a4b9ff1fbddb647abddd453926c7c834c">QmlCursorArea::hotXChanged</a></div><div class="ttdeci">void hotXChanged()</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aadb1a608e04c512a8052eb33b50a109bb"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aadb1a608e04c512a8052eb33b50a109bb">QmlCursorArea::SplitVCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:24</div></div>
+<div class="ttc" id="symbols_8h_html"><div class="ttname"><a href="symbols_8h.html">symbols.h</a></div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa231b66673a0398eb466086e63832c5f9"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa231b66673a0398eb466086e63832c5f9">QmlCursorArea::DefaultCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:17</div></div>
+<div class="ttc" id="classQmlCursorArea_html"><div class="ttname"><a href="classQmlCursorArea.html">QmlCursorArea</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:8</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aad046833838da1512a1062182a665f358"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aad046833838da1512a1062182a665f358">QmlCursorArea::SplitHCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:23</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aac4f7903fa8573b85ce3ef48879e9e32d"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aac4f7903fa8573b85ce3ef48879e9e32d">QmlCursorArea::PointingHandCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:26</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a61262c81ffab5733b88d3051bd97b8ef"><div class="ttname"><a href="classQmlCursorArea.html#a61262c81ffab5733b88d3051bd97b8ef">QmlCursorArea::hotYChanged</a></div><div class="ttdeci">void hotYChanged()</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a74dc2e1a044a1f05bccc25eaaa65432c"><div class="ttname"><a href="classQmlCursorArea.html#a74dc2e1a044a1f05bccc25eaaa65432c">QmlCursorArea::delegate</a></div><div class="ttdeci">QQmlComponent * delegate() const </div></div>
+<div class="ttc" id="classQmlCursorArea_html_a261480894669e5ba8934dd26a8b534a6"><div class="ttname"><a href="classQmlCursorArea.html#a261480894669e5ba8934dd26a8b534a6">QmlCursorArea::delegateChanged</a></div><div class="ttdeci">void delegateChanged()</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa613c7fb493c5754f02887d78a1a79bfe"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa613c7fb493c5754f02887d78a1a79bfe">QmlCursorArea::WaitCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:25</div></div>
+<div class="ttc" id="classQmlCursorArea_html_ae250be6a894344f5a9cddcbbf579d8f1"><div class="ttname"><a href="classQmlCursorArea.html#ae250be6a894344f5a9cddcbbf579d8f1">QmlCursorArea::hoverLeaveEvent</a></div><div class="ttdeci">void hoverLeaveEvent(QHoverEvent *event)</div><div class="ttdef"><b>Definition:</b> qmlcursorarea.cpp:28</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa76ca7bae06a36680cf815563cf818bb1"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa76ca7bae06a36680cf815563cf818bb1">QmlCursorArea::SizeHorCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:20</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a79a79918d54e84bcd27ea651ec973439"><div class="ttname"><a href="classQmlCursorArea.html#a79a79918d54e84bcd27ea651ec973439">QmlCursorArea::cursorChanged</a></div><div class="ttdeci">void cursorChanged()</div></div>
+<div class="ttc" id="classQmlCursorArea_html_a9ea28534e52c5a718025b58b1f104f5aa00383ca5cd6d0e1a439fc8078fa63344"><div class="ttname"><a href="classQmlCursorArea.html#a9ea28534e52c5a718025b58b1f104f5aa00383ca5cd6d0e1a439fc8078fa63344">QmlCursorArea::SizeAllCursor</a></div><div class="ttdef"><b>Definition:</b> qmlcursorarea.h:22</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

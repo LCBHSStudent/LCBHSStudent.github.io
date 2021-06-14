@@ -1,0 +1,3 @@
+<map id="MixerWidget" name="MixerWidget">
+<area shape="rect" id="node3" href="$classMixerManager.html" title="{MixerManager\n|# m_mixers\l# m_masterMixer\l|+ MixerManager()\l+ registerTrack()\l+ deregisterTrack()\l+ setModel()\l+ cleanup()\l+ connectMixer()\l+ collapseMixers()\l+ pauseMonitoring()\l+ unsetModel()\l+ recordStateChanged()\l# sizeHint()\l}" alt="" coords="103,132,282,371"/>
+</map>

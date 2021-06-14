@@ -1,0 +1,949 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: MixerWidget类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="classMixerWidget-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MixerWidget类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="mixerwidget_8hpp_source.html">mixerwidget.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 MixerWidget 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMixerWidget__inherit__graph.png" border="0" usemap="#MixerWidget_inherit__map" alt="Inheritance graph"/></div>
+<map name="MixerWidget_inherit__map" id="MixerWidget_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+MixerWidget 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMixerWidget__coll__graph.png" border="0" usemap="#MixerWidget_coll__map" alt="Collaboration graph"/></div>
+<map name="MixerWidget_coll__map" id="MixerWidget_coll__map">
+<area shape="rect" id="node3" href="classMixerManager.html" title="{MixerManager\n|# m_mixers\l# m_masterMixer\l|+ MixerManager()\l+ registerTrack()\l+ deregisterTrack()\l+ setModel()\l+ cleanup()\l+ connectMixer()\l+ collapseMixers()\l+ pauseMonitoring()\l+ unsetModel()\l+ recordStateChanged()\l# sizeHint()\l}" alt="" coords="103,132,282,371"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:a0bcf99f996187ab4fc01030d6c6d23e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a0bcf99f996187ab4fc01030d6c6d23e7">updateAudioLevel</a> (int pos)</td></tr>
+<tr class="separator:a0bcf99f996187ab4fc01030d6c6d23e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaabfab111439c240af78272d0e465238"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#aaabfab111439c240af78272d0e465238">setRecordState</a> (bool recording)</td></tr>
+<tr class="separator:aaabfab111439c240af78272d0e465238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:ac2b2e546275e07c4005b27c686fc260c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#ac2b2e546275e07c4005b27c686fc260c">gotLevels</a> (QPair&lt; double, double &gt;)</td></tr>
+<tr class="separator:ac2b2e546275e07c4005b27c686fc260c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a1aeba57d25cf972018de105087905"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a01a1aeba57d25cf972018de105087905">muteTrack</a> (int tid, bool mute)</td></tr>
+<tr class="separator:a01a1aeba57d25cf972018de105087905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc703ac3db46c10a33066cc66a8c70f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#aacc703ac3db46c10a33066cc66a8c70f">toggleSolo</a> (int tid, bool toggled)</td></tr>
+<tr class="separator:aacc703ac3db46c10a33066cc66a8c70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a62ec29408b78f77085dc13d81101e33a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a62ec29408b78f77085dc13d81101e33a">MixerWidget</a> (int tid, std::shared_ptr&lt; Mlt::Tractor &gt; service, QString trackTag, const QString &amp;trackName, <a class="el" href="classMixerManager.html">MixerManager</a> *parent=nullptr)</td></tr>
+<tr class="separator:a62ec29408b78f77085dc13d81101e33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad528b99c5759fa6e4eba00fb91e6dfbd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#ad528b99c5759fa6e4eba00fb91e6dfbd">MixerWidget</a> (int tid, Mlt::Tractor *service, QString trackTag, const QString &amp;trackName, <a class="el" href="classMixerManager.html">MixerManager</a> *parent=nullptr)</td></tr>
+<tr class="separator:ad528b99c5759fa6e4eba00fb91e6dfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7aab5ad92fa2f75025567fa252d6964"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#aa7aab5ad92fa2f75025567fa252d6964">~MixerWidget</a> () override</td></tr>
+<tr class="separator:aa7aab5ad92fa2f75025567fa252d6964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4fe9001fb82beac63131dcf5ce35ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a7e4fe9001fb82beac63131dcf5ce35ee">buildUI</a> (Mlt::Tractor *service, const QString &amp;trackName)</td></tr>
+<tr class="separator:a7e4fe9001fb82beac63131dcf5ce35ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec60f37efd00dcbb2ef4323985310daa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#aec60f37efd00dcbb2ef4323985310daa">reset</a> ()</td></tr>
+<tr class="memdesc:aec60f37efd00dcbb2ef4323985310daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard stored audio values and reset vu-meter to 0 if requested  <a href="#aec60f37efd00dcbb2ef4323985310daa">更多...</a><br /></td></tr>
+<tr class="separator:aec60f37efd00dcbb2ef4323985310daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0331f32d8bd5418780b991f7959c7a85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a0331f32d8bd5418780b991f7959c7a85">clear</a> ()</td></tr>
+<tr class="memdesc:a0331f32d8bd5418780b991f7959c7a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard stored audio values  <a href="#a0331f32d8bd5418780b991f7959c7a85">更多...</a><br /></td></tr>
+<tr class="separator:a0331f32d8bd5418780b991f7959c7a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ed1241c0d5c8b249c8b1577cd1ed15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#af6ed1241c0d5c8b249c8b1577cd1ed15">setTrackName</a> (const QString &amp;name)</td></tr>
+<tr class="separator:af6ed1241c0d5c8b249c8b1577cd1ed15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7758936a8f38404bf669fd7a2582d006"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a7758936a8f38404bf669fd7a2582d006">setMute</a> (bool mute)</td></tr>
+<tr class="separator:a7758936a8f38404bf669fd7a2582d006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1f3bf70f4687f927f5e6f453f6ebb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a4b1f3bf70f4687f927f5e6f453f6ebb6">isMute</a> () const </td></tr>
+<tr class="memdesc:a4b1f3bf70f4687f927f5e6f453f6ebb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is muted.  <a href="#a4b1f3bf70f4687f927f5e6f453f6ebb6">更多...</a><br /></td></tr>
+<tr class="separator:a4b1f3bf70f4687f927f5e6f453f6ebb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0618b60f1411f28953b36b50284b03f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a0618b60f1411f28953b36b50284b03f7">unSolo</a> ()</td></tr>
+<tr class="memdesc:a0618b60f1411f28953b36b50284b03f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uncheck the solo button.  <a href="#a0618b60f1411f28953b36b50284b03f7">更多...</a><br /></td></tr>
+<tr class="separator:a0618b60f1411f28953b36b50284b03f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da58479a8cda11174abd01930f7faee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a2da58479a8cda11174abd01930f7faee">connectMixer</a> (bool doConnect)</td></tr>
+<tr class="memdesc:a2da58479a8cda11174abd01930f7faee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the mixer widgets to the correspondent filters.  <a href="#a2da58479a8cda11174abd01930f7faee">更多...</a><br /></td></tr>
+<tr class="separator:a2da58479a8cda11174abd01930f7faee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42643e913bd5fbd74080049dd7a52a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a42643e913bd5fbd74080049dd7a52a9e">pauseMonitoring</a> (bool pause)</td></tr>
+<tr class="memdesc:a42643e913bd5fbd74080049dd7a52a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable/enable monitoring by disabling/enabling filter.  <a href="#a42643e913bd5fbd74080049dd7a52a9e">更多...</a><br /></td></tr>
+<tr class="separator:a42643e913bd5fbd74080049dd7a52a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a48cd592d025d8ad0103d435872773b78"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a48cd592d025d8ad0103d435872773b78">property_changed</a> (mlt_service, <a class="el" href="classMixerWidget.html">MixerWidget</a> *self, char *name)</td></tr>
+<tr class="separator:a48cd592d025d8ad0103d435872773b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a0b34aac11b71af31dd6c70ca59d7ef09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a0b34aac11b71af31dd6c70ca59d7ef09">mousePressEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="separator:a0b34aac11b71af31dd6c70ca59d7ef09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a77bf5c94c90a080bd3b2797a75f0df34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMixerManager.html">MixerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a77bf5c94c90a080bd3b2797a75f0df34">m_manager</a></td></tr>
+<tr class="separator:a77bf5c94c90a080bd3b2797a75f0df34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af69a06b2d5f19482554d6510f039c774"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#af69a06b2d5f19482554d6510f039c774">m_tid</a></td></tr>
+<tr class="separator:af69a06b2d5f19482554d6510f039c774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f9477344b3774eaef51027cf7270d50"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Filter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a7f9477344b3774eaef51027cf7270d50">m_levelFilter</a></td></tr>
+<tr class="separator:a7f9477344b3774eaef51027cf7270d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af566975e769f697f868eb41e76b39837"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Filter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#af566975e769f697f868eb41e76b39837">m_monitorFilter</a></td></tr>
+<tr class="separator:af566975e769f697f868eb41e76b39837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266c859cb7ec169daa6cb1b289a4528e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Filter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a266c859cb7ec169daa6cb1b289a4528e">m_balanceFilter</a></td></tr>
+<tr class="separator:a266c859cb7ec169daa6cb1b289a4528e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eeb8000faca0942fd4a3499297cf46e"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, QVector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a4eeb8000faca0942fd4a3499297cf46e">m_levels</a></td></tr>
+<tr class="separator:a4eeb8000faca0942fd4a3499297cf46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfcf0e782e8a44ac7351cb6af5c17a3d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#adfcf0e782e8a44ac7351cb6af5c17a3d">m_channels</a></td></tr>
+<tr class="separator:adfcf0e782e8a44ac7351cb6af5c17a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8acccc9d61957c4aef4cfcf0deb4cfb6"><td class="memItemLeft" align="right" valign="top">KDualAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a8acccc9d61957c4aef4cfcf0deb4cfb6">m_muteAction</a></td></tr>
+<tr class="separator:a8acccc9d61957c4aef4cfcf0deb4cfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b284863c3293d07d8a80d2909c0e139"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a9b284863c3293d07d8a80d2909c0e139">m_balanceSpin</a></td></tr>
+<tr class="separator:a9b284863c3293d07d8a80d2909c0e139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08065da54222e178def5839a939d118"><td class="memItemLeft" align="right" valign="top">QSlider *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#ae08065da54222e178def5839a939d118">m_balanceSlider</a></td></tr>
+<tr class="separator:ae08065da54222e178def5839a939d118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e6f0e07242d3ab5250e0b495bdf1c8"><td class="memItemLeft" align="right" valign="top">QDoubleSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#ad1e6f0e07242d3ab5250e0b495bdf1c8">m_volumeSpin</a></td></tr>
+<tr class="separator:ad1e6f0e07242d3ab5250e0b495bdf1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f72337799ae4515c26bdd71165e35f2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerWidget.html#a2f72337799ae4515c26bdd71165e35f2">m_maxLevels</a></td></tr>
+<tr class="separator:a2f72337799ae4515c26bdd71165e35f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a62ec29408b78f77085dc13d81101e33a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MixerWidget::MixerWidget </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; Mlt::Tractor &gt;&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>trackTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>trackName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMixerManager.html">MixerManager</a> *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad528b99c5759fa6e4eba00fb91e6dfbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MixerWidget::MixerWidget </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mlt::Tractor *&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>trackTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>trackName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMixerManager.html">MixerManager</a> *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa7aab5ad92fa2f75025567fa252d6964"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MixerWidget::~MixerWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a7e4fe9001fb82beac63131dcf5ce35ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::buildUI </td>
+          <td>(</td>
+          <td class="paramtype">Mlt::Tractor *&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>trackName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0331f32d8bd5418780b991f7959c7a85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>discard stored audio values </p>
+
+</div>
+</div>
+<a class="anchor" id="a2da58479a8cda11174abd01930f7faee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::connectMixer </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>doConnect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect the mixer widgets to the correspondent filters. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac2b2e546275e07c4005b27c686fc260c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::gotLevels </td>
+          <td>(</td>
+          <td class="paramtype">QPair&lt; double, double &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b1f3bf70f4687f927f5e6f453f6ebb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MixerWidget::isMute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is muted. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0b34aac11b71af31dd6c70ca59d7ef09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a01a1aeba57d25cf972018de105087905"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::muteTrack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mute</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a42643e913bd5fbd74080049dd7a52a9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::pauseMonitoring </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pause</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable/enable monitoring by disabling/enabling filter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a48cd592d025d8ad0103d435872773b78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::property_changed </td>
+          <td>(</td>
+          <td class="paramtype">mlt_service&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMixerWidget.html">MixerWidget</a> *&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aec60f37efd00dcbb2ef4323985310daa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>discard stored audio values and reset vu-meter to 0 if requested </p>
+
+</div>
+</div>
+<a class="anchor" id="a7758936a8f38404bf669fd7a2582d006"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::setMute </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mute</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaabfab111439c240af78272d0e465238"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::setRecordState </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>recording</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6ed1241c0d5c8b249c8b1577cd1ed15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::setTrackName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aacc703ac3db46c10a33066cc66a8c70f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::toggleSolo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toggled</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0618b60f1411f28953b36b50284b03f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::unSolo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Uncheck the solo button. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0bcf99f996187ab4fc01030d6c6d23e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerWidget::updateAudioLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a266c859cb7ec169daa6cb1b289a4528e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Mlt::Filter&gt; MixerWidget::m_balanceFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae08065da54222e178def5839a939d118"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSlider* MixerWidget::m_balanceSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b284863c3293d07d8a80d2909c0e139"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSpinBox* MixerWidget::m_balanceSpin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adfcf0e782e8a44ac7351cb6af5c17a3d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MixerWidget::m_channels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7f9477344b3774eaef51027cf7270d50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Mlt::Filter&gt; MixerWidget::m_levelFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4eeb8000faca0942fd4a3499297cf46e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;int, QVector&lt;double&gt; &gt; MixerWidget::m_levels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a77bf5c94c90a080bd3b2797a75f0df34"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMixerManager.html">MixerManager</a>* MixerWidget::m_manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2f72337799ae4515c26bdd71165e35f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MixerWidget::m_maxLevels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af566975e769f697f868eb41e76b39837"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Mlt::Filter&gt; MixerWidget::m_monitorFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8acccc9d61957c4aef4cfcf0deb4cfb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KDualAction* MixerWidget::m_muteAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af69a06b2d5f19482554d6510f039c774"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MixerWidget::m_tid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1e6f0e07242d3ab5250e0b495bdf1c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDoubleSpinBox* MixerWidget::m_volumeSpin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/audiomixer/<a class="el" href="mixerwidget_8hpp_source.html">mixerwidget.hpp</a></li>
+<li>src/audiomixer/<a class="el" href="mixerwidget_8cpp.html">mixerwidget.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<map id="src/effects/effectstack/view/builtstack.cpp" name="src/effects/effectstack/view/builtstack.cpp">
+<area shape="rect" id="node3" href="$builtstack_8hpp.html" title="builtstack.hpp" alt="" coords="1447,259,1562,285"/>
+<area shape="rect" id="node15" href="$assetpanel_8hpp.html" title="assets/assetpanel.hpp" alt="" coords="103,259,269,285"/>
+<area shape="rect" id="node18" href="$core_8h.html" title="core.h" alt="" coords="1529,102,1592,129"/>
+<area shape="rect" id="node43" href="$effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="628,95,840,136"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="1421,333,1524,360"/>
+<area shape="rect" id="node5" href="$gentime_8h.html" title="gentime.h" alt="" coords="2099,408,2187,435"/>
+<area shape="rect" id="node19" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="1775,184,1925,211"/>
+<area shape="rect" id="node32" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2451,184,2617,211"/>
+<area shape="rect" id="node33" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="663,259,786,285"/>
+<area shape="rect" id="node42" href="$timecode_8h.html" title="timecode.h" alt="" coords="2255,333,2349,360"/>
+<area shape="rect" id="node20" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="1775,259,1890,285"/>
+<area shape="rect" id="node44" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="403,184,671,211"/>
+</map>

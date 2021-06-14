@@ -1,0 +1,8 @@
+<map id="AbstractProjectItem" name="AbstractProjectItem">
+<area shape="rect" id="node7" href="$classProjectClip.html" title="Represents a clip in the project (not timeline). It will be displayed as a bin item that can be dragg..." alt="" coords="5,1380,204,1956"/>
+<area shape="rect" id="node8" href="$classProjectFolder.html" title="A folder in the bin. " alt="" coords="229,1512,413,1824"/>
+<area shape="rect" id="node9" href="$classProjectSubClip.html" title="Represents a clip in the project (not timeline). " alt="" coords="437,1541,621,1795"/>
+<area shape="rect" id="node3" href="$classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="307,455,486,899"/>
+<area shape="rect" id="node4" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="302,300,491,407"/>
+<area shape="rect" id="node5" href="$classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="319,160,474,252"/>
+</map>

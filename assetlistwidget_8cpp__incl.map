@@ -1,0 +1,14 @@
+<map id="src/assets/assetlist/view/assetlistwidget.cpp" name="src/assets/assetlist/view/assetlistwidget.cpp">
+<area shape="rect" id="node3" href="$assetlistwidget_8hpp.html" title="assetlistwidget.hpp" alt="" coords="642,102,791,129"/>
+<area shape="rect" id="node31" href="$assetfilter_8hpp.html" title="assets/assetlist/model\l/assetfilter.hpp" alt="" coords="251,95,419,136"/>
+<area shape="rect" id="node33" href="$assettreemodel_8hpp.html" title="assets/assetlist/model\l/assettreemodel.hpp" alt="" coords="362,259,530,300"/>
+<area shape="rect" id="node39" href="$asseticonprovider_8hpp.html" title="assets/assetlist/view\l/qmltypes/asseticonprovider.hpp" alt="" coords="1223,95,1458,136"/>
+<area shape="rect" id="node4" href="$effectsrepository_8hpp.html" title="effects/effectsrepository.hpp" alt="" coords="684,184,891,211"/>
+<area shape="rect" id="node5" href="$abstractassetsrepository_8hpp.html" title="assets/abstractassetsrepository.hpp" alt="" coords="796,266,1051,293"/>
+<area shape="rect" id="node6" href="$definitions_8h.html" title="definitions.h" alt="" coords="1960,497,2063,524"/>
+<area shape="rect" id="node20" href="$abstractassetsrepository_8ipp.html" title="abstractassetsrepository.ipp" alt="" coords="1233,348,1438,375"/>
+<area shape="rect" id="node7" href="$gentime_8h.html" title="gentime.h" alt="" coords="2482,572,2570,599"/>
+<area shape="rect" id="node21" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="1619,423,1723,449"/>
+<area shape="rect" id="node34" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="281,423,549,449"/>
+<area shape="rect" id="node35" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="54,497,177,524"/>
+</map>

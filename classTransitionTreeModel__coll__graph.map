@@ -1,0 +1,4 @@
+<map id="TransitionTreeModel" name="TransitionTreeModel">
+<area shape="rect" id="node2" href="$classAssetTreeModel.html" title="{AssetTreeModel\n|+ nameCol\l+ idCol\l+ favCol\l+ typeCol\l+ preferredCol\l|+ AssetTreeModel()\l+ getName()\l+ getDescription()\l+ isFavorite()\l+ roleNames()\l+ data()\l+ reloadAssetMenu()\l+ setFavorite()\l+ deleteEffect()\l+ editCustomAsset()\l}" alt="" coords="115,652,275,920"/>
+<area shape="rect" id="node3" href="$classAbstractTreeModel.html" title="This class represents a generic tree hierarchy. " alt="" coords="89,145,302,604"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classTrackDialog.html" title="TrackDialog" alt="" coords="286,5,385,32"/>
+<area shape="rect" id="node4" href="$classArchiveWidget.html" title="A widget allowing to archive a project (copy all project files to a new location) ..." alt="" coords="277,56,394,83"/>
+<area shape="rect" id="node6" href="$classBackupWidget.html" title="A widget allowing to parse backup project files. " alt="" coords="278,107,393,133"/>
+<area shape="rect" id="node8" href="$classClipDurationDialog.html" title="A dialog for modifying an item&#39;s (clip or transition) duration. " alt="" coords="263,157,408,184"/>
+<area shape="rect" id="node10" href="$classClipStabilize.html" title="ClipStabilize" alt="" coords="284,208,387,235"/>
+<area shape="rect" id="node12" href="$classClipTranscode.html" title="ClipTranscode" alt="" coords="279,259,391,285"/>
+<area shape="rect" id="node14" href="$classColorPlaneExport.html" title="Exports color planes (e.g. YUV&#45;UV&#45;planes) to a file. Basically just for fun, but also for comparing c..." alt="" coords="268,309,403,336"/>
+<area shape="rect" id="node16" href="$classGradientWidget.html" title="Title creation dialog Instances of TitleWidget classes are instantiated by KdenliveDoc::slotCreateTex..." alt="" coords="273,360,397,387"/>
+<area shape="rect" id="node18" href="$classTemporaryData.html" title="Dialog allowing management of cache data. " alt="" coords="274,968,397,995"/>
+<area shape="rect" id="node20" href="$classEncodingProfilesDialog.html" title="EncodingProfilesDialog" alt="" coords="250,1019,421,1045"/>
+<area shape="rect" id="node22" href="$classMarkerDialog.html" title="A dialog for editing markers and guides. " alt="" coords="281,1069,390,1096"/>
+<area shape="rect" id="node24" href="$classProjectSettings.html" title="ProjectSettings" alt="" coords="275,1120,395,1147"/>
+<area shape="rect" id="node26" href="$classClipSpeed.html" title="A dialog allowing to set a destination and a new speed to create an MLT file from a clip..." alt="" coords="292,917,379,944"/>
+<area shape="rect" id="node27" href="$classGenerators.html" title="Base class for clip generators. " alt="" coords="288,411,383,437"/>
+<area shape="rect" id="node28" href="$classInvalidDialog.html" title="InvalidDialog" alt="" coords="281,461,389,488"/>
+<area shape="rect" id="node29" href="$classKeyframeImport.html" title="KeyframeImport" alt="" coords="271,512,399,539"/>
+<area shape="rect" id="node30" href="$classManageCapturesDialog.html" title="ManageCapturesDialog" alt="" coords="248,563,423,589"/>
+<area shape="rect" id="node31" href="$classProfilesDialog.html" title="ProfilesDialog" alt="" coords="279,613,391,640"/>
+<area shape="rect" id="node32" href="$classProxyTest.html" title="A dialog to compare the proxy profiles. " alt="" coords="293,1171,378,1197"/>
+<area shape="rect" id="node33" href="$classRenderWidget.html" title="RenderWidget" alt="" coords="278,664,393,691"/>
+<area shape="rect" id="node34" href="$classSlideshowClip.html" title="SlideshowClip" alt="" coords="279,715,392,741"/>
+<area shape="rect" id="node35" href="$classSpacerDialog.html" title="A dialog to specify length and track of inserted space. " alt="" coords="281,1221,389,1248"/>
+<area shape="rect" id="node36" href="$classSpeechDialog.html" title="A dialog for editing markers and guides. " alt="" coords="280,1272,391,1299"/>
+<area shape="rect" id="node37" href="$classSpeedDialog.html" title="SpeedDialog" alt="" coords="283,765,387,792"/>
+<area shape="rect" id="node38" href="$classTitleTemplateDialog.html" title="TitleTemplateDialog" alt="" coords="259,816,412,843"/>
+<area shape="rect" id="node39" href="$classTitleWidget.html" title="Title creation dialog Instances of TitleWidget classes are instantiated by KdenliveDoc::slotCreateTex..." alt="" coords="287,1323,384,1349"/>
+<area shape="rect" id="node40" href="$classTracksConfigDialog.html" title="A dialog to change the name, type, ... of tracks. " alt="" coords="262,1373,409,1400"/>
+<area shape="rect" id="node41" href="$classTranscodeSeek.html" title="TranscodeSeek" alt="" coords="276,1424,395,1451"/>
+<area shape="rect" id="node42" href="$classUnicodeDialog.html" title="UnicodeDialog" alt="" coords="277,867,394,893"/>
+</map>

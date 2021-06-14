@@ -1,0 +1,1504 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: ProjectManager类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="classProjectManager-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">ProjectManager类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Takes care of interaction with projects.  
+ <a href="classProjectManager.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="projectmanager_8h_source.html">projectmanager.h</a>&gt;</code></p>
+<div class="dynheader">
+类 ProjectManager 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classProjectManager__inherit__graph.png" border="0" usemap="#ProjectManager_inherit__map" alt="Inheritance graph"/></div>
+<map name="ProjectManager_inherit__map" id="ProjectManager_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+ProjectManager 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classProjectManager__coll__graph.png" border="0" usemap="#ProjectManager_coll__map" alt="Collaboration graph"/></div>
+<map name="ProjectManager_coll__map" id="ProjectManager_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:a4d3bce71784f56c6b56334c68455a702"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a4d3bce71784f56c6b56334c68455a702">newFile</a> (QString profileName, bool showProjectSettings=true)</td></tr>
+<tr class="separator:a4d3bce71784f56c6b56334c68455a702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab521685150298d57f3dfe234eeb5b216"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#ab521685150298d57f3dfe234eeb5b216">newFile</a> (bool showProjectSettings=true)</td></tr>
+<tr class="separator:ab521685150298d57f3dfe234eeb5b216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80115deba282bd0a8ed06a1512e4a10b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a80115deba282bd0a8ed06a1512e4a10b">openFile</a> ()</td></tr>
+<tr class="memdesc:a80115deba282bd0a8ed06a1512e4a10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows file open dialog.  <a href="#a80115deba282bd0a8ed06a1512e4a10b">更多...</a><br /></td></tr>
+<tr class="separator:a80115deba282bd0a8ed06a1512e4a10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee2ea0a8255fa8f47937545a09f113e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a0ee2ea0a8255fa8f47937545a09f113e">openLastFile</a> ()</td></tr>
+<tr class="separator:a0ee2ea0a8255fa8f47937545a09f113e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f4d78f1d941621593cb9c3cdc86075b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a8f4d78f1d941621593cb9c3cdc86075b">slotLoadOnOpen</a> ()</td></tr>
+<tr class="memdesc:a8f4d78f1d941621593cb9c3cdc86075b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load files / clips passed on the command line.  <a href="#a8f4d78f1d941621593cb9c3cdc86075b">更多...</a><br /></td></tr>
+<tr class="separator:a8f4d78f1d941621593cb9c3cdc86075b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c5b63671e4cb05f6889ec4ef2f9d49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a05c5b63671e4cb05f6889ec4ef2f9d49">saveFile</a> ()</td></tr>
+<tr class="memdesc:a05c5b63671e4cb05f6889ec4ef2f9d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a URL is available to save to.  <a href="#a05c5b63671e4cb05f6889ec4ef2f9d49">更多...</a><br /></td></tr>
+<tr class="separator:a05c5b63671e4cb05f6889ec4ef2f9d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62214253c7e8c38d6c03f47c5d3c5ad9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a62214253c7e8c38d6c03f47c5d3c5ad9">saveFileAs</a> (bool saveACopy=false)</td></tr>
+<tr class="memdesc:a62214253c7e8c38d6c03f47c5d3c5ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a save file dialog for saving the project.  <a href="#a62214253c7e8c38d6c03f47c5d3c5ad9">更多...</a><br /></td></tr>
+<tr class="separator:a62214253c7e8c38d6c03f47c5d3c5ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d4c9930ef68cbe1ab104fbb9ff87dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a37d4c9930ef68cbe1ab104fbb9ff87dc">saveFileAs</a> (const QString &amp;outputFileName, bool saveACopy=false)</td></tr>
+<tr class="memdesc:a37d4c9930ef68cbe1ab104fbb9ff87dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set properties to match outputFileName and save the document. Creates an autosave version of the output file too (only if not in copymode), at ~/.kde/data/stalefiles/kdenlive/ <br />
+that will be actually written in <a class="el" href="classKdenliveDoc.html#a78ee41562c20683afd7fec3c9da5e9d0" title="Saves the current project at the autosave location. ">KdenliveDoc::slotAutoSave()</a>  <a href="#a37d4c9930ef68cbe1ab104fbb9ff87dc">更多...</a><br /></td></tr>
+<tr class="separator:a37d4c9930ef68cbe1ab104fbb9ff87dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a967280bb4f95a8ba1a073f1f1e8de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#ad6a967280bb4f95a8ba1a073f1f1e8de">closeCurrentDocument</a> (bool saveChanges=true, bool quit=false)</td></tr>
+<tr class="memdesc:ad6a967280bb4f95a8ba1a073f1f1e8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close currently opened document. Returns false if something went wrong (cannot save modifications, ...).  <a href="#ad6a967280bb4f95a8ba1a073f1f1e8de">更多...</a><br /></td></tr>
+<tr class="separator:ad6a967280bb4f95a8ba1a073f1f1e8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8dd856a08a3f4d6690c4c88c1488db6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#af8dd856a08a3f4d6690c4c88c1488db6">openFile</a> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:af8dd856a08a3f4d6690c4c88c1488db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares opening.  <a href="#af8dd856a08a3f4d6690c4c88c1488db6">更多...</a><br /></td></tr>
+<tr class="separator:af8dd856a08a3f4d6690c4c88c1488db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95daf155abef509e3ab74c2a3250301a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a95daf155abef509e3ab74c2a3250301a">slotStartAutoSave</a> ()</td></tr>
+<tr class="memdesc:a95daf155abef509e3ab74c2a3250301a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start autosave timer.  <a href="#a95daf155abef509e3ab74c2a3250301a">更多...</a><br /></td></tr>
+<tr class="separator:a95daf155abef509e3ab74c2a3250301a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebaa335cc2ba2b1ac091c8bc64db8f84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#aebaa335cc2ba2b1ac091c8bc64db8f84">slotResetProfiles</a> (bool reloadThumbs)</td></tr>
+<tr class="memdesc:aebaa335cc2ba2b1ac091c8bc64db8f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update project and monitors profiles.  <a href="#aebaa335cc2ba2b1ac091c8bc64db8f84">更多...</a><br /></td></tr>
+<tr class="separator:aebaa335cc2ba2b1ac091c8bc64db8f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c92801ae8386ca01af1deae405d0085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a5c92801ae8386ca01af1deae405d0085">slotResetConsumers</a> (bool fullReset)</td></tr>
+<tr class="memdesc:a5c92801ae8386ca01af1deae405d0085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuild consumers after a property change.  <a href="#a5c92801ae8386ca01af1deae405d0085">更多...</a><br /></td></tr>
+<tr class="separator:a5c92801ae8386ca01af1deae405d0085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5680275d559a04e80beeadf8c265962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#ab5680275d559a04e80beeadf8c265962">slotDisableTimelineEffects</a> (bool disable)</td></tr>
+<tr class="memdesc:ab5680275d559a04e80beeadf8c265962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dis/enable all timeline effects.  <a href="#ab5680275d559a04e80beeadf8c265962">更多...</a><br /></td></tr>
+<tr class="separator:ab5680275d559a04e80beeadf8c265962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1975b3a82529cdf3bada8a095abb8a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#ad1975b3a82529cdf3bada8a095abb8a5">slotSwitchTrackLock</a> ()</td></tr>
+<tr class="memdesc:ad1975b3a82529cdf3bada8a095abb8a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Un/Lock current timeline track.  <a href="#ad1975b3a82529cdf3bada8a095abb8a5">更多...</a><br /></td></tr>
+<tr class="separator:ad1975b3a82529cdf3bada8a095abb8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebae19dd223bbc99bc483d089ec7a5a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#aebae19dd223bbc99bc483d089ec7a5a2">slotSwitchAllTrackLock</a> ()</td></tr>
+<tr class="separator:aebae19dd223bbc99bc483d089ec7a5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1972bfa16dac6590f7a902e0cae014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a0a1972bfa16dac6590f7a902e0cae014">slotSwitchTrackActive</a> ()</td></tr>
+<tr class="memdesc:a0a1972bfa16dac6590f7a902e0cae014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make current timeline track active/inactive.  <a href="#a0a1972bfa16dac6590f7a902e0cae014">更多...</a><br /></td></tr>
+<tr class="separator:a0a1972bfa16dac6590f7a902e0cae014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c43b33460f12f90ba752eb62727565"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a30c43b33460f12f90ba752eb62727565">slotSwitchAllTrackActive</a> ()</td></tr>
+<tr class="memdesc:a30c43b33460f12f90ba752eb62727565"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle the active/inactive state of all tracks.  <a href="#a30c43b33460f12f90ba752eb62727565">更多...</a><br /></td></tr>
+<tr class="separator:a30c43b33460f12f90ba752eb62727565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cd32c32f6ecda7f560929f67e2c0e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a05cd32c32f6ecda7f560929f67e2c0e3">slotMakeAllTrackActive</a> ()</td></tr>
+<tr class="memdesc:a05cd32c32f6ecda7f560929f67e2c0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make all tracks active or inactive.  <a href="#a05cd32c32f6ecda7f560929f67e2c0e3">更多...</a><br /></td></tr>
+<tr class="separator:a05cd32c32f6ecda7f560929f67e2c0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cff35d4462753cad611f886914fdc1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a3cff35d4462753cad611f886914fdc1d">slotRestoreTargetTracks</a> ()</td></tr>
+<tr class="memdesc:a3cff35d4462753cad611f886914fdc1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore current clip target tracks.  <a href="#a3cff35d4462753cad611f886914fdc1d">更多...</a><br /></td></tr>
+<tr class="separator:a3cff35d4462753cad611f886914fdc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a3d993ff6b72c01fc9cbfe05f60ef9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a69a3d993ff6b72c01fc9cbfe05f60ef9">slotSwitchTrackTarget</a> ()</td></tr>
+<tr class="memdesc:a69a3d993ff6b72c01fc9cbfe05f60ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Un/Set current track as target.  <a href="#a69a3d993ff6b72c01fc9cbfe05f60ef9">更多...</a><br /></td></tr>
+<tr class="separator:a69a3d993ff6b72c01fc9cbfe05f60ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac621b52e56b856787f0bae99d2d37a39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#ac621b52e56b856787f0bae99d2d37a39">setDocumentNotes</a> (const QString &amp;notes)</td></tr>
+<tr class="memdesc:ac621b52e56b856787f0bae99d2d37a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the text for current project's notes.  <a href="#ac621b52e56b856787f0bae99d2d37a39">更多...</a><br /></td></tr>
+<tr class="separator:ac621b52e56b856787f0bae99d2d37a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ac07b9729eb25046871aff530e8353"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#af6ac07b9729eb25046871aff530e8353">adjustProjectDuration</a> ()</td></tr>
+<tr class="memdesc:af6ac07b9729eb25046871aff530e8353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project's duration changed, adjust monitor, etc.  <a href="#af6ac07b9729eb25046871aff530e8353">更多...</a><br /></td></tr>
+<tr class="separator:af6ac07b9729eb25046871aff530e8353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43612734b26130f016ede0f28f13afd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a43612734b26130f016ede0f28f13afd8">activateAsset</a> (const QVariantMap &amp;effectData)</td></tr>
+<tr class="memdesc:a43612734b26130f016ede0f28f13afd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an asset in timeline (effect, transition).  <a href="#a43612734b26130f016ede0f28f13afd8">更多...</a><br /></td></tr>
+<tr class="separator:a43612734b26130f016ede0f28f13afd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab1bf3f1383f29413ed9d095d64a5a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a2ab1bf3f1383f29413ed9d095d64a5a3">slotAddProjectNote</a> ()</td></tr>
+<tr class="memdesc:a2ab1bf3f1383f29413ed9d095d64a5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert current timeline timecode in notes widget and focus widget to allow entering quick note  <a href="#a2ab1bf3f1383f29413ed9d095d64a5a3">更多...</a><br /></td></tr>
+<tr class="separator:a2ab1bf3f1383f29413ed9d095d64a5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dcad33a09e35a14707e8e294a82ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#ad3dcad33a09e35a14707e8e294a82ef1">slotAddTextNote</a> (const QString &amp;text)</td></tr>
+<tr class="memdesc:ad3dcad33a09e35a14707e8e294a82ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert license text in notes widget and focus widget to allow entering quick note  <a href="#ad3dcad33a09e35a14707e8e294a82ef1">更多...</a><br /></td></tr>
+<tr class="separator:ad3dcad33a09e35a14707e8e294a82ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a28eb596e2bc047cbae85eaaefb6f2e01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a28eb596e2bc047cbae85eaaefb6f2e01">docOpened</a> (<a class="el" href="classKdenliveDoc.html">KdenliveDoc</a> *document)</td></tr>
+<tr class="separator:a28eb596e2bc047cbae85eaaefb6f2e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acecf93118b5ce0be63bfc094540eb289"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#acecf93118b5ce0be63bfc094540eb289">sigSaveRecentFiles</a> ()</td></tr>
+<tr class="separator:acecf93118b5ce0be63bfc094540eb289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a4bf31f92964035af82e6bdf9ab0fcecf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a4bf31f92964035af82e6bdf9ab0fcecf">ProjectManager</a> (QObject *parent=nullptr)</td></tr>
+<tr class="memdesc:a4bf31f92964035af82e6bdf9ab0fcecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up actions to interact for project interaction (undo, redo, open, save, ...) and creates an empty project.  <a href="#a4bf31f92964035af82e6bdf9ab0fcecf">更多...</a><br /></td></tr>
+<tr class="separator:a4bf31f92964035af82e6bdf9ab0fcecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9862ef90100c215b59c269a8210d90bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a9862ef90100c215b59c269a8210d90bb">~ProjectManager</a> () override</td></tr>
+<tr class="separator:a9862ef90100c215b59c269a8210d90bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc28f1d53317fc7081d4d5e05384af63"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classKdenliveDoc.html">KdenliveDoc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#acc28f1d53317fc7081d4d5e05384af63">current</a> ()</td></tr>
+<tr class="memdesc:acc28f1d53317fc7081d4d5e05384af63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the currently opened project. A project should always be open. The method is virtual to allow mocking.  <a href="#acc28f1d53317fc7081d4d5e05384af63">更多...</a><br /></td></tr>
+<tr class="separator:acc28f1d53317fc7081d4d5e05384af63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3482a3175e58902e187ad689f90a7a81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a3482a3175e58902e187ad689f90a7a81">init</a> (const QUrl &amp;projectUrl, const QString &amp;clipList)</td></tr>
+<tr class="memdesc:a3482a3175e58902e187ad689f90a7a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store command line args for later opening.  <a href="#a3482a3175e58902e187ad689f90a7a81">更多...</a><br /></td></tr>
+<tr class="separator:a3482a3175e58902e187ad689f90a7a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbeff191ec2a7c96d3d6bfe1edc123f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#abbeff191ec2a7c96d3d6bfe1edc123f5">doOpenFile</a> (const QUrl &amp;url, KAutoSaveFile *stale)</td></tr>
+<tr class="separator:abbeff191ec2a7c96d3d6bfe1edc123f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3934a0a544e91111537205f2289f1586"><td class="memItemLeft" align="right" valign="top">KRecentFilesAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a3934a0a544e91111537205f2289f1586">recentFilesAction</a> ()</td></tr>
+<tr class="separator:a3934a0a544e91111537205f2289f1586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b12c1fa53dc871201bdd00e2d458828"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a5b12c1fa53dc871201bdd00e2d458828">prepareSave</a> ()</td></tr>
+<tr class="separator:a5b12c1fa53dc871201bdd00e2d458828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bec3dcec6d08673799c31f4473a662c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a7bec3dcec6d08673799c31f4473a662c">disableBinEffects</a> (bool disable, bool refreshMonitor=true)</td></tr>
+<tr class="memdesc:a7bec3dcec6d08673799c31f4473a662c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable all bin effects in current project.  <a href="#a7bec3dcec6d08673799c31f4473a662c">更多...</a><br /></td></tr>
+<tr class="separator:a7bec3dcec6d08673799c31f4473a662c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411a4674072c278704e794c952f87e6d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a411a4674072c278704e794c952f87e6d">projectSceneList</a> (const QString &amp;outputFolder, const QString overlayData=QString())</td></tr>
+<tr class="memdesc:a411a4674072c278704e794c952f87e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current project's xml scene.  <a href="#a411a4674072c278704e794c952f87e6d">更多...</a><br /></td></tr>
+<tr class="separator:a411a4674072c278704e794c952f87e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c448400a75beaa93342e058441127f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a6c448400a75beaa93342e058441127f2">saveZone</a> (const QStringList &amp;info, const QDir &amp;dir)</td></tr>
+<tr class="separator:a6c448400a75beaa93342e058441127f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c4bfc5c75d36822eabc62dbfa6b2526"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a9c4bfc5c75d36822eabc62dbfa6b2526">moveProjectData</a> (const QString &amp;src, const QString &amp;dest)</td></tr>
+<tr class="memdesc:a9c4bfc5c75d36822eabc62dbfa6b2526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move project data files to new url.  <a href="#a9c4bfc5c75d36822eabc62dbfa6b2526">更多...</a><br /></td></tr>
+<tr class="separator:a9c4bfc5c75d36822eabc62dbfa6b2526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9a172b6523621bb0a06fc0318139d7"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#abc9a172b6523621bb0a06fc0318139d7">documentNotes</a> () const </td></tr>
+<tr class="memdesc:abc9a172b6523621bb0a06fc0318139d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve current project's notes.  <a href="#abc9a172b6523621bb0a06fc0318139d7">更多...</a><br /></td></tr>
+<tr class="separator:abc9a172b6523621bb0a06fc0318139d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0e57635dce8e3a313010f506fbb4b7"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#afd0e57635dce8e3a313010f506fbb4b7">getGuideModel</a> ()</td></tr>
+<tr class="memdesc:afd0e57635dce8e3a313010f506fbb4b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the current Guide Model The method is virtual to allow mocking.  <a href="#afd0e57635dce8e3a313010f506fbb4b7">更多...</a><br /></td></tr>
+<tr class="separator:afd0e57635dce8e3a313010f506fbb4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4554eae1bdccc173a0dc4b19f3b042"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a0a4554eae1bdccc173a0dc4b19f3b042">undoStack</a> ()</td></tr>
+<tr class="memdesc:a0a4554eae1bdccc173a0dc4b19f3b042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current undo stack The method is virtual to allow mocking.  <a href="#a0a4554eae1bdccc173a0dc4b19f3b042">更多...</a><br /></td></tr>
+<tr class="separator:a0a4554eae1bdccc173a0dc4b19f3b042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f77b7d2a40bd16f57c5ccce0445be32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a3f77b7d2a40bd16f57c5ccce0445be32">saveWithUpdatedProfile</a> (const QString &amp;updatedProfile)</td></tr>
+<tr class="memdesc:a3f77b7d2a40bd16f57c5ccce0445be32"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will create a backup file with fps appended to project name, and save the project with an updated profile info, then reopen it.  <a href="#a3f77b7d2a40bd16f57c5ccce0445be32">更多...</a><br /></td></tr>
+<tr class="separator:a3f77b7d2a40bd16f57c5ccce0445be32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508d0f11a8b84c1f5d0d83428323bc10"><td class="memItemLeft" align="right" valign="top">QPair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a508d0f11a8b84c1f5d0d83428323bc10">tracksCount</a> ()</td></tr>
+<tr class="memdesc:a508d0f11a8b84c1f5d0d83428323bc10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of tracks in this project (video, audio).  <a href="#a508d0f11a8b84c1f5d0d83428323bc10">更多...</a><br /></td></tr>
+<tr class="separator:a508d0f11a8b84c1f5d0d83428323bc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff4db80d4c739ce84ed977c48d56b9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a4ff4db80d4c739ce84ed977c48d56b9d">addAudioTracks</a> (int <a class="el" href="classProjectManager.html#a508d0f11a8b84c1f5d0d83428323bc10">tracksCount</a>)</td></tr>
+<tr class="memdesc:a4ff4db80d4c739ce84ed977c48d56b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add requested audio tracks number to project.  <a href="#a4ff4db80d4c739ce84ed977c48d56b9d">更多...</a><br /></td></tr>
+<tr class="separator:a4ff4db80d4c739ce84ed977c48d56b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:af6fe41b5c3ce0692f424de7e03ae5fc5"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#af6fe41b5c3ce0692f424de7e03ae5fc5">getDefaultProjectFormat</a> ()</td></tr>
+<tr class="memdesc:af6fe41b5c3ce0692f424de7e03ae5fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a default hd profile depending on timezone  <a href="#af6fe41b5c3ce0692f424de7e03ae5fc5">更多...</a><br /></td></tr>
+<tr class="separator:af6fe41b5c3ce0692f424de7e03ae5fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a2616fb1292c86975540bbd137e12a78f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager.html#a2616fb1292c86975540bbd137e12a78f">updateTimeline</a> (int pos=-1, int scrollPos=-1)</td></tr>
+<tr class="memdesc:a2616fb1292c86975540bbd137e12a78f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the timeline according to the MLT XML.  <a href="#a2616fb1292c86975540bbd137e12a78f">更多...</a><br /></td></tr>
+<tr class="separator:a2616fb1292c86975540bbd137e12a78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Takes care of interaction with projects. </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a4bf31f92964035af82e6bdf9ab0fcecf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectManager::ProjectManager </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets up actions to interact for project interaction (undo, redo, open, save, ...) and creates an empty project. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9862ef90100c215b59c269a8210d90bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectManager::~ProjectManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a43612734b26130f016ede0f28f13afd8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::activateAsset </td>
+          <td>(</td>
+          <td class="paramtype">const QVariantMap &amp;&#160;</td>
+          <td class="paramname"><em>effectData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add an asset in timeline (effect, transition). </p>
+
+</div>
+</div>
+<a class="anchor" id="a4ff4db80d4c739ce84ed977c48d56b9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::addAudioTracks </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tracksCount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add requested audio tracks number to project. </p>
+
+</div>
+</div>
+<a class="anchor" id="af6ac07b9729eb25046871aff530e8353"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::adjustProjectDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Project's duration changed, adjust monitor, etc. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad6a967280bb4f95a8ba1a073f1f1e8de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectManager::closeCurrentDocument </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>saveChanges</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>quit</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Close currently opened document. Returns false if something went wrong (cannot save modifications, ...). </p>
+
+</div>
+</div>
+<a class="anchor" id="acc28f1d53317fc7081d4d5e05384af63"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classKdenliveDoc.html">KdenliveDoc</a> * ProjectManager::current </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the currently opened project. A project should always be open. The method is virtual to allow mocking. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7bec3dcec6d08673799c31f4473a662c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::disableBinEffects </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>disable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>refreshMonitor</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable all bin effects in current project. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disable</td><td>if true, all project bin effects will be disabled </td></tr>
+    <tr><td class="paramname">refreshMonitor</td><td>if false, monitors will not be refreshed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a28eb596e2bc047cbae85eaaefb6f2e01"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::docOpened </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classKdenliveDoc.html">KdenliveDoc</a> *&#160;</td>
+          <td class="paramname"><em>document</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abc9a172b6523621bb0a06fc0318139d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectManager::documentNotes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve current project's notes. </p>
+
+</div>
+</div>
+<a class="anchor" id="abbeff191ec2a7c96d3d6bfe1edc123f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::doOpenFile </td>
+          <td>(</td>
+          <td class="paramtype">const QUrl &amp;&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">KAutoSaveFile *&#160;</td>
+          <td class="paramname"><em>stale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6fe41b5c3ce0692f424de7e03ae5fc5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectManager::getDefaultProjectFormat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a default hd profile depending on timezone </p>
+
+</div>
+</div>
+<a class="anchor" id="afd0e57635dce8e3a313010f506fbb4b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt; ProjectManager::getGuideModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the current Guide Model The method is virtual to allow mocking. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3482a3175e58902e187ad689f90a7a81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::init </td>
+          <td>(</td>
+          <td class="paramtype">const QUrl &amp;&#160;</td>
+          <td class="paramname"><em>projectUrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>clipList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Store command line args for later opening. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9c4bfc5c75d36822eabc62dbfa6b2526"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::moveProjectData </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move project data files to new url. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4d3bce71784f56c6b56334c68455a702"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::newFile </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>profileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showProjectSettings</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab521685150298d57f3dfe234eeb5b216"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::newFile </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showProjectSettings</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a80115deba282bd0a8ed06a1512e4a10b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::openFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows file open dialog. </p>
+
+</div>
+</div>
+<a class="anchor" id="af8dd856a08a3f4d6690c4c88c1488db6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::openFile </td>
+          <td>(</td>
+          <td class="paramtype">const QUrl &amp;&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepares opening. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url.</td><td>Checks if already open and whether backup exists </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0ee2ea0a8255fa8f47937545a09f113e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::openLastFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5b12c1fa53dc871201bdd00e2d458828"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::prepareSave </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a411a4674072c278704e794c952f87e6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectManager::projectSceneList </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>outputFolder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>overlayData</em> = <code>QString()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns current project's xml scene. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3934a0a544e91111537205f2289f1586"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">KRecentFilesAction * ProjectManager::recentFilesAction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05c5b63671e4cb05f6889ec4ef2f9d49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectManager::saveFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether a URL is available to save to. </p>
+<dl class="section return"><dt>返回</dt><dd>Whether the file was saved. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a62214253c7e8c38d6c03f47c5d3c5ad9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectManager::saveFileAs </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>saveACopy</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows a save file dialog for saving the project. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saveACopy</td><td>Default is false. If true, the file title of the dialog is set to "Save Copy…" </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Whether the file was saved. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a37d4c9930ef68cbe1ab104fbb9ff87dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectManager::saveFileAs </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>outputFileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>saveACopy</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set properties to match outputFileName and save the document. Creates an autosave version of the output file too (only if not in copymode), at ~/.kde/data/stalefiles/kdenlive/ <br />
+that will be actually written in <a class="el" href="classKdenliveDoc.html#a78ee41562c20683afd7fec3c9da5e9d0" title="Saves the current project at the autosave location. ">KdenliveDoc::slotAutoSave()</a> </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outputFileName</td><td>The URL to save to / The document's URL. </td></tr>
+    <tr><td class="paramname">saveACopy</td><td>Default is false. If true, the file will be saved but isn’t opened afterwards. Besides no autosave version will be created </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Whether we had success. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3f77b7d2a40bd16f57c5ccce0445be32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::saveWithUpdatedProfile </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>updatedProfile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This will create a backup file with fps appended to project name, and save the project with an updated profile info, then reopen it. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6c448400a75beaa93342e058441127f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::saveZone </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QDir &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac621b52e56b856787f0bae99d2d37a39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::setDocumentNotes </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>notes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the text for current project's notes. </p>
+
+</div>
+</div>
+<a class="anchor" id="acecf93118b5ce0be63bfc094540eb289"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::sigSaveRecentFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ab1bf3f1383f29413ed9d095d64a5a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotAddProjectNote </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>insert current timeline timecode in notes widget and focus widget to allow entering quick note </p>
+
+</div>
+</div>
+<a class="anchor" id="ad3dcad33a09e35a14707e8e294a82ef1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotAddTextNote </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>insert license text in notes widget and focus widget to allow entering quick note </p>
+
+</div>
+</div>
+<a class="anchor" id="ab5680275d559a04e80beeadf8c265962"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotDisableTimelineEffects </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>disable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dis/enable all timeline effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8f4d78f1d941621593cb9c3cdc86075b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotLoadOnOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load files / clips passed on the command line. </p>
+
+</div>
+</div>
+<a class="anchor" id="a05cd32c32f6ecda7f560929f67e2c0e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotMakeAllTrackActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make all tracks active or inactive. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5c92801ae8386ca01af1deae405d0085"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotResetConsumers </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fullReset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rebuild consumers after a property change. </p>
+
+</div>
+</div>
+<a class="anchor" id="aebaa335cc2ba2b1ac091c8bc64db8f84"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotResetProfiles </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reloadThumbs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update project and monitors profiles. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3cff35d4462753cad611f886914fdc1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotRestoreTargetTracks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Restore current clip target tracks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a95daf155abef509e3ab74c2a3250301a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotStartAutoSave </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start autosave timer. </p>
+
+</div>
+</div>
+<a class="anchor" id="a30c43b33460f12f90ba752eb62727565"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotSwitchAllTrackActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Toggle the active/inactive state of all tracks. </p>
+
+</div>
+</div>
+<a class="anchor" id="aebae19dd223bbc99bc483d089ec7a5a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotSwitchAllTrackLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a1972bfa16dac6590f7a902e0cae014"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotSwitchTrackActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make current timeline track active/inactive. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad1975b3a82529cdf3bada8a095abb8a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotSwitchTrackLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Un/Lock current timeline track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a69a3d993ff6b72c01fc9cbfe05f60ef9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManager::slotSwitchTrackTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Un/Set current track as target. </p>
+
+</div>
+</div>
+<a class="anchor" id="a508d0f11a8b84c1f5d0d83428323bc10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPair&lt; int, int &gt; ProjectManager::tracksCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of tracks in this project (video, audio). </p>
+
+</div>
+</div>
+<a class="anchor" id="a0a4554eae1bdccc173a0dc4b19f3b042"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; ProjectManager::undoStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the current undo stack The method is virtual to allow mocking. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2616fb1292c86975540bbd137e12a78f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectManager::updateTimeline </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>scrollPos</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the timeline according to the MLT XML. </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/project/<a class="el" href="projectmanager_8h_source.html">projectmanager.h</a></li>
+<li>src/project/<a class="el" href="projectmanager_8cpp.html">projectmanager.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

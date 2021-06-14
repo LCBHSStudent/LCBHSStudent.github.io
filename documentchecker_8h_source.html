@@ -1,0 +1,124 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/doc/documentchecker.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_659facb5ea1bf65b3deecf95a0be0132.html">doc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">documentchecker.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="documentchecker_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2008 by Jean-Baptiste Mardelle (jb@kdenlive.org)        *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *   This program is distributed in the hope that it will be useful,       *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   along with this program; if not, write to the                         *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   Free Software Foundation, Inc.,                                       *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA          *</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifndef DOCUMENTCHECKER_H</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define DOCUMENTCHECKER_H</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="definitions_8h.html">definitions.h</a>&quot;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;ui_missingclips_ui.h&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;QDir&gt;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;QDomElement&gt;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;QUrl&gt;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classDocumentChecker.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDocumentChecker.html">DocumentChecker</a> : <span class="keyword">public</span> QObject</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classDocumentChecker.html#ad2a6ef79c05a5df2cdeb25c808921f2c">DocumentChecker</a>(QUrl url, <span class="keyword">const</span> QDomDocument &amp;doc);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classDocumentChecker.html#abfee9b65b72fccd2a5f504162da3198f">~DocumentChecker</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classDocumentChecker.html#a4da0910d36a210d14de13e13c0112257">hasErrorInClips</a>();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    QString <a class="code" href="classDocumentChecker.html#aeb0f7d507f3ae23a2ffc2349d80dcb83">searchLuma</a>(<span class="keyword">const</span> QDir &amp;dir, <span class="keyword">const</span> QString &amp;file);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> acceptDialog();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> slotCheckClips();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> slotSearchClips(<span class="keyword">const</span> QString &amp;newpath);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> slotEditItem(QTreeWidgetItem *item, <span class="keywordtype">int</span>);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> slotPlaceholders();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> slotDeleteSelected();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    QString getProperty(<span class="keyword">const</span> QDomElement &amp;effect, <span class="keyword">const</span> QString &amp;name);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> updateProperty(<span class="keyword">const</span> QDomElement &amp;effect, <span class="keyword">const</span> QString &amp;name, <span class="keyword">const</span> QString &amp;value);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> setProperty(QDomElement &amp;effect, <span class="keyword">const</span> QString &amp;name, <span class="keyword">const</span> QString &amp;value);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> checkMissingImagesAndFonts(<span class="keyword">const</span> QStringList &amp;images, <span class="keyword">const</span> QStringList &amp;fonts, <span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>, <span class="keyword">const</span> QString &amp;baseClip);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> slotCheckButtons();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    QUrl m_url;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    QDomDocument m_doc;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Ui::MissingClips_UI m_ui;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    QDialog *m_dialog;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    QPair&lt;QString, QString&gt; m_rootReplacement;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    QString searchPathRecursively(<span class="keyword">const</span> QDir &amp;dir, <span class="keyword">const</span> QString &amp;fileName, <a class="code" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> type = <a class="code" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2ab358ff5f7e149574f9e5c4a61eeb852a">ClipType::Unknown</a>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    QString searchFileRecursively(<span class="keyword">const</span> QDir &amp;dir, <span class="keyword">const</span> QString &amp;matchSize, <span class="keyword">const</span> QString &amp;matchHash, <span class="keyword">const</span> QString &amp;fileName);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    QString searchDirRecursively(<span class="keyword">const</span> QDir &amp;dir, <span class="keyword">const</span> QString &amp;matchHash, <span class="keyword">const</span> QString &amp;fullName);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> checkStatus();</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    QMap&lt;QString, QString&gt; m_missingTitleImages;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    QMap&lt;QString, QString&gt; m_missingTitleFonts;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    QList&lt;QDomElement&gt; m_missingClips;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    QStringList m_missingFilters;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    QStringList m_missingFonts;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    QStringList m_safeImages;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    QStringList m_safeFonts;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    QStringList m_missingProxyIds;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    QStringList m_changedClips;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">bool</span> m_abortSearch;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">bool</span> m_checkRunning;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> fixClipItem(QTreeWidgetItem *child, <span class="keyword">const</span> QDomNodeList &amp;producers, <span class="keyword">const</span> QDomNodeList &amp;trans);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> fixSourceClipItem(QTreeWidgetItem *child, <span class="keyword">const</span> QDomNodeList &amp;producers);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> fixProxyClip(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>, <span class="keyword">const</span> QString &amp;oldUrl, <span class="keyword">const</span> QString &amp;newUrl, <span class="keyword">const</span> QDomNodeList &amp;producers);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    QMap&lt;QString, QString&gt; getLumaPairs() <span class="keyword">const</span>;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">void</span> fixMissingSource(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>, QDomNodeList producers);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;signals:</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classDocumentChecker.html#a585d658d3f095519844298e3d29c6537">showScanning</a>(<span class="keyword">const</span> QString);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classDocumentChecker_html_a4da0910d36a210d14de13e13c0112257"><div class="ttname"><a href="classDocumentChecker.html#a4da0910d36a210d14de13e13c0112257">DocumentChecker::hasErrorInClips</a></div><div class="ttdeci">bool hasErrorInClips()</div><div class="ttdoc">checks for problems with the clips in the project Checks for missing proxies, wrong duration clips...</div><div class="ttdef"><b>Definition:</b> documentchecker.cpp:86</div></div>
+<div class="ttc" id="namespaceClipType_html_a293ad0131334e0677c220ae52ff49ea2"><div class="ttname"><a href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a></div><div class="ttdeci">ProducerType</div><div class="ttdef"><b>Definition:</b> definitions.h:116</div></div>
+<div class="ttc" id="classDocumentChecker_html_ad2a6ef79c05a5df2cdeb25c808921f2c"><div class="ttname"><a href="classDocumentChecker.html#ad2a6ef79c05a5df2cdeb25c808921f2c">DocumentChecker::DocumentChecker</a></div><div class="ttdeci">DocumentChecker(QUrl url, const QDomDocument &amp;doc)</div><div class="ttdef"><b>Definition:</b> documentchecker.cpp:63</div></div>
+<div class="ttc" id="classDocumentChecker_html_abfee9b65b72fccd2a5f504162da3198f"><div class="ttname"><a href="classDocumentChecker.html#abfee9b65b72fccd2a5f504162da3198f">DocumentChecker::~DocumentChecker</a></div><div class="ttdeci">~DocumentChecker() override</div><div class="ttdef"><b>Definition:</b> documentchecker.cpp:775</div></div>
+<div class="ttc" id="namespaceClipType_html_a293ad0131334e0677c220ae52ff49ea2ab358ff5f7e149574f9e5c4a61eeb852a"><div class="ttname"><a href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2ab358ff5f7e149574f9e5c4a61eeb852a">ClipType::Unknown</a></div><div class="ttdef"><b>Definition:</b> definitions.h:117</div></div>
+<div class="ttc" id="classDocumentChecker_html"><div class="ttname"><a href="classDocumentChecker.html">DocumentChecker</a></div><div class="ttdef"><b>Definition:</b> documentchecker.h:30</div></div>
+<div class="ttc" id="classDocumentChecker_html_aeb0f7d507f3ae23a2ffc2349d80dcb83"><div class="ttname"><a href="classDocumentChecker.html#aeb0f7d507f3ae23a2ffc2349d80dcb83">DocumentChecker::searchLuma</a></div><div class="ttdeci">QString searchLuma(const QDir &amp;dir, const QString &amp;file)</div><div class="ttdef"><b>Definition:</b> documentchecker.cpp:935</div></div>
+<div class="ttc" id="definitions_8h_html"><div class="ttname"><a href="definitions_8h.html">definitions.h</a></div></div>
+<div class="ttc" id="classDocumentChecker_html_a585d658d3f095519844298e3d29c6537"><div class="ttname"><a href="classDocumentChecker.html#a585d658d3f095519844298e3d29c6537">DocumentChecker::showScanning</a></div><div class="ttdeci">void showScanning(const QString)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

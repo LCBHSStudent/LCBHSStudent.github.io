@@ -1,0 +1,17 @@
+<map id="src/monitor/scopes/audiographspectrum.cpp" name="src/monitor/scopes/audiographspectrum.cpp">
+<area shape="rect" id="node2" href="$monitor_2scopes_2audiographspectrum_8h.html" title="audiographspectrum.h" alt="" coords="275,95,443,121"/>
+<area shape="rect" id="node16" href="$monitormanager_8h.html" title="../monitormanager.h" alt="" coords="990,95,1145,121"/>
+<area shape="rect" id="node26" href="$core_8h.html" title="core.h" alt="" coords="2175,169,2237,196"/>
+<area shape="rect" id="node38" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="1449,244,1633,271"/>
+<area shape="rect" id="node3" href="$scopewidget_8h.html" title="scopewidget.h" alt="" coords="401,169,517,196"/>
+<area shape="rect" id="node6" href="$sharedframe_8h.html" title="sharedframe.h" alt="" coords="805,244,922,271"/>
+<area shape="rect" id="node4" href="$dataqueue_8h.html" title="dataqueue.h" alt="" coords="612,244,715,271"/>
+<area shape="rect" id="node17" href="$monitor_8h.html" title="monitor.h" alt="" coords="1124,169,1208,196"/>
+<area shape="rect" id="node18" href="$abstractmonitor_8h.html" title="abstractmonitor.h" alt="" coords="1097,244,1235,271"/>
+<area shape="rect" id="node19" href="$definitions_8h.html" title="definitions.h" alt="" coords="1637,319,1740,345"/>
+<area shape="rect" id="node27" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="1864,244,2015,271"/>
+<area shape="rect" id="node29" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2039,244,2205,271"/>
+<area shape="rect" id="node30" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="2230,244,2353,271"/>
+<area shape="rect" id="node36" href="$timecode_8h.html" title="timecode.h" alt="" coords="1056,319,1151,345"/>
+<area shape="rect" id="node39" href="$profileinfo_8hpp.html" title="profileinfo.hpp" alt="" coords="1395,319,1511,345"/>
+</map>

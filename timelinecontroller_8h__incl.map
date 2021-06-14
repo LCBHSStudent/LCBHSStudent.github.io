@@ -1,0 +1,11 @@
+<map id="src/timeline2/view/timelinecontroller.h" name="src/timeline2/view/timelinecontroller.h">
+<area shape="rect" id="node2" href="$definitions_8h.html" title="definitions.h" alt="" coords="909,244,1011,271"/>
+<area shape="rect" id="node12" href="$audioCorrelation_8h.html" title="lib/audio/audioCorrelation.h" alt="" coords="493,95,696,121"/>
+<area shape="rect" id="node23" href="$timelineitemmodel_8hpp.html" title="timeline2/model/timelineitemmodel.hpp" alt="" coords="1022,95,1309,121"/>
+<area shape="rect" id="node3" href="$gentime_8h.html" title="gentime.h" alt="" coords="703,319,791,345"/>
+<area shape="rect" id="node13" href="$audioCorrelationInfo_8h.html" title="audioCorrelationInfo.h" alt="" coords="57,169,223,196"/>
+<area shape="rect" id="node16" href="$audioEnvelope_8h.html" title="audioEnvelope.h" alt="" coords="529,169,660,196"/>
+<area shape="rect" id="node17" href="$audioInfo_8h.html" title="audioInfo.h" alt="" coords="350,244,445,271"/>
+<area shape="rect" id="node24" href="$timelinemodel_8hpp.html" title="timelinemodel.hpp" alt="" coords="1115,169,1261,196"/>
+<area shape="rect" id="node25" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1881,244,2004,271"/>
+</map>

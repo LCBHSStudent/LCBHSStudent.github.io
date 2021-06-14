@@ -1,0 +1,132 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/qml/qmlhovertip.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1d81f7f4362e4398c0a695c4e466fcb0.html">qml</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">qmlhovertip.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="qmlhovertip_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef QMLHOVERTIP_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define QMLHOVERTIP_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="symbols_8h.html">symbols.h</a>&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QQuickItem&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QTimer&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>QQuickWidget;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classQmlHoverTip.html">QmlHoverTip</a>: <span class="keyword">public</span> QQuickItem {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    </div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#ae6d001b23d9fa95132d2d20477169eb0">   13</a></span>&#160;    Q_PROPERTY(QString <a class="code" href="classQmlHoverTip.html#a8bc8528ddc959d008bd4c922c7625b3c">text</a> READ <a class="code" href="classQmlHoverTip.html#a8bc8528ddc959d008bd4c922c7625b3c">text</a> WRITE <a class="code" href="classQmlHoverTip.html#a71f882811a91ebdc2a878c780a43f761">setText</a> NOTIFY <a class="code" href="classQmlHoverTip.html#aa0c9fd560fafa85c7c0a6a65dfd82eb7">textChanged</a>)</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a77cd410aa3497046be17dd569b9552a4">   14</a></span>&#160;    Q_PROPERTY(<span class="keywordtype">int</span> <a class="code" href="classQmlHoverTip.html#ac85a1a24deb01f2a851d337e577cc1c5">delay</a> READ <a class="code" href="classQmlHoverTip.html#ac85a1a24deb01f2a851d337e577cc1c5">delay</a> WRITE <a class="code" href="classQmlHoverTip.html#a0cb9685380397502a8b05a48ed2f7e80">setDelay</a> NOTIFY <a class="code" href="classQmlHoverTip.html#adf9b6f322a15de7dbb6f9fd6f3dc325f">delayChanged</a>)</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#ae964a2fac3ff0d8cda6d2d05db9f108e">   15</a></span>&#160;    Q_PROPERTY(<span class="keywordtype">int</span> <a class="code" href="classQmlHoverTip.html#a93857c5c102f3456d80b48d83f356bcc">timeout</a> READ <a class="code" href="classQmlHoverTip.html#a93857c5c102f3456d80b48d83f356bcc">timeout</a> WRITE <a class="code" href="classQmlHoverTip.html#ad086ed9ea927da4c5217d3a2d4309ca1">setTimeout</a> NOTIFY <a class="code" href="classQmlHoverTip.html#a492be2c243e5ce0c91794e4a24ef2a30">timeoutChanged</a>)</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#ac1da59f44ff06c85934083cf81688df6">   16</a></span>&#160;    Q_PROPERTY(<span class="keywordtype">bool</span> <a class="code" href="classQmlHoverTip.html#a0213a55444934fed5432f301ba942b8d">enabled</a> READ <a class="code" href="classQmlHoverTip.html#a0213a55444934fed5432f301ba942b8d">enabled</a> WRITE <a class="code" href="classQmlHoverTip.html#a89b087fa55165069c925853439c2e808">setEnabled</a> NOTIFY <a class="code" href="classQmlHoverTip.html#a3719b1fd3febdc7f70eb40bf035b0f77">enabledChanged</a>)</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    </div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;public:</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    explicit </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classQmlHoverTip.html">QmlHoverTip</a>(QQuickItem* parent = <span class="keywordtype">nullptr</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    virtual</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        ~<a class="code" href="classQmlHoverTip.html">QmlHoverTip</a>();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="comment">// getters</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">int</span> </div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#ac85a1a24deb01f2a851d337e577cc1c5">   26</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#ac85a1a24deb01f2a851d337e577cc1c5">delay</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_delay; }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> </div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a93857c5c102f3456d80b48d83f356bcc">   28</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#a93857c5c102f3456d80b48d83f356bcc">timeout</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_timeout; }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">bool</span></div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a0213a55444934fed5432f301ba942b8d">   30</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#a0213a55444934fed5432f301ba942b8d">enabled</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_enabled; }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    QString</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a8bc8528ddc959d008bd4c922c7625b3c">   32</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#a8bc8528ddc959d008bd4c922c7625b3c">text</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_text; }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    </div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// setters</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span></div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a0cb9685380397502a8b05a48ed2f7e80">   36</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#a0cb9685380397502a8b05a48ed2f7e80">setDelay</a>(<span class="keywordtype">int</span> <a class="code" href="classQmlHoverTip.html#ac85a1a24deb01f2a851d337e577cc1c5">delay</a>) { <a class="code" href="symbols_8h.html#a4f08e57d2c8c62bc7ae023557ea2424e">VAR_SETTER</a>(delay); m_displayTimer-&gt;setInterval(delay); }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span></div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#ad086ed9ea927da4c5217d3a2d4309ca1">   38</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#ad086ed9ea927da4c5217d3a2d4309ca1">setTimeout</a>(<span class="keywordtype">int</span> <a class="code" href="classQmlHoverTip.html#a93857c5c102f3456d80b48d83f356bcc">timeout</a>) { <a class="code" href="symbols_8h.html#a4f08e57d2c8c62bc7ae023557ea2424e">VAR_SETTER</a>(timeout); m_hideTimer-&gt;setInterval(timeout); }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span></div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a89b087fa55165069c925853439c2e808">   40</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#a89b087fa55165069c925853439c2e808">setEnabled</a>(<span class="keywordtype">int</span> <a class="code" href="classQmlHoverTip.html#a0213a55444934fed5432f301ba942b8d">enabled</a>) { <a class="code" href="symbols_8h.html#a4f08e57d2c8c62bc7ae023557ea2424e">VAR_SETTER</a>(enabled); }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span>    <span class="comment">// sepical cond for text</span></div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classQmlHoverTip.html#a71f882811a91ebdc2a878c780a43f761">   42</a></span>&#160;        <a class="code" href="classQmlHoverTip.html#a71f882811a91ebdc2a878c780a43f761">setText</a>(<span class="keyword">const</span> QString&amp; <a class="code" href="classQmlHoverTip.html#a8bc8528ddc959d008bd4c922c7625b3c">text</a>) { <a class="code" href="symbols_8h.html#a4f08e57d2c8c62bc7ae023557ea2424e">VAR_SETTER</a>(text); }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;signals:</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlHoverTip.html#aa0c9fd560fafa85c7c0a6a65dfd82eb7">textChanged</a>();</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlHoverTip.html#adf9b6f322a15de7dbb6f9fd6f3dc325f">delayChanged</a>();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlHoverTip.html#a492be2c243e5ce0c91794e4a24ef2a30">timeoutChanged</a>();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlHoverTip.html#a3719b1fd3febdc7f70eb40bf035b0f77">enabledChanged</a>();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlHoverTip.html#a7f6e3dba74325a367da30aa8e68c0189">hoverEnterEvent</a>(QHoverEvent*) <span class="keyword">override</span>;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//    void hoverMoveEvent(QHoverEvent*) override;</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQmlHoverTip.html#abbaa7b08f9e0b4edbffe35c6b0fc369f">hoverLeaveEvent</a>(QHoverEvent*) <span class="keyword">override</span>;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    </div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> onHideTriggered();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> onDisplayTriggered();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">inline</span> <span class="keyword">static</span> QQuickWidget* </div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        s_toolTip = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">inline</span> <span class="keyword">static</span> QUrl</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        s_toolTipQmlUrl = {};</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    </div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    QTimer* </div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        m_hideTimer = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    QTimer* </div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        m_displayTimer = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> </div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        m_delay     = 800;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">int</span> </div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        m_timeout   = 5000;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">bool</span> </div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        m_enabled   = <span class="keyword">true</span>;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    QString</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        m_text      = {};</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif // QMLHOVERTIP_H</span></div><div class="ttc" id="classQmlHoverTip_html_a0cb9685380397502a8b05a48ed2f7e80"><div class="ttname"><a href="classQmlHoverTip.html#a0cb9685380397502a8b05a48ed2f7e80">QmlHoverTip::setDelay</a></div><div class="ttdeci">void setDelay(int delay)</div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:36</div></div>
+<div class="ttc" id="symbols_8h_html_a4f08e57d2c8c62bc7ae023557ea2424e"><div class="ttname"><a href="symbols_8h.html#a4f08e57d2c8c62bc7ae023557ea2424e">VAR_SETTER</a></div><div class="ttdeci">#define VAR_SETTER(__VAR_NAME)                                                                                                                                                                                                                                                                </div><div class="ttdef"><b>Definition:</b> symbols.h:115</div></div>
+<div class="ttc" id="classQmlHoverTip_html_ac85a1a24deb01f2a851d337e577cc1c5"><div class="ttname"><a href="classQmlHoverTip.html#ac85a1a24deb01f2a851d337e577cc1c5">QmlHoverTip::delay</a></div><div class="ttdeci">int delay() const </div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:26</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a89b087fa55165069c925853439c2e808"><div class="ttname"><a href="classQmlHoverTip.html#a89b087fa55165069c925853439c2e808">QmlHoverTip::setEnabled</a></div><div class="ttdeci">void setEnabled(int enabled)</div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:40</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a7f6e3dba74325a367da30aa8e68c0189"><div class="ttname"><a href="classQmlHoverTip.html#a7f6e3dba74325a367da30aa8e68c0189">QmlHoverTip::hoverEnterEvent</a></div><div class="ttdeci">void hoverEnterEvent(QHoverEvent *) override</div><div class="ttdef"><b>Definition:</b> qmlhovertip.cpp:65</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a0213a55444934fed5432f301ba942b8d"><div class="ttname"><a href="classQmlHoverTip.html#a0213a55444934fed5432f301ba942b8d">QmlHoverTip::enabled</a></div><div class="ttdeci">bool enabled() const </div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:30</div></div>
+<div class="ttc" id="classQmlHoverTip_html_ad086ed9ea927da4c5217d3a2d4309ca1"><div class="ttname"><a href="classQmlHoverTip.html#ad086ed9ea927da4c5217d3a2d4309ca1">QmlHoverTip::setTimeout</a></div><div class="ttdeci">void setTimeout(int timeout)</div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:38</div></div>
+<div class="ttc" id="classQmlHoverTip_html_aa0c9fd560fafa85c7c0a6a65dfd82eb7"><div class="ttname"><a href="classQmlHoverTip.html#aa0c9fd560fafa85c7c0a6a65dfd82eb7">QmlHoverTip::textChanged</a></div><div class="ttdeci">void textChanged()</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a3719b1fd3febdc7f70eb40bf035b0f77"><div class="ttname"><a href="classQmlHoverTip.html#a3719b1fd3febdc7f70eb40bf035b0f77">QmlHoverTip::enabledChanged</a></div><div class="ttdeci">void enabledChanged()</div></div>
+<div class="ttc" id="symbols_8h_html"><div class="ttname"><a href="symbols_8h.html">symbols.h</a></div></div>
+<div class="ttc" id="classQmlHoverTip_html_a492be2c243e5ce0c91794e4a24ef2a30"><div class="ttname"><a href="classQmlHoverTip.html#a492be2c243e5ce0c91794e4a24ef2a30">QmlHoverTip::timeoutChanged</a></div><div class="ttdeci">void timeoutChanged()</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a8bc8528ddc959d008bd4c922c7625b3c"><div class="ttname"><a href="classQmlHoverTip.html#a8bc8528ddc959d008bd4c922c7625b3c">QmlHoverTip::text</a></div><div class="ttdeci">QString text() const </div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:32</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a93857c5c102f3456d80b48d83f356bcc"><div class="ttname"><a href="classQmlHoverTip.html#a93857c5c102f3456d80b48d83f356bcc">QmlHoverTip::timeout</a></div><div class="ttdeci">int timeout() const </div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:28</div></div>
+<div class="ttc" id="classQmlHoverTip_html_a71f882811a91ebdc2a878c780a43f761"><div class="ttname"><a href="classQmlHoverTip.html#a71f882811a91ebdc2a878c780a43f761">QmlHoverTip::setText</a></div><div class="ttdeci">void setText(const QString &amp;text)</div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:42</div></div>
+<div class="ttc" id="classQmlHoverTip_html_abbaa7b08f9e0b4edbffe35c6b0fc369f"><div class="ttname"><a href="classQmlHoverTip.html#abbaa7b08f9e0b4edbffe35c6b0fc369f">QmlHoverTip::hoverLeaveEvent</a></div><div class="ttdeci">void hoverLeaveEvent(QHoverEvent *) override</div><div class="ttdef"><b>Definition:</b> qmlhovertip.cpp:78</div></div>
+<div class="ttc" id="classQmlHoverTip_html"><div class="ttname"><a href="classQmlHoverTip.html">QmlHoverTip</a></div><div class="ttdef"><b>Definition:</b> qmlhovertip.h:10</div></div>
+<div class="ttc" id="classQmlHoverTip_html_adf9b6f322a15de7dbb6f9fd6f3dc325f"><div class="ttname"><a href="classQmlHoverTip.html#adf9b6f322a15de7dbb6f9fd6f3dc325f">QmlHoverTip::delayChanged</a></div><div class="ttdeci">void delayChanged()</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

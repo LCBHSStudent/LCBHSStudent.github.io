@@ -1,0 +1,13 @@
+<map id="src/project/dialogs/profilewidget.cpp" name="src/project/dialogs/profilewidget.cpp">
+<area shape="rect" id="node2" href="$profilewidget_8h.html" title="profilewidget.h" alt="" coords="609,95,727,121"/>
+<area shape="rect" id="node19" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="879,169,1063,196"/>
+<area shape="rect" id="node22" href="$profilerepository_8hpp.html" title="profiles/profilerepository.hpp" alt="" coords="1346,169,1553,196"/>
+<area shape="rect" id="node26" href="$profilefilter_8hpp.html" title="profiles/tree/profilefilter.hpp" alt="" coords="1136,95,1339,121"/>
+<area shape="rect" id="node28" href="$profiletreemodel_8hpp.html" title="profiles/tree/profiletreemodel.hpp" alt="" coords="1413,95,1653,121"/>
+<area shape="rect" id="node3" href="$profilesdialog_8h.html" title="dialogs/profilesdialog.h" alt="" coords="355,169,528,196"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="479,244,582,271"/>
+<area shape="rect" id="node5" href="$gentime_8h.html" title="gentime.h" alt="" coords="5,319,93,345"/>
+<area shape="rect" id="node20" href="$profileinfo_8hpp.html" title="profileinfo.hpp" alt="" coords="1154,244,1270,271"/>
+<area shape="rect" id="node29" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="1667,169,1935,196"/>
+<area shape="rect" id="node30" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1839,244,1961,271"/>
+</map>

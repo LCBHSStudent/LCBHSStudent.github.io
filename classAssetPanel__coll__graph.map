@@ -1,0 +1,8 @@
+<map id="AssetPanel" name="AssetPanel">
+<area shape="rect" id="node4" href="$classAssetParameterView.html" title="This class is the view for a list of parameters. " alt="" coords="69,944,281,1329"/>
+<area shape="rect" id="node6" href="$classAbstractParamWidget.html" title="Base class of all the widgets representing a parameter of an asset (effect or transition) ..." alt="" coords="117,132,315,312"/>
+<area shape="rect" id="node8" href="$classEffectStackView.html" title="{EffectStackView\n||+ EffectStackView()\l+ ~EffectStackView()\l+ setModel()\l+ unsetModel()\l+ stackOwner()\l+ addEffect()\l+ isEmpty()\l+ enableStack()\l+ isStackEnabled()\l+ switchCollapsed()\l+ slotGoToKeyframe()\l+ addRemoveKeyframe()\l# dragEnterEvent()\l# dropEvent()\l# resizeEvent()\l}" alt="" coords="307,336,495,619"/>
+<area shape="rect" id="node3" href="$classMixStackView.html" title="{MixStackView\n||+ MixStackView()\l+ setModel()\l+ unsetModel()\l+ stackOwner()\l}" alt="" coords="43,1386,181,1507"/>
+<area shape="rect" id="node7" href="$classTransitionStackView.html" title="{TransitionStackView\n||+ TransitionStackView()\l+ setModel()\l+ unsetModel()\l+ stackOwner()\l+ refreshTracks()\l}" alt="" coords="205,1379,384,1515"/>
+<area shape="rect" id="node5" href="$classKeyframeWidget.html" title="{KeyframeWidget\n||+ KeyframeWidget()\l+ ~KeyframeWidget()\l+ addParameter()\l+ getPosition()\l+ requiredScene()\l+ updateTimecodeFormat()\l+ showKeyframes()\l+ keyframesVisible()\l+ resetKeyframes()\l+ slotRefresh()\l+ slotInitMonitor()\l+ slotSetPosition()\l}" alt="" coords="116,643,319,881"/>
+</map>

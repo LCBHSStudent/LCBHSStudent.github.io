@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['name',['name',['../classAbstractProjectItem.html#ab33a44bf6f10bfcee7626f31e6650c5e',1,'AbstractProjectItem::name()'],['../classProviderModel.html#a922455e89fee7e07b6148979d89c2cc9',1,'ProviderModel::name()']]],
+  ['nativeeventfilter',['nativeEventFilter',['../classNativeWindowFilter.html#aa863ae122c58c73bfd622b624f6a98ef',1,'NativeWindowFilter::nativeEventFilter()'],['../classNativeWindowHelper.html#a23a06050f92e5e6b0c355d21ce2203e6',1,'NativeWindowHelper::nativeEventFilter()']]],
+  ['nativewindowhelper',['NativeWindowHelper',['../classNativeWindowHelper.html#abc0ed15542a709be6bb1c2cc18785c43',1,'NativeWindowHelper::NativeWindowHelper(QWindow *window, NativeWindowTester *tester)'],['../classNativeWindowHelper.html#accd6c8c9e39bf16870cd5169c0453b8e',1,'NativeWindowHelper::NativeWindowHelper(QWindow *window)']]],
+  ['nativewindowhelperprivate',['NativeWindowHelperPrivate',['../classNativeWindowHelperPrivate.html#a6f628cf0a4acb372db0afeba6a3fb850',1,'NativeWindowHelperPrivate']]],
+  ['needsconfirmation',['needsConfirmation',['../structStatusBarMessageItem.html#a20df174d0029c578fe1bf84595bcaaf2',1,'StatusBarMessageItem']]],
+  ['needsmonitoreffectscene',['needsMonitorEffectScene',['../classAssetParameterView.html#aace02679150478953bb2dce934949291',1,'AssetParameterView::needsMonitorEffectScene()'],['../classCollapsibleEffectView.html#a3fe832f5400f4afa6024d590d8fe7ded',1,'CollapsibleEffectView::needsMonitorEffectScene()']]],
+  ['needssingleframe',['needsSingleFrame',['../classAbstractScopeWidget.html#a0669944ce83573fb9295c2c6665e00a2',1,'AbstractScopeWidget']]],
+  ['newellipse',['newEllipse',['../classGraphicsSceneRectMove.html#af5100d61f83586c476539b6d337cd297',1,'GraphicsSceneRectMove']]],
+  ['newfile',['newFile',['../classProjectManager.html#a4d3bce71784f56c6b56334c68455a702',1,'ProjectManager::newFile(QString profileName, bool showProjectSettings=true)'],['../classProjectManager.html#ab521685150298d57f3dfe234eeb5b216',1,'ProjectManager::newFile(bool showProjectSettings=true)']]],
+  ['newmarker',['newMarker',['../classMarkerDialog.html#ae9816c5402b26d2c31bf4d1d03d96097',1,'MarkerDialog']]],
+  ['newrect',['newRect',['../classGraphicsSceneRectMove.html#af4c96420f9e94f38856d196ee83aa86b',1,'GraphicsSceneRectMove']]],
+  ['newtext',['newText',['../classGraphicsSceneRectMove.html#a417efa5c9a1185f08142c0ad2923746b',1,'GraphicsSceneRectMove']]],
+  ['nextkeyframe',['nextKeyframe',['../classAssetParameterView.html#a5313a385dbdc749feccf838ba384beaa',1,'AssetParameterView']]],
+  ['noeditdelegate',['NoEditDelegate',['../classNoEditDelegate.html#ab9ab39fdfdf856336ec7f8dca603a254',1,'NoEditDelegate']]],
+  ['normaledit',['normalEdit',['../classTimelineModel.html#ac42a57aeb5117a6d65ac7c64258dc3e6',1,'TimelineModel']]],
+  ['normalizeaudiothumbs',['normalizeAudioThumbs',['../classMonitor.html#a9609da6d5b33906f6700cc235bf21053',1,'Monitor']]],
+  ['notesplugin',['NotesPlugin',['../classNotesPlugin.html#a59524840f8c92538c07f2ed6db306666',1,'NotesPlugin']]],
+  ['noteswidget',['NotesWidget',['../classNotesWidget.html#a73949d878f9131f7df6704d770539822',1,'NotesWidget']]],
+  ['notifychange',['notifyChange',['../classTimelineItemModel.html#ae8fccf4dd190df146931c8d742f0248b',1,'TimelineItemModel::notifyChange(const QModelIndex &amp;topleft, const QModelIndex &amp;bottomright, bool start, bool duration, bool updateThumb) override'],['../classTimelineItemModel.html#aafe52268fb0b639ce24f59603158c5fc',1,'TimelineItemModel::notifyChange(const QModelIndex &amp;topleft, const QModelIndex &amp;bottomright, const QVector&lt; int &gt; &amp;roles) override'],['../classTimelineItemModel.html#ac702c02738a8c5874203f08fe47e4f6c',1,'TimelineItemModel::notifyChange(const QModelIndex &amp;topleft, const QModelIndex &amp;bottomright, int role) override'],['../classTimelineModel.html#a7e3f255e99147c090594c29a0c355ce4',1,'TimelineModel::notifyChange(const QModelIndex &amp;topleft, const QModelIndex &amp;bottomright, bool start, bool duration, bool updateThumb)=0'],['../classTimelineModel.html#a0e8f7a14c7a8cf34afa9e574b1a28949',1,'TimelineModel::notifyChange(const QModelIndex &amp;topleft, const QModelIndex &amp;bottomright, const QVector&lt; int &gt; &amp;roles)=0'],['../classTimelineModel.html#ac4c257e35114bd9ceefb320869e40448',1,'TimelineModel::notifyChange(const QModelIndex &amp;topleft, const QModelIndex &amp;bottomright, int role)=0']]],
+  ['notifyrowabouttoappend',['notifyRowAboutToAppend',['../classAbstractTreeModel.html#a992bb9860859b250717433f600d788e0',1,'AbstractTreeModel']]],
+  ['notifyrowabouttodelete',['notifyRowAboutToDelete',['../classAbstractTreeModel.html#a851f7b179430faef6b95c0b43f9125ba',1,'AbstractTreeModel']]],
+  ['notifyrowappended',['notifyRowAppended',['../classAbstractTreeModel.html#a4e481b2ed03c3f4995a3c38d12181d9e',1,'AbstractTreeModel']]],
+  ['notifyrowdeleted',['notifyRowDeleted',['../classAbstractTreeModel.html#ad17a7ad7c626959c1083a2afe3fac3dc',1,'AbstractTreeModel']]]
+];

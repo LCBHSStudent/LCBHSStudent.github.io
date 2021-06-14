@@ -1,0 +1,12 @@
+<map id="src/bin/clipcreator.hpp" name="src/bin/clipcreator.hpp">
+<area shape="rect" id="node2" href="$bin_8cpp.html" title="src/bin/bin.cpp" alt="" coords="5,87,121,114"/>
+<area shape="rect" id="node3" href="$clipcreator_8cpp.html" title="src/bin/clipcreator.cpp" alt="" coords="145,87,309,114"/>
+<area shape="rect" id="node4" href="$clipcreationdialog_8cpp.html" title="src/dialogs/clipcreationdialog.cpp" alt="" coords="333,87,572,114"/>
+<area shape="rect" id="node5" href="$kdenlivedoc_8cpp.html" title="src/doc/kdenlivedoc.cpp" alt="" coords="597,87,775,114"/>
+<area shape="rect" id="node6" href="$scenesplitjob_8cpp.html" title="src/jobs/scenesplitjob.cpp" alt="" coords="799,87,989,114"/>
+<area shape="rect" id="node7" href="$scenesplittask_8cpp.html" title="src/jobs/scenesplittask.cpp" alt="" coords="1013,87,1210,114"/>
+<area shape="rect" id="node8" href="$transcodetask_8cpp.html" title="src/jobs/transcodetask.cpp" alt="" coords="1234,87,1429,114"/>
+<area shape="rect" id="node9" href="$mainwindow_8cpp.html" title="src/mainwindow.cpp" alt="" coords="1453,87,1607,114"/>
+<area shape="rect" id="node10" href="$clipcontroller_8cpp.html" title="src/mltcontroller/clipcontroller.cpp" alt="" coords="1632,87,1876,114"/>
+<area shape="rect" id="node11" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="1901,80,2069,121"/>
+</map>

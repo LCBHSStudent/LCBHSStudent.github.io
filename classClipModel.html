@@ -1,0 +1,2883 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: ClipModel类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classClipModel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">ClipModel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This class represents a Clip object, as viewed by the backend. In general, the Gui associated with it will send modification queries (such as resize or move), and this class authorize them or not depending on the validity of the modifications.  
+ <a href="classClipModel.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="clipmodel_8hpp_source.html">clipmodel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 ClipModel 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classClipModel__inherit__graph.png" border="0" usemap="#ClipModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="ClipModel_inherit__map" id="ClipModel_inherit__map">
+<area shape="rect" id="node2" href="classMoveableItem.html" title="{MoveableItem\&lt; Mlt::\lProducer \&gt;\n|+ selected\l# m_parent\l# m_id\l# m_position\l# m_currentTrackId\l# m_grabbed\l# m_lock\l|+ MoveableItem()\l+ getId()\l+ getPlaytime()\l+ getCurrentTrackId()\l+ getPosition()\l+ getInOut()\l+ getIn()\l+ getOut()\l+ setGrab()\l+ operator Mlt::Producer &amp;()\l+ isValid()\l+ getProperty()\l+ isGrabbed()\l+ setSelected()\l# ~MoveableItem()\l# service()\l# requestResize()\l# setPosition()\l# setCurrentTrackId()\l# setInOut()\l}" alt="" coords="12,5,219,464"/>
+</map>
+</div>
+<div class="dynheader">
+ClipModel 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classClipModel__coll__graph.png" border="0" usemap="#ClipModel_coll__map" alt="Collaboration graph"/></div>
+<map name="ClipModel_coll__map" id="ClipModel_coll__map">
+<area shape="rect" id="node2" href="classMoveableItem.html" title="{MoveableItem\&lt; Mlt::\lProducer \&gt;\n|+ selected\l# m_parent\l# m_id\l# m_position\l# m_currentTrackId\l# m_grabbed\l# m_lock\l|+ MoveableItem()\l+ getId()\l+ getPlaytime()\l+ getCurrentTrackId()\l+ getPosition()\l+ getInOut()\l+ getIn()\l+ getOut()\l+ setGrab()\l+ operator Mlt::Producer &amp;()\l+ isValid()\l+ getProperty()\l+ isGrabbed()\l+ setSelected()\l# ~MoveableItem()\l# service()\l# requestResize()\l# setPosition()\l# setCurrentTrackId()\l# setInOut()\l}" alt="" coords="12,5,219,464"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a307e738a952f94011d97484d08d4b8ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a307e738a952f94011d97484d08d4b8ac">~ClipModel</a> () override</td></tr>
+<tr class="separator:a307e738a952f94011d97484d08d4b8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4530873f3a238f1a7b03ccd07218040"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ad4530873f3a238f1a7b03ccd07218040">getProperty</a> (const QString &amp;name) const  override</td></tr>
+<tr class="memdesc:ad4530873f3a238f1a7b03ccd07218040"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a property of the clip, or from it's parent if it's a cut  <a href="#ad4530873f3a238f1a7b03ccd07218040">更多...</a><br /></td></tr>
+<tr class="separator:ad4530873f3a238f1a7b03ccd07218040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08cc6209c27b4c08c67f077bfd78afb2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a08cc6209c27b4c08c67f077bfd78afb2">getIntProperty</a> (const QString &amp;name) const </td></tr>
+<tr class="separator:a08cc6209c27b4c08c67f077bfd78afb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8e12761017ae0ef83c11ce6621d68b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#acb8e12761017ae0ef83c11ce6621d68b">getDoubleProperty</a> (const QString &amp;name) const </td></tr>
+<tr class="separator:acb8e12761017ae0ef83c11ce6621d68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb4c43934abd12a092546897b5a7988"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a5bb4c43934abd12a092546897b5a7988">clipName</a> () const </td></tr>
+<tr class="memdesc:a5bb4c43934abd12a092546897b5a7988"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bin clip name  <a href="#a5bb4c43934abd12a092546897b5a7988">更多...</a><br /></td></tr>
+<tr class="separator:a5bb4c43934abd12a092546897b5a7988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe2cb226b7ee6c180f7851d50bf84042"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#abe2cb226b7ee6c180f7851d50bf84042">clipTag</a> () const </td></tr>
+<tr class="separator:abe2cb226b7ee6c180f7851d50bf84042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033ff86a3baeadb9b1d8f11327902f9b"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a033ff86a3baeadb9b1d8f11327902f9b">getFrameSize</a> () const </td></tr>
+<tr class="separator:a033ff86a3baeadb9b1d8f11327902f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af421ee33df9162d6078e07c3e1a54f6e"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#af421ee33df9162d6078e07c3e1a54f6e">showKeyframes</a> () const </td></tr>
+<tr class="separator:af421ee33df9162d6078e07c3e1a54f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c0ae4e00b7dc9daa7b69b0f1723193"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a67c0ae4e00b7dc9daa7b69b0f1723193">setShowKeyframes</a> (bool show)</td></tr>
+<tr class="separator:a67c0ae4e00b7dc9daa7b69b0f1723193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f086faacce477d7e3116fd18453cd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ab3f086faacce477d7e3116fd18453cd9">canBeVideo</a> () const </td></tr>
+<tr class="memdesc:ab3f086faacce477d7e3116fd18453cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the clip can be converted to a video clip.  <a href="#ab3f086faacce477d7e3116fd18453cd9">更多...</a><br /></td></tr>
+<tr class="separator:ab3f086faacce477d7e3116fd18453cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dab32d3dda611f7286b8272f0a143b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a0dab32d3dda611f7286b8272f0a143b2">canBeAudio</a> () const </td></tr>
+<tr class="memdesc:a0dab32d3dda611f7286b8272f0a143b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the clip can be converted to an audio clip.  <a href="#a0dab32d3dda611f7286b8272f0a143b2">更多...</a><br /></td></tr>
+<tr class="separator:a0dab32d3dda611f7286b8272f0a143b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405f93f239fe5d72ba4db646296c31a1"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a405f93f239fe5d72ba4db646296c31a1">effectNames</a> () const </td></tr>
+<tr class="memdesc:a405f93f239fe5d72ba4db646296c31a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a comma separated list of effect names.  <a href="#a405f93f239fe5d72ba4db646296c31a1">更多...</a><br /></td></tr>
+<tr class="separator:a405f93f239fe5d72ba4db646296c31a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5968b4af752770c9d1c7acd14bc92ba1"><td class="memItemLeft" align="right" valign="top">const QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a5968b4af752770c9d1c7acd14bc92ba1">externalFiles</a> () const </td></tr>
+<tr class="memdesc:a5968b4af752770c9d1c7acd14bc92ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of external files (e.g. LUTs) used by the effects of the clip.  <a href="#a5968b4af752770c9d1c7acd14bc92ba1">更多...</a><br /></td></tr>
+<tr class="separator:a5968b4af752770c9d1c7acd14bc92ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3518bb118bd4af3e3a929c81c2aa9956"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a3518bb118bd4af3e3a929c81c2aa9956">clipState</a> () const </td></tr>
+<tr class="memdesc:a3518bb118bd4af3e3a929c81c2aa9956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the timeline clip status (video / audio only)  <a href="#a3518bb118bd4af3e3a929c81c2aa9956">更多...</a><br /></td></tr>
+<tr class="separator:a3518bb118bd4af3e3a929c81c2aa9956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0240572671925de5d74a865d6c4ba425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a0240572671925de5d74a865d6c4ba425">clipType</a> () const </td></tr>
+<tr class="memdesc:a0240572671925de5d74a865d6c4ba425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bin clip type (image, color, AV, ...)  <a href="#a0240572671925de5d74a865d6c4ba425">更多...</a><br /></td></tr>
+<tr class="separator:a0240572671925de5d74a865d6c4ba425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2aa20009eb63ed1ccf6dbf25c414293"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ac2aa20009eb63ed1ccf6dbf25c414293">setClipState</a> (<a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:ac2aa20009eb63ed1ccf6dbf25c414293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the timeline clip status (video / audio only)  <a href="#ac2aa20009eb63ed1ccf6dbf25c414293">更多...</a><br /></td></tr>
+<tr class="separator:ac2aa20009eb63ed1ccf6dbf25c414293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5efe3c79091a4feeda7782c0a6281af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#aa5efe3c79091a4feeda7782c0a6281af">getFakeTrackId</a> () const </td></tr>
+<tr class="memdesc:aa5efe3c79091a4feeda7782c0a6281af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fake track is used in insrt/overwrote mode. in this case, dragging a clip is always accepted, but the change is not applied to the model. so we use a 'fake' track id to pass to the qml view.  <a href="#aa5efe3c79091a4feeda7782c0a6281af">更多...</a><br /></td></tr>
+<tr class="separator:aa5efe3c79091a4feeda7782c0a6281af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe68b7353b1a71125f48813c6a000af4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#abe68b7353b1a71125f48813c6a000af4">setFakeTrackId</a> (int fid)</td></tr>
+<tr class="separator:abe68b7353b1a71125f48813c6a000af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b83d91eaf5bcbdb1b3d0cfe772f916e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a4b83d91eaf5bcbdb1b3d0cfe772f916e">getFakePosition</a> () const </td></tr>
+<tr class="separator:a4b83d91eaf5bcbdb1b3d0cfe772f916e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca01a9496182e783ae6c1f691b19b509"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#aca01a9496182e783ae6c1f691b19b509">setFakePosition</a> (int fid)</td></tr>
+<tr class="separator:aca01a9496182e783ae6c1f691b19b509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd9f7ddfcbcf38f18298186528698e55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#abd9f7ddfcbcf38f18298186528698e55">setMixDuration</a> (int mix, int offset)</td></tr>
+<tr class="separator:abd9f7ddfcbcf38f18298186528698e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae6fb44641027942a1cf2fe4b655291"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a2ae6fb44641027942a1cf2fe4b655291">setMixDuration</a> (int mix)</td></tr>
+<tr class="separator:a2ae6fb44641027942a1cf2fe4b655291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d783ceac1b76d9b946b21f407e861ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a8d783ceac1b76d9b946b21f407e861ae">getMixDuration</a> () const </td></tr>
+<tr class="separator:a8d783ceac1b76d9b946b21f407e861ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25c13cc8d19ae68dd9e115c5f92e970"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ad25c13cc8d19ae68dd9e115c5f92e970">getMixCutPosition</a> () const </td></tr>
+<tr class="separator:ad25c13cc8d19ae68dd9e115c5f92e970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4230f880e8c0cb75d2bb37d3a25457b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ab4230f880e8c0cb75d2bb37d3a25457b">setGrab</a> (bool grab) override</td></tr>
+<tr class="memdesc:ab4230f880e8c0cb75d2bb37d3a25457b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set grab status.  <a href="#ab4230f880e8c0cb75d2bb37d3a25457b">更多...</a><br /></td></tr>
+<tr class="separator:ab4230f880e8c0cb75d2bb37d3a25457b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c18d5621c9f0378aaa6a65648aeeeee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a6c18d5621c9f0378aaa6a65648aeeeee">setSelected</a> (bool sel) override</td></tr>
+<tr class="memdesc:a6c18d5621c9f0378aaa6a65648aeeeee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set selected status.  <a href="#a6c18d5621c9f0378aaa6a65648aeeeee">更多...</a><br /></td></tr>
+<tr class="separator:a6c18d5621c9f0378aaa6a65648aeeeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9722ff118dea839fc281d69820884c8"><td class="memItemLeft" align="right" valign="top">QDomElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ab9722ff118dea839fc281d69820884c8">toXml</a> (QDomDocument &amp;document)</td></tr>
+<tr class="memdesc:ab9722ff118dea839fc281d69820884c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an XML representation of the clip with its effects.  <a href="#ab9722ff118dea839fc281d69820884c8">更多...</a><br /></td></tr>
+<tr class="separator:ab9722ff118dea839fc281d69820884c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7d96cc37e4dac98922e25e12de8cbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#aca7d96cc37e4dac98922e25e12de8cbe">allSnaps</a> (std::vector&lt; int &gt; &amp;snaps, int offset=0)</td></tr>
+<tr class="memdesc:aca7d96cc37e4dac98922e25e12de8cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a list of all snaps for this clip.  <a href="#aca7d96cc37e4dac98922e25e12de8cbe">更多...</a><br /></td></tr>
+<tr class="separator:aca7d96cc37e4dac98922e25e12de8cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1351ee231dd1ecff06333a3f858bda70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a1351ee231dd1ecff06333a3f858bda70">getPlaytime</a> () const  override</td></tr>
+<tr class="memdesc:a1351ee231dd1ecff06333a3f858bda70"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the length of the item on the timeline  <a href="#a1351ee231dd1ecff06333a3f858bda70">更多...</a><br /></td></tr>
+<tr class="separator:a1351ee231dd1ecff06333a3f858bda70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60809c9d62577e2e17ea062a74570e36"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a60809c9d62577e2e17ea062a74570e36">binId</a> () const </td></tr>
+<tr class="memdesc:a60809c9d62577e2e17ea062a74570e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bin clip's id.  <a href="#a60809c9d62577e2e17ea062a74570e36">更多...</a><br /></td></tr>
+<tr class="separator:a60809c9d62577e2e17ea062a74570e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f6b80e084d8372489ed4b7b5cb4e46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ac5f6b80e084d8372489ed4b7b5cb4e46">registerClipToBin</a> (std::shared_ptr&lt; Mlt::Producer &gt; <a class="el" href="classClipModel.html#a5094e78189c5d2fb94939fe9e1d98223">service</a>, bool registerProducer)</td></tr>
+<tr class="separator:ac5f6b80e084d8372489ed4b7b5cb4e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab795ab2f8c5829833fe56970f4051861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ab795ab2f8c5829833fe56970f4051861">deregisterClipToBin</a> ()</td></tr>
+<tr class="separator:ab795ab2f8c5829833fe56970f4051861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1650981cda02a48897f236f56df32f7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a1650981cda02a48897f236f56df32f7c">addEffect</a> (const QString &amp;effectId)</td></tr>
+<tr class="separator:a1650981cda02a48897f236f56df32f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2aa0fef880882fa1ab67a66d1b8b411"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ae2aa0fef880882fa1ab67a66d1b8b411">copyEffect</a> (const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;stackModel, int rowId)</td></tr>
+<tr class="separator:ae2aa0fef880882fa1ab67a66d1b8b411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ebe35220f6145f5bc404b0ab912767"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a45ebe35220f6145f5bc404b0ab912767">importEffects</a> (std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; stackModel)</td></tr>
+<tr class="memdesc:a45ebe35220f6145f5bc404b0ab912767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import effects from a different stackModel.  <a href="#a45ebe35220f6145f5bc404b0ab912767">更多...</a><br /></td></tr>
+<tr class="separator:a45ebe35220f6145f5bc404b0ab912767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7baa0b6dc2f1c18ecdcf8aa8351010"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a4a7baa0b6dc2f1c18ecdcf8aa8351010">importEffects</a> (std::weak_ptr&lt; Mlt::Service &gt; <a class="el" href="classClipModel.html#a5094e78189c5d2fb94939fe9e1d98223">service</a>)</td></tr>
+<tr class="memdesc:a4a7baa0b6dc2f1c18ecdcf8aa8351010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import effects from a service that contains some (another clip?)  <a href="#a4a7baa0b6dc2f1c18ecdcf8aa8351010">更多...</a><br /></td></tr>
+<tr class="separator:a4a7baa0b6dc2f1c18ecdcf8aa8351010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5fc8166d4dcab4a988fbf3c2e0d30e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a3b5fc8166d4dcab4a988fbf3c2e0d30e">removeFade</a> (bool fromStart)</td></tr>
+<tr class="separator:a3b5fc8166d4dcab4a988fbf3c2e0d30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0ccb5c764e613e0e1d99fceab59a1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a2e0ccb5c764e613e0e1d99fceab59a1b">adjustEffectLength</a> (bool adjustFromEnd, int oldIn, int newIn, int oldDuration, int duration, int offset, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool logUndo)</td></tr>
+<tr class="memdesc:a2e0ccb5c764e613e0e1d99fceab59a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjust effects duration. Should be called after each resize / cut operation.  <a href="#a2e0ccb5c764e613e0e1d99fceab59a1b">更多...</a><br /></td></tr>
+<tr class="separator:a2e0ccb5c764e613e0e1d99fceab59a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03fcf04590a87dfe6ae0fad15e7db57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#af03fcf04590a87dfe6ae0fad15e7db57">adjustEffectLength</a> (const QString &amp;effectName, int duration, int originalDuration, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:af03fcf04590a87dfe6ae0fad15e7db57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a008107f23b99cd4c17601ae1a2bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a44a008107f23b99cd4c17601ae1a2bd6">passTimelineProperties</a> (const std::shared_ptr&lt; <a class="el" href="classClipModel.html">ClipModel</a> &gt; &amp;other)</td></tr>
+<tr class="separator:a44a008107f23b99cd4c17601ae1a2bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d1d691df940b25e2c7184b5bce0ddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classKeyframeModel.html">KeyframeModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ae1d1d691df940b25e2c7184b5bce0ddb">getKeyframeModel</a> ()</td></tr>
+<tr class="separator:ae1d1d691df940b25e2c7184b5bce0ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5be3626d7d528b93c1d9effe952a80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a1c5be3626d7d528b93c1d9effe952a80">fadeIn</a> () const </td></tr>
+<tr class="separator:a1c5be3626d7d528b93c1d9effe952a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b0c633510c89dc51b72d520af9a18b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a13b0c633510c89dc51b72d520af9a18b">fadeOut</a> () const </td></tr>
+<tr class="separator:a13b0c633510c89dc51b72d520af9a18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc6e4e18a656b2a4b9fea6d8c3a649d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#abbc6e4e18a656b2a4b9fea6d8c3a649d">getSubPlaylistIndex</a> () const </td></tr>
+<tr class="memdesc:abbc6e4e18a656b2a4b9fea6d8c3a649d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks have two sub playlists to enable same track transitions. This returns the index of the sub-playlist containing this clip.  <a href="#abbc6e4e18a656b2a4b9fea6d8c3a649d">更多...</a><br /></td></tr>
+<tr class="separator:abbc6e4e18a656b2a4b9fea6d8c3a649d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d6ed4b2fceff10a287abd57e8640dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a09d6ed4b2fceff10a287abd57e8640dc">setSubPlaylistIndex</a> (int index, int trackId)</td></tr>
+<tr class="separator:a09d6ed4b2fceff10a287abd57e8640dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classMoveableItem"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMoveableItem')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classMoveableItem.html">MoveableItem&lt; Mlt::Producer &gt;</a></td></tr>
+<tr class="memitem:a25001e963ffd58abdbc674126f5eceb4 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a25001e963ffd58abdbc674126f5eceb4">MoveableItem</a> (std::weak_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; parent, int id=-1)</td></tr>
+<tr class="separator:a25001e963ffd58abdbc674126f5eceb4 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd0f59a20272a7d761e61dbe23230491 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#abd0f59a20272a7d761e61dbe23230491">getId</a> () const</td></tr>
+<tr class="memdesc:abd0f59a20272a7d761e61dbe23230491 inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns (unique) id of current item  <a href="#abd0f59a20272a7d761e61dbe23230491">更多...</a><br /></td></tr>
+<tr class="separator:abd0f59a20272a7d761e61dbe23230491 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3964d05e3b9de56cd2e279a6c70972e8 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a3964d05e3b9de56cd2e279a6c70972e8">getCurrentTrackId</a> () const</td></tr>
+<tr class="memdesc:a3964d05e3b9de56cd2e279a6c70972e8 inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the id of the track in which this items is inserted (-1 if none)  <a href="#a3964d05e3b9de56cd2e279a6c70972e8">更多...</a><br /></td></tr>
+<tr class="separator:a3964d05e3b9de56cd2e279a6c70972e8 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f81c8c330bd30d51388655ca4f0ee65 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a9f81c8c330bd30d51388655ca4f0ee65">getPosition</a> () const</td></tr>
+<tr class="memdesc:a9f81c8c330bd30d51388655ca4f0ee65 inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current position of the item (-1 if not inserted)  <a href="#a9f81c8c330bd30d51388655ca4f0ee65">更多...</a><br /></td></tr>
+<tr class="separator:a9f81c8c330bd30d51388655ca4f0ee65 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb1af53bee6fc64d1d2e10a096d644d inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a6fb1af53bee6fc64d1d2e10a096d644d">getInOut</a> () const</td></tr>
+<tr class="memdesc:a6fb1af53bee6fc64d1d2e10a096d644d inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the in and out times of the item  <a href="#a6fb1af53bee6fc64d1d2e10a096d644d">更多...</a><br /></td></tr>
+<tr class="separator:a6fb1af53bee6fc64d1d2e10a096d644d inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f533093d7ddf0402928dbaba426d42 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#aa2f533093d7ddf0402928dbaba426d42">getIn</a> () const</td></tr>
+<tr class="separator:aa2f533093d7ddf0402928dbaba426d42 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2588e353bdc3d0c44dabd85bb45b387 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#ae2588e353bdc3d0c44dabd85bb45b387">getOut</a> () const</td></tr>
+<tr class="separator:ae2588e353bdc3d0c44dabd85bb45b387 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b7e14177c44318c99cbad09818fa37 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#ab9b7e14177c44318c99cbad09818fa37">operator Mlt::Producer &amp;</a> ()</td></tr>
+<tr class="memdesc:ab9b7e14177c44318c99cbad09818fa37 inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit conversion operator to access the underlying producer.  <a href="#ab9b7e14177c44318c99cbad09818fa37">更多...</a><br /></td></tr>
+<tr class="separator:ab9b7e14177c44318c99cbad09818fa37 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78383af04d14a6708d815b42c9459dec inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a78383af04d14a6708d815b42c9459dec">isValid</a> ()</td></tr>
+<tr class="memdesc:a78383af04d14a6708d815b42c9459dec inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the underlying producer is valid.  <a href="#a78383af04d14a6708d815b42c9459dec">更多...</a><br /></td></tr>
+<tr class="separator:a78383af04d14a6708d815b42c9459dec inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac454fe099dd24280033195fc99678d91 inherit pub_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#ac454fe099dd24280033195fc99678d91">isGrabbed</a> () const</td></tr>
+<tr class="memdesc:ac454fe099dd24280033195fc99678d91 inherit pub_methods_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the item is in grab state.  <a href="#ac454fe099dd24280033195fc99678d91">更多...</a><br /></td></tr>
+<tr class="separator:ac454fe099dd24280033195fc99678d91 inherit pub_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a842348fc041571b1f8aca645bdc4edc1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a842348fc041571b1f8aca645bdc4edc1">construct</a> (const std::shared_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;parent, const QString &amp;binClipId, int id, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, int <a class="el" href="classClipModel.html#a4ee18b4cf7ed4168cac34ae54660782b">audioStream</a>=-1, double speed=1., bool warp_pitch=false)</td></tr>
+<tr class="memdesc:a842348fc041571b1f8aca645bdc4edc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a clip, which references itself to the parent timeline Returns the (unique) id of the created clip.  <a href="#a842348fc041571b1f8aca645bdc4edc1">更多...</a><br /></td></tr>
+<tr class="separator:a842348fc041571b1f8aca645bdc4edc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800761067a7ccd6245f00d925f25d3c4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a800761067a7ccd6245f00d925f25d3c4">construct</a> (const std::shared_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;parent, const QString &amp;binClipId, const std::shared_ptr&lt; Mlt::Producer &gt; &amp;producer, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, int tid, QString originalDecimalPoint, int playlist=0)</td></tr>
+<tr class="memdesc:a800761067a7ccd6245f00d925f25d3c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a clip, which references itself to the parent timeline Returns the (unique) id of the created clip This variants assumes a producer is already known, which should typically happen only at loading time. Note that there is no guarantee that this producer is actually going to be used. It might be discarded.  <a href="#a800761067a7ccd6245f00d925f25d3c4">更多...</a><br /></td></tr>
+<tr class="separator:a800761067a7ccd6245f00d925f25d3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a7bf7b481fad52dd362a791bcacf7f069"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a7bf7b481fad52dd362a791bcacf7f069">ClipModel</a> (const std::shared_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;parent, std::shared_ptr&lt; Mlt::Producer &gt; prod, const QString &amp;binClipId, int id, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, double speed=1.)</td></tr>
+<tr class="memdesc:a7bf7b481fad52dd362a791bcacf7f069"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor is not meant to be called, call the static construct instead.  <a href="#a7bf7b481fad52dd362a791bcacf7f069">更多...</a><br /></td></tr>
+<tr class="separator:a7bf7b481fad52dd362a791bcacf7f069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a153950ed80e46e64cac2cc9d47dff1fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a153950ed80e46e64cac2cc9d47dff1fc">setClipState_lambda</a> (<a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state)</td></tr>
+<tr class="separator:a153950ed80e46e64cac2cc9d47dff1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5094e78189c5d2fb94939fe9e1d98223"><td class="memItemLeft" align="right" valign="top">Mlt::Producer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a5094e78189c5d2fb94939fe9e1d98223">service</a> () const  override</td></tr>
+<tr class="memdesc:a5094e78189c5d2fb94939fe9e1d98223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the service. It may be used but do NOT store it.  <a href="#a5094e78189c5d2fb94939fe9e1d98223">更多...</a><br /></td></tr>
+<tr class="separator:a5094e78189c5d2fb94939fe9e1d98223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf860bfa48cc806c4d7ae80c4b2b68bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#abf860bfa48cc806c4d7ae80c4b2b68bd">requestResize</a> (int size, bool right, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool logUndo=true, bool hasMix=false) override</td></tr>
+<tr class="memdesc:abf860bfa48cc806c4d7ae80c4b2b68bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a resize of the given clip. Returns true if the operation succeeded, and otherwise nothing is modified This method is protected because it shouldn't be called directly. Call the function in the timeline instead. If a snap point is within reach, the operation will be coerced to use it.  <a href="#abf860bfa48cc806c4d7ae80c4b2b68bd">更多...</a><br /></td></tr>
+<tr class="separator:abf860bfa48cc806c4d7ae80c4b2b68bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ec76e89a699415afb65fc682a371f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a60ec76e89a699415afb65fc682a371f3">setCurrentTrackId</a> (int tid, bool finalMove=true) override</td></tr>
+<tr class="memdesc:a60ec76e89a699415afb65fc682a371f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the stored track id of the item This function is meant to be called by the timeline, not directly by the user. If you wish to actually change the track the item, use the slot in the timeline slot.  <a href="#a60ec76e89a699415afb65fc682a371f3">更多...</a><br /></td></tr>
+<tr class="separator:a60ec76e89a699415afb65fc682a371f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5eaa41e78c7955e595a6d729715d23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#acf5eaa41e78c7955e595a6d729715d23">setPosition</a> (int pos) override</td></tr>
+<tr class="memdesc:acf5eaa41e78c7955e595a6d729715d23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the stored position of the item This function is meant to be called by the trackmodel, not directly by the user. If you wish to actually move the item, use the requestMove slot.  <a href="#acf5eaa41e78c7955e595a6d729715d23">更多...</a><br /></td></tr>
+<tr class="separator:acf5eaa41e78c7955e595a6d729715d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7a1ceba247b1ec51e37c52d70ee3e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a5e7a1ceba247b1ec51e37c52d70ee3e5">setInOut</a> (int in, int out) override</td></tr>
+<tr class="memdesc:a5e7a1ceba247b1ec51e37c52d70ee3e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set in and out of service.  <a href="#a5e7a1ceba247b1ec51e37c52d70ee3e5">更多...</a><br /></td></tr>
+<tr class="separator:a5e7a1ceba247b1ec51e37c52d70ee3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385a3efb1a82ab5c32f40975a00179cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a385a3efb1a82ab5c32f40975a00179cb">setTimelineEffectsEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:a385a3efb1a82ab5c32f40975a00179cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function change the global (timeline-wise) enabled state of the effects.  <a href="#a385a3efb1a82ab5c32f40975a00179cb">更多...</a><br /></td></tr>
+<tr class="separator:a385a3efb1a82ab5c32f40975a00179cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7711d871199f30d0f7815bcf60b67bb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a7711d871199f30d0f7815bcf60b67bb9">refreshProducerFromBin</a> (int trackId, <a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> state, int stream, double speed, bool hasPitch, bool secondPlaylist=false)</td></tr>
+<tr class="memdesc:a7711d871199f30d0f7815bcf60b67bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This functions should be called when the producer of the binClip changes, to allow refresh.  <a href="#a7711d871199f30d0f7815bcf60b67bb9">更多...</a><br /></td></tr>
+<tr class="separator:a7711d871199f30d0f7815bcf60b67bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8faa0f4a70e1fdecc19b7e8c59acfa6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a8faa0f4a70e1fdecc19b7e8c59acfa6e">refreshProducerFromBin</a> (int trackId)</td></tr>
+<tr class="separator:a8faa0f4a70e1fdecc19b7e8c59acfa6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7dc9da689f4fa24de032de3c48e7ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a9a7dc9da689f4fa24de032de3c48e7ac">useTimewarpProducer</a> (double speed, bool pitchCompensate, bool changeDuration, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:a9a7dc9da689f4fa24de032de3c48e7ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">This functions replaces the current producer with a slowmotion one It also resizes the producer so that set of frames contained in the clip is the same.  <a href="#a9a7dc9da689f4fa24de032de3c48e7ac">更多...</a><br /></td></tr>
+<tr class="separator:a9a7dc9da689f4fa24de032de3c48e7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2dc85114364678204a553cdb04642e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ae2dc85114364678204a553cdb04642e0">useTimewarpProducer_lambda</a> (double speed, int stream, bool pitchCompensate)</td></tr>
+<tr class="memdesc:ae2dc85114364678204a553cdb04642e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambda that merely changes the speed (in and out are untouched)  <a href="#ae2dc85114364678204a553cdb04642e0">更多...</a><br /></td></tr>
+<tr class="separator:ae2dc85114364678204a553cdb04642e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac02ce2dcf0e7c15af5f98b3e66a0e29a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ac02ce2dcf0e7c15af5f98b3e66a0e29a">getMarkerModel</a> () const </td></tr>
+<tr class="memdesc:ac02ce2dcf0e7c15af5f98b3e66a0e29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the marker model associated with this clip.  <a href="#ac02ce2dcf0e7c15af5f98b3e66a0e29a">更多...</a><br /></td></tr>
+<tr class="separator:ac02ce2dcf0e7c15af5f98b3e66a0e29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c47eaf87ad7ac133feb2ab49c713dcb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a5c47eaf87ad7ac133feb2ab49c713dcb">audioChannels</a> () const </td></tr>
+<tr class="memdesc:a5c47eaf87ad7ac133feb2ab49c713dcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of audio channels for this clip.  <a href="#a5c47eaf87ad7ac133feb2ab49c713dcb">更多...</a><br /></td></tr>
+<tr class="separator:a5c47eaf87ad7ac133feb2ab49c713dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee18b4cf7ed4168cac34ae54660782b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a4ee18b4cf7ed4168cac34ae54660782b">audioStream</a> () const </td></tr>
+<tr class="memdesc:a4ee18b4cf7ed4168cac34ae54660782b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the active audio stream for this clip (or -1 if we only have 1 stream.  <a href="#a4ee18b4cf7ed4168cac34ae54660782b">更多...</a><br /></td></tr>
+<tr class="separator:a4ee18b4cf7ed4168cac34ae54660782b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48c7e6b81c08cff133b1e02d93a0365a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a48c7e6b81c08cff133b1e02d93a0365a">audioMultiStream</a> () const </td></tr>
+<tr class="memdesc:a48c7e6b81c08cff133b1e02d93a0365a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have multiple audio streams in the master clip.  <a href="#a48c7e6b81c08cff133b1e02d93a0365a">更多...</a><br /></td></tr>
+<tr class="separator:a48c7e6b81c08cff133b1e02d93a0365a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a561148a7b163521afeb61a64a299ab6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a561148a7b163521afeb61a64a299ab6f">audioStreamIndex</a> () const </td></tr>
+<tr class="memdesc:a561148a7b163521afeb61a64a299ab6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of available audio stream indexes for the bin clip.  <a href="#a561148a7b163521afeb61a64a299ab6f">更多...</a><br /></td></tr>
+<tr class="separator:a561148a7b163521afeb61a64a299ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d930ba8cc2b5d361ab999afa539898d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a8d930ba8cc2b5d361ab999afa539898d">audioEnabled</a> () const </td></tr>
+<tr class="separator:a8d930ba8cc2b5d361ab999afa539898d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0158f8b7c83e637d59a20262f5884762"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a0158f8b7c83e637d59a20262f5884762">isAudioOnly</a> () const </td></tr>
+<tr class="separator:a0158f8b7c83e637d59a20262f5884762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ba76cb65d2eb022fa885589c4b7203"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a31ba76cb65d2eb022fa885589c4b7203">getSpeed</a> () const </td></tr>
+<tr class="separator:a31ba76cb65d2eb022fa885589c4b7203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba93f1369e8b18d7d28dd6f6f3c96b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a8ba93f1369e8b18d7d28dd6f6f3c96b0">setOffset</a> (int offset)</td></tr>
+<tr class="memdesc:a8ba93f1369e8b18d7d28dd6f6f3c96b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip offset (calculated in the model between 2 clips from same bin clip.  <a href="#a8ba93f1369e8b18d7d28dd6f6f3c96b0">更多...</a><br /></td></tr>
+<tr class="separator:a8ba93f1369e8b18d7d28dd6f6f3c96b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ba1e7e6c0b842e60bf48ce055699e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ae9ba1e7e6c0b842e60bf48ce055699e8">clearOffset</a> ()</td></tr>
+<tr class="memdesc:ae9ba1e7e6c0b842e60bf48ce055699e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the clip offset (calculated in the model between 2 clips from same bin clip.  <a href="#ae9ba1e7e6c0b842e60bf48ce055699e8">更多...</a><br /></td></tr>
+<tr class="separator:ae9ba1e7e6c0b842e60bf48ce055699e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a213813f2997fd128710f66f0eaa327a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a213813f2997fd128710f66f0eaa327a9">getOffset</a> () const </td></tr>
+<tr class="separator:a213813f2997fd128710f66f0eaa327a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37626722b14d5aee5d82c651fff137ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a37626722b14d5aee5d82c651fff137ae">getMaxDuration</a> () const </td></tr>
+<tr class="memdesc:a37626722b14d5aee5d82c651fff137ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the producer's duration, or -1 if it can be resized without limit.  <a href="#a37626722b14d5aee5d82c651fff137ae">更多...</a><br /></td></tr>
+<tr class="separator:a37626722b14d5aee5d82c651fff137ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2980ac9c64cbacea41aa7613f42b4e65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a2980ac9c64cbacea41aa7613f42b4e65">clipStatus</a> () const </td></tr>
+<tr class="memdesc:a2980ac9c64cbacea41aa7613f42b4e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip status (normal, proxied, missing, etc)  <a href="#a2980ac9c64cbacea41aa7613f42b4e65">更多...</a><br /></td></tr>
+<tr class="separator:a2980ac9c64cbacea41aa7613f42b4e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c095b4ef719831ad500f8e07b98b40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a07c095b4ef719831ad500f8e07b98b40">checkConsistency</a> ()</td></tr>
+<tr class="memdesc:a07c095b4ef719831ad500f8e07b98b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a debug function to ensure the clip is in a valid state.  <a href="#a07c095b4ef719831ad500f8e07b98b40">更多...</a><br /></td></tr>
+<tr class="separator:a07c095b4ef719831ad500f8e07b98b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c28719d1068820ccb7477a6f510d76"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a50c28719d1068820ccb7477a6f510d76">getProducer</a> ()</td></tr>
+<tr class="separator:a50c28719d1068820ccb7477a6f510d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classMoveableItem"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMoveableItem')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="classMoveableItem.html">MoveableItem&lt; Mlt::Producer &gt;</a></td></tr>
+<tr class="memitem:a69581e1ef516cfee151e317178a1c3f8 inherit pro_methods_classMoveableItem"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a69581e1ef516cfee151e317178a1c3f8">~MoveableItem</a> ()=default</td></tr>
+<tr class="separator:a69581e1ef516cfee151e317178a1c3f8 inherit pro_methods_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a42ec91bb49179fcd0f8b83db17dd58d6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a42ec91bb49179fcd0f8b83db17dd58d6">m_producer</a></td></tr>
+<tr class="separator:a42ec91bb49179fcd0f8b83db17dd58d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68d1f57835ef1a27d68c9e586aac0f5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ad68d1f57835ef1a27d68c9e586aac0f5">m_effectStack</a></td></tr>
+<tr class="separator:ad68d1f57835ef1a27d68c9e586aac0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ab53037db7482f535a549ae3ea67f2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classClipSnapModel.html">ClipSnapModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a32ab53037db7482f535a549ae3ea67f2">m_clipMarkerModel</a></td></tr>
+<tr class="separator:a32ab53037db7482f535a549ae3ea67f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405209b08e12c028f4c3da9ec193ea20"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a405209b08e12c028f4c3da9ec193ea20">m_binClipId</a></td></tr>
+<tr class="memdesc:a405209b08e12c028f4c3da9ec193ea20"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the Id of the bin clip this clip corresponds to.  <a href="#a405209b08e12c028f4c3da9ec193ea20">更多...</a><br /></td></tr>
+<tr class="separator:a405209b08e12c028f4c3da9ec193ea20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08044b47b2a2eb70dabe068ff67ecc0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a08044b47b2a2eb70dabe068ff67ecc0b">m_endlessResize</a></td></tr>
+<tr class="memdesc:a08044b47b2a2eb70dabe068ff67ecc0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this clip can be freely resized.  <a href="#a08044b47b2a2eb70dabe068ff67ecc0b">更多...</a><br /></td></tr>
+<tr class="separator:a08044b47b2a2eb70dabe068ff67ecc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba84123dceadaf1f8da082ee1f40c37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a8ba84123dceadaf1f8da082ee1f40c37">forceThumbReload</a></td></tr>
+<tr class="memdesc:a8ba84123dceadaf1f8da082ee1f40c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to trigger a forced thumb reload, when producer changes.  <a href="#a8ba84123dceadaf1f8da082ee1f40c37">更多...</a><br /></td></tr>
+<tr class="separator:a8ba84123dceadaf1f8da082ee1f40c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e91b67315a6d53dec7ea3de3269453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#af1e91b67315a6d53dec7ea3de3269453">m_currentState</a></td></tr>
+<tr class="separator:af1e91b67315a6d53dec7ea3de3269453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed4442d1c2e33c24e80ca2ad55957b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#afed4442d1c2e33c24e80ca2ad55957b4">m_clipType</a></td></tr>
+<tr class="separator:afed4442d1c2e33c24e80ca2ad55957b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb634d11da0676a19f0173d5a40bf482"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#afb634d11da0676a19f0173d5a40bf482">m_speed</a> = -1</td></tr>
+<tr class="memdesc:afb634d11da0676a19f0173d5a40bf482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed of the clip.  <a href="#afb634d11da0676a19f0173d5a40bf482">更多...</a><br /></td></tr>
+<tr class="separator:afb634d11da0676a19f0173d5a40bf482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9177a646689fe681a214655d432be7d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a9177a646689fe681a214655d432be7d5">m_canBeVideo</a></td></tr>
+<tr class="separator:a9177a646689fe681a214655d432be7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021f75ec7216a895304e7103b06eb73f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a021f75ec7216a895304e7103b06eb73f">m_canBeAudio</a></td></tr>
+<tr class="separator:a021f75ec7216a895304e7103b06eb73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacded2bc591ef6c0925a52b34ac984e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#aacded2bc591ef6c0925a52b34ac984e7">m_fakeTrack</a></td></tr>
+<tr class="memdesc:aacded2bc591ef6c0925a52b34ac984e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fake track id, used when dragging in insert/overwrite mode.  <a href="#aacded2bc591ef6c0925a52b34ac984e7">更多...</a><br /></td></tr>
+<tr class="separator:aacded2bc591ef6c0925a52b34ac984e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a164b2e94c1c539f0d77eb2959f13f7c9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a164b2e94c1c539f0d77eb2959f13f7c9">m_fakePosition</a></td></tr>
+<tr class="separator:a164b2e94c1c539f0d77eb2959f13f7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae60845af3b5ad072dd620354accaa2a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ae60845af3b5ad072dd620354accaa2a8">m_positionOffset</a></td></tr>
+<tr class="memdesc:ae60845af3b5ad072dd620354accaa2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary val to store offset between two clips with same bin id.  <a href="#ae60845af3b5ad072dd620354accaa2a8">更多...</a><br /></td></tr>
+<tr class="separator:ae60845af3b5ad072dd620354accaa2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0309d1ecf02697436aeef894dbc6243"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ad0309d1ecf02697436aeef894dbc6243">m_subPlaylistIndex</a></td></tr>
+<tr class="memdesc:ad0309d1ecf02697436aeef894dbc6243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks have two sub playlists to enable same track transitions, we store in which one this clip is.  <a href="#ad0309d1ecf02697436aeef894dbc6243">更多...</a><br /></td></tr>
+<tr class="separator:ad0309d1ecf02697436aeef894dbc6243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac98130b7a2069927cd68ff1f685b0291"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#ac98130b7a2069927cd68ff1f685b0291">m_lastTrackId</a> = -1</td></tr>
+<tr class="memdesc:ac98130b7a2069927cd68ff1f685b0291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remember last set track, so that we don't unnecessarily refresh the producer when deleting and re-adding a clip on same track.  <a href="#ac98130b7a2069927cd68ff1f685b0291">更多...</a><br /></td></tr>
+<tr class="separator:ac98130b7a2069927cd68ff1f685b0291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80fd5115a75ec088307781d5ec26fb3b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a80fd5115a75ec088307781d5ec26fb3b">m_mixDuration</a></td></tr>
+<tr class="memdesc:a80fd5115a75ec088307781d5ec26fb3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration of a same track mix.  <a href="#a80fd5115a75ec088307781d5ec26fb3b">更多...</a><br /></td></tr>
+<tr class="separator:a80fd5115a75ec088307781d5ec26fb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba316652709693ace7024e1274040b0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#aeba316652709693ace7024e1274040b0">m_mixCutPos</a></td></tr>
+<tr class="memdesc:aeba316652709693ace7024e1274040b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of the original cut, relative to mix right side.  <a href="#aeba316652709693ace7024e1274040b0">更多...</a><br /></td></tr>
+<tr class="separator:aeba316652709693ace7024e1274040b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classMoveableItem"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMoveableItem')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="classMoveableItem.html">MoveableItem&lt; Mlt::Producer &gt;</a></td></tr>
+<tr class="memitem:a7ca6914fac213b3065453b8b0535ebaa inherit pro_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a7ca6914fac213b3065453b8b0535ebaa">m_parent</a></td></tr>
+<tr class="separator:a7ca6914fac213b3065453b8b0535ebaa inherit pro_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b6f47c3f394cd1daded5d34b793ec60 inherit pro_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a9b6f47c3f394cd1daded5d34b793ec60">m_id</a></td></tr>
+<tr class="memdesc:a9b6f47c3f394cd1daded5d34b793ec60 inherit pro_attribs_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is the creation id of the item, used for book-keeping  <a href="#a9b6f47c3f394cd1daded5d34b793ec60">更多...</a><br /></td></tr>
+<tr class="separator:a9b6f47c3f394cd1daded5d34b793ec60 inherit pro_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a6836119899ec323f6fa4f51490d4c inherit pro_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a01a6836119899ec323f6fa4f51490d4c">m_position</a></td></tr>
+<tr class="separator:a01a6836119899ec323f6fa4f51490d4c inherit pro_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf383cdb4dd5c4095ee14d98b31857b inherit pro_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#abaf383cdb4dd5c4095ee14d98b31857b">m_currentTrackId</a></td></tr>
+<tr class="separator:abaf383cdb4dd5c4095ee14d98b31857b inherit pro_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b2c08e5536a4beaa725715702207ff inherit pro_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#aa9b2c08e5536a4beaa725715702207ff">m_grabbed</a></td></tr>
+<tr class="separator:aa9b2c08e5536a4beaa725715702207ff inherit pro_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac447b03c90fe05df8a76f4763ccdb5f7 inherit pro_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">QReadWriteLock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#ac447b03c90fe05df8a76f4763ccdb5f7">m_lock</a></td></tr>
+<tr class="memdesc:ac447b03c90fe05df8a76f4763ccdb5f7 inherit pro_attribs_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a lock that ensures safety in case of concurrent access.  <a href="#ac447b03c90fe05df8a76f4763ccdb5f7">更多...</a><br /></td></tr>
+<tr class="separator:ac447b03c90fe05df8a76f4763ccdb5f7 inherit pro_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:aa9f2167b5356e7d3155886776d81a182"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#aa9f2167b5356e7d3155886776d81a182">TrackModel</a></td></tr>
+<tr class="separator:aa9f2167b5356e7d3155886776d81a182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4afea070a84b0f384933d36c173b68fb"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a4afea070a84b0f384933d36c173b68fb">TimelineModel</a></td></tr>
+<tr class="separator:a4afea070a84b0f384933d36c173b68fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfaf8bede83fb4009bb72256a7ab16b9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#acfaf8bede83fb4009bb72256a7ab16b9">TimelineItemModel</a></td></tr>
+<tr class="separator:acfaf8bede83fb4009bb72256a7ab16b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a58cb31c458fe59a5e94e6301e2bfc9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a6a58cb31c458fe59a5e94e6301e2bfc9">TimelineController</a></td></tr>
+<tr class="separator:a6a58cb31c458fe59a5e94e6301e2bfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffff688c48f9bb5d2927decf6741d3a"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipModel.html#a3ffff688c48f9bb5d2927decf6741d3a">TimelineFunctions</a></td></tr>
+<tr class="separator:a3ffff688c48f9bb5d2927decf6741d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_attribs_classMoveableItem"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMoveableItem')"><img src="closed.png" alt="-"/>&#160;Public 属性 继承自 <a class="el" href="classMoveableItem.html">MoveableItem&lt; Mlt::Producer &gt;</a></td></tr>
+<tr class="memitem:a3289038c329d5cfd3363a77945ae4cf5 inherit pub_attribs_classMoveableItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMoveableItem.html#a3289038c329d5cfd3363a77945ae4cf5">selected</a></td></tr>
+<tr class="memdesc:a3289038c329d5cfd3363a77945ae4cf5 inherit pub_attribs_classMoveableItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if item is selected in timeline.  <a href="#a3289038c329d5cfd3363a77945ae4cf5">更多...</a><br /></td></tr>
+<tr class="separator:a3289038c329d5cfd3363a77945ae4cf5 inherit pub_attribs_classMoveableItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>This class represents a Clip object, as viewed by the backend. In general, the Gui associated with it will send modification queries (such as resize or move), and this class authorize them or not depending on the validity of the modifications. </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a7bf7b481fad52dd362a791bcacf7f069"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ClipModel::ClipModel </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td>
+          <td class="paramname"><em>prod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>binClipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>1.</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This constructor is not meant to be called, call the static construct instead. </p>
+
+</div>
+</div>
+<a class="anchor" id="a307e738a952f94011d97484d08d4b8ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ClipModel::~ClipModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a1650981cda02a48897f236f56df32f7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::addEffect </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2e0ccb5c764e613e0e1d99fceab59a1b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::adjustEffectLength </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>adjustFromEnd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldIn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newIn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adjust effects duration. Should be called after each resize / cut operation. </p>
+
+</div>
+</div>
+<a class="anchor" id="af03fcf04590a87dfe6ae0fad15e7db57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::adjustEffectLength </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>originalDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca7d96cc37e4dac98922e25e12de8cbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::allSnaps </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>snaps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve a list of all snaps for this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5c47eaf87ad7ac133feb2ab49c713dcb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::audioChannels </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of audio channels for this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8d930ba8cc2b5d361ab999afa539898d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::audioEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48c7e6b81c08cff133b1e02d93a0365a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::audioMultiStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if we have multiple audio streams in the master clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4ee18b4cf7ed4168cac34ae54660782b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::audioStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the active audio stream for this clip (or -1 if we only have 1 stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="a561148a7b163521afeb61a64a299ab6f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::audioStreamIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the list of available audio stream indexes for the bin clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a60809c9d62577e2e17ea062a74570e36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString &amp; ClipModel::binId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the bin clip's id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0dab32d3dda611f7286b8272f0a143b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::canBeAudio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the clip can be converted to an audio clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab3f086faacce477d7e3116fd18453cd9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::canBeVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the clip can be converted to a video clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a07c095b4ef719831ad500f8e07b98b40"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::checkConsistency </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a debug function to ensure the clip is in a valid state. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae9ba1e7e6c0b842e60bf48ce055699e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::clearOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears the clip offset (calculated in the model between 2 clips from same bin clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5bb4c43934abd12a092546897b5a7988"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipModel::clipName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the bin clip name </p>
+
+</div>
+</div>
+<a class="anchor" id="a3518bb118bd4af3e3a929c81c2aa9956"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> ClipModel::clipState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the timeline clip status (video / audio only) </p>
+
+</div>
+</div>
+<a class="anchor" id="a2980ac9c64cbacea41aa7613f42b4e65"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a> ClipModel::clipStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the clip status (normal, proxied, missing, etc) </p>
+
+</div>
+</div>
+<a class="anchor" id="abe2cb226b7ee6c180f7851d50bf84042"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipModel::clipTag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0240572671925de5d74a865d6c4ba425"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> ClipModel::clipType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the bin clip type (image, color, AV, ...) </p>
+
+</div>
+</div>
+<a class="anchor" id="a842348fc041571b1f8aca645bdc4edc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::construct </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>binClipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>audioStream</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>1.</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>warp_pitch</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a clip, which references itself to the parent timeline Returns the (unique) id of the created clip. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>is a pointer to the timeline </td></tr>
+    <tr><td class="paramname">binClip</td><td>is the id of the bin clip associated </td></tr>
+    <tr><td class="paramname">id</td><td>Requested id of the clip. Automatic if -1 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a800761067a7ccd6245f00d925f25d3c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::construct </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>binClipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; Mlt::Producer &gt; &amp;&#160;</td>
+          <td class="paramname"><em>producer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>originalDecimalPoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>playlist</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a clip, which references itself to the parent timeline Returns the (unique) id of the created clip This variants assumes a producer is already known, which should typically happen only at loading time. Note that there is no guarantee that this producer is actually going to be used. It might be discarded. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae2aa0fef880882fa1ab67a66d1b8b411"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::copyEffect </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>stackModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rowId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab795ab2f8c5829833fe56970f4051861"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::deregisterClipToBin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a405f93f239fe5d72ba4db646296c31a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipModel::effectNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a comma separated list of effect names. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5968b4af752770c9d1c7acd14bc92ba1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QStringList ClipModel::externalFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of external files (e.g. LUTs) used by the effects of the clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1c5be3626d7d528b93c1d9effe952a80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::fadeIn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a13b0c633510c89dc51b72d520af9a18b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::fadeOut </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb8e12761017ae0ef83c11ce6621d68b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ClipModel::getDoubleProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b83d91eaf5bcbdb1b3d0cfe772f916e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getFakePosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa5efe3c79091a4feeda7782c0a6281af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getFakeTrackId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The fake track is used in insrt/overwrote mode. in this case, dragging a clip is always accepted, but the change is not applied to the model. so we use a 'fake' track id to pass to the qml view. </p>
+
+</div>
+</div>
+<a class="anchor" id="a033ff86a3baeadb9b1d8f11327902f9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize ClipModel::getFrameSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a08cc6209c27b4c08c67f077bfd78afb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getIntProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae1d1d691df940b25e2c7184b5bce0ddb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classKeyframeModel.html">KeyframeModel</a> * ClipModel::getKeyframeModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac02ce2dcf0e7c15af5f98b3e66a0e29a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt; ClipModel::getMarkerModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the marker model associated with this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37626722b14d5aee5d82c651fff137ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getMaxDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the producer's duration, or -1 if it can be resized without limit. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad25c13cc8d19ae68dd9e115c5f92e970"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getMixCutPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d783ceac1b76d9b946b21f407e861ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getMixDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a213813f2997fd128710f66f0eaa327a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1351ee231dd1ecff06333a3f858bda70"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getPlaytime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the length of the item on the timeline </p>
+
+<p>实现了 <a class="el" href="classMoveableItem.html#a432993beaf784f1ac1c9fcc00e723f9d">MoveableItem&lt; Mlt::Producer &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a50c28719d1068820ccb7477a6f510d76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; Mlt::Producer &gt; ClipModel::getProducer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4530873f3a238f1a7b03ccd07218040"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipModel::getProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a property of the clip, or from it's parent if it's a cut </p>
+
+<p>实现了 <a class="el" href="classMoveableItem.html#ab879ac18ffe663aecebec0e2c7deb70a">MoveableItem&lt; Mlt::Producer &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31ba76cb65d2eb022fa885589c4b7203"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ClipModel::getSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abbc6e4e18a656b2a4b9fea6d8c3a649d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::getSubPlaylistIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tracks have two sub playlists to enable same track transitions. This returns the index of the sub-playlist containing this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a45ebe35220f6145f5bc404b0ab912767"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::importEffects </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>stackModel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Import effects from a different stackModel. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4a7baa0b6dc2f1c18ecdcf8aa8351010"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::importEffects </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Import effects from a service that contains some (another clip?) </p>
+
+</div>
+</div>
+<a class="anchor" id="a0158f8b7c83e637d59a20262f5884762"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::isAudioOnly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a44a008107f23b99cd4c17601ae1a2bd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::passTimelineProperties </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classClipModel.html">ClipModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7711d871199f30d0f7815bcf60b67bb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::refreshProducerFromBin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trackId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hasPitch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>secondPlaylist</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This functions should be called when the producer of the binClip changes, to allow refresh. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>corresponds to the state of the clip we want (audio or video) </td></tr>
+    <tr><td class="paramname">speed</td><td>corresponds to the speed we need. Leave to 0 to keep current speed. Warning: this function doesn't notify the model. Unless you know what you are doing, better use useTimewarProducer to change the speed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8faa0f4a70e1fdecc19b7e8c59acfa6e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::refreshProducerFromBin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trackId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5f6b80e084d8372489ed4b7b5cb4e46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::registerClipToBin </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>registerProducer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b5fc8166d4dcab4a988fbf3c2e0d30e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::removeFade </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fromStart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abf860bfa48cc806c4d7ae80c4b2b68bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::requestResize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hasMix</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs a resize of the given clip. Returns true if the operation succeeded, and otherwise nothing is modified This method is protected because it shouldn't be called directly. Call the function in the timeline instead. If a snap point is within reach, the operation will be coerced to use it. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>is the new size of the clip </td></tr>
+    <tr><td class="paramname">right</td><td>is true if we change the right side of the clip, false otherwise </td></tr>
+    <tr><td class="paramname">undo</td><td>Lambda function containing the current undo stack. Will be updated with current operation </td></tr>
+    <tr><td class="paramname">redo</td><td>Lambda function containing the current redo queue. Will be updated with current operation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>实现了 <a class="el" href="classMoveableItem.html#aa09c1367516de46fe5e8ec8cf63702c8">MoveableItem&lt; Mlt::Producer &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5094e78189c5d2fb94939fe9e1d98223"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mlt::Producer * ClipModel::service </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the service. It may be used but do NOT store it. </p>
+
+<p>实现了 <a class="el" href="classMoveableItem.html#a053d9164f19575841df59118ac8f9663">MoveableItem&lt; Mlt::Producer &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac2aa20009eb63ed1ccf6dbf25c414293"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::setClipState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the timeline clip status (video / audio only) </p>
+
+</div>
+</div>
+<a class="anchor" id="a153950ed80e46e64cac2cc9d47dff1fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> ClipModel::setClipState_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60ec76e89a699415afb65fc682a371f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setCurrentTrackId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the stored track id of the item This function is meant to be called by the timeline, not directly by the user. If you wish to actually change the track the item, use the slot in the timeline slot. </p>
+
+<p>重载 <a class="el" href="classMoveableItem.html#ab381028f238b9bd9b1b600c0550d4916">MoveableItem&lt; Mlt::Producer &gt;</a> .</p>
+
+</div>
+</div>
+<a class="anchor" id="aca01a9496182e783ae6c1f691b19b509"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setFakePosition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abe68b7353b1a71125f48813c6a000af4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setFakeTrackId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab4230f880e8c0cb75d2bb37d3a25457b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setGrab </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>grab</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set grab status. </p>
+
+<p>实现了 <a class="el" href="classMoveableItem.html#a44f81fb19a6eb9486d30d7ecc023feff">MoveableItem&lt; Mlt::Producer &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e7a1ceba247b1ec51e37c52d70ee3e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setInOut </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set in and out of service. </p>
+
+<p>重载 <a class="el" href="classMoveableItem.html#a296b1b1ca128ddef98b6b31ab577f820">MoveableItem&lt; Mlt::Producer &gt;</a> .</p>
+
+</div>
+</div>
+<a class="anchor" id="abd9f7ddfcbcf38f18298186528698e55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setMixDuration </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ae6fb44641027942a1cf2fe4b655291"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setMixDuration </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8ba93f1369e8b18d7d28dd6f6f3c96b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setOffset </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the clip offset (calculated in the model between 2 clips from same bin clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="acf5eaa41e78c7955e595a6d729715d23"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setPosition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the stored position of the item This function is meant to be called by the trackmodel, not directly by the user. If you wish to actually move the item, use the requestMove slot. </p>
+
+<p>重载 <a class="el" href="classMoveableItem.html#abecda95e3ae167fa73cb69cd83fb15e7">MoveableItem&lt; Mlt::Producer &gt;</a> .</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c18d5621c9f0378aaa6a65648aeeeee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setSelected </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set selected status. </p>
+
+<p>实现了 <a class="el" href="classMoveableItem.html#a9e585a21103e747992bccb818353688a">MoveableItem&lt; Mlt::Producer &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a67c0ae4e00b7dc9daa7b69b0f1723193"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setShowKeyframes </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a09d6ed4b2fceff10a287abd57e8640dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setSubPlaylistIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>trackId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a385a3efb1a82ab5c32f40975a00179cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipModel::setTimelineEffectsEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function change the global (timeline-wise) enabled state of the effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="af421ee33df9162d6078e07c3e1a54f6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::showKeyframes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab9722ff118dea839fc281d69820884c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDomElement ClipModel::toXml </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&#160;</td>
+          <td class="paramname"><em>document</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an XML representation of the clip with its effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9a7dc9da689f4fa24de032de3c48e7ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::useTimewarpProducer </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pitchCompensate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>changeDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This functions replaces the current producer with a slowmotion one It also resizes the producer so that set of frames contained in the clip is the same. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae2dc85114364678204a553cdb04642e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> ClipModel::useTimewarpProducer_lambda </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pitchCompensate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lambda that merely changes the speed (in and out are untouched) </p>
+
+</div>
+</div>
+<h2 class="groupheader">友元及相关函数文档</h2>
+<a class="anchor" id="a6a58cb31c458fe59a5e94e6301e2bfc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineController.html">TimelineController</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ffff688c48f9bb5d2927decf6741d3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct <a class="el" href="structTimelineFunctions.html">TimelineFunctions</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acfaf8bede83fb4009bb72256a7ab16b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineItemModel.html">TimelineItemModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4afea070a84b0f384933d36c173b68fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineModel.html">TimelineModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa9f2167b5356e7d3155886776d81a182"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTrackModel.html">TrackModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a8ba84123dceadaf1f8da082ee1f40c37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::forceThumbReload</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to trigger a forced thumb reload, when producer changes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a405209b08e12c028f4c3da9ec193ea20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipModel::m_binClipId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is the Id of the bin clip this clip corresponds to. </p>
+
+</div>
+</div>
+<a class="anchor" id="a021f75ec7216a895304e7103b06eb73f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::m_canBeAudio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9177a646689fe681a214655d432be7d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::m_canBeVideo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32ab53037db7482f535a549ae3ea67f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classClipSnapModel.html">ClipSnapModel</a>&gt; ClipModel::m_clipMarkerModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afed4442d1c2e33c24e80ca2ad55957b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> ClipModel::m_clipType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af1e91b67315a6d53dec7ea3de3269453"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> ClipModel::m_currentState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad68d1f57835ef1a27d68c9e586aac0f5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classEffectStackModel.html">EffectStackModel</a>&gt; ClipModel::m_effectStack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a08044b47b2a2eb70dabe068ff67ecc0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipModel::m_endlessResize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this clip can be freely resized. </p>
+
+</div>
+</div>
+<a class="anchor" id="a164b2e94c1c539f0d77eb2959f13f7c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_fakePosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aacded2bc591ef6c0925a52b34ac984e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_fakeTrack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fake track id, used when dragging in insert/overwrite mode. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac98130b7a2069927cd68ff1f685b0291"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_lastTrackId = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remember last set track, so that we don't unnecessarily refresh the producer when deleting and re-adding a clip on same track. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeba316652709693ace7024e1274040b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_mixCutPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Position of the original cut, relative to mix right side. </p>
+
+</div>
+</div>
+<a class="anchor" id="a80fd5115a75ec088307781d5ec26fb3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_mixDuration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Duration of a same track mix. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae60845af3b5ad072dd620354accaa2a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_positionOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temporary val to store offset between two clips with same bin id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a42ec91bb49179fcd0f8b83db17dd58d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Mlt::Producer&gt; ClipModel::m_producer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afb634d11da0676a19f0173d5a40bf482"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ClipModel::m_speed = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Speed of the clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad0309d1ecf02697436aeef894dbc6243"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipModel::m_subPlaylistIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tracks have two sub playlists to enable same track transitions, we store in which one this clip is. </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/timeline2/model/<a class="el" href="clipmodel_8hpp_source.html">clipmodel.hpp</a></li>
+<li>src/timeline2/model/<a class="el" href="clipmodel_8cpp.html">clipmodel.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<map id="NativeWindowTester" name="NativeWindowTester">
+<area shape="rect" id="node2" href="$classFramelessHelperPrivate.html" title="{FramelessHelperPrivate\n|+ window\l+ helper\l+ priDraggableMargins\l+ priMaximizedMargins\l+ extraTitleBars\l+ titleBarHeight\l+ includeItems\l+ excludeItems\l+ maximized\l|+ FramelessHelperPrivate()\l+ ~FramelessHelperPrivate()\l+ draggableMargins()\l+ maximizedMargins()\l+ hitTest()\l}" alt="" coords="5,160,220,413"/>
+<area shape="rect" id="node3" href="$classWindowFramelessHelperPrivate.html" title="{WindowFramelessHelperPrivate\n|+ window\l+ helper\l+ priDraggableMargins\l+ priMaximizedMargins\l+ extraTitleBars\l+ titleBarHeight\l+ includeItems\l+ excludeItems\l|+ WindowFramelessHelperPrivate()\l+ ~WindowFramelessHelperPrivate()\l+ draggableMargins()\l+ maximizedMargins()\l+ hitTest()\l}" alt="" coords="245,167,511,406"/>
+</map>

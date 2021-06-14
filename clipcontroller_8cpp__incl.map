@@ -1,0 +1,21 @@
+<map id="src/mltcontroller/clipcontroller.cpp" name="src/mltcontroller/clipcontroller.cpp">
+<area shape="rect" id="node2" href="$clipcontroller_8h.html" title="clipcontroller.h" alt="" coords="917,169,1036,196"/>
+<area shape="rect" id="node14" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="1490,169,1716,196"/>
+<area shape="rect" id="node20" href="$docundostack_8hpp.html" title="doc/docundostack.hpp" alt="" coords="2721,87,2888,114"/>
+<area shape="rect" id="node21" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="3093,87,3233,114"/>
+<area shape="rect" id="node31" href="$effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="1568,80,1780,121"/>
+<area shape="rect" id="node35" href="$audioStreamInfo_8h.html" title="lib/audio/audioStreamInfo.h" alt="" coords="2898,169,3100,196"/>
+<area shape="rect" id="node36" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="147,169,331,196"/>
+<area shape="rect" id="node39" href="$clipcreator_8hpp.html" title="bin/clipcreator.hpp" alt="" coords="406,169,549,196"/>
+<area shape="rect" id="node40" href="$kthumb_8h.html" title="doc/kthumb.h" alt="" coords="2586,87,2697,114"/>
+<area shape="rect" id="node43" href="$core_8h.html" title="core.h" alt="" coords="2020,87,2082,114"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="2245,244,2348,271"/>
+<area shape="rect" id="node4" href="$gentime_8h.html" title="gentime.h" alt="" coords="2367,319,2455,345"/>
+<area shape="rect" id="node15" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1386,244,1508,271"/>
+<area shape="rect" id="node28" href="$subtitlemodel_8hpp.html" title="../bin/model/subtitlemodel.hpp" alt="" coords="2124,169,2346,196"/>
+<area shape="rect" id="node30" href="$timecode_8h.html" title="timecode.h" alt="" coords="3226,244,3321,271"/>
+<area shape="rect" id="node32" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="573,169,841,196"/>
+<area shape="rect" id="node37" href="$profileinfo_8hpp.html" title="profileinfo.hpp" alt="" coords="298,244,414,271"/>
+<area shape="rect" id="node44" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="1314,169,1465,196"/>
+<area shape="rect" id="node46" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="1792,169,1958,196"/>
+</map>

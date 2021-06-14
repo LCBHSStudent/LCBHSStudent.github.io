@@ -1,0 +1,15 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classAddClipCutCommand.html" title="AddClipCutCommand" alt="" coords="213,5,374,32"/>
+<area shape="rect" id="node3" href="$classAddFolderCommand.html" title="AddFolderCommand" alt="" coords="216,56,371,83"/>
+<area shape="rect" id="node4" href="$classAssetCommand.html" title="@todo Describe class AssetCommand " alt="" coords="231,107,356,133"/>
+<area shape="rect" id="node5" href="$classAssetKeyframeCommand.html" title="@todo Describe class AssetKeyframeCommand " alt="" coords="199,157,387,184"/>
+<area shape="rect" id="node6" href="$classAssetMultiCommand.html" title="@todo Describe class AssetMultiCommand " alt="" coords="214,208,373,235"/>
+<area shape="rect" id="node7" href="$classAssetUpdateCommand.html" title="@todo Describe class AssetUpdateCommand " alt="" coords="207,259,379,285"/>
+<area shape="rect" id="node8" href="$classEditClipCommand.html" title="EditClipCommand" alt="" coords="224,309,363,336"/>
+<area shape="rect" id="node9" href="$classEditClipCutCommand.html" title="EditClipCutCommand" alt="" coords="213,360,374,387"/>
+<area shape="rect" id="node10" href="$classEditFolderCommand.html" title="EditFolderCommand" alt="" coords="216,411,371,437"/>
+<area shape="rect" id="node11" href="$classFunctionalUndoCommand.html" title="this is a generic class that takes fonctors as undo and redo actions. It just executes them when requ..." alt="" coords="198,461,389,488"/>
+<area shape="rect" id="node12" href="$classMoveBinClipCommand.html" title="MoveBinClipCommand" alt="" coords="208,512,379,539"/>
+<area shape="rect" id="node13" href="$classMoveBinFolderCommand.html" title="MoveBinFolderCommand" alt="" coords="200,563,387,589"/>
+<area shape="rect" id="node14" href="$classRenameBinSubClipCommand.html" title="RenameBinSubClipCommand" alt="" coords="187,613,400,640"/>
+</map>

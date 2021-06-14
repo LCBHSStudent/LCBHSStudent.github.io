@@ -1,0 +1,17 @@
+<map id="src/jobs/abstracttask.cpp" name="src/jobs/abstracttask.cpp">
+<area shape="rect" id="node2" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="126,229,241,256"/>
+<area shape="rect" id="node16" href="$core_8h.html" title="core.h" alt="" coords="677,80,740,107"/>
+<area shape="rect" id="node31" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="2099,229,2273,256"/>
+<area shape="rect" id="node36" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1616,155,1743,181"/>
+<area shape="rect" id="node42" href="$audioStreamInfo_8h.html" title="audio/audioStreamInfo.h" alt="" coords="2515,229,2697,256"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="761,304,864,331"/>
+<area shape="rect" id="node4" href="$gentime_8h.html" title="gentime.h" alt="" coords="439,379,527,405"/>
+<area shape="rect" id="node17" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="691,155,841,181"/>
+<area shape="rect" id="node22" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="1088,155,1255,181"/>
+<area shape="rect" id="node23" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1957,379,2079,405"/>
+<area shape="rect" id="node30" href="$timecode_8h.html" title="timecode.h" alt="" coords="340,304,435,331"/>
+<area shape="rect" id="node32" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="1884,304,2152,331"/>
+<area shape="rect" id="node37" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1861,229,2023,256"/>
+<area shape="rect" id="node38" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="1149,229,1356,256"/>
+<area shape="rect" id="node40" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="1431,229,1687,256"/>
+</map>

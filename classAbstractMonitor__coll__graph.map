@@ -1,0 +1,3 @@
+<map id="AbstractMonitor" name="AbstractMonitor">
+<area shape="rect" id="node3" href="$classMonitorManager.html" title="{MonitorManager\n|+ refreshTimer\l+ speedArray\l|+ MonitorManager()\l+ initMonitors()\l+ appendMonitor()\l+ removeMonitor()\l+ timecode()\l+ resetProfiles()\l+ resetConsumers()\l+ stopActiveMonitor()\l+ pauseActiveMonitor()\l+ activeMonitor()\l和 15 更多...\l+ activateMonitor()\l+ slotPlay()\l+ slotPause()\l+ slotPlayZone()\l+ slotLoopZone()\l+ slotRewind()\l+ slotForward()\l+ slotRewindOneFrame()\l+ slotForwardOneFrame()\l+ slotRewindOneSecond()\l和 17 更多...\l}" alt="" coords="145,132,337,532"/>
+</map>

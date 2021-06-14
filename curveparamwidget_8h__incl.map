@@ -1,0 +1,13 @@
+<map id="src/assets/view/widgets/curves/curveparamwidget.h" name="src/assets/view/widgets/curves/curveparamwidget.h">
+<area shape="rect" id="node2" href="$abstractparamwidget_8hpp.html" title="../abstractparamwidget.hpp" alt="" coords="170,244,371,271"/>
+<area shape="rect" id="node7" href="$beziersplineeditor_8h.html" title="bezier/beziersplineeditor.h" alt="" coords="588,169,783,196"/>
+<area shape="rect" id="node22" href="$kis__curve__widget_8h.html" title="cubic/kis_curve_widget.h" alt="" coords="807,169,993,196"/>
+<area shape="rect" id="node26" href="$dragvalue_8h.html" title="widgets/dragvalue.h" alt="" coords="1397,169,1552,196"/>
+<area shape="rect" id="node31" href="$curveparamwidget_8ipp.html" title="curveparamwidget.ipp" alt="" coords="944,95,1112,121"/>
+<area shape="rect" id="node8" href="$abstractcurvewidget_8h.html" title="../abstractcurvewidget.h" alt="" coords="599,244,777,271"/>
+<area shape="rect" id="node9" href="$view_2widgets_2curves_2bezier_2bpoint_8h.html" title="bezier/bpoint.h" alt="" coords="507,319,626,345"/>
+<area shape="rect" id="node17" href="$colortools_8h.html" title="colortools.h" alt="" coords="1135,244,1233,271"/>
+<area shape="rect" id="node19" href="$cubicbezierspline_8h.html" title="cubicbezierspline.h" alt="" coords="801,244,948,271"/>
+<area shape="rect" id="node12" href="$abstractcurvewidget_8ipp.html" title="abstractcurvewidget.ipp" alt="" coords="751,319,929,345"/>
+<area shape="rect" id="node23" href="$kis__cubic__curve_8h.html" title="kis_cubic_curve.h" alt="" coords="973,244,1110,271"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="src/bin/projectfolder.cpp" name="src/bin/projectfolder.cpp">
+<area shape="rect" id="node2" href="$projectfolder_8h.html" title="projectfolder.h" alt="" coords="1447,80,1563,107"/>
+<area shape="rect" id="node16" href="$bin_8h.html" title="bin.h" alt="" coords="2802,80,2857,107"/>
+<area shape="rect" id="node33" href="$core_8h.html" title="core.h" alt="" coords="2169,155,2231,181"/>
+<area shape="rect" id="node42" href="$projectclip_8h.html" title="projectclip.h" alt="" coords="1707,80,1810,107"/>
+<area shape="rect" id="node45" href="$projectitemmodel_8h.html" title="projectitemmodel.h" alt="" coords="462,155,613,181"/>
+<area shape="rect" id="node3" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1364,155,1527,181"/>
+<area shape="rect" id="node4" href="$treeitem_8hpp.html" title="abstractmodel/treeitem.hpp" alt="" coords="1203,229,1407,256"/>
+<area shape="rect" id="node11" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="755,304,877,331"/>
+<area shape="rect" id="node5" href="$definitions_8h.html" title="definitions.h" alt="" coords="2066,304,2169,331"/>
+<area shape="rect" id="node6" href="$gentime_8h.html" title="gentime.h" alt="" coords="2183,379,2271,405"/>
+<area shape="rect" id="node17" href="$timecode_8h.html" title="timecode.h" alt="" coords="2343,304,2438,331"/>
+<area shape="rect" id="node34" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="2318,229,2469,256"/>
+<area shape="rect" id="node36" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2665,229,2831,256"/>
+<area shape="rect" id="node43" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="1574,155,1781,181"/>
+<area shape="rect" id="node44" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="688,229,944,256"/>
+<area shape="rect" id="node46" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="243,229,511,256"/>
+</map>

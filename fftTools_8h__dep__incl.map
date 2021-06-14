@@ -1,0 +1,8 @@
+<map id="src/lib/audio/fftTools.h" name="src/lib/audio/fftTools.h">
+<area shape="rect" id="node2" href="$fftTools_8cpp.html" title="src/lib/audio/fftTools.cpp" alt="" coords="5,87,184,114"/>
+<area shape="rect" id="node3" href="$audiospectrum_8h.html" title="src/scopes/audioscopes\l/audiospectrum.h" alt="" coords="259,80,434,121"/>
+<area shape="rect" id="node4" href="$audiospectrum_8cpp.html" title="src/scopes/audioscopes\l/audiospectrum.cpp" alt="" coords="134,169,309,211"/>
+<area shape="rect" id="node6" href="$spectrogram_8h.html" title="src/scopes/audioscopes\l/spectrogram.h" alt="" coords="458,80,633,121"/>
+<area shape="rect" id="node5" href="$scopemanager_8cpp.html" title="src/scopes/scopemanager.cpp" alt="" coords="333,177,549,203"/>
+<area shape="rect" id="node7" href="$spectrogram_8cpp.html" title="src/scopes/audioscopes\l/spectrogram.cpp" alt="" coords="574,169,749,211"/>
+</map>

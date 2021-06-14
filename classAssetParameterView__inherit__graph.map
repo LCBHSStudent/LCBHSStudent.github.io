@@ -1,0 +1,4 @@
+<map id="AssetParameterView" name="AssetParameterView">
+<area shape="rect" id="node3" href="$classMixStackView.html" title="{MixStackView\n||+ MixStackView()\l+ setModel()\l+ unsetModel()\l+ stackOwner()\l}" alt="" coords="5,586,144,707"/>
+<area shape="rect" id="node4" href="$classTransitionStackView.html" title="{TransitionStackView\n||+ TransitionStackView()\l+ setModel()\l+ unsetModel()\l+ stackOwner()\l+ refreshTracks()\l}" alt="" coords="168,579,347,715"/>
+</map>

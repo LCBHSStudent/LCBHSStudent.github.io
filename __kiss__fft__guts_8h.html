@@ -1,0 +1,580 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/lib/external/kiss_fft/_kiss_fft_guts.h 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_f12b4398bd6bee78960580574110c364.html">external</a></li><li class="navelem"><a class="el" href="dir_757801d8cd5c463331a728a261f85ba1.html">kiss_fft</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">_kiss_fft_guts.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="kiss__fft_8h_source.html">kiss_fft.h</a>&quot;</code><br />
+<code>#include &lt;limits.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+_kiss_fft_guts.h 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="__kiss__fft__guts_8h__incl.png" border="0" usemap="#src_2lib_2external_2kiss__fft_2__kiss__fft__guts_8h" alt=""/></div>
+<map name="src_2lib_2external_2kiss__fft_2__kiss__fft__guts_8h" id="src_2lib_2external_2kiss__fft_2__kiss__fft__guts_8h">
+<area shape="rect" id="node2" href="kiss__fft_8h.html" title="kiss_fft.h" alt="" coords="249,95,331,121"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="__kiss__fft__guts_8h__dep__incl.png" border="0" usemap="#src_2lib_2external_2kiss__fft_2__kiss__fft__guts_8hdep" alt=""/></div>
+<map name="src_2lib_2external_2kiss__fft_2__kiss__fft__guts_8hdep" id="src_2lib_2external_2kiss__fft_2__kiss__fft__guts_8hdep">
+<area shape="rect" id="node2" href="kiss__fft_8c.html" title="src/lib/external/kiss\l_fft/kiss_fft.c" alt="" coords="5,95,155,136"/>
+<area shape="rect" id="node3" href="kiss__fastfir_8c.html" title="src/lib/external/kiss\l_fft/tools/kiss_fastfir.c" alt="" coords="179,95,343,136"/>
+<area shape="rect" id="node4" href="kiss__fftnd_8c.html" title="src/lib/external/kiss\l_fft/tools/kiss_fftnd.c" alt="" coords="368,95,525,136"/>
+<area shape="rect" id="node5" href="kiss__fftndr_8c.html" title="src/lib/external/kiss\l_fft/tools/kiss_fftndr.c" alt="" coords="550,95,711,136"/>
+<area shape="rect" id="node6" href="kiss__fftr_8c.html" title="src/lib/external/kiss\l_fft/tools/kiss_fftr.c" alt="" coords="736,95,885,136"/>
+</map>
+</div>
+</div>
+<p><a href="__kiss__fft__guts_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkiss__fft__state.html">kiss_fft_state</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:af176a125e008eb443996cf0f83cc135c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#af176a125e008eb443996cf0f83cc135c">MAXFACTORS</a>&#160;&#160;&#160;32</td></tr>
+<tr class="separator:af176a125e008eb443996cf0f83cc135c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944e08f3916c56a9697bbfed458eaa94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a944e08f3916c56a9697bbfed458eaa94">S_MUL</a>(a,  b)&#160;&#160;&#160;((a) * (b))</td></tr>
+<tr class="separator:a944e08f3916c56a9697bbfed458eaa94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0677713bf2a1a0b0ce79c76842c56212"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a0677713bf2a1a0b0ce79c76842c56212">C_MUL</a>(m,  a,  b)                                                                                                                                                                                                                                                                              </td></tr>
+<tr class="separator:a0677713bf2a1a0b0ce79c76842c56212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e11bb1e8e815dd7bdd199060b7555a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a05e11bb1e8e815dd7bdd199060b7555a">C_FIXDIV</a>(c,  div)&#160;&#160;&#160;/* NOOP */</td></tr>
+<tr class="separator:a05e11bb1e8e815dd7bdd199060b7555a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae87c39161ad788d6a3ccb82439aeac74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#ae87c39161ad788d6a3ccb82439aeac74">C_MULBYSCALAR</a>(c,  s)                                                                                                                                                                                                                                                                    </td></tr>
+<tr class="separator:ae87c39161ad788d6a3ccb82439aeac74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664c056b2a7093f88391d7db3558aa24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a664c056b2a7093f88391d7db3558aa24">CHECK_OVERFLOW_OP</a>(a,  op,  b)&#160;&#160;&#160;/* noop */</td></tr>
+<tr class="separator:a664c056b2a7093f88391d7db3558aa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85834febce731076e7677b93ea19fcbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a85834febce731076e7677b93ea19fcbe">C_ADD</a>(res,  a,  b)                                                                                                                                                                                                                                                                          </td></tr>
+<tr class="separator:a85834febce731076e7677b93ea19fcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d130a6476586a1b2f133e31fb5d7c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a09d130a6476586a1b2f133e31fb5d7c1">C_SUB</a>(res,  a,  b)                                                                                                                                                                                                                                                                          </td></tr>
+<tr class="separator:a09d130a6476586a1b2f133e31fb5d7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac2478f77a4e09fd24d88191029bfbc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a0ac2478f77a4e09fd24d88191029bfbc">C_ADDTO</a>(res,  a)                                                                                                                                                                                                                                                                            </td></tr>
+<tr class="separator:a0ac2478f77a4e09fd24d88191029bfbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949f807fc9d4ae72369a6ce0a1dde912"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a949f807fc9d4ae72369a6ce0a1dde912">C_SUBFROM</a>(res,  a)                                                                                                                                                                                                                                                                        </td></tr>
+<tr class="separator:a949f807fc9d4ae72369a6ce0a1dde912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e780e8fe86d9c3e7b6a469f61aaf5d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a2e780e8fe86d9c3e7b6a469f61aaf5d1">KISS_FFT_COS</a>(phase)&#160;&#160;&#160;(<a class="el" href="kiss__fft_8h.html#a4d9bf2d6a2ce1b061545a16faf77d337">kiss_fft_scalar</a>) cos(phase)</td></tr>
+<tr class="separator:a2e780e8fe86d9c3e7b6a469f61aaf5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4fc93cde15512f1946f364d5271dd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a2d4fc93cde15512f1946f364d5271dd3">KISS_FFT_SIN</a>(phase)&#160;&#160;&#160;(<a class="el" href="kiss__fft_8h.html#a4d9bf2d6a2ce1b061545a16faf77d337">kiss_fft_scalar</a>) sin(phase)</td></tr>
+<tr class="separator:a2d4fc93cde15512f1946f364d5271dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b812a30fdb0c530a90a18d1692fab6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a0b812a30fdb0c530a90a18d1692fab6c">HALF_OF</a>(x)&#160;&#160;&#160;((x)*.5)</td></tr>
+<tr class="separator:a0b812a30fdb0c530a90a18d1692fab6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08fd574972fb208fdf151caa56c0b62c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#a08fd574972fb208fdf151caa56c0b62c">kf_cexp</a>(x,  phase)                                                                                                                                                                                                                                                                        </td></tr>
+<tr class="separator:a08fd574972fb208fdf151caa56c0b62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1abb41ecdedd05dda5d1ce83b67a704"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#ac1abb41ecdedd05dda5d1ce83b67a704">pcpx</a>(c)&#160;&#160;&#160;fprintf(stderr, &quot;%g + %gi\n&quot;, (double)((c)-&gt;r), (double)((c)-&gt;i))</td></tr>
+<tr class="separator:ac1abb41ecdedd05dda5d1ce83b67a704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd992e9886fb74f97bf0b6e057fe08a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#abd992e9886fb74f97bf0b6e057fe08a5">KISS_FFT_TMP_ALLOC</a>(nbytes)&#160;&#160;&#160;<a class="el" href="kiss__fft_8h.html#aa6e24524bfa0247ac606c950e43a9a4d">KISS_FFT_MALLOC</a>(nbytes)</td></tr>
+<tr class="separator:abd992e9886fb74f97bf0b6e057fe08a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab915c572fe96a51a3528b7419248b655"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__kiss__fft__guts_8h.html#ab915c572fe96a51a3528b7419248b655">KISS_FFT_TMP_FREE</a>(ptr)&#160;&#160;&#160;<a class="el" href="kiss__fft_8h.html#a167bff53d1f15bc13289353390b7faae">KISS_FFT_FREE</a>(ptr)</td></tr>
+<tr class="separator:ab915c572fe96a51a3528b7419248b655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="a85834febce731076e7677b93ea19fcbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_ADD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">res, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        CHECK_OVERFLOW_OP((a).r, +, (b).r)                                                                                                                     \</div><div class="line">        CHECK_OVERFLOW_OP((a).i, +, (b).i)                                                                                                                     \</div><div class="line">        (res).r = (a).r + (b).r;                                                                                                                               \</div><div class="line">        (res).i = (a).i + (b).i;                                                                                                                               \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0ac2478f77a4e09fd24d88191029bfbc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_ADDTO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">res, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        CHECK_OVERFLOW_OP((res).r, +, (a).r)                                                                                                                   \</div><div class="line">        CHECK_OVERFLOW_OP((res).i, +, (a).i)                                                                                                                   \</div><div class="line">        (res).r += (a).r;                                                                                                                                      \</div><div class="line">        (res).i += (a).i;                                                                                                                                      \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a05e11bb1e8e815dd7bdd199060b7555a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_FIXDIV</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">div&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;/* NOOP */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0677713bf2a1a0b0ce79c76842c56212"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_MUL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">m, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        (m).r = (a).r * (b).r - (a).i * (b).i;                                                                                                                 \</div><div class="line">        (m).i = (a).r * (b).i + (a).i * (b).r;                                                                                                                 \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae87c39161ad788d6a3ccb82439aeac74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_MULBYSCALAR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        (c).r *= (s);                                                                                                                                          \</div><div class="line">        (c).i *= (s);                                                                                                                                          \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a09d130a6476586a1b2f133e31fb5d7c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_SUB</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">res, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        CHECK_OVERFLOW_OP((a).r, -, (b).r)                                                                                                                     \</div><div class="line">        CHECK_OVERFLOW_OP((a).i, -, (b).i)                                                                                                                     \</div><div class="line">        (res).r = (a).r - (b).r;                                                                                                                               \</div><div class="line">        (res).i = (a).i - (b).i;                                                                                                                               \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a949f807fc9d4ae72369a6ce0a1dde912"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define C_SUBFROM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">res, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        CHECK_OVERFLOW_OP((res).r, -, (a).r)                                                                                                                   \</div><div class="line">        CHECK_OVERFLOW_OP((res).i, -, (a).i)                                                                                                                   \</div><div class="line">        (res).r -= (a).r;                                                                                                                                      \</div><div class="line">        (res).i -= (a).i;                                                                                                                                      \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a664c056b2a7093f88391d7db3558aa24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHECK_OVERFLOW_OP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">op, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;/* noop */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0b812a30fdb0c530a90a18d1692fab6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HALF_OF</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;((x)*.5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a08fd574972fb208fdf151caa56c0b62c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define kf_cexp</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">phase&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                                                                       \</div><div class="line">        (x)-&gt;r = <a class="code" href="__kiss__fft__guts_8h.html#a2e780e8fe86d9c3e7b6a469f61aaf5d1">KISS_FFT_COS</a>(phase);                                                                                                                          \</div><div class="line">        (x)-&gt;i = <a class="code" href="__kiss__fft__guts_8h.html#a2d4fc93cde15512f1946f364d5271dd3">KISS_FFT_SIN</a>(phase);                                                                                                                          \</div><div class="line">    } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="__kiss__fft__guts_8h_html_a2e780e8fe86d9c3e7b6a469f61aaf5d1"><div class="ttname"><a href="__kiss__fft__guts_8h.html#a2e780e8fe86d9c3e7b6a469f61aaf5d1">KISS_FFT_COS</a></div><div class="ttdeci">#define KISS_FFT_COS(phase)</div><div class="ttdef"><b>Definition:</b> _kiss_fft_guts.h:158</div></div>
+<div class="ttc" id="__kiss__fft__guts_8h_html_a2d4fc93cde15512f1946f364d5271dd3"><div class="ttname"><a href="__kiss__fft__guts_8h.html#a2d4fc93cde15512f1946f364d5271dd3">KISS_FFT_SIN</a></div><div class="ttdeci">#define KISS_FFT_SIN(phase)</div><div class="ttdef"><b>Definition:</b> _kiss_fft_guts.h:159</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2e780e8fe86d9c3e7b6a469f61aaf5d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KISS_FFT_COS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">phase</td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="kiss__fft_8h.html#a4d9bf2d6a2ce1b061545a16faf77d337">kiss_fft_scalar</a>) cos(phase)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d4fc93cde15512f1946f364d5271dd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KISS_FFT_SIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">phase</td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="kiss__fft_8h.html#a4d9bf2d6a2ce1b061545a16faf77d337">kiss_fft_scalar</a>) sin(phase)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abd992e9886fb74f97bf0b6e057fe08a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KISS_FFT_TMP_ALLOC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">nbytes</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="kiss__fft_8h.html#aa6e24524bfa0247ac606c950e43a9a4d">KISS_FFT_MALLOC</a>(nbytes)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab915c572fe96a51a3528b7419248b655"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KISS_FFT_TMP_FREE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="kiss__fft_8h.html#a167bff53d1f15bc13289353390b7faae">KISS_FFT_FREE</a>(ptr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af176a125e008eb443996cf0f83cc135c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAXFACTORS&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac1abb41ecdedd05dda5d1ce83b67a704"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pcpx</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c</td><td>)</td>
+          <td>&#160;&#160;&#160;fprintf(stderr, &quot;%g + %gi\n&quot;, (double)((c)-&gt;r), (double)((c)-&gt;i))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a944e08f3916c56a9697bbfed458eaa94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define S_MUL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) * (b))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

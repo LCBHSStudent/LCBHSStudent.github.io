@@ -1,0 +1,12 @@
+<map id="src/scopes/audioscopes/abstractaudioscopewidget.h" name="src/scopes/audioscopes/abstractaudioscopewidget.h">
+<area shape="rect" id="node2" href="$scopemanager_8h.html" title="src/scopes/scopemanager.h" alt="" coords="81,102,282,129"/>
+<area shape="rect" id="node5" href="$abstractaudioscopewidget_8cpp.html" title="src/scopes/audioscopes\l/abstractaudioscopewidget.cpp" alt="" coords="903,95,1127,136"/>
+<area shape="rect" id="node6" href="$audiosignal_8h.html" title="src/scopes/audioscopes\l/audiosignal.h" alt="" coords="306,95,481,136"/>
+<area shape="rect" id="node8" href="$audiospectrum_8h.html" title="src/scopes/audioscopes\l/audiospectrum.h" alt="" coords="505,95,679,136"/>
+<area shape="rect" id="node10" href="$spectrogram_8h.html" title="src/scopes/audioscopes\l/spectrogram.h" alt="" coords="703,95,878,136"/>
+<area shape="rect" id="node3" href="$mainwindow_8cpp.html" title="src/mainwindow.cpp" alt="" coords="5,191,160,218"/>
+<area shape="rect" id="node4" href="$scopemanager_8cpp.html" title="src/scopes/scopemanager.cpp" alt="" coords="384,191,600,218"/>
+<area shape="rect" id="node7" href="$audiosignal_8cpp.html" title="src/scopes/audioscopes\l/audiosignal.cpp" alt="" coords="185,184,359,225"/>
+<area shape="rect" id="node9" href="$audiospectrum_8cpp.html" title="src/scopes/audioscopes\l/audiospectrum.cpp" alt="" coords="625,184,799,225"/>
+<area shape="rect" id="node11" href="$spectrogram_8cpp.html" title="src/scopes/audioscopes\l/spectrogram.cpp" alt="" coords="823,184,998,225"/>
+</map>

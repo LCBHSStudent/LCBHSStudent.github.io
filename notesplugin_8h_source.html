@@ -1,0 +1,123 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/project/notesplugin.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_00f0a3b1654669903f8939607e046ce9.html">project</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">notesplugin.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="notesplugin_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">Copyright (C) 2014  Till Theato &lt;root@ttill.de&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">This file is part of kdenlive. See www.kdenlive.org.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">This program is free software: you can redistribute it and/or modify</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">it under the terms of the GNU General Public License as published by</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">the Free Software Foundation, either version 3 of the License, or</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">(at your option) any later version.</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">*/</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef NOTESPLUGIN_H</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define NOTESPLUGIN_H</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span><a class="code" href="classNotesWidget.html">NotesWidget</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span><a class="code" href="classKdenliveDoc.html">KdenliveDoc</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span><a class="code" href="classProjectManager.html">ProjectManager</a>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>QDockWidget;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span>QToolBar;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classNotesPlugin.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="classNotesPlugin.html">NotesPlugin</a> : <span class="keyword">public</span> QObject</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classNotesPlugin.html#a59524840f8c92538c07f2ed6db306666">NotesPlugin</a>(<a class="code" href="classProjectManager.html">ProjectManager</a> *projectManager);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="classNotesWidget.html">NotesWidget</a> *<a class="code" href="classNotesPlugin.html#ac0d043d172ade8dec6cc468e4219c34b">widget</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classNotesPlugin.html#a42e810572aff6ca85fcaa585c348ece3">clear</a>();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classNotesPlugin.html#ab3fe4ab6c3cd7ef8b3a3f686514b0bc2">showDock</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> setProject(<a class="code" href="classKdenliveDoc.html">KdenliveDoc</a> *document);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> slotInsertTimecode();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> slotReAssign(QStringList anchors, QList &lt;QPoint&gt; points);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> slotInsertText(<span class="keyword">const</span> QString &amp;text);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classNotesWidget.html">NotesWidget</a> *m_widget;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    QWidget *m_container;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    QToolBar *m_tb;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;};</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classProjectManager_html"><div class="ttname"><a href="classProjectManager.html">ProjectManager</a></div><div class="ttdoc">Takes care of interaction with projects. </div><div class="ttdef"><b>Definition:</b> projectmanager.h:43</div></div>
+<div class="ttc" id="classNotesPlugin_html"><div class="ttname"><a href="classNotesPlugin.html">NotesPlugin</a></div><div class="ttdoc">Handles connection of NotesWidget. </div><div class="ttdef"><b>Definition:</b> notesplugin.h:27</div></div>
+<div class="ttc" id="classNotesPlugin_html_ac0d043d172ade8dec6cc468e4219c34b"><div class="ttname"><a href="classNotesPlugin.html#ac0d043d172ade8dec6cc468e4219c34b">NotesPlugin::widget</a></div><div class="ttdeci">NotesWidget * widget()</div><div class="ttdef"><b>Definition:</b> notesplugin.cpp:136</div></div>
+<div class="ttc" id="classNotesPlugin_html_a42e810572aff6ca85fcaa585c348ece3"><div class="ttname"><a href="classNotesPlugin.html#a42e810572aff6ca85fcaa585c348ece3">NotesPlugin::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> notesplugin.cpp:141</div></div>
+<div class="ttc" id="classNotesWidget_html"><div class="ttname"><a href="classNotesWidget.html">NotesWidget</a></div><div class="ttdoc">A small text editor to create project notes. </div><div class="ttdef"><b>Definition:</b> noteswidget.h:29</div></div>
+<div class="ttc" id="classNotesPlugin_html_a59524840f8c92538c07f2ed6db306666"><div class="ttname"><a href="classNotesPlugin.html#a59524840f8c92538c07f2ed6db306666">NotesPlugin::NotesPlugin</a></div><div class="ttdeci">NotesPlugin(ProjectManager *projectManager)</div><div class="ttdef"><b>Definition:</b> notesplugin.cpp:22</div></div>
+<div class="ttc" id="classNotesPlugin_html_ab3fe4ab6c3cd7ef8b3a3f686514b0bc2"><div class="ttname"><a href="classNotesPlugin.html#ab3fe4ab6c3cd7ef8b3a3f686514b0bc2">NotesPlugin::showDock</a></div><div class="ttdeci">void showDock()</div><div class="ttdef"><b>Definition:</b> notesplugin.cpp:64</div></div>
+<div class="ttc" id="classKdenliveDoc_html"><div class="ttname"><a href="classKdenliveDoc.html">KdenliveDoc</a></div><div class="ttdoc">Represents a kdenlive project file. </div><div class="ttdef"><b>Definition:</b> kdenlivedoc.h:59</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

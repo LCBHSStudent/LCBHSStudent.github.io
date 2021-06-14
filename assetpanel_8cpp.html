@@ -1,0 +1,166 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/assets/assetpanel.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_10713331a9c2c730d0277dc05e8141d6.html">assets</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">assetpanel.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="assetpanel_8hpp_source.html">assetpanel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_8h_source.html">core.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="definitions_8h_source.html">definitions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="effectitemmodel_8hpp_source.html">effects/effectstack/model/effectitemmodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="effectstackmodel_8hpp_source.html">effects/effectstack/model/effectstackmodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="effectstackview_8hpp_source.html">effects/effectstack/view/effectstackview.hpp</a>&quot;</code><br />
+<code>#include &quot;kdenlivesettings.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="assetparametermodel_8hpp_source.html">model/assetparametermodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="transitionsrepository_8hpp_source.html">transitions/transitionsrepository.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="effectsrepository_8hpp_source.html">effects/effectsrepository.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="transitionstackview_8hpp_source.html">transitions/view/transitionstackview.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mixstackview_8hpp_source.html">transitions/view/mixstackview.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="assetparameterview_8hpp_source.html">view/assetparameterview.hpp</a>&quot;</code><br />
+<code>#include &lt;KColorScheme&gt;</code><br />
+<code>#include &lt;KColorUtils&gt;</code><br />
+<code>#include &lt;KDualAction&gt;</code><br />
+<code>#include &lt;KSqueezedTextLabel&gt;</code><br />
+<code>#include &lt;KMessageWidget&gt;</code><br />
+<code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QToolBar&gt;</code><br />
+<code>#include &lt;QToolButton&gt;</code><br />
+<code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QScrollArea&gt;</code><br />
+<code>#include &lt;QScrollBar&gt;</code><br />
+<code>#include &lt;QComboBox&gt;</code><br />
+<code>#include &lt;QFontDatabase&gt;</code><br />
+<code>#include &lt;klocalizedstring.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+assetpanel.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="assetpanel_8cpp__incl.png" border="0" usemap="#src_2assets_2assetpanel_8cpp" alt=""/></div>
+<map name="src_2assets_2assetpanel_8cpp" id="src_2assets_2assetpanel_8cpp">
+<area shape="rect" id="node2" href="assetpanel_8hpp.html" title="assetpanel.hpp" alt="" coords="48,177,169,203"/>
+<area shape="rect" id="node6" href="definitions_8h.html" title="definitions.h" alt="" coords="773,259,876,285"/>
+<area shape="rect" id="node14" href="core_8h.html" title="core.h" alt="" coords="1813,87,1876,114"/>
+<area shape="rect" id="node28" href="effectitemmodel_8hpp.html" title="effects/effectstack\l/model/effectitemmodel.hpp" alt="" coords="1228,80,1435,121"/>
+<area shape="rect" id="node29" href="assetparametermodel_8hpp.html" title="assets/model/assetparametermodel.hpp" alt="" coords="951,177,1237,203"/>
+<area shape="rect" id="node31" href="effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="1577,80,1789,121"/>
+<area shape="rect" id="node32" href="effectstackview_8hpp.html" title="effects/effectstack\l/view/effectstackview.hpp" alt="" coords="483,169,673,211"/>
+<area shape="rect" id="node34" href="transitionsrepository_8hpp.html" title="transitions/transitionsrepository.hpp" alt="" coords="897,87,1153,114"/>
+<area shape="rect" id="node35" href="effectsrepository_8hpp.html" title="effects/effectsrepository.hpp" alt="" coords="1261,177,1468,203"/>
+<area shape="rect" id="node36" href="transitionstackview_8hpp.html" title="transitions/view/transitionstackview.hpp" alt="" coords="214,87,499,114"/>
+<area shape="rect" id="node37" href="assetparameterview_8hpp.html" title="assets/view/assetparameterview.hpp" alt="" coords="194,177,458,203"/>
+<area shape="rect" id="node38" href="mixstackview_8hpp.html" title="transitions/view/mixstackview.hpp" alt="" coords="574,87,822,114"/>
+<area shape="rect" id="node7" href="gentime_8h.html" title="gentime.h" alt="" coords="2131,333,2219,360"/>
+<area shape="rect" id="node15" href="taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="2809,177,2960,203"/>
+<area shape="rect" id="node18" href="kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="1931,177,2097,203"/>
+<area shape="rect" id="node19" href="undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1783,177,1906,203"/>
+<area shape="rect" id="node27" href="timecode_8h.html" title="timecode.h" alt="" coords="3085,259,3180,285"/>
+</map>
+</div>
+</div></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

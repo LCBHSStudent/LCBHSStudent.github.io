@@ -1,0 +1,153 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/jobs/scenesplitjob.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_61c9ccccd0f52ce700d1d68422bef0e1.html">jobs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">scenesplitjob.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="scenesplitjob_8hpp_source.html">scenesplitjob.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="clipcreator_8hpp_source.html">bin/clipcreator.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="markerlistmodel_8hpp_source.html">bin/model/markerlistmodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectclip_8h_source.html">bin/projectclip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectfolder_8h_source.html">bin/projectfolder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectitemmodel_8h_source.html">bin/projectitemmodel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_8h_source.html">core.h</a>&quot;</code><br />
+<code>#include &quot;jobmanager.h&quot;</code><br />
+<code>#include &quot;kdenlivesettings.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="clipstabilize_8h_source.html">project/clipstabilize.h</a>&quot;</code><br />
+<code>#include &quot;ui_scenecutdialog_ui.h&quot;</code><br />
+<code>#include &lt;QScopedPointer&gt;</code><br />
+<code>#include &lt;mlt++/Mlt.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+scenesplitjob.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="scenesplitjob_8cpp__incl.png" border="0" usemap="#src_2jobs_2scenesplitjob_8cpp" alt=""/></div>
+<map name="src_2jobs_2scenesplitjob_8cpp" id="src_2jobs_2scenesplitjob_8cpp">
+<area shape="rect" id="node2" href="scenesplitjob_8hpp.html" title="scenesplitjob.hpp" alt="" coords="533,155,669,181"/>
+<area shape="rect" id="node6" href="clipcreator_8hpp.html" title="bin/clipcreator.hpp" alt="" coords="1075,155,1217,181"/>
+<area shape="rect" id="node16" href="markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="2211,155,2438,181"/>
+<area shape="rect" id="node21" href="projectclip_8h.html" title="bin/projectclip.h" alt="" coords="560,80,687,107"/>
+<area shape="rect" id="node30" href="projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="1629,80,1769,107"/>
+<area shape="rect" id="node31" href="projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1857,80,2032,107"/>
+<area shape="rect" id="node35" href="core_8h.html" title="core.h" alt="" coords="2555,80,2617,107"/>
+<area shape="rect" id="node47" href="clipstabilize_8h.html" title="project/clipstabilize.h" alt="" coords="3544,155,3705,181"/>
+<area shape="rect" id="node7" href="definitions_8h.html" title="definitions.h" alt="" coords="2041,229,2144,256"/>
+<area shape="rect" id="node15" href="undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1554,229,1677,256"/>
+<area shape="rect" id="node8" href="gentime_8h.html" title="gentime.h" alt="" coords="2354,304,2442,331"/>
+<area shape="rect" id="node22" href="abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1534,155,1697,181"/>
+<area shape="rect" id="node25" href="clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="251,155,457,181"/>
+<area shape="rect" id="node28" href="timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="794,155,1050,181"/>
+<area shape="rect" id="node32" href="abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="1241,155,1509,181"/>
+<area shape="rect" id="node36" href="taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="3216,155,3367,181"/>
+<area shape="rect" id="node38" href="kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2564,155,2731,181"/>
+<area shape="rect" id="node44" href="timecode_8h.html" title="timecode.h" alt="" coords="3705,229,3800,256"/>
+</map>
+</div>
+</div></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

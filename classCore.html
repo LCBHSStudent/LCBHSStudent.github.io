@@ -1,0 +1,2892 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: Core类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="classCore-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Core类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Singleton that provides access to the different parts of <a class="el" href="namespaceKdenlive.html">Kdenlive</a>.  
+ <a href="classCore.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="core_8h_source.html">core.h</a>&gt;</code></p>
+<div class="dynheader">
+类 Core 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCore__inherit__graph.png" border="0" usemap="#Core_inherit__map" alt="Inheritance graph"/></div>
+<map name="Core_inherit__map" id="Core_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+Core 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCore__coll__graph.png" border="0" usemap="#Core_coll__map" alt="Collaboration graph"/></div>
+<map name="Core_coll__map" id="Core_coll__map">
+<area shape="rect" id="node3" href="classTaskManager.html" title="This class is responsible for clip jobs management. " alt="" coords="119,132,309,327"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:a1123b93706409f50a3d2d3cbcd49c3cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a1123b93706409f50a3d2d3cbcd49c3cc">triggerAction</a> (const QString &amp;name)</td></tr>
+<tr class="memdesc:a1123b93706409f50a3d2d3cbcd49c3cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger (launch) an action by its actionCollection name.  <a href="#a1123b93706409f50a3d2d3cbcd49c3cc">更多...</a><br /></td></tr>
+<tr class="separator:a1123b93706409f50a3d2d3cbcd49c3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29a3b2456494514a91d2a2bd087356b0"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a29a3b2456494514a91d2a2bd087356b0">actionText</a> (const QString &amp;name)</td></tr>
+<tr class="memdesc:a29a3b2456494514a91d2a2bd087356b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an action's descriptive text by its actionCollection name.  <a href="#a29a3b2456494514a91d2a2bd087356b0">更多...</a><br /></td></tr>
+<tr class="separator:a29a3b2456494514a91d2a2bd087356b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a153427e3def56577373eaf230ed96b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a153427e3def56577373eaf230ed96b22">displayBinMessage</a> (const QString &amp;text, int type, const QList&lt; QAction * &gt; &amp;actions=QList&lt; QAction * &gt;(), bool showClose=false, <a class="el" href="namespaceBinMessage.html#ae4a56aa122e8a5e0989680101777afe7">BinMessage::BinCategory</a> messageCategory=BinMessage::BinCategory::NoMessage)</td></tr>
+<tr class="memdesc:a153427e3def56577373eaf230ed96b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">display a user info/warning message in the project bin  <a href="#a153427e3def56577373eaf230ed96b22">更多...</a><br /></td></tr>
+<tr class="separator:a153427e3def56577373eaf230ed96b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af792805d80572ffca7aa6b95506bcbe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#af792805d80572ffca7aa6b95506bcbe8">displayBinLogMessage</a> (const QString &amp;text, int type, const QString &amp;logInfo)</td></tr>
+<tr class="separator:af792805d80572ffca7aa6b95506bcbe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4cf05c2f041382c4c2d836f39795069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae4cf05c2f041382c4c2d836f39795069">buildLumaThumbs</a> (const QStringList &amp;values)</td></tr>
+<tr class="memdesc:ae4cf05c2f041382c4c2d836f39795069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create small thumbnails for luma used in compositions.  <a href="#ae4cf05c2f041382c4c2d836f39795069">更多...</a><br /></td></tr>
+<tr class="separator:ae4cf05c2f041382c4c2d836f39795069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03611c55ea78ad2e78363fdfe246193a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a03611c55ea78ad2e78363fdfe246193a">setDocumentModified</a> ()</td></tr>
+<tr class="memdesc:a03611c55ea78ad2e78363fdfe246193a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current project modified.  <a href="#a03611c55ea78ad2e78363fdfe246193a">更多...</a><br /></td></tr>
+<tr class="separator:a03611c55ea78ad2e78363fdfe246193a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641e539a2b574c47ec3195600a6c543f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a641e539a2b574c47ec3195600a6c543f">showEffectZone</a> (<a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> id, QPair&lt; int, int &gt;inOut, bool checked)</td></tr>
+<tr class="memdesc:a641e539a2b574c47ec3195600a6c543f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show currently selected effect zone in timeline ruler.  <a href="#a641e539a2b574c47ec3195600a6c543f">更多...</a><br /></td></tr>
+<tr class="separator:a641e539a2b574c47ec3195600a6c543f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00edbc80ae86f67aad24a8faf3280a98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a00edbc80ae86f67aad24a8faf3280a98">updateMasterZones</a> ()</td></tr>
+<tr class="separator:a00edbc80ae86f67aad24a8faf3280a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa31d77b989733c8f70a344d0bab64304"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa31d77b989733c8f70a344d0bab64304">testProxies</a> ()</td></tr>
+<tr class="memdesc:aa31d77b989733c8f70a344d0bab64304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the proxies test dialog.  <a href="#aa31d77b989733c8f70a344d0bab64304">更多...</a><br /></td></tr>
+<tr class="separator:aa31d77b989733c8f70a344d0bab64304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a67874cf62651d552ba238dab271f5576"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a67874cf62651d552ba238dab271f5576">coreIsReady</a> ()</td></tr>
+<tr class="separator:a67874cf62651d552ba238dab271f5576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9190116e003484b48b1a76b27c4dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aec9190116e003484b48b1a76b27c4dd7">updateLibraryPath</a> ()</td></tr>
+<tr class="separator:aec9190116e003484b48b1a76b27c4dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0093555bc15a5993d61eb609ffd7b795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a0093555bc15a5993d61eb609ffd7b795">updateMonitorProfile</a> ()</td></tr>
+<tr class="separator:a0093555bc15a5993d61eb609ffd7b795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bad4267f9048ed7e3f13d6c9dcbdbfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a5bad4267f9048ed7e3f13d6c9dcbdbfb">showConfigDialog</a> (int, int)</td></tr>
+<tr class="memdesc:a5bad4267f9048ed7e3f13d6c9dcbdbfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call config dialog on a selected page / tab.  <a href="#a5bad4267f9048ed7e3f13d6c9dcbdbfb">更多...</a><br /></td></tr>
+<tr class="separator:a5bad4267f9048ed7e3f13d6c9dcbdbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29f3448b79778b70f23baa8a813ed57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac29f3448b79778b70f23baa8a813ed57">finalizeRecording</a> (const QString &amp;captureFile)</td></tr>
+<tr class="separator:ac29f3448b79778b70f23baa8a813ed57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a869522f59dcaeca12ba1a256cd32fc9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a869522f59dcaeca12ba1a256cd32fc9c">autoScrollChanged</a> ()</td></tr>
+<tr class="separator:a869522f59dcaeca12ba1a256cd32fc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fcf061c4a66e91ec2919a258a1f7f4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a7fcf061c4a66e91ec2919a258a1f7f4a">loadingMessageUpdated</a> (const QString &amp;, int progress=0, int max=-1)</td></tr>
+<tr class="memdesc:a7fcf061c4a66e91ec2919a258a1f7f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to splash screen if still displayed.  <a href="#a7fcf061c4a66e91ec2919a258a1f7f4a">更多...</a><br /></td></tr>
+<tr class="separator:a7fcf061c4a66e91ec2919a258a1f7f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6e1b5ddc4b4ff265d7aca79a0b94e4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae6e1b5ddc4b4ff265d7aca79a0b94e4c">closeSplash</a> ()</td></tr>
+<tr class="memdesc:ae6e1b5ddc4b4ff265d7aca79a0b94e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opening finished, close splash screen.  <a href="#ae6e1b5ddc4b4ff265d7aca79a0b94e4c">更多...</a><br /></td></tr>
+<tr class="separator:ae6e1b5ddc4b4ff265d7aca79a0b94e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e93a30629e9f1d2034154f3b9e9c848"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a5e93a30629e9f1d2034154f3b9e9c848">voskModelUpdate</a> (const QStringList models)</td></tr>
+<tr class="memdesc:a5e93a30629e9f1d2034154f3b9e9c848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger an update of the the speech models list.  <a href="#a5e93a30629e9f1d2034154f3b9e9c848">更多...</a><br /></td></tr>
+<tr class="separator:a5e93a30629e9f1d2034154f3b9e9c848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4d03f00391e534997bad2168b9f1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a9f4d03f00391e534997bad2168b9f1e8">updateVoskAvailability</a> ()</td></tr>
+<tr class="memdesc:a9f4d03f00391e534997bad2168b9f1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This signal means that VOSK and/or SRT module availability changed.  <a href="#a9f4d03f00391e534997bad2168b9f1e8">更多...</a><br /></td></tr>
+<tr class="separator:a9f4d03f00391e534997bad2168b9f1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3960fd6ebfa57eed7d54eae181309d15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a3960fd6ebfa57eed7d54eae181309d15">updateEffectZone</a> (const QPoint p, bool withUndo)</td></tr>
+<tr class="memdesc:a3960fd6ebfa57eed7d54eae181309d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update current effect zone.  <a href="#a3960fd6ebfa57eed7d54eae181309d15">更多...</a><br /></td></tr>
+<tr class="separator:a3960fd6ebfa57eed7d54eae181309d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca3d0f42e9ea9f37ed486f4a7c506fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a5ca3d0f42e9ea9f37ed486f4a7c506fc">disconnectEffectStack</a> ()</td></tr>
+<tr class="memdesc:a5ca3d0f42e9ea9f37ed486f4a7c506fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The effect stask is about to be deleted, disconnect everything.  <a href="#a5ca3d0f42e9ea9f37ed486f4a7c506fc">更多...</a><br /></td></tr>
+<tr class="separator:a5ca3d0f42e9ea9f37ed486f4a7c506fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab6d6708b3b7ba93d5e6b8da9e5c7e0fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ab6d6708b3b7ba93d5e6b8da9e5c7e0fb">Core</a> (const <a class="el" href="classCore.html">Core</a> &amp;)=delete</td></tr>
+<tr class="separator:ab6d6708b3b7ba93d5e6b8da9e5c7e0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e2cafc8c62683970c19ea2a83588c37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore.html">Core</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a9e2cafc8c62683970c19ea2a83588c37">operator=</a> (const <a class="el" href="classCore.html">Core</a> &amp;)=delete</td></tr>
+<tr class="separator:a9e2cafc8c62683970c19ea2a83588c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a398e3c881ad7bd943714cd7a2666e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a2a398e3c881ad7bd943714cd7a2666e6">Core</a> (<a class="el" href="classCore.html">Core</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a2a398e3c881ad7bd943714cd7a2666e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a417c86aa26e08cab96f8c8817afd15dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore.html">Core</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a417c86aa26e08cab96f8c8817afd15dd">operator=</a> (<a class="el" href="classCore.html">Core</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a417c86aa26e08cab96f8c8817afd15dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2b0a4a9b60e39b4517a3077ffb07472"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa2b0a4a9b60e39b4517a3077ffb07472">~Core</a> () override</td></tr>
+<tr class="separator:aa2b0a4a9b60e39b4517a3077ffb07472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01329ee97851c379e7006b3435d7e89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac01329ee97851c379e7006b3435d7e89">initGUI</a> (bool isAppImage, const QString &amp;MltPath, const QUrl &amp;<a class="el" href="assetparametermodel_8hpp.html#a3a023c0c27667e78ae521eb64f1c7c81a02a3a357710cc2a5dfdfb74ed012fb59">Url</a>, const QString &amp;clipsToLoad=QString())</td></tr>
+<tr class="memdesc:ac01329ee97851c379e7006b3435d7e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the GUI part of the app and show the main window.  <a href="#ac01329ee97851c379e7006b3435d7e89">更多...</a><br /></td></tr>
+<tr class="separator:ac01329ee97851c379e7006b3435d7e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dc2a5d6646e18841df75ab388b093c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMainWindow.html">MainWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a31dc2a5d6646e18841df75ab388b093c">window</a> ()</td></tr>
+<tr class="memdesc:a31dc2a5d6646e18841df75ab388b093c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the main window.  <a href="#a31dc2a5d6646e18841df75ab388b093c">更多...</a><br /></td></tr>
+<tr class="separator:a31dc2a5d6646e18841df75ab388b093c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce8befe5caa56c61fe75a4fefd95221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProjectManager.html">ProjectManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a6ce8befe5caa56c61fe75a4fefd95221">projectManager</a> ()</td></tr>
+<tr class="memdesc:a6ce8befe5caa56c61fe75a4fefd95221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the project manager.  <a href="#a6ce8befe5caa56c61fe75a4fefd95221">更多...</a><br /></td></tr>
+<tr class="separator:a6ce8befe5caa56c61fe75a4fefd95221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa750cda8778c2dc905943c418137b38d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classKdenliveDoc.html">KdenliveDoc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa750cda8778c2dc905943c418137b38d">currentDoc</a> ()</td></tr>
+<tr class="memdesc:aa750cda8778c2dc905943c418137b38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the current project.  <a href="#aa750cda8778c2dc905943c418137b38d">更多...</a><br /></td></tr>
+<tr class="separator:aa750cda8778c2dc905943c418137b38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6075c4330a1927f2c4b960a252974b19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimecode.html">Timecode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a6075c4330a1927f2c4b960a252974b19">timecode</a> () const </td></tr>
+<tr class="memdesc:a6075c4330a1927f2c4b960a252974b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns project's timecode.  <a href="#a6075c4330a1927f2c4b960a252974b19">更多...</a><br /></td></tr>
+<tr class="separator:a6075c4330a1927f2c4b960a252974b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc77ca55a1dac8196998c9bb7f5754c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMonitorManager.html">MonitorManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#acc77ca55a1dac8196998c9bb7f5754c8">monitorManager</a> ()</td></tr>
+<tr class="memdesc:acc77ca55a1dac8196998c9bb7f5754c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the monitor manager.  <a href="#acc77ca55a1dac8196998c9bb7f5754c8">更多...</a><br /></td></tr>
+<tr class="separator:acc77ca55a1dac8196998c9bb7f5754c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca2cc69cd71a3adae86f7b7ae2ccf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBin.html">Bin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#adca2cc69cd71a3adae86f7b7ae2ccf69">bin</a> ()</td></tr>
+<tr class="memdesc:adca2cc69cd71a3adae86f7b7ae2ccf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the view of the project bin.  <a href="#adca2cc69cd71a3adae86f7b7ae2ccf69">更多...</a><br /></td></tr>
+<tr class="separator:adca2cc69cd71a3adae86f7b7ae2ccf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6af12968151b9d7cd80974a5a0ada0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClipPropertiesWidget.html">ClipPropertiesWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a8c6af12968151b9d7cd80974a5a0ada0">clipPropertiesWidget</a> () const </td></tr>
+<tr class="memdesc:a8c6af12968151b9d7cd80974a5a0ada0"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回剪辑属性组件  <a href="#a8c6af12968151b9d7cd80974a5a0ada0">更多...</a><br /></td></tr>
+<tr class="separator:a8c6af12968151b9d7cd80974a5a0ada0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ebea9b9c6c7c5eaebad0bd5e1307ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a9ebea9b9c6c7c5eaebad0bd5e1307ba8">selectBinClip</a> (const QString &amp;id, bool activateMonitor=true, int frame=-1, const QPoint &amp;zone=QPoint())</td></tr>
+<tr class="memdesc:a9ebea9b9c6c7c5eaebad0bd5e1307ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a clip in the <a class="el" href="classBin.html" title="The bin widget takes care of both item model and view upon project opening. ">Bin</a> from its id.  <a href="#a9ebea9b9c6c7c5eaebad0bd5e1307ba8">更多...</a><br /></td></tr>
+<tr class="separator:a9ebea9b9c6c7c5eaebad0bd5e1307ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a767f92c640b3fb3433af5ddc9a4e4af3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a767f92c640b3fb3433af5ddc9a4e4af3">selectTimelineItem</a> (int id)</td></tr>
+<tr class="memdesc:a767f92c640b3fb3433af5ddc9a4e4af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects an item in the current timeline (clip, composition, subtitle).  <a href="#a767f92c640b3fb3433af5ddc9a4e4af3">更多...</a><br /></td></tr>
+<tr class="separator:a767f92c640b3fb3433af5ddc9a4e4af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe06e5d3e0a60c66704384ba6b03c8f9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProjectItemModel.html">ProjectItemModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#afe06e5d3e0a60c66704384ba6b03c8f9">projectItemModel</a> ()</td></tr>
+<tr class="memdesc:afe06e5d3e0a60c66704384ba6b03c8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the model of the project bin.  <a href="#afe06e5d3e0a60c66704384ba6b03c8f9">更多...</a><br /></td></tr>
+<tr class="separator:afe06e5d3e0a60c66704384ba6b03c8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a194e9464d92b4061243c50565ba2cba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLibraryWidget.html">LibraryWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a194e9464d92b4061243c50565ba2cba4">library</a> ()</td></tr>
+<tr class="memdesc:a194e9464d92b4061243c50565ba2cba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the library.  <a href="#a194e9464d92b4061243c50565ba2cba4">更多...</a><br /></td></tr>
+<tr class="separator:a194e9464d92b4061243c50565ba2cba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd9e33f181ecaa78dfad2fe9d56d97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSubtitleEdit.html">SubtitleEdit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a3bd9e33f181ecaa78dfad2fe9d56d97a">subtitleWidget</a> ()</td></tr>
+<tr class="memdesc:a3bd9e33f181ecaa78dfad2fe9d56d97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the subtitle edit.  <a href="#a3bd9e33f181ecaa78dfad2fe9d56d97a">更多...</a><br /></td></tr>
+<tr class="separator:a3bd9e33f181ecaa78dfad2fe9d56d97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea6f8e256c498680e4b864568db5a6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTextBasedEdit.html">TextBasedEdit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#afea6f8e256c498680e4b864568db5a6c">textEditWidget</a> ()</td></tr>
+<tr class="memdesc:afea6f8e256c498680e4b864568db5a6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the text based editing widget.  <a href="#afea6f8e256c498680e4b864568db5a6c">更多...</a><br /></td></tr>
+<tr class="separator:afea6f8e256c498680e4b864568db5a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8175dd2301cdf2cc974f115b6f88ccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMixerManager.html">MixerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac8175dd2301cdf2cc974f115b6f88ccd">mixer</a> ()</td></tr>
+<tr class="memdesc:ac8175dd2301cdf2cc974f115b6f88ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the audio mixer.  <a href="#ac8175dd2301cdf2cc974f115b6f88ccd">更多...</a><br /></td></tr>
+<tr class="separator:ac8175dd2301cdf2cc974f115b6f88ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c19be96a17a1e6c5bbcb6b93dc37189"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Mlt::Repository &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a7c19be96a17a1e6c5bbcb6b93dc37189">getMltRepository</a> ()</td></tr>
+<tr class="memdesc:a7c19be96a17a1e6c5bbcb6b93dc37189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to MLT's repository.  <a href="#a7c19be96a17a1e6c5bbcb6b93dc37189">更多...</a><br /></td></tr>
+<tr class="separator:a7c19be96a17a1e6c5bbcb6b93dc37189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a600e537c0e9ef4492e0679ea292522"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classProfileModel.html">ProfileModel</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a3a600e537c0e9ef4492e0679ea292522">getCurrentProfile</a> () const </td></tr>
+<tr class="memdesc:a3a600e537c0e9ef4492e0679ea292522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the current profile.  <a href="#a3a600e537c0e9ef4492e0679ea292522">更多...</a><br /></td></tr>
+<tr class="separator:a3a600e537c0e9ef4492e0679ea292522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c48da0a1cd8b5e53aa9c37a0b1bfcc"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae2c48da0a1cd8b5e53aa9c37a0b1bfcc">getCurrentProfilePath</a> () const </td></tr>
+<tr class="separator:ae2c48da0a1cd8b5e53aa9c37a0b1bfcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f22036971a90cf4cebf7b642bc5fb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa7f22036971a90cf4cebf7b642bc5fb5">setCurrentProfile</a> (const QString &amp;profilePath)</td></tr>
+<tr class="memdesc:aa7f22036971a90cf4cebf7b642bc5fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the active profile.  <a href="#aa7f22036971a90cf4cebf7b642bc5fb5">更多...</a><br /></td></tr>
+<tr class="separator:aa7f22036971a90cf4cebf7b642bc5fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1b15ef3692d262de0819066929b74f7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae1b15ef3692d262de0819066929b74f7">getCurrentSar</a> () const </td></tr>
+<tr class="memdesc:ae1b15ef3692d262de0819066929b74f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Sample Aspect Ratio of current profile.  <a href="#ae1b15ef3692d262de0819066929b74f7">更多...</a><br /></td></tr>
+<tr class="separator:ae1b15ef3692d262de0819066929b74f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c183af5e980087ece4131650c058bc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a38c183af5e980087ece4131650c058bc">getCurrentDar</a> () const </td></tr>
+<tr class="memdesc:a38c183af5e980087ece4131650c058bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Display Aspect Ratio of current profile.  <a href="#a38c183af5e980087ece4131650c058bc">更多...</a><br /></td></tr>
+<tr class="separator:a38c183af5e980087ece4131650c058bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b82380d93e5bb8ace1d17626cdd5d0c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a8b82380d93e5bb8ace1d17626cdd5d0c">getCurrentFps</a> () const </td></tr>
+<tr class="memdesc:a8b82380d93e5bb8ace1d17626cdd5d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns frame rate of current profile.  <a href="#a8b82380d93e5bb8ace1d17626cdd5d0c">更多...</a><br /></td></tr>
+<tr class="separator:a8b82380d93e5bb8ace1d17626cdd5d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b1383673a9e62fd98171cb05c373fc"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ad7b1383673a9e62fd98171cb05c373fc">getCurrentFrameSize</a> () const </td></tr>
+<tr class="memdesc:ad7b1383673a9e62fd98171cb05c373fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the frame size (width x height) of current profile.  <a href="#ad7b1383673a9e62fd98171cb05c373fc">更多...</a><br /></td></tr>
+<tr class="separator:ad7b1383673a9e62fd98171cb05c373fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e98d006606cf568b387bcfd95f9e74"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a75e98d006606cf568b387bcfd95f9e74">getCurrentFrameDisplaySize</a> () const </td></tr>
+<tr class="memdesc:a75e98d006606cf568b387bcfd95f9e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the frame display size (width x height) of current profile.  <a href="#a75e98d006606cf568b387bcfd95f9e74">更多...</a><br /></td></tr>
+<tr class="separator:a75e98d006606cf568b387bcfd95f9e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad069f877910d2ac09ecfac1ff9888e1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ad069f877910d2ac09ecfac1ff9888e1e">requestMonitorRefresh</a> ()</td></tr>
+<tr class="memdesc:ad069f877910d2ac09ecfac1ff9888e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request project monitor refresh.  <a href="#ad069f877910d2ac09ecfac1ff9888e1e">更多...</a><br /></td></tr>
+<tr class="separator:ad069f877910d2ac09ecfac1ff9888e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e9b3dfd17af04254b8b039a48d02fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#af1e9b3dfd17af04254b8b039a48d02fd">refreshProjectRange</a> (QPair&lt; int, int &gt; range)</td></tr>
+<tr class="memdesc:af1e9b3dfd17af04254b8b039a48d02fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request project monitor refresh if current position is inside range.  <a href="#af1e9b3dfd17af04254b8b039a48d02fd">更多...</a><br /></td></tr>
+<tr class="separator:af1e9b3dfd17af04254b8b039a48d02fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865fdb48dbae6e3b918f8fa35634e463"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a865fdb48dbae6e3b918f8fa35634e463">refreshProjectItem</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="memdesc:a865fdb48dbae6e3b918f8fa35634e463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request project monitor refresh if referenced item is under cursor.  <a href="#a865fdb48dbae6e3b918f8fa35634e463">更多...</a><br /></td></tr>
+<tr class="separator:a865fdb48dbae6e3b918f8fa35634e463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a740e4a691fc23975809cbc20c216e0c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMonitor.html">Monitor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a740e4a691fc23975809cbc20c216e0c5">getMonitor</a> (int id)</td></tr>
+<tr class="memdesc:a740e4a691fc23975809cbc20c216e0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to a monitor (clip or project monitor)  <a href="#a740e4a691fc23975809cbc20c216e0c5">更多...</a><br /></td></tr>
+<tr class="separator:a740e4a691fc23975809cbc20c216e0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac810e5dd7693cbf3bd21bf2a3507ddb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac810e5dd7693cbf3bd21bf2a3507ddb7">profileChanged</a> ()</td></tr>
+<tr class="memdesc:ac810e5dd7693cbf3bd21bf2a3507ddb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must be called whenever the profile used changes.  <a href="#ac810e5dd7693cbf3bd21bf2a3507ddb7">更多...</a><br /></td></tr>
+<tr class="separator:ac810e5dd7693cbf3bd21bf2a3507ddb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5595691f46276f44275897a45df7a2c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a5595691f46276f44275897a45df7a2c2">pushUndo</a> (const <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, const <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, const QString &amp;text)</td></tr>
+<tr class="memdesc:a5595691f46276f44275897a45df7a2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and push and undo object based on the corresponding functions Note that if you class permits and requires it, you should use the macro PUSH_UNDO instead.  <a href="#a5595691f46276f44275897a45df7a2c2">更多...</a><br /></td></tr>
+<tr class="separator:a5595691f46276f44275897a45df7a2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ecc0b1e6b6f9d761d3eb94d7b843b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a92ecc0b1e6b6f9d761d3eb94d7b843b2">pushUndo</a> (QUndoCommand *command)</td></tr>
+<tr class="separator:a92ecc0b1e6b6f9d761d3eb94d7b843b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ebd1d2785b876c3a97a6608c7b415a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#af5ebd1d2785b876c3a97a6608c7b415a">displayMessage</a> (const QString &amp;message, <a class="el" href="definitions_8h.html#ac6606ebe91c8ac66a2c314c79f5ab013">MessageType</a> type, int timeout=-1)</td></tr>
+<tr class="memdesc:af5ebd1d2785b876c3a97a6608c7b415a"><td class="mdescLeft">&#160;</td><td class="mdescRight">display a user info/warning message in statusbar  <a href="#af5ebd1d2785b876c3a97a6608c7b415a">更多...</a><br /></td></tr>
+<tr class="separator:af5ebd1d2785b876c3a97a6608c7b415a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16bc0ebd619287b66f6ab359125fb65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ab16bc0ebd619287b66f6ab359125fb65">clearAssetPanel</a> (int itemId)</td></tr>
+<tr class="memdesc:ab16bc0ebd619287b66f6ab359125fb65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear asset view if itemId is displayed.  <a href="#ab16bc0ebd619287b66f6ab359125fb65">更多...</a><br /></td></tr>
+<tr class="separator:ab16bc0ebd619287b66f6ab359125fb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776b16b7e614805c04ad287d14eeba07"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a776b16b7e614805c04ad287d14eeba07">getItemEffectStack</a> (int itemType, int itemId)</td></tr>
+<tr class="memdesc:a776b16b7e614805c04ad287d14eeba07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the effectstack of a given bin clip.  <a href="#a776b16b7e614805c04ad287d14eeba07">更多...</a><br /></td></tr>
+<tr class="separator:a776b16b7e614805c04ad287d14eeba07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8665b0b3a91c0c1bcee35e3458feea0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ad8665b0b3a91c0c1bcee35e3458feea0">getItemPosition</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="separator:ad8665b0b3a91c0c1bcee35e3458feea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937b88537dd5acef3c174be5299e6b68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a937b88537dd5acef3c174be5299e6b68">getItemIn</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="separator:a937b88537dd5acef3c174be5299e6b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348c8449a1541f17c5fe77fb5aeaf847"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a348c8449a1541f17c5fe77fb5aeaf847">getItemTrack</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="separator:a348c8449a1541f17c5fe77fb5aeaf847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3860bf90517befbcaeb72c69d67b752"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa3860bf90517befbcaeb72c69d67b752">getItemDuration</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="separator:aa3860bf90517befbcaeb72c69d67b752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac326cef1ab6931e3c1ff1dadea97befb"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac326cef1ab6931e3c1ff1dadea97befb">getItemFrameSize</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="separator:ac326cef1ab6931e3c1ff1dadea97befb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b46d43659117db3e8aac08a513a7325"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a1b46d43659117db3e8aac08a513a7325">getItemState</a> (const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;id)</td></tr>
+<tr class="memdesc:a1b46d43659117db3e8aac08a513a7325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the capabilities of a clip: AudioOnly, VideoOnly or Disabled if both are allowed.  <a href="#a1b46d43659117db3e8aac08a513a7325">更多...</a><br /></td></tr>
+<tr class="separator:a1b46d43659117db3e8aac08a513a7325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbc210126ec6320a3291ebf87902c5b"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a5fbc210126ec6320a3291ebf87902c5b">getTrackNames</a> (bool videoOnly)</td></tr>
+<tr class="memdesc:a5fbc210126ec6320a3291ebf87902c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of video track names with indexes.  <a href="#a5fbc210126ec6320a3291ebf87902c5b">更多...</a><br /></td></tr>
+<tr class="separator:a5fbc210126ec6320a3291ebf87902c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a56327780244d34620f6d37766aef4"><td class="memItemLeft" align="right" valign="top">QPair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a09a56327780244d34620f6d37766aef4">getCompositionATrack</a> (int cid) const </td></tr>
+<tr class="memdesc:a09a56327780244d34620f6d37766aef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the composition A track (MLT index / Track id)  <a href="#a09a56327780244d34620f6d37766aef4">更多...</a><br /></td></tr>
+<tr class="separator:a09a56327780244d34620f6d37766aef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba38cdc6fb6fa4ba0be006ff5b82ae8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aba38cdc6fb6fa4ba0be006ff5b82ae8a">setCompositionATrack</a> (int cid, int aTrack)</td></tr>
+<tr class="separator:aba38cdc6fb6fa4ba0be006ff5b82ae8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997404e4df785253fd9f3ed9e6dec974"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a997404e4df785253fd9f3ed9e6dec974">compositionAutoTrack</a> (int cid) const </td></tr>
+<tr class="memdesc:a997404e4df785253fd9f3ed9e6dec974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if composition's a_track is automatic (no forced track)  <a href="#a997404e4df785253fd9f3ed9e6dec974">更多...</a><br /></td></tr>
+<tr class="separator:a997404e4df785253fd9f3ed9e6dec974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385cfaf68d72d2de8ac37ee604f24211"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a385cfaf68d72d2de8ac37ee604f24211">undoStack</a> ()</td></tr>
+<tr class="separator:a385cfaf68d72d2de8ac37ee604f24211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3701df1f3215864f8a89e8b439e41f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#abc3701df1f3215864f8a89e8b439e41f">getClipSpeed</a> (int id) const </td></tr>
+<tr class="separator:abc3701df1f3215864f8a89e8b439e41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf4d9943d9a41dbdf847bb6e1e0b7c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#abdf4d9943d9a41dbdf847bb6e1e0b7c2">invalidateItem</a> (<a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> itemId)</td></tr>
+<tr class="memdesc:abdf4d9943d9a41dbdf847bb6e1e0b7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark an item as invalid for timeline preview.  <a href="#abdf4d9943d9a41dbdf847bb6e1e0b7c2">更多...</a><br /></td></tr>
+<tr class="separator:abdf4d9943d9a41dbdf847bb6e1e0b7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7a4e424c65d338be7b64af21d97968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aee7a4e424c65d338be7b64af21d97968">invalidateRange</a> (QPair&lt; int, int &gt;range)</td></tr>
+<tr class="separator:aee7a4e424c65d338be7b64af21d97968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075c4b0d8a57d5f133b5b8e5cd6a6619"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a075c4b0d8a57d5f133b5b8e5cd6a6619">prepareShutdown</a> ()</td></tr>
+<tr class="separator:a075c4b0d8a57d5f133b5b8e5cd6a6619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195a5d1ce67099c551268facfd15036c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a195a5d1ce67099c551268facfd15036c">updateItemKeyframes</a> (<a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> id)</td></tr>
+<tr class="separator:a195a5d1ce67099c551268facfd15036c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16bfdc3da0e5529213377e93eca37d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae16bfdc3da0e5529213377e93eca37d1">updateItemModel</a> (<a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> id, const QString &amp;service)</td></tr>
+<tr class="separator:ae16bfdc3da0e5529213377e93eca37d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134919e2b48c737b5f3912e09bf721ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a134919e2b48c737b5f3912e09bf721ee">showClipKeyframes</a> (<a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> id, bool enable)</td></tr>
+<tr class="separator:a134919e2b48c737b5f3912e09bf721ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a4fa28bd3f6268236cbd167534a16c"><td class="memItemLeft" align="right" valign="top">Mlt::Profile *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ac7a4fa28bd3f6268236cbd167534a16c">thumbProfile</a> ()</td></tr>
+<tr class="separator:ac7a4fa28bd3f6268236cbd167534a16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230ae297d32cd46138f4538c59ded3f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a230ae297d32cd46138f4538c59ded3f9">projectDuration</a> () const </td></tr>
+<tr class="memdesc:a230ae297d32cd46138f4538c59ded3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current project duration.  <a href="#a230ae297d32cd46138f4538c59ded3f9">更多...</a><br /></td></tr>
+<tr class="separator:a230ae297d32cd46138f4538c59ded3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180f4e5c3e8446f16d9fa40f16212c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a180f4e5c3e8446f16d9fa40f16212c5a">hasTimelinePreview</a> () const </td></tr>
+<tr class="memdesc:a180f4e5c3e8446f16d9fa40f16212c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if current project has some rendered timeline preview.  <a href="#a180f4e5c3e8446f16d9fa40f16212c5a">更多...</a><br /></td></tr>
+<tr class="separator:a180f4e5c3e8446f16d9fa40f16212c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632198fdb1673257f563b9de7ba1be9f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a632198fdb1673257f563b9de7ba1be9f">getTimelinePosition</a> () const </td></tr>
+<tr class="memdesc:a632198fdb1673257f563b9de7ba1be9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current timeline cursor position.  <a href="#a632198fdb1673257f563b9de7ba1be9f">更多...</a><br /></td></tr>
+<tr class="separator:a632198fdb1673257f563b9de7ba1be9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896a34cef031106c055eab0d46d0ad8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a896a34cef031106c055eab0d46d0ad8f">startMediaCapture</a> (int tid, bool, bool)</td></tr>
+<tr class="memdesc:a896a34cef031106c055eab0d46d0ad8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles audio and video capture.  <a href="#a896a34cef031106c055eab0d46d0ad8f">更多...</a><br /></td></tr>
+<tr class="separator:a896a34cef031106c055eab0d46d0ad8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2956d509020a165aadf96c26c2fa0f83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a2956d509020a165aadf96c26c2fa0f83">stopMediaCapture</a> (int tid, bool, bool)</td></tr>
+<tr class="separator:a2956d509020a165aadf96c26c2fa0f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa57596219d52028c29e9a043e0788b"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#abaa57596219d52028c29e9a043e0788b">getAudioCaptureDevices</a> ()</td></tr>
+<tr class="separator:abaa57596219d52028c29e9a043e0788b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e39c42094bc631e353ed9008e93946a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a8e39c42094bc631e353ed9008e93946a">getMediaCaptureState</a> ()</td></tr>
+<tr class="separator:a8e39c42094bc631e353ed9008e93946a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c991fbe49eb634d3394ccb6a06a0d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a84c991fbe49eb634d3394ccb6a06a0d7">isMediaCapturing</a> ()</td></tr>
+<tr class="separator:a84c991fbe49eb634d3394ccb6a06a0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717d12083137ba0a464d174a77bafe96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMediaCapture.html">MediaCapture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a717d12083137ba0a464d174a77bafe96">getAudioDevice</a> ()</td></tr>
+<tr class="separator:a717d12083137ba0a464d174a77bafe96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed7a9460b0ddfafc98579f8e81ecce3"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a2ed7a9460b0ddfafc98579f8e81ecce3">getProjectFolderName</a> ()</td></tr>
+<tr class="memdesc:a2ed7a9460b0ddfafc98579f8e81ecce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Project Folder name for capture output location.  <a href="#a2ed7a9460b0ddfafc98579f8e81ecce3">更多...</a><br /></td></tr>
+<tr class="separator:a2ed7a9460b0ddfafc98579f8e81ecce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d4823a47e0fd4ea66637739b9faab2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#af2d4823a47e0fd4ea66637739b9faab2">getTimelineClipBinId</a> (int cid)</td></tr>
+<tr class="memdesc:af2d4823a47e0fd4ea66637739b9faab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a timeline clip's bin id.  <a href="#af2d4823a47e0fd4ea66637739b9faab2">更多...</a><br /></td></tr>
+<tr class="separator:af2d4823a47e0fd4ea66637739b9faab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392f93d46ca43824b9c3b6e7b0cb4c82"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a392f93d46ca43824b9c3b6e7b0cb4c82">getAllTimelineTracksId</a> ()</td></tr>
+<tr class="memdesc:a392f93d46ca43824b9c3b6e7b0cb4c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all track ids in timeline.  <a href="#a392f93d46ca43824b9c3b6e7b0cb4c82">更多...</a><br /></td></tr>
+<tr class="separator:a392f93d46ca43824b9c3b6e7b0cb4c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99faf2a54f30f8161dbb8eedee64fa65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a99faf2a54f30f8161dbb8eedee64fa65">getDurationFromString</a> (const QString &amp;time)</td></tr>
+<tr class="memdesc:a99faf2a54f30f8161dbb8eedee64fa65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a frame duration from a timecode.  <a href="#a99faf2a54f30f8161dbb8eedee64fa65">更多...</a><br /></td></tr>
+<tr class="separator:a99faf2a54f30f8161dbb8eedee64fa65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52435a8add40dc369b4c4083366f5fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a52435a8add40dc369b4c4083366f5fe9">processInvalidFilter</a> (const QString service, const QString id, const QString message)</td></tr>
+<tr class="memdesc:a52435a8add40dc369b4c4083366f5fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">An error occurred within a filter, inform user.  <a href="#a52435a8add40dc369b4c4083366f5fe9">更多...</a><br /></td></tr>
+<tr class="separator:a52435a8add40dc369b4c4083366f5fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba3bc4412b993f394ec80e7f5da34c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a6ba3bc4412b993f394ec80e7f5da34c5">updateProjectTags</a> (QMap&lt; QString, QString &gt; tags)</td></tr>
+<tr class="memdesc:a6ba3bc4412b993f394ec80e7f5da34c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update current project's tags.  <a href="#a6ba3bc4412b993f394ec80e7f5da34c5">更多...</a><br /></td></tr>
+<tr class="separator:a6ba3bc4412b993f394ec80e7f5da34c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc0ed83fb4b0f1dd15f089cd1707b3a1"><td class="memItemLeft" align="right" valign="top">Mlt::Profile *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#acc0ed83fb4b0f1dd15f089cd1707b3a1">getProjectProfile</a> ()</td></tr>
+<tr class="memdesc:acc0ed83fb4b0f1dd15f089cd1707b3a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the consumer profile, that will be scaled according to preview settings. Should only be used on the consumer.  <a href="#acc0ed83fb4b0f1dd15f089cd1707b3a1">更多...</a><br /></td></tr>
+<tr class="separator:acc0ed83fb4b0f1dd15f089cd1707b3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7563e0ce52a4a9423949e98a17ff327f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a7563e0ce52a4a9423949e98a17ff327f">getMasterProducerInstance</a> ()</td></tr>
+<tr class="memdesc:a7563e0ce52a4a9423949e98a17ff327f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of current timeline's master playlist.  <a href="#a7563e0ce52a4a9423949e98a17ff327f">更多...</a><br /></td></tr>
+<tr class="separator:a7563e0ce52a4a9423949e98a17ff327f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9b669581bc13d5fb8fcfbf22bbe8dc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a9e9b669581bc13d5fb8fcfbf22bbe8dc">getTrackProducerInstance</a> (int tid)</td></tr>
+<tr class="memdesc:a9e9b669581bc13d5fb8fcfbf22bbe8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of a track's playlist.  <a href="#a9e9b669581bc13d5fb8fcfbf22bbe8dc">更多...</a><br /></td></tr>
+<tr class="separator:a9e9b669581bc13d5fb8fcfbf22bbe8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa4b5b833c2c512769285d5ce34c763"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a9fa4b5b833c2c512769285d5ce34c763">undoIndex</a> () const </td></tr>
+<tr class="memdesc:a9fa4b5b833c2c512769285d5ce34c763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the undo stack index (position).  <a href="#a9fa4b5b833c2c512769285d5ce34c763">更多...</a><br /></td></tr>
+<tr class="separator:a9fa4b5b833c2c512769285d5ce34c763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d464344ac67402783b2a2fbf616ac3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aa9d464344ac67402783b2a2fbf616ac3">enableMultiTrack</a> (bool enable)</td></tr>
+<tr class="memdesc:aa9d464344ac67402783b2a2fbf616ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable / disable monitor multitrack view. Returns false if multitrack was not previously enabled.  <a href="#aa9d464344ac67402783b2a2fbf616ac3">更多...</a><br /></td></tr>
+<tr class="separator:aa9d464344ac67402783b2a2fbf616ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af338dcd77ccafdccecc75dd46f1fbc22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#af338dcd77ccafdccecc75dd46f1fbc22">audioChannels</a> ()</td></tr>
+<tr class="memdesc:af338dcd77ccafdccecc75dd46f1fbc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of audio channels for this project.  <a href="#af338dcd77ccafdccecc75dd46f1fbc22">更多...</a><br /></td></tr>
+<tr class="separator:af338dcd77ccafdccecc75dd46f1fbc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef57c17b908819c22d98c5ac755d0f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#aef57c17b908819c22d98c5ac755d0f29">addGuides</a> (QList&lt; int &gt; guides)</td></tr>
+<tr class="memdesc:aef57c17b908819c22d98c5ac755d0f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add guides in the project.  <a href="#aef57c17b908819c22d98c5ac755d0f29">更多...</a><br /></td></tr>
+<tr class="separator:aef57c17b908819c22d98c5ac755d0f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc0f8649ecd78ff31aa98f44cdfa5f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a1bc0f8649ecd78ff31aa98f44cdfa5f8">temporaryUnplug</a> (QList&lt; int &gt; clipIds, bool hide)</td></tr>
+<tr class="memdesc:a1bc0f8649ecd78ff31aa98f44cdfa5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporarily un/plug a list of clips in timeline.  <a href="#a1bc0f8649ecd78ff31aa98f44cdfa5f8">更多...</a><br /></td></tr>
+<tr class="separator:a1bc0f8649ecd78ff31aa98f44cdfa5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0eda2c2caa6089b6bbbdc1263e7d3d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSubtitleModel.html">SubtitleModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a4c0eda2c2caa6089b6bbbdc1263e7d3d">getSubtitleModel</a> (bool enforce=false)</td></tr>
+<tr class="memdesc:a4c0eda2c2caa6089b6bbbdc1263e7d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current doc's subtitle model.  <a href="#a4c0eda2c2caa6089b6bbbdc1263e7d3d">更多...</a><br /></td></tr>
+<tr class="separator:a4c0eda2c2caa6089b6bbbdc1263e7d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b0123fafd39a926c52fbb28389fcb64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a6b0123fafd39a926c52fbb28389fcb64">transcodeFile</a> (const QString url)</td></tr>
+<tr class="memdesc:a6b0123fafd39a926c52fbb28389fcb64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transcode a video file.  <a href="#a6b0123fafd39a926c52fbb28389fcb64">更多...</a><br /></td></tr>
+<tr class="separator:a6b0123fafd39a926c52fbb28389fcb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4103c5c9420ef6bd03484831c5112e73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a4103c5c9420ef6bd03484831c5112e73">setWidgetKeyBinding</a> (const QString &amp;mess=QString())</td></tr>
+<tr class="memdesc:a4103c5c9420ef6bd03484831c5112e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display key binding info in statusbar.  <a href="#a4103c5c9420ef6bd03484831c5112e73">更多...</a><br /></td></tr>
+<tr class="separator:a4103c5c9420ef6bd03484831c5112e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4269a0f0d22bc7c182f880432fd958c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ad4269a0f0d22bc7c182f880432fd958c">loadingClips</a> (int)</td></tr>
+<tr class="memdesc:ad4269a0f0d22bc7c182f880432fd958c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of clip load jobs changed.  <a href="#ad4269a0f0d22bc7c182f880432fd958c">更多...</a><br /></td></tr>
+<tr class="separator:ad4269a0f0d22bc7c182f880432fd958c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a6accaf26401b3fe09e741270a8b53c97"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a6accaf26401b3fe09e741270a8b53c97">build</a> (bool testMode=false)</td></tr>
+<tr class="memdesc:a6accaf26401b3fe09e741270a8b53c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the basics of the application, in particular the connection with <a class="el" href="namespaceMlt.html">Mlt</a>.  <a href="#a6accaf26401b3fe09e741270a8b53c97">更多...</a><br /></td></tr>
+<tr class="separator:a6accaf26401b3fe09e741270a8b53c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4661f52a12d2afbdfdafaeefd7005f6"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classCore.html">Core</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae4661f52a12d2afbdfdafaeefd7005f6">self</a> ()</td></tr>
+<tr class="memdesc:ae4661f52a12d2afbdfdafaeefd7005f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the singleton object.  <a href="#ae4661f52a12d2afbdfdafaeefd7005f6">更多...</a><br /></td></tr>
+<tr class="separator:ae4661f52a12d2afbdfdafaeefd7005f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08e186d10bcb8b0e02c9bdd6aeabb67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#ae08e186d10bcb8b0e02c9bdd6aeabb67">clean</a> ()</td></tr>
+<tr class="memdesc:ae08e186d10bcb8b0e02c9bdd6aeabb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the global core instance.  <a href="#ae08e186d10bcb8b0e02c9bdd6aeabb67">更多...</a><br /></td></tr>
+<tr class="separator:ae08e186d10bcb8b0e02c9bdd6aeabb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a404b0dfa273d0a512909e4a2f7172d9a"><td class="memItemLeft" align="right" valign="top">KSharedDataCache&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a404b0dfa273d0a512909e4a2f7172d9a">audioThumbCache</a></td></tr>
+<tr class="separator:a404b0dfa273d0a512909e4a2f7172d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ba4199da030bd6d9e5e2d16278ecb52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTaskManager.html">TaskManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a3ba4199da030bd6d9e5e2d16278ecb52">taskManager</a></td></tr>
+<tr class="separator:a3ba4199da030bd6d9e5e2d16278ecb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a3d98a89a18ba88b2cbb1c4c932892533"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore.html#a3d98a89a18ba88b2cbb1c4c932892533">eventFilter</a> (QObject *, QEvent *) override</td></tr>
+<tr class="separator:a3d98a89a18ba88b2cbb1c4c932892533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Singleton that provides access to the different parts of <a class="el" href="namespaceKdenlive.html">Kdenlive</a>. </p>
+<p>Needs to be initialize before any widgets are created in <a class="el" href="classMainWindow.html">MainWindow</a>. Plugins should be loaded after the widget setup. </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="ab6d6708b3b7ba93d5e6b8da9e5c7e0fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Core::Core </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCore.html">Core</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2a398e3c881ad7bd943714cd7a2666e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Core::Core </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCore.html">Core</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2b0a4a9b60e39b4517a3077ffb07472"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Core::~Core </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a29a3b2456494514a91d2a2bd087356b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Core::actionText </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get an action's descriptive text by its actionCollection name. </p>
+
+</div>
+</div>
+<a class="anchor" id="aef57c17b908819c22d98c5ac755d0f29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::addGuides </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>guides</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add guides in the project. </p>
+
+</div>
+</div>
+<a class="anchor" id="af338dcd77ccafdccecc75dd46f1fbc22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::audioChannels </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns number of audio channels for this project. </p>
+
+</div>
+</div>
+<a class="anchor" id="a869522f59dcaeca12ba1a256cd32fc9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::autoScrollChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adca2cc69cd71a3adae86f7b7ae2ccf69"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classBin.html">Bin</a> * Core::bin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the view of the project bin. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6accaf26401b3fe09e741270a8b53c97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::build </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>testMode</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup the basics of the application, in particular the connection with <a class="el" href="namespaceMlt.html">Mlt</a>. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isAppImage</td><td>do we expect an AppImage (if yes, we use App path to deduce other binaries paths (melt, ffmpeg, etc) </td></tr>
+    <tr><td class="paramname">MltPath</td><td>(optional) path to MLT environment </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae4cf05c2f041382c4c2d836f39795069"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::buildLumaThumbs </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create small thumbnails for luma used in compositions. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae08e186d10bcb8b0e02c9bdd6aeabb67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::clean </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete the global core instance. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab16bc0ebd619287b66f6ab359125fb65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::clearAssetPanel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear asset view if itemId is displayed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8c6af12968151b9d7cd80974a5a0ada0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classClipPropertiesWidget.html">ClipPropertiesWidget</a> * Core::clipPropertiesWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>返回剪辑属性组件 </p>
+
+</div>
+</div>
+<a class="anchor" id="ae6e1b5ddc4b4ff265d7aca79a0b94e4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::closeSplash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opening finished, close splash screen. </p>
+
+</div>
+</div>
+<a class="anchor" id="a997404e4df785253fd9f3ed9e6dec974"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::compositionAutoTrack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true if composition's a_track is automatic (no forced track) </p>
+
+</div>
+</div>
+<a class="anchor" id="a67874cf62651d552ba238dab271f5576"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::coreIsReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa750cda8778c2dc905943c418137b38d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classKdenliveDoc.html">KdenliveDoc</a> * Core::currentDoc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the current project. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5ca3d0f42e9ea9f37ed486f4a7c506fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::disconnectEffectStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The effect stask is about to be deleted, disconnect everything. </p>
+
+</div>
+</div>
+<a class="anchor" id="af792805d80572ffca7aa6b95506bcbe8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::displayBinLogMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>logInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a153427e3def56577373eaf230ed96b22"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::displayBinMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QList&lt; QAction * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>actions</em> = <code>QList&lt;QAction&#160;*&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>showClose</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceBinMessage.html#ae4a56aa122e8a5e0989680101777afe7">BinMessage::BinCategory</a>&#160;</td>
+          <td class="paramname"><em>messageCategory</em> = <code>BinMessage::BinCategory::NoMessage</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>display a user info/warning message in the project bin </p>
+
+</div>
+</div>
+<a class="anchor" id="af5ebd1d2785b876c3a97a6608c7b415a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::displayMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#ac6606ebe91c8ac66a2c314c79f5ab013">MessageType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeout</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>display a user info/warning message in statusbar </p>
+
+</div>
+</div>
+<a class="anchor" id="aa9d464344ac67402783b2a2fbf616ac3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::enableMultiTrack </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable / disable monitor multitrack view. Returns false if multitrack was not previously enabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d98a89a18ba88b2cbb1c4c932892533"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac29f3448b79778b70f23baa8a813ed57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::finalizeRecording </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>captureFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a392f93d46ca43824b9c3b6e7b0cb4c82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt; QString &gt; Core::getAllTimelineTracksId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all track ids in timeline. </p>
+
+</div>
+</div>
+<a class="anchor" id="abaa57596219d52028c29e9a043e0788b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList Core::getAudioCaptureDevices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a717d12083137ba0a464d174a77bafe96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMediaCapture.html">MediaCapture</a> * Core::getAudioDevice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abc3701df1f3215864f8a89e8b439e41f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Core::getClipSpeed </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a09a56327780244d34620f6d37766aef4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPair&lt; int, int &gt; Core::getCompositionATrack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the composition A track (MLT index / Track id) </p>
+
+</div>
+</div>
+<a class="anchor" id="a38c183af5e980087ece4131650c058bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Core::getCurrentDar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Display Aspect Ratio of current profile. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b82380d93e5bb8ace1d17626cdd5d0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Core::getCurrentFps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns frame rate of current profile. </p>
+
+</div>
+</div>
+<a class="anchor" id="a75e98d006606cf568b387bcfd95f9e74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize Core::getCurrentFrameDisplaySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the frame display size (width x height) of current profile. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad7b1383673a9e62fd98171cb05c373fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize Core::getCurrentFrameSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the frame size (width x height) of current profile. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a600e537c0e9ef4492e0679ea292522"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classProfileModel.html">ProfileModel</a> &gt; &amp; Core::getCurrentProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the current profile. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae2c48da0a1cd8b5e53aa9c37a0b1bfcc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString &amp; Core::getCurrentProfilePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae1b15ef3692d262de0819066929b74f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Core::getCurrentSar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Sample Aspect Ratio of current profile. </p>
+
+</div>
+</div>
+<a class="anchor" id="a99faf2a54f30f8161dbb8eedee64fa65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getDurationFromString </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a frame duration from a timecode. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa3860bf90517befbcaeb72c69d67b752"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getItemDuration </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a776b16b7e614805c04ad287d14eeba07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; Core::getItemEffectStack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the effectstack of a given bin clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac326cef1ab6931e3c1ff1dadea97befb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize Core::getItemFrameSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a937b88537dd5acef3c174be5299e6b68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getItemIn </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad8665b0b3a91c0c1bcee35e3458feea0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getItemPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1b46d43659117db3e8aac08a513a7325"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> Core::getItemState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the capabilities of a clip: AudioOnly, VideoOnly or Disabled if both are allowed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a348c8449a1541f17c5fe77fb5aeaf847"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getItemTrack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7563e0ce52a4a9423949e98a17ff327f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; Mlt::Producer &gt; Core::getMasterProducerInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of current timeline's master playlist. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e39c42094bc631e353ed9008e93946a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getMediaCaptureState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7c19be96a17a1e6c5bbcb6b93dc37189"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; Mlt::Repository &gt; &amp; Core::getMltRepository </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to MLT's repository. </p>
+
+</div>
+</div>
+<a class="anchor" id="a740e4a691fc23975809cbc20c216e0c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMonitor.html">Monitor</a> * Core::getMonitor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a reference to a monitor (clip or project monitor) </p>
+
+</div>
+</div>
+<a class="anchor" id="a2ed7a9460b0ddfafc98579f8e81ecce3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Core::getProjectFolderName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Project Folder name for capture output location. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc0ed83fb4b0f1dd15f089cd1707b3a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mlt::Profile * Core::getProjectProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the consumer profile, that will be scaled according to preview settings. Should only be used on the consumer. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c0eda2c2caa6089b6bbbdc1263e7d3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classSubtitleModel.html">SubtitleModel</a> &gt; Core::getSubtitleModel </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enforce</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current doc's subtitle model. </p>
+
+</div>
+</div>
+<a class="anchor" id="af2d4823a47e0fd4ea66637739b9faab2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Core::getTimelineClipBinId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a timeline clip's bin id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a632198fdb1673257f563b9de7ba1be9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::getTimelinePosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns current timeline cursor position. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5fbc210126ec6320a3291ebf87902c5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; int, QString &gt; Core::getTrackNames </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>videoOnly</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a list of video track names with indexes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9e9b669581bc13d5fb8fcfbf22bbe8dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; Mlt::Producer &gt; Core::getTrackProducerInstance </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of a track's playlist. </p>
+
+</div>
+</div>
+<a class="anchor" id="a180f4e5c3e8446f16d9fa40f16212c5a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::hasTimelinePreview </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if current project has some rendered timeline preview. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac01329ee97851c379e7006b3435d7e89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::initGUI </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isAppImage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>MltPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QUrl &amp;&#160;</td>
+          <td class="paramname"><em>Url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>clipsToLoad</em> = <code>QString()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Init the GUI part of the app and show the main window. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Url</td><td>(optional) file to open If Url is present, it will be opened, otherwise, if openlastproject is set, latest project will be opened. If no file is open after trying this, a default new file will be created. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abdf4d9943d9a41dbdf847bb6e1e0b7c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::invalidateItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>itemId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mark an item as invalid for timeline preview. </p>
+
+</div>
+</div>
+<a class="anchor" id="aee7a4e424c65d338be7b64af21d97968"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::invalidateRange </td>
+          <td>(</td>
+          <td class="paramtype">QPair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>range</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a84c991fbe49eb634d3394ccb6a06a0d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::isMediaCapturing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a194e9464d92b4061243c50565ba2cba4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLibraryWidget.html">LibraryWidget</a> * Core::library </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the library. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad4269a0f0d22bc7c182f880432fd958c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::loadingClips </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of clip load jobs changed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7fcf061c4a66e91ec2919a258a1f7f4a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::loadingMessageUpdated </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send a message to splash screen if still displayed. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac8175dd2301cdf2cc974f115b6f88ccd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMixerManager.html">MixerManager</a> * Core::mixer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the audio mixer. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc77ca55a1dac8196998c9bb7f5754c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMonitorManager.html">MonitorManager</a> * Core::monitorManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the monitor manager. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9e2cafc8c62683970c19ea2a83588c37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore.html">Core</a>&amp; Core::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCore.html">Core</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a417c86aa26e08cab96f8c8817afd15dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore.html">Core</a>&amp; Core::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCore.html">Core</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a075c4b0d8a57d5f133b5b8e5cd6a6619"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::prepareShutdown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52435a8add40dc369b4c4083366f5fe9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::processInvalidFilter </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An error occurred within a filter, inform user. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac810e5dd7693cbf3bd21bf2a3507ddb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::profileChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function must be called whenever the profile used changes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a230ae297d32cd46138f4538c59ded3f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::projectDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current project duration. </p>
+
+</div>
+</div>
+<a class="anchor" id="afe06e5d3e0a60c66704384ba6b03c8f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classProjectItemModel.html">ProjectItemModel</a> &gt; Core::projectItemModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the model of the project bin. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ce8befe5caa56c61fe75a4fefd95221"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classProjectManager.html">ProjectManager</a> * Core::projectManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the project manager. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5595691f46276f44275897a45df7a2c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::pushUndo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create and push and undo object based on the corresponding functions Note that if you class permits and requires it, you should use the macro PUSH_UNDO instead. </p>
+
+</div>
+</div>
+<a class="anchor" id="a92ecc0b1e6b6f9d761d3eb94d7b843b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::pushUndo </td>
+          <td>(</td>
+          <td class="paramtype">QUndoCommand *&#160;</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a865fdb48dbae6e3b918f8fa35634e463"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::refreshProjectItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Request project monitor refresh if referenced item is under cursor. </p>
+
+</div>
+</div>
+<a class="anchor" id="af1e9b3dfd17af04254b8b039a48d02fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::refreshProjectRange </td>
+          <td>(</td>
+          <td class="paramtype">QPair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>range</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Request project monitor refresh if current position is inside range. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad069f877910d2ac09ecfac1ff9888e1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::requestMonitorRefresh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Request project monitor refresh. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9ebea9b9c6c7c5eaebad0bd5e1307ba8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::selectBinClip </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>activateMonitor</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QPoint &amp;&#160;</td>
+          <td class="paramname"><em>zone</em> = <code>QPoint()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a clip in the <a class="el" href="classBin.html" title="The bin widget takes care of both item model and view upon project opening. ">Bin</a> from its id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a767f92c640b3fb3433af5ddc9a4e4af3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::selectTimelineItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects an item in the current timeline (clip, composition, subtitle). </p>
+
+</div>
+</div>
+<a class="anchor" id="ae4661f52a12d2afbdfdafaeefd7005f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classCore.html">Core</a> &gt; &amp; Core::self </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the singleton object. </p>
+
+</div>
+</div>
+<a class="anchor" id="aba38cdc6fb6fa4ba0be006ff5b82ae8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::setCompositionATrack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>aTrack</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa7f22036971a90cf4cebf7b642bc5fb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core::setCurrentProfile </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>profilePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define the active profile. </p>
+<dl class="section return"><dt>返回</dt><dd>true if profile exists, false if not found </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a03611c55ea78ad2e78363fdfe246193a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::setDocumentModified </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set current project modified. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4103c5c9420ef6bd03484831c5112e73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::setWidgetKeyBinding </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>mess</em> = <code>QString()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Display key binding info in statusbar. </p>
+
+</div>
+</div>
+<a class="anchor" id="a134919e2b48c737b5f3912e09bf721ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::showClipKeyframes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Show / hide keyframes for a timeline clip </p>
+
+</div>
+</div>
+<a class="anchor" id="a5bad4267f9048ed7e3f13d6c9dcbdbfb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::showConfigDialog </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call config dialog on a selected page / tab. </p>
+
+</div>
+</div>
+<a class="anchor" id="a641e539a2b574c47ec3195600a6c543f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::showEffectZone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QPair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>inOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checked</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Show currently selected effect zone in timeline ruler. </p>
+
+</div>
+</div>
+<a class="anchor" id="a896a34cef031106c055eab0d46d0ad8f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::startMediaCapture </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checkAudio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checkVideo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles audio and video capture. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2956d509020a165aadf96c26c2fa0f83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::stopMediaCapture </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checkAudio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checkVideo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3bd9e33f181ecaa78dfad2fe9d56d97a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSubtitleEdit.html">SubtitleEdit</a> * Core::subtitleWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the subtitle edit. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1bc0f8649ecd78ff31aa98f44cdfa5f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::temporaryUnplug </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>clipIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hide</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Temporarily un/plug a list of clips in timeline. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa31d77b989733c8f70a344d0bab64304"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::testProxies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open the proxies test dialog. </p>
+
+</div>
+</div>
+<a class="anchor" id="afea6f8e256c498680e4b864568db5a6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTextBasedEdit.html">TextBasedEdit</a> * Core::textEditWidget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the text based editing widget. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac7a4fa28bd3f6268236cbd167534a16c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mlt::Profile * Core::thumbProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6075c4330a1927f2c4b960a252974b19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTimecode.html">Timecode</a> Core::timecode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns project's timecode. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6b0123fafd39a926c52fbb28389fcb64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::transcodeFile </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transcode a video file. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1123b93706409f50a3d2d3cbcd49c3cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::triggerAction </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Trigger (launch) an action by its actionCollection name. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9fa4b5b833c2c512769285d5ce34c763"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core::undoIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the undo stack index (position). </p>
+
+</div>
+</div>
+<a class="anchor" id="a385cfaf68d72d2de8ac37ee604f24211"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; Core::undoStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3960fd6ebfa57eed7d54eae181309d15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateEffectZone </td>
+          <td>(</td>
+          <td class="paramtype">const QPoint&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withUndo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update current effect zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a195a5d1ce67099c551268facfd15036c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateItemKeyframes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the keyframe model changed (effect added, deleted, active effect changed), inform timeline </p>
+
+</div>
+</div>
+<a class="anchor" id="ae16bfdc3da0e5529213377e93eca37d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateItemModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#a03406451188de187de0768c73db29caf">ObjectId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>service</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A fade for clip id changed, update timeline </p>
+
+</div>
+</div>
+<a class="anchor" id="aec9190116e003484b48b1a76b27c4dd7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateLibraryPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a00edbc80ae86f67aad24a8faf3280a98"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateMasterZones </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0093555bc15a5993d61eb609ffd7b795"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateMonitorProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ba3bc4412b993f394ec80e7f5da34c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateProjectTags </td>
+          <td>(</td>
+          <td class="paramtype">QMap&lt; QString, QString &gt;&#160;</td>
+          <td class="paramname"><em>tags</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update current project's tags. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9f4d03f00391e534997bad2168b9f1e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::updateVoskAvailability </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This signal means that VOSK and/or SRT module availability changed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5e93a30629e9f1d2034154f3b9e9c848"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core::voskModelUpdate </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList&#160;</td>
+          <td class="paramname"><em>models</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Trigger an update of the the speech models list. </p>
+
+</div>
+</div>
+<a class="anchor" id="a31dc2a5d6646e18841df75ab388b093c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMainWindow.html">MainWindow</a> * Core::window </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the main window. </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a404b0dfa273d0a512909e4a2f7172d9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">KSharedDataCache Core::audioThumbCache</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ba4199da030bd6d9e5e2d16278ecb52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTaskManager.html">TaskManager</a> Core::taskManager</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/<a class="el" href="core_8h_source.html">core.h</a></li>
+<li>src/<a class="el" href="core_8cpp.html">core.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

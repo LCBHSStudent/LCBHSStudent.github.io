@@ -1,0 +1,2426 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: ClipController类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classClipController-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">ClipController类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Provides a convenience wrapper around the project <a class="el" href="classBin.html" title="The bin widget takes care of both item model and view upon project opening. ">Bin</a> clip producers. It also holds a QList of track producers for the 'master' producer in case we need to update or replace them.  
+ <a href="classClipController.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="clipcontroller_8h_source.html">clipcontroller.h</a>&gt;</code></p>
+<div class="dynheader">
+类 ClipController 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classClipController__inherit__graph.png" border="0" usemap="#ClipController_inherit__map" alt="Inheritance graph"/></div>
+<map name="ClipController_inherit__map" id="ClipController_inherit__map">
+<area shape="rect" id="node2" href="classProjectClip.html" title="Represents a clip in the project (not timeline). It will be displayed as a bin item that can be dragg..." alt="" coords="11,615,210,1191"/>
+</map>
+</div>
+<div class="dynheader">
+ClipController 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classClipController__coll__graph.png" border="0" usemap="#ClipController_coll__map" alt="Collaboration graph"/></div>
+<map name="ClipController_coll__map" id="ClipController_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a2342d235801ad8ad4695fc5894aa5eee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a2342d235801ad8ad4695fc5894aa5eee">ClipController</a> (const QString &amp;id, const std::shared_ptr&lt; Mlt::Producer &gt; &amp;producer=nullptr)</td></tr>
+<tr class="memdesc:a2342d235801ad8ad4695fc5894aa5eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. The constructor is protected because you should call the static Construct instead.  <a href="#a2342d235801ad8ad4695fc5894aa5eee">更多...</a><br /></td></tr>
+<tr class="separator:a2342d235801ad8ad4695fc5894aa5eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d97f09f3df2ff22889c81bc9c77f89"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ac1d97f09f3df2ff22889c81bc9c77f89">~ClipController</a> ()</td></tr>
+<tr class="separator:ac1d97f09f3df2ff22889c81bc9c77f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e27969107f67d15d65f2af473528ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a13e27969107f67d15d65f2af473528ee">isValid</a> ()</td></tr>
+<tr class="memdesc:a13e27969107f67d15d65f2af473528ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the master producer is valid.  <a href="#a13e27969107f67d15d65f2af473528ee">更多...</a><br /></td></tr>
+<tr class="separator:a13e27969107f67d15d65f2af473528ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde098ba330f171a91dd61a5553f9df3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#acde098ba330f171a91dd61a5553f9df3">sourceExists</a> () const </td></tr>
+<tr class="memdesc:acde098ba330f171a91dd61a5553f9df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the source file exists.  <a href="#acde098ba330f171a91dd61a5553f9df3">更多...</a><br /></td></tr>
+<tr class="separator:acde098ba330f171a91dd61a5553f9df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f38d45531d86676083d3c2c5b7812c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a18f38d45531d86676083d3c2c5b7812c">updateProducer</a> (const std::shared_ptr&lt; Mlt::Producer &gt; &amp;producer)</td></tr>
+<tr class="memdesc:a18f38d45531d86676083d3c2c5b7812c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the master producer and (TODO) the track producers with an updated producer, for example a proxy.  <a href="#a18f38d45531d86676083d3c2c5b7812c">更多...</a><br /></td></tr>
+<tr class="separator:a18f38d45531d86676083d3c2c5b7812c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156d1068bcb470ac760c078af95f9409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a156d1068bcb470ac760c078af95f9409">getProducerXML</a> (QDomDocument &amp;document, bool includeMeta=false, bool includeProfile=true)</td></tr>
+<tr class="separator:a156d1068bcb470ac760c078af95f9409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9a36fd60360e45637904e4a261b8af2"><td class="memItemLeft" align="right" valign="top">Mlt::Producer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#af9a36fd60360e45637904e4a261b8af2">masterProducer</a> ()</td></tr>
+<tr class="memdesc:af9a36fd60360e45637904e4a261b8af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a clone of our master producer. Delete after use!  <a href="#af9a36fd60360e45637904e4a261b8af2">更多...</a><br /></td></tr>
+<tr class="separator:af9a36fd60360e45637904e4a261b8af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3de6e42c3f49064d85420d4588f35b1"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aa3de6e42c3f49064d85420d4588f35b1">clipName</a> () const </td></tr>
+<tr class="memdesc:aa3de6e42c3f49064d85420d4588f35b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip name (usually file name)  <a href="#aa3de6e42c3f49064d85420d4588f35b1">更多...</a><br /></td></tr>
+<tr class="separator:aa3de6e42c3f49064d85420d4588f35b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89546ed7bcab731f39ce2acfe46d928b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a89546ed7bcab731f39ce2acfe46d928b">description</a> () const </td></tr>
+<tr class="memdesc:a89546ed7bcab731f39ce2acfe46d928b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip's description or metadata comment.  <a href="#a89546ed7bcab731f39ce2acfe46d928b">更多...</a><br /></td></tr>
+<tr class="separator:a89546ed7bcab731f39ce2acfe46d928b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6e81597990ce101db7d019c70cb751"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#afc6e81597990ce101db7d019c70cb751">clipUrl</a> () const </td></tr>
+<tr class="memdesc:afc6e81597990ce101db7d019c70cb751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip's MLT resource.  <a href="#afc6e81597990ce101db7d019c70cb751">更多...</a><br /></td></tr>
+<tr class="separator:afc6e81597990ce101db7d019c70cb751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9344b8a8d1643d86eea825474dff79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a7e9344b8a8d1643d86eea825474dff79">clipType</a> () const </td></tr>
+<tr class="memdesc:a7e9344b8a8d1643d86eea825474dff79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip's type as defined in <a class="el" href="definitions_8h.html">definitions.h</a>.  <a href="#a7e9344b8a8d1643d86eea825474dff79">更多...</a><br /></td></tr>
+<tr class="separator:a7e9344b8a8d1643d86eea825474dff79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f77a92efa55a8db8071683a5a29d6ca"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a0f77a92efa55a8db8071683a5a29d6ca">binId</a> () const </td></tr>
+<tr class="memdesc:a0f77a92efa55a8db8071683a5a29d6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the MLT's producer id.  <a href="#a0f77a92efa55a8db8071683a5a29d6ca">更多...</a><br /></td></tr>
+<tr class="separator:a0f77a92efa55a8db8071683a5a29d6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7808781cc1d99ab77af19d82bb64c79"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aa7808781cc1d99ab77af19d82bb64c79">thumbProducer</a> ()=0</td></tr>
+<tr class="memdesc:aa7808781cc1d99ab77af19d82bb64c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this clip's producer.  <a href="#aa7808781cc1d99ab77af19d82bb64c79">更多...</a><br /></td></tr>
+<tr class="separator:aa7808781cc1d99ab77af19d82bb64c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9551bde77e18129025f1dbcd31d52de9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a9551bde77e18129025f1dbcd31d52de9">reloadProducer</a> (bool refreshOnly=false, bool isProxy=false, bool forceAudioReload=false)=0</td></tr>
+<tr class="separator:a9551bde77e18129025f1dbcd31d52de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c7494694714402d18e0a87132ec78f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ae0c7494694714402d18e0a87132ec78f">renameAudioStream</a> (int id, QString name)=0</td></tr>
+<tr class="memdesc:ae0c7494694714402d18e0a87132ec78f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rename an audio stream.  <a href="#ae0c7494694714402d18e0a87132ec78f">更多...</a><br /></td></tr>
+<tr class="separator:ae0c7494694714402d18e0a87132ec78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d108711fa8886c9608a1c8f81af5ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a48d108711fa8886c9608a1c8f81af5ae">requestAddStreamEffect</a> (int streamIndex, const QString effectName)=0</td></tr>
+<tr class="memdesc:a48d108711fa8886c9608a1c8f81af5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an audio effect on a specific audio stream for this clip.  <a href="#a48d108711fa8886c9608a1c8f81af5ae">更多...</a><br /></td></tr>
+<tr class="separator:a48d108711fa8886c9608a1c8f81af5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9256eceda8adddf269c301e010a66145"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a9256eceda8adddf269c301e010a66145">requestRemoveStreamEffect</a> (int streamIndex, const QString effectName)=0</td></tr>
+<tr class="memdesc:a9256eceda8adddf269c301e010a66145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove an audio effect on a specific audio stream for this clip.  <a href="#a9256eceda8adddf269c301e010a66145">更多...</a><br /></td></tr>
+<tr class="separator:a9256eceda8adddf269c301e010a66145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93c10ebe062930f3b1257a2086dc86a7"><td class="memItemLeft" align="right" valign="top">virtual QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a93c10ebe062930f3b1257a2086dc86a7">getAudioStreamEffect</a> (int streamIndex) const  =0</td></tr>
+<tr class="separator:a93c10ebe062930f3b1257a2086dc86a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9ce056a95cec220b36cc7e33ecf064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aaf9ce056a95cec220b36cc7e33ecf064">getPlaytime</a> () const </td></tr>
+<tr class="memdesc:aaf9ce056a95cec220b36cc7e33ecf064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip's duration.  <a href="#aaf9ce056a95cec220b36cc7e33ecf064">更多...</a><br /></td></tr>
+<tr class="separator:aaf9ce056a95cec220b36cc7e33ecf064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771ceb3d6b305d05cfd0927ea9307f5c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a771ceb3d6b305d05cfd0927ea9307f5c">getFramePlaytime</a> () const </td></tr>
+<tr class="separator:a771ceb3d6b305d05cfd0927ea9307f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92aef2f22aed3cdb87726758cad07a12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a92aef2f22aed3cdb87726758cad07a12">setProducerProperty</a> (const QString &amp;name, const QString &amp;value)</td></tr>
+<tr class="memdesc:a92aef2f22aed3cdb87726758cad07a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a property.  <a href="#a92aef2f22aed3cdb87726758cad07a12">更多...</a><br /></td></tr>
+<tr class="separator:a92aef2f22aed3cdb87726758cad07a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d8d2f0701cb9d3feb37490063a67ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ad4d8d2f0701cb9d3feb37490063a67ff">setProducerProperty</a> (const QString &amp;name, int value)</td></tr>
+<tr class="separator:ad4d8d2f0701cb9d3feb37490063a67ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0d5af65c7eb1d20b4aa877616d1b4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a6a0d5af65c7eb1d20b4aa877616d1b4e">setProducerProperty</a> (const QString &amp;name, double value)</td></tr>
+<tr class="separator:a6a0d5af65c7eb1d20b4aa877616d1b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27839e58f311f92555277f2f0bc661e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a27839e58f311f92555277f2f0bc661e8">resetProducerProperty</a> (const QString &amp;name)</td></tr>
+<tr class="memdesc:a27839e58f311f92555277f2f0bc661e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset a property on the MLT producer (=delete the property).  <a href="#a27839e58f311f92555277f2f0bc661e8">更多...</a><br /></td></tr>
+<tr class="separator:a27839e58f311f92555277f2f0bc661e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707c596cbb1c9f0d50a7a652b5e1feaf"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a707c596cbb1c9f0d50a7a652b5e1feaf">getPropertiesFromPrefix</a> (const QString &amp;prefix, bool withPrefix=false)</td></tr>
+<tr class="memdesc:a707c596cbb1c9f0d50a7a652b5e1feaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of all properties starting with prefix. For subclips, the list is of this type: { subclip name , subclip in/out } where the subclip in/ou value is a semi-colon separated in/out value, like "25;220".  <a href="#a707c596cbb1c9f0d50a7a652b5e1feaf">更多...</a><br /></td></tr>
+<tr class="separator:a707c596cbb1c9f0d50a7a652b5e1feaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af1b237503ac336f537c610ce00423f"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a0af1b237503ac336f537c610ce00423f">currentProperties</a> (const QMap&lt; QString, QString &gt; &amp;props)</td></tr>
+<tr class="memdesc:a0af1b237503ac336f537c610ce00423f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a property.  <a href="#a0af1b237503ac336f537c610ce00423f">更多...</a><br /></td></tr>
+<tr class="separator:a0af1b237503ac336f537c610ce00423f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d456f8c289607234e6faab4337731a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ab8d456f8c289607234e6faab4337731a">getProducerProperty</a> (const QString &amp;key) const </td></tr>
+<tr class="separator:ab8d456f8c289607234e6faab4337731a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3de9bcf3a3416adf8ca85a5c8ae505"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#abb3de9bcf3a3416adf8ca85a5c8ae505">getProducerIntProperty</a> (const QString &amp;key) const </td></tr>
+<tr class="separator:abb3de9bcf3a3416adf8ca85a5c8ae505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209e72552ef79cc7b9a1ac7eab60b887"><td class="memItemLeft" align="right" valign="top">qint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a209e72552ef79cc7b9a1ac7eab60b887">getProducerInt64Property</a> (const QString &amp;key) const </td></tr>
+<tr class="separator:a209e72552ef79cc7b9a1ac7eab60b887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b17fe39cdcc9190e927c620419db579"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a2b17fe39cdcc9190e927c620419db579">getProducerColorProperty</a> (const QString &amp;key) const </td></tr>
+<tr class="separator:a2b17fe39cdcc9190e927c620419db579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8161fe054b4880edc7a5153237beef14"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a8161fe054b4880edc7a5153237beef14">getProducerDoubleProperty</a> (const QString &amp;key) const </td></tr>
+<tr class="separator:a8161fe054b4880edc7a5153237beef14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0df3ec75c0640d20fbc7939f3e6fe49"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#af0df3ec75c0640d20fbc7939f3e6fe49">originalFps</a> () const </td></tr>
+<tr class="separator:af0df3ec75c0640d20fbc7939f3e6fe49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ce7bd351ec72d536e4560dc05c7d18"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aa0ce7bd351ec72d536e4560dc05c7d18">videoCodecProperty</a> (const QString &amp;property) const </td></tr>
+<tr class="separator:aa0ce7bd351ec72d536e4560dc05c7d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0a33c0f92359a020d3d3f31b2e190d"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a2e0a33c0f92359a020d3d3f31b2e190d">codec</a> (bool audioCodec) const </td></tr>
+<tr class="separator:a2e0a33c0f92359a020d3d3f31b2e190d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f80e0612bc58580170c46348a25f876"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a8f80e0612bc58580170c46348a25f876">getClipHash</a> () const </td></tr>
+<tr class="separator:a8f80e0612bc58580170c46348a25f876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a75dbc1ed75f0fe80476d7fba7a543d"><td class="memItemLeft" align="right" valign="top">const QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a7a75dbc1ed75f0fe80476d7fba7a543d">getFrameSize</a> () const </td></tr>
+<tr class="separator:a7a75dbc1ed75f0fe80476d7fba7a543d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c88439edffc289564c1cc3bcca41663"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a4c88439edffc289564c1cc3bcca41663">getStringDuration</a> ()</td></tr>
+<tr class="memdesc:a4c88439edffc289564c1cc3bcca41663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip duration as a string like 00:00:02:01.  <a href="#a4c88439edffc289564c1cc3bcca41663">更多...</a><br /></td></tr>
+<tr class="separator:a4c88439edffc289564c1cc3bcca41663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab80137603deeb8bcbfc504c4cc3be1b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ab80137603deeb8bcbfc504c4cc3be1b8">getProducerDuration</a> () const </td></tr>
+<tr class="separator:ab80137603deeb8bcbfc504c4cc3be1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1afba248eb3005ae7fb1833d8195fb3"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ac1afba248eb3005ae7fb1833d8195fb3">framesToTime</a> (int frames) const </td></tr>
+<tr class="separator:ac1afba248eb3005ae7fb1833d8195fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a1396129578eac2a8cc15aea54f877"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ab3a1396129578eac2a8cc15aea54f877">pixmap</a> (int position=0, int width=0, int height=0)</td></tr>
+<tr class="memdesc:ab3a1396129578eac2a8cc15aea54f877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pixmap created from a frame of the producer.  <a href="#ab3a1396129578eac2a8cc15aea54f877">更多...</a><br /></td></tr>
+<tr class="separator:ab3a1396129578eac2a8cc15aea54f877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a5ca8569bc507783519bf2657cae56"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a70a5ca8569bc507783519bf2657cae56">serviceName</a> () const </td></tr>
+<tr class="memdesc:a70a5ca8569bc507783519bf2657cae56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the MLT producer's service.  <a href="#a70a5ca8569bc507783519bf2657cae56">更多...</a><br /></td></tr>
+<tr class="separator:a70a5ca8569bc507783519bf2657cae56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd7191ea73eb7d59cd9414a76977667"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#adcd7191ea73eb7d59cd9414a76977667">originalProducer</a> ()</td></tr>
+<tr class="memdesc:adcd7191ea73eb7d59cd9414a76977667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the original master producer.  <a href="#adcd7191ea73eb7d59cd9414a76977667">更多...</a><br /></td></tr>
+<tr class="separator:adcd7191ea73eb7d59cd9414a76977667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d50b5dd378fb6a596f4134cb307e56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a99d50b5dd378fb6a596f4134cb307e56">addMasterProducer</a> (const std::shared_ptr&lt; Mlt::Producer &gt; &amp;producer)</td></tr>
+<tr class="memdesc:a99d50b5dd378fb6a596f4134cb307e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the master producer for this clip when we build the controller without master clip.  <a href="#a99d50b5dd378fb6a596f4134cb307e56">更多...</a><br /></td></tr>
+<tr class="separator:a99d50b5dd378fb6a596f4134cb307e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009f24b6d8b0e529d9e6fab3087dc960"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a009f24b6d8b0e529d9e6fab3087dc960">getMarkerModel</a> () const </td></tr>
+<tr class="memdesc:a009f24b6d8b0e529d9e6fab3087dc960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the marker model associated with this clip.  <a href="#a009f24b6d8b0e529d9e6fab3087dc960">更多...</a><br /></td></tr>
+<tr class="separator:a009f24b6d8b0e529d9e6fab3087dc960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8a2a1a02456874ecac1402d801ec24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#afb8a2a1a02456874ecac1402d801ec24">setZone</a> (const QPoint &amp;<a class="el" href="classClipController.html#a1c73b38ec7974466e87363d6e0d94b89">zone</a>)</td></tr>
+<tr class="separator:afb8a2a1a02456874ecac1402d801ec24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c73b38ec7974466e87363d6e0d94b89"><td class="memItemLeft" align="right" valign="top">QPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a1c73b38ec7974466e87363d6e0d94b89">zone</a> () const </td></tr>
+<tr class="separator:a1c73b38ec7974466e87363d6e0d94b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fe3c70779f3e535f55f9730549c9ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a74fe3c70779f3e535f55f9730549c9ed">hasLimitedDuration</a> () const </td></tr>
+<tr class="separator:a74fe3c70779f3e535f55f9730549c9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83ead9871d67d420795be3452d363a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aa83ead9871d67d420795be3452d363a4">forceLimitedDuration</a> ()</td></tr>
+<tr class="separator:aa83ead9871d67d420795be3452d363a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc454f40ef03af6dd4e17be95f73d2d"><td class="memItemLeft" align="right" valign="top">Mlt::Properties &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a7bc454f40ef03af6dd4e17be95f73d2d">properties</a> ()</td></tr>
+<tr class="separator:a7bc454f40ef03af6dd4e17be95f73d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66469f4996006bfc76983fb35445267"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ab66469f4996006bfc76983fb35445267">mirrorOriginalProperties</a> (Mlt::Properties &amp;props)</td></tr>
+<tr class="separator:ab66469f4996006bfc76983fb35445267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248f8ba0fa61d5621b2efea344971827"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a248f8ba0fa61d5621b2efea344971827">copyEffect</a> (const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;stackModel, int rowId)</td></tr>
+<tr class="separator:a248f8ba0fa61d5621b2efea344971827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76c6a8beb24de3a592246ad75fb20f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ab76c6a8beb24de3a592246ad75fb20f5">hasEffects</a> () const </td></tr>
+<tr class="memdesc:ab76c6a8beb24de3a592246ad75fb20f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the bin clip has effects.  <a href="#ab76c6a8beb24de3a592246ad75fb20f5">更多...</a><br /></td></tr>
+<tr class="separator:ab76c6a8beb24de3a592246ad75fb20f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2fe58f740d9efaf1bcbc3b79cdd69f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a2e2fe58f740d9efaf1bcbc3b79cdd69f">hasAudio</a> () const </td></tr>
+<tr class="memdesc:a2e2fe58f740d9efaf1bcbc3b79cdd69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the clip contains at least one audio stream.  <a href="#a2e2fe58f740d9efaf1bcbc3b79cdd69f">更多...</a><br /></td></tr>
+<tr class="separator:a2e2fe58f740d9efaf1bcbc3b79cdd69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e1de7c643e45b125f686f88b806867"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a93e1de7c643e45b125f686f88b806867">hasVideo</a> () const </td></tr>
+<tr class="memdesc:a93e1de7c643e45b125f686f88b806867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the clip contains at least one video stream.  <a href="#a93e1de7c643e45b125f686f88b806867">更多...</a><br /></td></tr>
+<tr class="separator:a93e1de7c643e45b125f686f88b806867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06068ea1aa0dda65efd5bd19030b3995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a06068ea1aa0dda65efd5bd19030b3995">defaultState</a> () const </td></tr>
+<tr class="memdesc:a06068ea1aa0dda65efd5bd19030b3995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default state a clip should be in. If the clips contains both video and audio, this defaults to video.  <a href="#a06068ea1aa0dda65efd5bd19030b3995">更多...</a><br /></td></tr>
+<tr class="separator:a06068ea1aa0dda65efd5bd19030b3995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2e8c4c8e7fe7263ab73bac824c5f9b"><td class="memItemLeft" align="right" valign="top">const std::unique_ptr&lt; <a class="el" href="classAudioStreamInfo.html">AudioStreamInfo</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a8d2e8c4c8e7fe7263ab73bac824c5f9b">audioInfo</a> () const </td></tr>
+<tr class="memdesc:a8d2e8c4c8e7fe7263ab73bac824c5f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns info about clip audio.  <a href="#a8d2e8c4c8e7fe7263ab73bac824c5f9b">更多...</a><br /></td></tr>
+<tr class="separator:a8d2e8c4c8e7fe7263ab73bac824c5f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada9c0c911062174d2877d4767fc0d78a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ada9c0c911062174d2877d4767fc0d78a">setBinEffectsEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:ada9c0c911062174d2877d4767fc0d78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable all <a class="el" href="namespaceKdenlive.html">Kdenlive</a> effects on this clip.  <a href="#ada9c0c911062174d2877d4767fc0d78a">更多...</a><br /></td></tr>
+<tr class="separator:ada9c0c911062174d2877d4767fc0d78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a998c0aaed8dc4572488e62aa1bebb0ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a998c0aaed8dc4572488e62aa1bebb0ff">effectsCount</a> ()</td></tr>
+<tr class="memdesc:a998c0aaed8dc4572488e62aa1bebb0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of <a class="el" href="namespaceKdenlive.html">Kdenlive</a> added effects for this bin clip.  <a href="#a998c0aaed8dc4572488e62aa1bebb0ff">更多...</a><br /></td></tr>
+<tr class="separator:a998c0aaed8dc4572488e62aa1bebb0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b2711cf050b268f833c85df28e1160"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ad4b2711cf050b268f833c85df28e1160">filesUsedByEffects</a> ()</td></tr>
+<tr class="memdesc:ad4b2711cf050b268f833c85df28e1160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all urls of external files used by effects on this bin clip (e.g. LUTs)  <a href="#ad4b2711cf050b268f833c85df28e1160">更多...</a><br /></td></tr>
+<tr class="separator:ad4b2711cf050b268f833c85df28e1160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a575d024a42fab8260818f8b7749209a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a575d024a42fab8260818f8b7749209a3">saveZone</a> (QPoint <a class="el" href="classClipController.html#a1c73b38ec7974466e87363d6e0d94b89">zone</a>, const QDir &amp;dir)</td></tr>
+<tr class="memdesc:a575d024a42fab8260818f8b7749209a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save an xml playlist of current clip with in/out points as zone.x()/y()  <a href="#a575d024a42fab8260818f8b7749209a3">更多...</a><br /></td></tr>
+<tr class="separator:a575d024a42fab8260818f8b7749209a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3164cf622cf48a2cbd3071737953df5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ad3164cf622cf48a2cbd3071737953df5">getEffectStack</a> () const </td></tr>
+<tr class="memdesc:ad3164cf622cf48a2cbd3071737953df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a ptr to the effetstack associated with this element.  <a href="#ad3164cf622cf48a2cbd3071737953df5">更多...</a><br /></td></tr>
+<tr class="separator:ad3164cf622cf48a2cbd3071737953df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb3d7f0fe671d7d53067fe0c99c6b9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a5cb3d7f0fe671d7d53067fe0c99c6b9e">addEffect</a> (const QString &amp;effectId)</td></tr>
+<tr class="memdesc:a5cb3d7f0fe671d7d53067fe0c99c6b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an effect to this producer's effect list.  <a href="#a5cb3d7f0fe671d7d53067fe0c99c6b9e">更多...</a><br /></td></tr>
+<tr class="separator:a5cb3d7f0fe671d7d53067fe0c99c6b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a495cd5528ceb789b9928f878b168cfc0"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a495cd5528ceb789b9928f878b168cfc0">audioStreams</a> () const </td></tr>
+<tr class="memdesc:a495cd5528ceb789b9928f878b168cfc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of all audio streams indexes for this clip.  <a href="#a495cd5528ceb789b9928f878b168cfc0">更多...</a><br /></td></tr>
+<tr class="separator:a495cd5528ceb789b9928f878b168cfc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322b073472f1241418561f75294ad37f"><td class="memItemLeft" align="right" valign="top">QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a322b073472f1241418561f75294ad37f">activeStreamChannels</a> () const </td></tr>
+<tr class="memdesc:a322b073472f1241418561f75294ad37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of channels per audio stream.  <a href="#a322b073472f1241418561f75294ad37f">更多...</a><br /></td></tr>
+<tr class="separator:a322b073472f1241418561f75294ad37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4375bb9ec4a211d6ed1ba8201560f65"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ac4375bb9ec4a211d6ed1ba8201560f65">activeStreams</a> () const </td></tr>
+<tr class="memdesc:ac4375bb9ec4a211d6ed1ba8201560f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of active audio streams indexes for this clip.  <a href="#ac4375bb9ec4a211d6ed1ba8201560f65">更多...</a><br /></td></tr>
+<tr class="separator:ac4375bb9ec4a211d6ed1ba8201560f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b751b502ce11586244f66decede9048"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a2b751b502ce11586244f66decede9048">audioStreamsCount</a> () const </td></tr>
+<tr class="memdesc:a2b751b502ce11586244f66decede9048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the count of audio streams for this clip.  <a href="#a2b751b502ce11586244f66decede9048">更多...</a><br /></td></tr>
+<tr class="separator:a2b751b502ce11586244f66decede9048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77326907d9486fcee3f6d08da1486285"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a77326907d9486fcee3f6d08da1486285">getOriginalUrl</a> ()</td></tr>
+<tr class="memdesc:a77326907d9486fcee3f6d08da1486285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path to the original clip url (in case it is proxied)  <a href="#a77326907d9486fcee3f6d08da1486285">更多...</a><br /></td></tr>
+<tr class="separator:a77326907d9486fcee3f6d08da1486285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a44d019a63140b8aa8379387f3dcfe10f"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a44d019a63140b8aa8379387f3dcfe10f">getPassPropertiesList</a> (bool passLength=true)</td></tr>
+<tr class="memdesc:a44d019a63140b8aa8379387f3dcfe10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">When replacing a producer, it is important that we keep some properties, for example force_ stuff and url for proxies this method returns a list of properties that we want to keep when replacing a producer .  <a href="#a44d019a63140b8aa8379387f3dcfe10f">更多...</a><br /></td></tr>
+<tr class="separator:a44d019a63140b8aa8379387f3dcfe10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a5f60b345bc04efecfc9bb9cd20aaab1e"><td class="memItemLeft" align="right" valign="top">QMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a5f60b345bc04efecfc9bb9cd20aaab1e">producerMutex</a></td></tr>
+<tr class="separator:a5f60b345bc04efecfc9bb9cd20aaab1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926757c027abbac7e2bf7d351cf2c852"><td class="memItemLeft" align="right" valign="top">QDateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a926757c027abbac7e2bf7d351cf2c852">date</a></td></tr>
+<tr class="memdesc:a926757c027abbac7e2bf7d351cf2c852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the file's creation time.  <a href="#a926757c027abbac7e2bf7d351cf2c852">更多...</a><br /></td></tr>
+<tr class="separator:a926757c027abbac7e2bf7d351cf2c852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587c685f082689f4b9d2b42c6d46d3b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a587c685f082689f4b9d2b42c6d46d3b5">selectedEffectIndex</a></td></tr>
+<tr class="memdesc:a587c685f082689f4b9d2b42c6d46d3b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds index of currently selected master clip effect.  <a href="#a587c685f082689f4b9d2b42c6d46d3b5">更多...</a><br /></td></tr>
+<tr class="separator:a587c685f082689f4b9d2b42c6d46d3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae8a612347fb74bc2da6f00e3be994d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aae8a612347fb74bc2da6f00e3be994d2">m_audioThumbCreated</a></td></tr>
+<tr class="memdesc:aae8a612347fb74bc2da6f00e3be994d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if audio thumbnails for this clip are cached.  <a href="#aae8a612347fb74bc2da6f00e3be994d2">更多...</a><br /></td></tr>
+<tr class="separator:aae8a612347fb74bc2da6f00e3be994d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:ae9b87c74d13fb9856de205c39e090b37"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ae9b87c74d13fb9856de205c39e090b37">mediaUnavailable</a></td></tr>
+<tr class="memdesc:ae9b87c74d13fb9856de205c39e090b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the producer that serves as a placeholder while a clip is being loaded. It is created in <a class="el" href="classCore.html" title="Singleton that provides access to the different parts of Kdenlive. ">Core</a> at startup.  <a href="#ae9b87c74d13fb9856de205c39e090b37">更多...</a><br /></td></tr>
+<tr class="separator:ae9b87c74d13fb9856de205c39e090b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:aecbeebabe67f51aa205785ba4d38ba8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#aecbeebabe67f51aa205785ba4d38ba8b">emitProducerChanged</a> (const QString &amp;, const std::shared_ptr&lt; Mlt::Producer &gt; &amp;)</td></tr>
+<tr class="separator:aecbeebabe67f51aa205785ba4d38ba8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858e518fb87908e7644aeda59c23a0f5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a858e518fb87908e7644aeda59c23a0f5">connectEffectStack</a> ()</td></tr>
+<tr class="separator:a858e518fb87908e7644aeda59c23a0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9545cd79af1adbfe904c5fe1e3d9445e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a9545cd79af1adbfe904c5fe1e3d9445e">checkAudioVideo</a> ()</td></tr>
+<tr class="separator:a9545cd79af1adbfe904c5fe1e3d9445e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae526dbc688baef49da93622fed5ff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#afae526dbc688baef49da93622fed5ff5">refreshAudioInfo</a> ()</td></tr>
+<tr class="separator:afae526dbc688baef49da93622fed5ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508b8f758edf27f08cacb37282107022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a508b8f758edf27f08cacb37282107022">backupOriginalProperties</a> ()</td></tr>
+<tr class="separator:a508b8f758edf27f08cacb37282107022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533ccd07dacf533c257e6e55bc3fb491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a533ccd07dacf533c257e6e55bc3fb491">clearBackupProperties</a> ()</td></tr>
+<tr class="separator:a533ccd07dacf533c257e6e55bc3fb491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affdf536f7f046bffd80c0940257e0610"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#affdf536f7f046bffd80c0940257e0610">getInfoForProducer</a> ()</td></tr>
+<tr class="separator:affdf536f7f046bffd80c0940257e0610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a8fc3ff636a47c545699a2a267d238561"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a8fc3ff636a47c545699a2a267d238561">m_masterProducer</a></td></tr>
+<tr class="separator:a8fc3ff636a47c545699a2a267d238561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86d7ab4027f1aac42c6ee71ace06a2b"><td class="memItemLeft" align="right" valign="top">Mlt::Properties *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ad86d7ab4027f1aac42c6ee71ace06a2b">m_properties</a></td></tr>
+<tr class="separator:ad86d7ab4027f1aac42c6ee71ace06a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cd95416d367e2759bd524d4acadcdd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a5cd95416d367e2759bd524d4acadcdd3">m_usesProxy</a></td></tr>
+<tr class="separator:a5cd95416d367e2759bd524d4acadcdd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e955d66ce37236ea7f95953ea3bcc0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classAudioStreamInfo.html">AudioStreamInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ae0e955d66ce37236ea7f95953ea3bcc0">m_audioInfo</a></td></tr>
+<tr class="separator:ae0e955d66ce37236ea7f95953ea3bcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c30206c2fc9a1eaba423af0e18a912f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a0c30206c2fc9a1eaba423af0e18a912f">m_service</a></td></tr>
+<tr class="separator:a0c30206c2fc9a1eaba423af0e18a912f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97bef00bb184a85dca626ac2de6a9d7"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#ad97bef00bb184a85dca626ac2de6a9d7">m_path</a></td></tr>
+<tr class="separator:ad97bef00bb184a85dca626ac2de6a9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d7d799290954a1d7c6695476346ab9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a12d7d799290954a1d7c6695476346ab9">m_videoIndex</a></td></tr>
+<tr class="separator:a12d7d799290954a1d7c6695476346ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af259fc0e0e3d5993654ade6935db5522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#af259fc0e0e3d5993654ade6935db5522">m_clipType</a></td></tr>
+<tr class="separator:af259fc0e0e3d5993654ade6935db5522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698bb4f5574eb70e1330e4948ac96d0f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a698bb4f5574eb70e1330e4948ac96d0f">m_hasLimitedDuration</a></td></tr>
+<tr class="separator:a698bb4f5574eb70e1330e4948ac96d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdc73b0e63c52676156812dfe6b263c"><td class="memItemLeft" align="right" valign="top">QMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#adbdc73b0e63c52676156812dfe6b263c">m_effectMutex</a></td></tr>
+<tr class="separator:adbdc73b0e63c52676156812dfe6b263c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c6ce608f6f1ee3d25b81423461cbc2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a45c6ce608f6f1ee3d25b81423461cbc2">m_effectStack</a></td></tr>
+<tr class="separator:a45c6ce608f6f1ee3d25b81423461cbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0575a92974cbabe214f741322939d4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a3b0575a92974cbabe214f741322939d4">m_markerModel</a></td></tr>
+<tr class="separator:a3b0575a92974cbabe214f741322939d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9ced18655949609c571855ba404979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a0a9ced18655949609c571855ba404979">m_hasAudio</a></td></tr>
+<tr class="separator:a0a9ced18655949609c571855ba404979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ef90e35947719904007e0bad460e3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#af6ef90e35947719904007e0bad460e3c">m_hasVideo</a></td></tr>
+<tr class="separator:af6ef90e35947719904007e0bad460e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908e77714d3ae583bf22a05d7b03604e"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, QStringList &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a908e77714d3ae583bf22a05d7b03604e">m_streamEffects</a></td></tr>
+<tr class="separator:a908e77714d3ae583bf22a05d7b03604e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b19a96da8f55c2353f4d3a6769e7987"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a6b19a96da8f55c2353f4d3a6769e7987">m_temporaryUrl</a></td></tr>
+<tr class="memdesc:a6b19a96da8f55c2353f4d3a6769e7987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store clip url temporarily while the clip controller has not been created.  <a href="#a6b19a96da8f55c2353f4d3a6769e7987">更多...</a><br /></td></tr>
+<tr class="separator:a6b19a96da8f55c2353f4d3a6769e7987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa9697d2f5c52e1e96c418b93e69fc7"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a7fa9697d2f5c52e1e96c418b93e69fc7">m_thumbsProducer</a></td></tr>
+<tr class="separator:a7fa9697d2f5c52e1e96c418b93e69fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:a6a6bc571688594aded1969d70ba65cce"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClipController.html#a6a6bc571688594aded1969d70ba65cce">Bin</a></td></tr>
+<tr class="separator:a6a6bc571688594aded1969d70ba65cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Provides a convenience wrapper around the project <a class="el" href="classBin.html" title="The bin widget takes care of both item model and view upon project opening. ">Bin</a> clip producers. It also holds a QList of track producers for the 'master' producer in case we need to update or replace them. </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a2342d235801ad8ad4695fc5894aa5eee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ClipController::ClipController </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; Mlt::Producer &gt; &amp;&#160;</td>
+          <td class="paramname"><em>producer</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. The constructor is protected because you should call the static Construct instead. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bincontroller</td><td>reference to the bincontroller </td></tr>
+    <tr><td class="paramname">producer</td><td>producer to create reference to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac1d97f09f3df2ff22889c81bc9c77f89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ClipController::~ClipController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a322b073472f1241418561f75294ad37f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; int &gt; ClipController::activeStreamChannels </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of channels per audio stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac4375bb9ec4a211d6ed1ba8201560f65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; int, QString &gt; ClipController::activeStreams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the list of active audio streams indexes for this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5cb3d7f0fe671d7d53067fe0c99c6b9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::addEffect </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append an effect to this producer's effect list. </p>
+
+</div>
+</div>
+<a class="anchor" id="a99d50b5dd378fb6a596f4134cb307e56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::addMasterProducer </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; Mlt::Producer &gt; &amp;&#160;</td>
+          <td class="paramname"><em>producer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the master producer for this clip when we build the controller without master clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8d2e8c4c8e7fe7263ab73bac824c5f9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unique_ptr&lt; <a class="el" href="classAudioStreamInfo.html">AudioStreamInfo</a> &gt; &amp; ClipController::audioInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns info about clip audio. </p>
+
+</div>
+</div>
+<a class="anchor" id="a495cd5528ceb789b9928f878b168cfc0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; int, QString &gt; ClipController::audioStreams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the list of all audio streams indexes for this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b751b502ce11586244f66decede9048"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::audioStreamsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the count of audio streams for this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a508b8f758edf27f08cacb37282107022"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::backupOriginalProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f77a92efa55a8db8071683a5a29d6ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipController::binId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the MLT's producer id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9545cd79af1adbfe904c5fe1e3d9445e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::checkAudioVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a533ccd07dacf533c257e6e55bc3fb491"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::clearBackupProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa3de6e42c3f49064d85420d4588f35b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::clipName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip name (usually file name) </p>
+
+</div>
+</div>
+<a class="anchor" id="a7e9344b8a8d1643d86eea825474dff79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> ClipController::clipType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip's type as defined in <a class="el" href="definitions_8h.html">definitions.h</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="afc6e81597990ce101db7d019c70cb751"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipController::clipUrl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip's MLT resource. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e0a33c0f92359a020d3d3f31b2e190d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipController::codec </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>audioCodec</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a858e518fb87908e7644aeda59c23a0f5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClipController::connectEffectStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classProjectClip.html#a1d7b7e30db28fa9446802cb1cfd9eabe">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a248f8ba0fa61d5621b2efea344971827"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::copyEffect </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>stackModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rowId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0af1b237503ac336f537c610ce00423f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; QString, QString &gt; ClipController::currentProperties </td>
+          <td>(</td>
+          <td class="paramtype">const QMap&lt; QString, QString &gt; &amp;&#160;</td>
+          <td class="paramname"><em>props</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the value of a property. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>name o the property </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a06068ea1aa0dda65efd5bd19030b3995"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> ClipController::defaultState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the default state a clip should be in. If the clips contains both video and audio, this defaults to video. </p>
+
+</div>
+</div>
+<a class="anchor" id="a89546ed7bcab731f39ce2acfe46d928b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::description </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip's description or metadata comment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a998c0aaed8dc4572488e62aa1bebb0ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::effectsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of <a class="el" href="namespaceKdenlive.html">Kdenlive</a> added effects for this bin clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="aecbeebabe67f51aa205785ba4d38ba8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClipController::emitProducerChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; Mlt::Producer &gt; &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classProjectClip.html#a6ffa2fb0d80f26f7f1f2271d64b51f7a">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4b2711cf050b268f833c85df28e1160"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList ClipController::filesUsedByEffects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all urls of external files used by effects on this bin clip (e.g. LUTs) </p>
+
+</div>
+</div>
+<a class="anchor" id="aa83ead9871d67d420795be3452d363a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::forceLimitedDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac1afba248eb3005ae7fb1833d8195fb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * ClipController::framesToTime </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frames</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a93c10ebe062930f3b1257a2086dc86a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QStringList ClipController::getAudioStreamEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>streamIndex</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#a96a0f13602bddf3f3d0a0d825c9d7fc7">ProjectClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8f80e0612bc58580170c46348a25f876"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipController::getClipHash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3164cf622cf48a2cbd3071737953df5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; ClipController::getEffectStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a ptr to the effetstack associated with this element. </p>
+
+</div>
+</div>
+<a class="anchor" id="a771ceb3d6b305d05cfd0927ea9307f5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::getFramePlaytime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7a75dbc1ed75f0fe80476d7fba7a543d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QSize ClipController::getFrameSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="affdf536f7f046bffd80c0940257e0610"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::getInfoForProducer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a009f24b6d8b0e529d9e6fab3087dc960"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt; ClipController::getMarkerModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the marker model associated with this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a77326907d9486fcee3f6d08da1486285"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipController::getOriginalUrl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the path to the original clip url (in case it is proxied) </p>
+
+</div>
+</div>
+<a class="anchor" id="a44d019a63140b8aa8379387f3dcfe10f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * ClipController::getPassPropertiesList </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>passLength</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>When replacing a producer, it is important that we keep some properties, for example force_ stuff and url for proxies this method returns a list of properties that we want to keep when replacing a producer . </p>
+
+</div>
+</div>
+<a class="anchor" id="aaf9ce056a95cec220b36cc7e33ecf064"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGenTime.html">GenTime</a> ClipController::getPlaytime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip's duration. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b17fe39cdcc9190e927c620419db579"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor ClipController::getProducerColorProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8161fe054b4880edc7a5153237beef14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ClipController::getProducerDoubleProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab80137603deeb8bcbfc504c4cc3be1b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::getProducerDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a209e72552ef79cc7b9a1ac7eab60b887"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 ClipController::getProducerInt64Property </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abb3de9bcf3a3416adf8ca85a5c8ae505"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::getProducerIntProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8d456f8c289607234e6faab4337731a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::getProducerProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a156d1068bcb470ac760c078af95f9409"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::getProducerXML </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&#160;</td>
+          <td class="paramname"><em>document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeMeta</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeProfile</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a707c596cbb1c9f0d50a7a652b5e1feaf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; QString, QString &gt; ClipController::getPropertiesFromPrefix </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withPrefix</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the list of all properties starting with prefix. For subclips, the list is of this type: { subclip name , subclip in/out } where the subclip in/ou value is a semi-colon separated in/out value, like "25;220". </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c88439edffc289564c1cc3bcca41663"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString ClipController::getStringDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip duration as a string like 00:00:02:01. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e2fe58f740d9efaf1bcbc3b79cdd69f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::hasAudio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the clip contains at least one audio stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab76c6a8beb24de3a592246ad75fb20f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::hasEffects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the bin clip has effects. </p>
+
+</div>
+</div>
+<a class="anchor" id="a74fe3c70779f3e535f55f9730549c9ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::hasLimitedDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a93e1de7c643e45b125f686f88b806867"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::hasVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the clip contains at least one video stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="a13e27969107f67d15d65f2af473528ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the master producer is valid. </p>
+
+</div>
+</div>
+<a class="anchor" id="af9a36fd60360e45637904e4a261b8af2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mlt::Producer * ClipController::masterProducer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a clone of our master producer. Delete after use! </p>
+
+</div>
+</div>
+<a class="anchor" id="ab66469f4996006bfc76983fb35445267"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::mirrorOriginalProperties </td>
+          <td>(</td>
+          <td class="paramtype">Mlt::Properties &amp;&#160;</td>
+          <td class="paramname"><em>props</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af0df3ec75c0640d20fbc7939f3e6fe49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ClipController::originalFps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adcd7191ea73eb7d59cd9414a76977667"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; Mlt::Producer &gt; ClipController::originalProducer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the original master producer. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab3a1396129578eac2a8cc15aea54f877"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap ClipController::pixmap </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pixmap created from a frame of the producer. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>frame position </td></tr>
+    <tr><td class="paramname">width</td><td>width of the pixmap (only a guidance) </td></tr>
+    <tr><td class="paramname">height</td><td>height of the pixmap (only a guidance) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7bc454f40ef03af6dd4e17be95f73d2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mlt::Properties &amp; ClipController::properties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afae526dbc688baef49da93622fed5ff5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::refreshAudioInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9551bde77e18129025f1dbcd31d52de9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClipController::reloadProducer </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>refreshOnly</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isProxy</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceAudioReload</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#afd7ba27c04d2cb79a74e17d878ef48d2">ProjectClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0c7494694714402d18e0a87132ec78f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClipController::renameAudioStream </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rename an audio stream. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#a7aa72344527c5d7bca349e74ff8a158c">ProjectClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48d108711fa8886c9608a1c8f81af5ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClipController::requestAddStreamEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>streamIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>effectName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add an audio effect on a specific audio stream for this clip. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#aef14f9933c7dacdd3cd3f43b9ca5d02f">ProjectClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9256eceda8adddf269c301e010a66145"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ClipController::requestRemoveStreamEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>streamIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>effectName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove an audio effect on a specific audio stream for this clip. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#a0b92dbab522f73d619e9b4ac6f7a4ffe">ProjectClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a27839e58f311f92555277f2f0bc661e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::resetProducerProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset a property on the MLT producer (=delete the property). </p>
+
+</div>
+</div>
+<a class="anchor" id="a575d024a42fab8260818f8b7749209a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::saveZone </td>
+          <td>(</td>
+          <td class="paramtype">QPoint&#160;</td>
+          <td class="paramname"><em>zone</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QDir &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save an xml playlist of current clip with in/out points as zone.x()/y() </p>
+
+</div>
+</div>
+<a class="anchor" id="a70a5ca8569bc507783519bf2657cae56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::serviceName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the MLT producer's service. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada9c0c911062174d2877d4767fc0d78a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::setBinEffectsEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable all <a class="el" href="namespaceKdenlive.html">Kdenlive</a> effects on this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a92aef2f22aed3cdb87726758cad07a12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::setProducerProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a property. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>name of the property </td></tr>
+    <tr><td class="paramname">value</td><td>the new value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad4d8d2f0701cb9d3feb37490063a67ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::setProducerProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a0d5af65c7eb1d20b4aa877616d1b4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::setProducerProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afb8a2a1a02456874ecac1402d801ec24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::setZone </td>
+          <td>(</td>
+          <td class="paramtype">const QPoint &amp;&#160;</td>
+          <td class="paramname"><em>zone</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acde098ba330f171a91dd61a5553f9df3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::sourceExists </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the source file exists. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7808781cc1d99ab77af19d82bb64c79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;Mlt::Producer&gt; ClipController::thumbProducer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns this clip's producer. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#acdee66893395f71633d4107d2bdfd47d">ProjectClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a18f38d45531d86676083d3c2c5b7812c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClipController::updateProducer </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; Mlt::Producer &gt; &amp;&#160;</td>
+          <td class="paramname"><em>producer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces the master producer and (TODO) the track producers with an updated producer, for example a proxy. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa0ce7bd351ec72d536e4560dc05c7d18"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::videoCodecProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c73b38ec7974466e87363d6e0d94b89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint ClipController::zone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">友元及相关函数文档</h2>
+<a class="anchor" id="a6a6bc571688594aded1969d70ba65cce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classBin.html">Bin</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a926757c027abbac7e2bf7d351cf2c852"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDateTime ClipController::date</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stores the file's creation time. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae0e955d66ce37236ea7f95953ea3bcc0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classAudioStreamInfo.html">AudioStreamInfo</a>&gt; ClipController::m_audioInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aae8a612347fb74bc2da6f00e3be994d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::m_audioThumbCreated</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if audio thumbnails for this clip are cached. </p>
+
+</div>
+</div>
+<a class="anchor" id="af259fc0e0e3d5993654ade6935db5522"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> ClipController::m_clipType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adbdc73b0e63c52676156812dfe6b263c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMutex ClipController::m_effectMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a45c6ce608f6f1ee3d25b81423461cbc2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classEffectStackModel.html">EffectStackModel</a>&gt; ClipController::m_effectStack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a9ced18655949609c571855ba404979"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::m_hasAudio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a698bb4f5574eb70e1330e4948ac96d0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::m_hasLimitedDuration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6ef90e35947719904007e0bad460e3c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::m_hasVideo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b0575a92974cbabe214f741322939d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMarkerListModel.html">MarkerListModel</a>&gt; ClipController::m_markerModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fc3ff636a47c545699a2a267d238561"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Mlt::Producer&gt; ClipController::m_masterProducer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad97bef00bb184a85dca626ac2de6a9d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::m_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad86d7ab4027f1aac42c6ee71ace06a2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mlt::Properties* ClipController::m_properties</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c30206c2fc9a1eaba423af0e18a912f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::m_service</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a908e77714d3ae583bf22a05d7b03604e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;int, QStringList&gt; ClipController::m_streamEffects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6b19a96da8f55c2353f4d3a6769e7987"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ClipController::m_temporaryUrl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store clip url temporarily while the clip controller has not been created. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7fa9697d2f5c52e1e96c418b93e69fc7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Mlt::Producer&gt; ClipController::m_thumbsProducer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5cd95416d367e2759bd524d4acadcdd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClipController::m_usesProxy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a12d7d799290954a1d7c6695476346ab9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::m_videoIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9b87c74d13fb9856de205c39e090b37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; Mlt::Producer &gt; ClipController::mediaUnavailable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is the producer that serves as a placeholder while a clip is being loaded. It is created in <a class="el" href="classCore.html" title="Singleton that provides access to the different parts of Kdenlive. ">Core</a> at startup. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5f60b345bc04efecfc9bb9cd20aaab1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMutex ClipController::producerMutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a587c685f082689f4b9d2b42c6d46d3b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ClipController::selectedEffectIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Holds index of currently selected master clip effect. </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/mltcontroller/<a class="el" href="clipcontroller_8h_source.html">clipcontroller.h</a></li>
+<li>src/mltcontroller/<a class="el" href="clipcontroller_8cpp.html">clipcontroller.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

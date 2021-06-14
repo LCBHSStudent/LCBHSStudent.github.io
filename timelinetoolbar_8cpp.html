@@ -1,0 +1,233 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/widgets/timelinetoolbar.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">timelinetoolbar.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="timelinetoolbar_8h_source.html">timelinetoolbar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_8h_source.html">core.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timelinetabs_8hpp_source.html">timeline2/view/timelinetabs.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="macros_8hpp_source.html">macros.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="kdenlivedoc_8h_source.html">doc/kdenlivedoc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="appconsts_8h_source.html">appconsts.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timelinewidget_8h_source.html">timeline2/view/timelinewidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timelinecontroller_8h_source.html">timeline2/view/timelinecontroller.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="monitor_8h_source.html">monitor/monitor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="monitorproxy_8h_source.html">monitor/monitorproxy.h</a>&quot;</code><br />
+<code>#include &lt;KLocalizedString&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+timelinetoolbar.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="timelinetoolbar_8cpp__incl.png" border="0" usemap="#src_2widgets_2timelinetoolbar_8cpp" alt=""/></div>
+<map name="src_2widgets_2timelinetoolbar_8cpp" id="src_2widgets_2timelinetoolbar_8cpp">
+<area shape="rect" id="node2" href="timelinetoolbar_8h.html" title="timelinetoolbar.h" alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node6" href="mainwindow_8h.html" title="mainwindow.h" alt="" coords="1369,80,1485,107"/>
+<area shape="rect" id="node34" href="core_8h.html" title="core.h" alt="" coords="3617,80,3679,107"/>
+<area shape="rect" id="node42" href="timelinetabs_8hpp.html" title="timeline2/view/timelinetabs.hpp" alt="" coords="4063,80,4297,107"/>
+<area shape="rect" id="node43" href="macros_8hpp.html" title="macros.hpp" alt="" coords="3443,80,3541,107"/>
+<area shape="rect" id="node44" href="kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2783,80,2923,107"/>
+<area shape="rect" id="node45" href="appconsts_8h.html" title="appconsts.h" alt="" coords="4213,155,4313,181"/>
+<area shape="rect" id="node46" href="timelinewidget_8h.html" title="timeline2/view/timelinewidget.h" alt="" coords="3703,80,3937,107"/>
+<area shape="rect" id="node47" href="timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="3160,80,3411,107"/>
+<area shape="rect" id="node48" href="monitor_8h.html" title="monitor/monitor.h" alt="" coords="4388,155,4527,181"/>
+<area shape="rect" id="node49" href="monitorproxy_8h.html" title="monitor/monitorproxy.h" alt="" coords="2777,155,2951,181"/>
+<area shape="rect" id="node22" href="bin_8h.html" title="bin/bin.h" alt="" coords="1998,155,2077,181"/>
+<area shape="rect" id="node25" href="definitions_8h.html" title="definitions.h" alt="" coords="3007,229,3110,256"/>
+<area shape="rect" id="node26" href="gentime_8h.html" title="gentime.h" alt="" coords="2671,304,2759,331"/>
+<area shape="rect" id="node29" href="kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2433,155,2599,181"/>
+<area shape="rect" id="node30" href="statusbarmessagelabel_8h.html" title="statusbarmessagelabel.h" alt="" coords="1464,155,1651,181"/>
+<area shape="rect" id="node32" href="otioconvertions_8h.html" title="utils/otioconvertions.h" alt="" coords="2975,155,3142,181"/>
+<area shape="rect" id="node35" href="taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="3935,155,4086,181"/>
+<area shape="rect" id="node37" href="undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="3591,155,3713,181"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolBtnLayoutManager.html">ToolBtnLayoutManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structToolBtnLayoutManager_1_1PosInfo.html">ToolBtnLayoutManager::PosInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a45751c314011aea60aabf06009ef0110"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timelinetoolbar_8cpp.html#a45751c314011aea60aabf06009ef0110">ADD_NEW_BTN</a>(ICON_NAME,  TOOL_TIP)</td></tr>
+<tr class="separator:a45751c314011aea60aabf06009ef0110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7d05ee07a7e785d210311102acdda8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timelinetoolbar_8cpp.html#acc7d05ee07a7e785d210311102acdda8">GET_KDE_ACTION</a>(__ENUM__)&#160;&#160;&#160;<a class="el" href="core_8h.html#a21b6fd67827b859ca3d22f9018b24526">pCore</a>-&gt;window()-&gt;actionCollection()-&gt;action(KStandardAction::name(KStandardAction::StandardAction::__ENUM__))</td></tr>
+<tr class="separator:acc7d05ee07a7e785d210311102acdda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa2c08520f713a3e289cf28949c30b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timelinetoolbar_8cpp.html#a2aa2c08520f713a3e289cf28949c30b9">ACTION_COLL</a>(__name__)&#160;&#160;&#160;<a class="el" href="core_8h.html#a21b6fd67827b859ca3d22f9018b24526">pCore</a>-&gt;window()-&gt;actionCollection()-&gt;action(QStringLiteral(__name__))</td></tr>
+<tr class="separator:a2aa2c08520f713a3e289cf28949c30b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="a2aa2c08520f713a3e289cf28949c30b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ACTION_COLL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__name__</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="core_8h.html#a21b6fd67827b859ca3d22f9018b24526">pCore</a>-&gt;window()-&gt;actionCollection()-&gt;action(QStringLiteral(__name__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a45751c314011aea60aabf06009ef0110"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADD_NEW_BTN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ICON_NAME, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">TOOL_TIP&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line">info.w = <span class="keyword">new</span> <a class="code" href="classTimelineToolButton.html">TimelineToolButton</a>(ICON_NAME, i18n(TOOL_TIP), <span class="keyword">this</span>); \</div><div class="line">    m_manager-&gt;addInfo(info);</div><div class="ttc" id="classTimelineToolButton_html"><div class="ttname"><a href="classTimelineToolButton.html">TimelineToolButton</a></div><div class="ttdef"><b>Definition:</b> timelinetoolbar.h:10</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acc7d05ee07a7e785d210311102acdda8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GET_KDE_ACTION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__ENUM__</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="core_8h.html#a21b6fd67827b859ca3d22f9018b24526">pCore</a>-&gt;window()-&gt;actionCollection()-&gt;action(KStandardAction::name(KStandardAction::StandardAction::__ENUM__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

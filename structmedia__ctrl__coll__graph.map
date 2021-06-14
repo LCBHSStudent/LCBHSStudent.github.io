@@ -1,0 +1,4 @@
+<map id="media_ctrl" name="media_ctrl">
+<area shape="rect" id="node2" href="$structmedia__ctrl__device.html" title="{media_ctrl_device\n|+ vendor\l+ product\l+ name\l+ translate\l|}" alt="" coords="5,175,147,296"/>
+<area shape="rect" id="node3" href="$structmedia__ctrl__key.html" title="{media_ctrl_key\n|+ key\l+ name\l+ code\l|}" alt="" coords="15,5,137,112"/>
+</map>

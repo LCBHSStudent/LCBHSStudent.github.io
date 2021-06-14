@@ -1,0 +1,4 @@
+<map id="AssetParameterView" name="AssetParameterView">
+<area shape="rect" id="node4" href="$classAbstractParamWidget.html" title="Base class of all the widgets representing a parameter of an asset (effect or transition) ..." alt="" coords="128,132,327,312"/>
+<area shape="rect" id="node3" href="$classKeyframeWidget.html" title="{KeyframeWidget\n||+ KeyframeWidget()\l+ ~KeyframeWidget()\l+ addParameter()\l+ getPosition()\l+ requiredScene()\l+ updateTimecodeFormat()\l+ showKeyframes()\l+ keyframesVisible()\l+ resetKeyframes()\l+ slotRefresh()\l+ slotInitMonitor()\l+ slotSetPosition()\l}" alt="" coords="127,361,330,600"/>
+</map>

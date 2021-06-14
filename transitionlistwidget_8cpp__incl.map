@@ -1,0 +1,24 @@
+<map id="src/transitions/transitionlist/view/transitionlistwidget.cpp" name="src/transitions/transitionlist/view/transitionlistwidget.cpp">
+<area shape="rect" id="node2" href="$transitionlistwidget_8hpp.html" title="transitionlistwidget.hpp" alt="" coords="358,102,534,129"/>
+<area shape="rect" id="node15" href="$transitiontreemodel_8hpp.html" title="../model/transitiontreemodel.hpp" alt="" coords="1551,102,1787,129"/>
+<area shape="rect" id="node20" href="$asseticonprovider_8hpp.html" title="assets/assetlist/view\l/qmltypes/asseticonprovider.hpp" alt="" coords="1083,95,1318,136"/>
+<area shape="rect" id="node24" href="$profilesdialog_8h.html" title="dialogs/profilesdialog.h" alt="" coords="690,363,863,389"/>
+<area shape="rect" id="node26" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="2567,281,2683,307"/>
+<area shape="rect" id="node44" href="$mltconnection_8h.html" title="mltconnection.h" alt="" coords="5,437,132,464"/>
+<area shape="rect" id="node45" href="$transitionfilter_8hpp.html" title="transitions/transitionlist\l/model/transitionfilter.hpp" alt="" coords="813,184,1004,225"/>
+<area shape="rect" id="node47" href="$transitionsrepository_8hpp.html" title="transitions/transitionsrepository.hpp" alt="" coords="762,281,1018,307"/>
+<area shape="rect" id="node3" href="$assetlistwidget_8hpp.html" title="assets/assetlist/view\l/assetlistwidget.hpp" alt="" coords="367,184,525,225"/>
+<area shape="rect" id="node4" href="$effectsrepository_8hpp.html" title="effects/effectsrepository.hpp" alt="" coords="365,281,572,307"/>
+<area shape="rect" id="node5" href="$abstractassetsrepository_8hpp.html" title="assets/abstractassetsrepository.hpp" alt="" coords="360,363,615,389"/>
+<area shape="rect" id="node6" href="$definitions_8h.html" title="definitions.h" alt="" coords="1323,437,1425,464"/>
+<area shape="rect" id="node7" href="$gentime_8h.html" title="gentime.h" alt="" coords="1574,512,1662,539"/>
+<area shape="rect" id="node16" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="3900,281,4168,307"/>
+<area shape="rect" id="node19" href="$assettreemodel_8hpp.html" title="assets/assetlist/model\l/assettreemodel.hpp" alt="" coords="3389,184,3557,225"/>
+<area shape="rect" id="node17" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="4303,363,4426,389"/>
+<area shape="rect" id="node40" href="$bin_8h.html" title="bin/bin.h" alt="" coords="2709,363,2788,389"/>
+<area shape="rect" id="node41" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2812,363,2979,389"/>
+<area shape="rect" id="node42" href="$statusbarmessagelabel_8h.html" title="statusbarmessagelabel.h" alt="" coords="3194,363,3381,389"/>
+<area shape="rect" id="node43" href="$otioconvertions_8h.html" title="utils/otioconvertions.h" alt="" coords="3003,363,3169,389"/>
+<area shape="rect" id="node46" href="$assetfilter_8hpp.html" title="assets/assetlist/model\l/assetfilter.hpp" alt="" coords="1042,273,1210,315"/>
+<area shape="rect" id="node48" href="$assetparametermodel_8hpp.html" title="assets/model/assetparametermodel.hpp" alt="" coords="1039,363,1325,389"/>
+</map>

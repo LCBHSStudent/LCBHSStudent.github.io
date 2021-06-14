@@ -1,0 +1,15 @@
+<map id="enable_shared_from_this_virtual_base" name="enable_shared_from_this_virtual_base">
+<area shape="rect" id="node3" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; T \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="5,307,165,414"/>
+<area shape="rect" id="node4" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; AssetParameter\lModel \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="190,300,410,421"/>
+<area shape="rect" id="node8" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="435,307,624,414"/>
+<area shape="rect" id="node5" href="$classAssetParameterModel.html" title="This class is the model for a list of parameters. The behaviour of a transition or an effect is typic..." alt="" coords="190,469,410,987"/>
+<area shape="rect" id="node6" href="$classCompositionModel.html" title="This class represents a Composition object, as viewed by the backend. In general, the Gui associated ..." alt="" coords="79,1035,287,1420"/>
+<area shape="rect" id="node7" href="$classEffectItemModel.html" title="This represents an effect of the effectstack. " alt="" coords="247,1585,401,1927"/>
+<area shape="rect" id="node9" href="$classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="440,506,619,950"/>
+<area shape="rect" id="node10" href="$classAbstractEffectItem.html" title="This represents an effect of the effectstack. " alt="" coords="411,1086,603,1369"/>
+<area shape="rect" id="node12" href="$classAbstractProjectItem.html" title="Base class for all project items (clips, folders, ...). " alt="" coords="731,1035,915,1420"/>
+<area shape="rect" id="node11" href="$classEffectGroupModel.html" title="This represents a group of effects of the effectstack. " alt="" coords="425,1659,588,1853"/>
+<area shape="rect" id="node13" href="$classProjectClip.html" title="Represents a clip in the project (not timeline). It will be displayed as a bin item that can be dragg..." alt="" coords="613,1468,811,2044"/>
+<area shape="rect" id="node14" href="$classProjectFolder.html" title="A folder in the bin. " alt="" coords="836,1600,1020,1912"/>
+<area shape="rect" id="node15" href="$classProjectSubClip.html" title="Represents a clip in the project (not timeline). " alt="" coords="1044,1629,1228,1883"/>
+</map>

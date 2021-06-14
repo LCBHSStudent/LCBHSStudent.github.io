@@ -1,0 +1,6 @@
+<map id="ProjectFolder" name="ProjectFolder">
+<area shape="rect" id="node2" href="$classAbstractProjectItem.html" title="Base class for all project items (clips, folders, ...). " alt="" coords="25,947,209,1332"/>
+<area shape="rect" id="node4" href="$classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="104,455,283,899"/>
+<area shape="rect" id="node5" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="99,300,288,407"/>
+<area shape="rect" id="node6" href="$classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="116,160,271,252"/>
+</map>

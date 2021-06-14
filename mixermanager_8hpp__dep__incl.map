@@ -1,0 +1,10 @@
+<map id="src/audiomixer/mixermanager.hpp" name="src/audiomixer/mixermanager.hpp">
+<area shape="rect" id="node2" href="$mixermanager_8cpp.html" title="src/audiomixer/mixermanager.cpp" alt="" coords="5,87,248,114"/>
+<area shape="rect" id="node3" href="$mixerwidget_8cpp.html" title="src/audiomixer/mixerwidget.cpp" alt="" coords="273,87,503,114"/>
+<area shape="rect" id="node4" href="$mediacapture_8cpp.html" title="src/capture/mediacapture.cpp" alt="" coords="527,87,742,114"/>
+<area shape="rect" id="node5" href="$core_8cpp.html" title="src/core.cpp" alt="" coords="766,87,866,114"/>
+<area shape="rect" id="node6" href="$mainwindow_8cpp.html" title="src/mainwindow.cpp" alt="" coords="889,87,1044,114"/>
+<area shape="rect" id="node7" href="$projectmanager_8cpp.html" title="src/project/projectmanager.cpp" alt="" coords="1069,87,1291,114"/>
+<area shape="rect" id="node8" href="$timelineitemmodel_8cpp.html" title="src/timeline2/model\l/timelineitemmodel.cpp" alt="" coords="1316,80,1495,121"/>
+<area shape="rect" id="node9" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="1519,80,1687,121"/>
+</map>

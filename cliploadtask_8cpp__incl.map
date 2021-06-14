@@ -1,0 +1,21 @@
+<map id="src/jobs/cliploadtask.cpp" name="src/jobs/cliploadtask.cpp">
+<area shape="rect" id="node2" href="$cliploadtask_8h.html" title="cliploadtask.h" alt="" coords="199,155,312,181"/>
+<area shape="rect" id="node14" href="$core_8h.html" title="core.h" alt="" coords="1398,80,1460,107"/>
+<area shape="rect" id="node27" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1767,155,1942,181"/>
+<area shape="rect" id="node31" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="736,229,863,256"/>
+<area shape="rect" id="node32" href="$audioStreamInfo_8h.html" title="audio/audioStreamInfo.h" alt="" coords="2823,304,3006,331"/>
+<area shape="rect" id="node34" href="$kthumb_8h.html" title="doc/kthumb.h" alt="" coords="2591,80,2702,107"/>
+<area shape="rect" id="node36" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2632,155,2772,181"/>
+<area shape="rect" id="node38" href="$thumbnailcache_8hpp.html" title="utils/thumbnailcache.hpp" alt="" coords="2049,80,2236,107"/>
+<area shape="rect" id="node39" href="$slideshowclip_8h.html" title="project/dialogs/slideshowclip.h" alt="" coords="2796,155,3019,181"/>
+<area shape="rect" id="node40" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="2904,229,3008,256"/>
+<area shape="rect" id="node47" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="2428,80,2566,107"/>
+<area shape="rect" id="node48" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="264,304,448,331"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="2046,304,2148,331"/>
+<area shape="rect" id="node7" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="416,229,530,256"/>
+<area shape="rect" id="node15" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="838,155,988,181"/>
+<area shape="rect" id="node18" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="1064,155,1231,181"/>
+<area shape="rect" id="node19" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="1480,304,1602,331"/>
+<area shape="rect" id="node26" href="$timecode_8h.html" title="timecode.h" alt="" coords="2636,229,2731,256"/>
+<area shape="rect" id="node28" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="1579,229,1847,256"/>
+</map>

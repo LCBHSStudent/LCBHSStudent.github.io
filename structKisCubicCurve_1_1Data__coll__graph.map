@@ -1,0 +1,3 @@
+<map id="KisCubicCurve::Data" name="KisCubicCurve::Data">
+<area shape="rect" id="node3" href="$classKisCubicSpline.html" title="{KisCubicSpline\&lt; QPointF,\l qreal \&gt;\n|# m_a\l# m_b\l# m_c\l# m_d\l# m_h\l# m_begin\l# m_end\l# m_intervals\l|+ KisCubicSpline()\l+ KisCubicSpline()\l+ createSpline()\l+ getValue()\l+ begin()\l+ end()\l# findRegion()\l}" alt="" coords="137,5,325,288"/>
+</map>

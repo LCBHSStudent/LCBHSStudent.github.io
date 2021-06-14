@@ -1,0 +1,4 @@
+<map id="FramelessMovableWidget" name="FramelessMovableWidget">
+<area shape="rect" id="node3" href="$classClipMonitorFrame.html" title="{ClipMonitorFrame\n||+ ClipMonitorFrame()\l+ ~ClipMonitorFrame()\l# resizeEvent()\l# hideEvent()\l}" alt="" coords="5,447,180,568"/>
+<area shape="rect" id="node4" href="$classClipPropertiesWidget.html" title="{ClipPropertiesWidget\n||+ ClipPropertiesWidget()\l+ ~ClipPropertiesWidget()\l+ slotSetClipController()\l+ slotRefreshProperties()\l# showEvent()\l# paintEvent()\l}" alt="" coords="205,432,399,583"/>
+</map>

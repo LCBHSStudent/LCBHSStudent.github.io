@@ -1,0 +1,3191 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: TrackModel类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#friends">友元</a> &#124;
+<a href="classTrackModel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">TrackModel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This class represents a Track object, as viewed by the backend. To allow same track transitions, a Track object corresponds to two Mlt::Playlist, between which we can switch when required by the transitions. In general, the Gui associated with it will send modification queries (such as resize or move), and this class authorize them or not depending on the validity of the modifications.  
+ <a href="classTrackModel.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="trackmodel_8hpp_source.html">trackmodel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+TrackModel 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classTrackModel__coll__graph.png" border="0" usemap="#TrackModel_coll__map" alt="Collaboration graph"/></div>
+<map name="TrackModel_coll__map" id="TrackModel_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:acd3d69c46ecaad96305f9959432e5f21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#acd3d69c46ecaad96305f9959432e5f21">slotDelete</a> ()</td></tr>
+<tr class="separator:acd3d69c46ecaad96305f9959432e5f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a9fe72637bc6ec5737332cbc45eb9d55f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a9fe72637bc6ec5737332cbc45eb9d55f">TrackModel</a> ()=delete</td></tr>
+<tr class="separator:a9fe72637bc6ec5737332cbc45eb9d55f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fdd4095a9ea7f99f884bf48113d2d8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a6fdd4095a9ea7f99f884bf48113d2d8e">~TrackModel</a> ()</td></tr>
+<tr class="separator:a6fdd4095a9ea7f99f884bf48113d2d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f59e42987182ad6b32715d4415a9bad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a7f59e42987182ad6b32715d4415a9bad">getClipsCount</a> ()</td></tr>
+<tr class="memdesc:a7f59e42987182ad6b32715d4415a9bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of clips  <a href="#a7f59e42987182ad6b32715d4415a9bad">更多...</a><br /></td></tr>
+<tr class="separator:a7f59e42987182ad6b32715d4415a9bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58481f018637d09b06f71c6caf1f96bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a58481f018637d09b06f71c6caf1f96bb">getCompositionsCount</a> () const </td></tr>
+<tr class="memdesc:a58481f018637d09b06f71c6caf1f96bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of compositions  <a href="#a58481f018637d09b06f71c6caf1f96bb">更多...</a><br /></td></tr>
+<tr class="separator:a58481f018637d09b06f71c6caf1f96bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b4e5ac8eaeeb9c22f602e154a7aa42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a65b4e5ac8eaeeb9c22f602e154a7aa42">splitClip</a> (QSharedPointer&lt; <a class="el" href="classClipModel.html">ClipModel</a> &gt; caller, int position)</td></tr>
+<tr class="memdesc:a65b4e5ac8eaeeb9c22f602e154a7aa42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a split at the requested position.  <a href="#a65b4e5ac8eaeeb9c22f602e154a7aa42">更多...</a><br /></td></tr>
+<tr class="separator:a65b4e5ac8eaeeb9c22f602e154a7aa42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1005109d00bde47d6b4c875ca03953ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a1005109d00bde47d6b4c875ca03953ec">operator Mlt::Producer &amp;</a> ()</td></tr>
+<tr class="memdesc:a1005109d00bde47d6b4c875ca03953ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit conversion operator to access the underlying producer.  <a href="#a1005109d00bde47d6b4c875ca03953ec">更多...</a><br /></td></tr>
+<tr class="separator:a1005109d00bde47d6b4c875ca03953ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810f79db2205d7c0b0207561820248cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a810f79db2205d7c0b0207561820248cd">isLocked</a> () const </td></tr>
+<tr class="memdesc:a810f79db2205d7c0b0207561820248cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is in locked state.  <a href="#a810f79db2205d7c0b0207561820248cd">更多...</a><br /></td></tr>
+<tr class="separator:a810f79db2205d7c0b0207561820248cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d50ddbdc1cd98e58bf73906639d7d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a16d50ddbdc1cd98e58bf73906639d7d9">isTimelineActive</a> () const </td></tr>
+<tr class="memdesc:a16d50ddbdc1cd98e58bf73906639d7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is active in timeline, ie. will receive insert/lift/overwrite/extract operations.  <a href="#a16d50ddbdc1cd98e58bf73906639d7d9">更多...</a><br /></td></tr>
+<tr class="separator:a16d50ddbdc1cd98e58bf73906639d7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139f7844daa9959de0aa0633e8c3a311"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a139f7844daa9959de0aa0633e8c3a311">shouldReceiveTimelineOp</a> () const </td></tr>
+<tr class="memdesc:a139f7844daa9959de0aa0633e8c3a311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is active and not locked.  <a href="#a139f7844daa9959de0aa0633e8c3a311">更多...</a><br /></td></tr>
+<tr class="separator:a139f7844daa9959de0aa0633e8c3a311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653bbaa332f700efd357fe1a12ed9734"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a653bbaa332f700efd357fe1a12ed9734">isAudioTrack</a> () const </td></tr>
+<tr class="memdesc:a653bbaa332f700efd357fe1a12ed9734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is an audio track.  <a href="#a653bbaa332f700efd357fe1a12ed9734">更多...</a><br /></td></tr>
+<tr class="separator:a653bbaa332f700efd357fe1a12ed9734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea22344ef91cbd499ab58c17b8cc8813"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Mlt::Tractor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#aea22344ef91cbd499ab58c17b8cc8813">getTrackService</a> ()</td></tr>
+<tr class="separator:aea22344ef91cbd499ab58c17b8cc8813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5c6b33de97508f4c65ef299152f9f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ad5c6b33de97508f4c65ef299152f9f56">trackType</a> () const </td></tr>
+<tr class="memdesc:ad5c6b33de97508f4c65ef299152f9f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the track type (audio / video)  <a href="#ad5c6b33de97508f4c65ef299152f9f56">更多...</a><br /></td></tr>
+<tr class="separator:ad5c6b33de97508f4c65ef299152f9f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54399f0daa9394afa699625d7cb1fb46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a54399f0daa9394afa699625d7cb1fb46">isHidden</a> () const </td></tr>
+<tr class="memdesc:a54399f0daa9394afa699625d7cb1fb46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is disabled.  <a href="#a54399f0daa9394afa699625d7cb1fb46">更多...</a><br /></td></tr>
+<tr class="separator:a54399f0daa9394afa699625d7cb1fb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae82624fb4b43a3a37d18c586f5797b66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae82624fb4b43a3a37d18c586f5797b66">isMute</a> () const </td></tr>
+<tr class="memdesc:ae82624fb4b43a3a37d18c586f5797b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if track is disabled.  <a href="#ae82624fb4b43a3a37d18c586f5797b66">更多...</a><br /></td></tr>
+<tr class="separator:ae82624fb4b43a3a37d18c586f5797b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2957eef675b61bf444e061d26763b462"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a2957eef675b61bf444e061d26763b462">getProperty</a> (const QString &amp;name) const </td></tr>
+<tr class="separator:a2957eef675b61bf444e061d26763b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158f7b06505d2cfaab270d099965b96e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a158f7b06505d2cfaab270d099965b96e">setProperty</a> (const QString &amp;name, const QString &amp;value)</td></tr>
+<tr class="separator:a158f7b06505d2cfaab270d099965b96e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7df2cc8e17fd27bf1878e7330eff76f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ab7df2cc8e17fd27bf1878e7330eff76f">requestRemoveMix</a> (std::pair&lt; int, int &gt; clipIds, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:ab7df2cc8e17fd27bf1878e7330eff76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a composition between 2 same track clips.  <a href="#ab7df2cc8e17fd27bf1878e7330eff76f">更多...</a><br /></td></tr>
+<tr class="separator:ab7df2cc8e17fd27bf1878e7330eff76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56acaf2795fe2c0e4e049c25b27edc3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a56acaf2795fe2c0e4e049c25b27edc3f">requestClipMix</a> (std::pair&lt; int, int &gt; clipIds, int mixDuration, bool updateView, bool finalMove, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool groupMove)</td></tr>
+<tr class="memdesc:a56acaf2795fe2c0e4e049c25b27edc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a composition between 2 same track clips.  <a href="#a56acaf2795fe2c0e4e049c25b27edc3f">更多...</a><br /></td></tr>
+<tr class="separator:a56acaf2795fe2c0e4e049c25b27edc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3785207bc6a7b138097e1c5186c8b8"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classMixInfo.html">MixInfo</a>, <a class="el" href="classMixInfo.html">MixInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a0f3785207bc6a7b138097e1c5186c8b8">getMixInfo</a> (int cid) const </td></tr>
+<tr class="memdesc:a0f3785207bc6a7b138097e1c5186c8b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get clip ids and in/out position for mixes in this clip.  <a href="#a0f3785207bc6a7b138097e1c5186c8b8">更多...</a><br /></td></tr>
+<tr class="separator:a0f3785207bc6a7b138097e1c5186c8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1ae5e3589e652df3f5406365db244f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a2f1ae5e3589e652df3f5406365db244f">deleteMix</a> (int clipId, bool final, bool notify=true)</td></tr>
+<tr class="memdesc:a2f1ae5e3589e652df3f5406365db244f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a mix composition.  <a href="#a2f1ae5e3589e652df3f5406365db244f">更多...</a><br /></td></tr>
+<tr class="separator:a2f1ae5e3589e652df3f5406365db244f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7308654c270d46b8f4bf29dea6b7481"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#af7308654c270d46b8f4bf29dea6b7481">createMix</a> (std::pair&lt; int, int &gt; clipIds, std::pair&lt; int, int &gt; mixData)</td></tr>
+<tr class="memdesc:af7308654c270d46b8f4bf29dea6b7481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mix composition using clip ids.  <a href="#af7308654c270d46b8f4bf29dea6b7481">更多...</a><br /></td></tr>
+<tr class="separator:af7308654c270d46b8f4bf29dea6b7481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70463a3aa689e245dd7bcb1606ec23d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a70463a3aa689e245dd7bcb1606ec23d7">createMix</a> (<a class="el" href="classMixInfo.html">MixInfo</a> info, bool isAudio)</td></tr>
+<tr class="memdesc:a70463a3aa689e245dd7bcb1606ec23d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a mix composition using mix info.  <a href="#a70463a3aa689e245dd7bcb1606ec23d7">更多...</a><br /></td></tr>
+<tr class="separator:a70463a3aa689e245dd7bcb1606ec23d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0327452ad659145442acf08a221b76f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a0327452ad659145442acf08a221b76f7">reAssignEndMix</a> (int currentId, int newId)</td></tr>
+<tr class="memdesc:a0327452ad659145442acf08a221b76f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change id of first clip in a mix (in case of clip cut)  <a href="#a0327452ad659145442acf08a221b76f7">更多...</a><br /></td></tr>
+<tr class="separator:a0327452ad659145442acf08a221b76f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837cd471dac05c6acfa83e34f2512ff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a837cd471dac05c6acfa83e34f2512ff5">switchMix</a> (int cid, const QString composition, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:a837cd471dac05c6acfa83e34f2512ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44afb924f10e6914f9a5ecb4ae44e36b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a44afb924f10e6914f9a5ecb4ae44e36b">syncronizeMixes</a> (bool finalMove)</td></tr>
+<tr class="memdesc:a44afb924f10e6914f9a5ecb4ae44e36b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure we don't have unsynced mixes in the playlist (mixes without owner clip)  <a href="#a44afb924f10e6914f9a5ecb4ae44e36b">更多...</a><br /></td></tr>
+<tr class="separator:a44afb924f10e6914f9a5ecb4ae44e36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cac83a525246e913b9aa6c6337761d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a9cac83a525246e913b9aa6c6337761d2">switchPlaylist</a> (int clipId, int position, int sourcePlaylist, int destPlaylist)</td></tr>
+<tr class="memdesc:a9cac83a525246e913b9aa6c6337761d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch a clip from one playlist to the other.  <a href="#a9cac83a525246e913b9aa6c6337761d2">更多...</a><br /></td></tr>
+<tr class="separator:a9cac83a525246e913b9aa6c6337761d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a691927c4e47555332d36dba8df2553db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a691927c4e47555332d36dba8df2553db">loadMix</a> (Mlt::Transition *t)</td></tr>
+<tr class="memdesc:a691927c4e47555332d36dba8df2553db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a same track transition from project.  <a href="#a691927c4e47555332d36dba8df2553db">更多...</a><br /></td></tr>
+<tr class="separator:a691927c4e47555332d36dba8df2553db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb37c83ce77aa0b8e8915a9979794cc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#acb37c83ce77aa0b8e8915a9979794cc8">setMixDuration</a> (int cid, int mixDuration, int mixCut)</td></tr>
+<tr class="memdesc:acb37c83ce77aa0b8e8915a9979794cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mix duration and mix cut pos on a clip.  <a href="#acb37c83ce77aa0b8e8915a9979794cc8">更多...</a><br /></td></tr>
+<tr class="separator:acb37c83ce77aa0b8e8915a9979794cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac0bef38fd4dfbc0715d8f392a161bb"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#afac0bef38fd4dfbc0715d8f392a161bb">mixModel</a> (int cid)</td></tr>
+<tr class="memdesc:afac0bef38fd4dfbc0715d8f392a161bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the assetparameter model for a mix.  <a href="#afac0bef38fd4dfbc0715d8f392a161bb">更多...</a><br /></td></tr>
+<tr class="separator:afac0bef38fd4dfbc0715d8f392a161bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe101ba995c341bdd60e4b4e14e5a47"><td class="memItemLeft" align="right" valign="top">QVariantList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#aefe101ba995c341bdd60e4b4e14e5a47">stackZones</a> () const </td></tr>
+<tr class="memdesc:aefe101ba995c341bdd60e4b4e14e5a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of current effect stack zones.  <a href="#aefe101ba995c341bdd60e4b4e14e5a47">更多...</a><br /></td></tr>
+<tr class="separator:aefe101ba995c341bdd60e4b4e14e5a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a36dfadf3f7371662dffccc40964c7533"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a36dfadf3f7371662dffccc40964c7533">construct</a> (const std::weak_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;parent, int id=-1, int pos=-1, const QString &amp;trackName=QString(), bool audioTrack=false)</td></tr>
+<tr class="memdesc:a36dfadf3f7371662dffccc40964c7533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a track, which references itself to the parent Returns the (unique) id of the created track.  <a href="#a36dfadf3f7371662dffccc40964c7533">更多...</a><br /></td></tr>
+<tr class="separator:a36dfadf3f7371662dffccc40964c7533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a118bde1f88539ac3376fefba0104ec72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a118bde1f88539ac3376fefba0104ec72">lock</a> ()</td></tr>
+<tr class="memdesc:a118bde1f88539ac3376fefba0104ec72"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will lock the track: it will no longer allow insertion/deletion/resize of items This functions are dangerous to call directly since locking the track will potentially mess up with the undo/redo system (a track lock may make an undo impossible). Prefer calling <a class="el" href="classTimelineModel.html#a8b49f26270730fd43a7c4615e6668ecf" title="Sets a track in a given lock state Locked tracks can&#39;t receive any operations (resize, move, insertion, deletion...) ">TimelineModel::setTrackLockedState</a>.  <a href="#a118bde1f88539ac3376fefba0104ec72">更多...</a><br /></td></tr>
+<tr class="separator:a118bde1f88539ac3376fefba0104ec72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd4dc8e715061cbadec883ecffe27a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#afdd4dc8e715061cbadec883ecffe27a5">unlock</a> ()</td></tr>
+<tr class="separator:afdd4dc8e715061cbadec883ecffe27a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae20f87a4fbc24b4532e208b85ae12aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae20f87a4fbc24b4532e208b85ae12aa1">requestClipResize_lambda</a> (int clipId, int in, int out, bool right, bool <a class="el" href="classTrackModel.html#a992f12ca9e3809e3e048a01967fe4987">hasMix</a>=false)</td></tr>
+<tr class="memdesc:ae20f87a4fbc24b4532e208b85ae12aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a lambda that performs a resize of the given clip. The lambda returns true if the operation succeeded, and otherwise nothing is modified This method is protected because it shouldn't be called directly. Call the function in the timeline instead.  <a href="#ae20f87a4fbc24b4532e208b85ae12aa1">更多...</a><br /></td></tr>
+<tr class="separator:ae20f87a4fbc24b4532e208b85ae12aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65130a66aa80b5fe320c29157fd358a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#af65130a66aa80b5fe320c29157fd358a">requestClipInsertion</a> (int clipId, int position, bool updateView, bool finalMove, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool groupMove=false)</td></tr>
+<tr class="memdesc:af65130a66aa80b5fe320c29157fd358a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an insertion of the given clip. Returns true if the operation succeeded, and otherwise, the track is not modified. This method is protected because it shouldn't be called directly. Call the function in the timeline instead.  <a href="#af65130a66aa80b5fe320c29157fd358a">更多...</a><br /></td></tr>
+<tr class="separator:af65130a66aa80b5fe320c29157fd358a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf302a2b88438df5eb2388f67e87385"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#afaf302a2b88438df5eb2388f67e87385">requestClipInsertion_lambda</a> (int clipId, int position, bool updateView, bool finalMove, bool groupMove=false)</td></tr>
+<tr class="memdesc:afaf302a2b88438df5eb2388f67e87385"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a lambda that performs the requested operation.  <a href="#afaf302a2b88438df5eb2388f67e87385">更多...</a><br /></td></tr>
+<tr class="separator:afaf302a2b88438df5eb2388f67e87385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f7fef069da4e1fc7ad87e130f2ffb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ab8f7fef069da4e1fc7ad87e130f2ffb9">requestClipDeletion</a> (int clipId, bool updateView, bool finalMove, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool groupMove, bool finalDeletion)</td></tr>
+<tr class="memdesc:ab8f7fef069da4e1fc7ad87e130f2ffb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an deletion of the given clip. Returns true if the operation succeeded, and otherwise, the track is not modified. This method is protected because it shouldn't be called directly. Call the function in the timeline instead.  <a href="#ab8f7fef069da4e1fc7ad87e130f2ffb9">更多...</a><br /></td></tr>
+<tr class="separator:ab8f7fef069da4e1fc7ad87e130f2ffb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d9cda56d64da07d92716f181a089a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ad3d9cda56d64da07d92716f181a089a3">requestClipDeletion_lambda</a> (int clipId, bool updateView, bool finalMove, bool groupMove, bool finalDeletion)</td></tr>
+<tr class="memdesc:ad3d9cda56d64da07d92716f181a089a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a lambda that performs the requested operation.  <a href="#ad3d9cda56d64da07d92716f181a089a3">更多...</a><br /></td></tr>
+<tr class="separator:ad3d9cda56d64da07d92716f181a089a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36372f1c39dbc5599d02929ee604882"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae36372f1c39dbc5599d02929ee604882">requestCompositionInsertion</a> (int compoId, int position, bool updateView, bool finalMove, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:ae36372f1c39dbc5599d02929ee604882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an insertion of the given composition. Returns true if the operation succeeded, and otherwise, the track is not modified. This method is protected because it shouldn't be called directly. Call the function in the timeline instead. Note that in <a class="el" href="namespaceMlt.html">Mlt</a>, the composition insertion logic is not really at the track level, but we use that level to do collision checking.  <a href="#ae36372f1c39dbc5599d02929ee604882">更多...</a><br /></td></tr>
+<tr class="separator:ae36372f1c39dbc5599d02929ee604882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2007445c9e1003b37aa560bce60759b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ad2007445c9e1003b37aa560bce60759b">requestCompositionInsertion_lambda</a> (int compoId, int position, bool updateView, bool finalMove=false)</td></tr>
+<tr class="memdesc:ad2007445c9e1003b37aa560bce60759b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a lambda that performs the requested operation.  <a href="#ad2007445c9e1003b37aa560bce60759b">更多...</a><br /></td></tr>
+<tr class="separator:ad2007445c9e1003b37aa560bce60759b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef8170551c994903bc4662fa95b38e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a8ef8170551c994903bc4662fa95b38e1">requestCompositionDeletion</a> (int compoId, bool updateView, bool finalMove, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo, bool finalDeletion)</td></tr>
+<tr class="separator:a8ef8170551c994903bc4662fa95b38e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788e803f462ecf02ff6fec23f2b485d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a788e803f462ecf02ff6fec23f2b485d9">requestCompositionDeletion_lambda</a> (int compoId, bool updateView, bool finalMove=false)</td></tr>
+<tr class="separator:a788e803f462ecf02ff6fec23f2b485d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bcfdff551f823d8858f11e3b0ed8a83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a3bcfdff551f823d8858f11e3b0ed8a83">requestCompositionResize_lambda</a> (int compoId, int in, int out=-1, bool logUndo=false)</td></tr>
+<tr class="separator:a3bcfdff551f823d8858f11e3b0ed8a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0319a669d2952d401e9b6d7050599bf5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a0319a669d2952d401e9b6d7050599bf5">getBlankSizeNearClip</a> (int clipId, bool after)</td></tr>
+<tr class="memdesc:a0319a669d2952d401e9b6d7050599bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the blank before or after the given clip.  <a href="#a0319a669d2952d401e9b6d7050599bf5">更多...</a><br /></td></tr>
+<tr class="separator:a0319a669d2952d401e9b6d7050599bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0446cbb90b6031c4c7fe325d164908f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#af0446cbb90b6031c4c7fe325d164908f">getBlankSizeNearComposition</a> (int compoId, bool after)</td></tr>
+<tr class="separator:af0446cbb90b6031c4c7fe325d164908f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae098e7c936ca6ca5bacb026da7345d20"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae098e7c936ca6ca5bacb026da7345d20">getBlankStart</a> (int position)</td></tr>
+<tr class="separator:ae098e7c936ca6ca5bacb026da7345d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c69d83433f923bc0d6eef9e637fb1ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a6c69d83433f923bc0d6eef9e637fb1ee">getBlankStart</a> (int position, int track)</td></tr>
+<tr class="memdesc:a6c69d83433f923bc0d6eef9e637fb1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the start of the blank on a specific playlist.  <a href="#a6c69d83433f923bc0d6eef9e637fb1ee">更多...</a><br /></td></tr>
+<tr class="separator:a6c69d83433f923bc0d6eef9e637fb1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b20c5807d15c6f6b6864e86b62fc7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a71b20c5807d15c6f6b6864e86b62fc7e">getBlankSizeAtPos</a> (int frame)</td></tr>
+<tr class="separator:a71b20c5807d15c6f6b6864e86b62fc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f375aa95a0a64939911fa81a6afc3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a17f375aa95a0a64939911fa81a6afc3d">isLastClip</a> (int position)</td></tr>
+<tr class="memdesc:a17f375aa95a0a64939911fa81a6afc3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if clip at position is the last on playlist.  <a href="#a17f375aa95a0a64939911fa81a6afc3d">更多...</a><br /></td></tr>
+<tr class="separator:a17f375aa95a0a64939911fa81a6afc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d60f618e7c46ad1bea986a2f3239107"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a3d60f618e7c46ad1bea986a2f3239107">suggestCompositionLength</a> (int position)</td></tr>
+<tr class="memdesc:a3d60f618e7c46ad1bea986a2f3239107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the best composition duration depending on clips on the track.  <a href="#a3d60f618e7c46ad1bea986a2f3239107">更多...</a><br /></td></tr>
+<tr class="separator:a3d60f618e7c46ad1bea986a2f3239107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266df5fd15a656ff6cb4a8e2699fe4b6"><td class="memItemLeft" align="right" valign="top">QPair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a266df5fd15a656ff6cb4a8e2699fe4b6">validateCompositionLength</a> (int pos, int offset, int duration, int endPos)</td></tr>
+<tr class="memdesc:a266df5fd15a656ff6cb4a8e2699fe4b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the best composition duration depending on compositions on the track.  <a href="#a266df5fd15a656ff6cb4a8e2699fe4b6">更多...</a><br /></td></tr>
+<tr class="separator:a266df5fd15a656ff6cb4a8e2699fe4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6e945e269565547a9785742382fe426"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#aa6e945e269565547a9785742382fe426">getId</a> () const </td></tr>
+<tr class="memdesc:aa6e945e269565547a9785742382fe426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the (unique) construction id of the track.  <a href="#aa6e945e269565547a9785742382fe426">更多...</a><br /></td></tr>
+<tr class="separator:aa6e945e269565547a9785742382fe426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1da3259087fa289d1d067fb5bf12005"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae1da3259087fa289d1d067fb5bf12005">getClipByRow</a> (int row) const </td></tr>
+<tr class="memdesc:ae1da3259087fa289d1d067fb5bf12005"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used only by the QAbstractItemModel Given a row in the model, retrieves the corresponding clip id. If it does not exist, returns -1.  <a href="#ae1da3259087fa289d1d067fb5bf12005">更多...</a><br /></td></tr>
+<tr class="separator:ae1da3259087fa289d1d067fb5bf12005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db4f980cc7248b864972095a639323d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a0db4f980cc7248b864972095a639323d">getCompositionByRow</a> (int row) const </td></tr>
+<tr class="memdesc:a0db4f980cc7248b864972095a639323d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used only by the QAbstractItemModel Given a row in the model, retrieves the corresponding composition id. If it does not exist, returns -1.  <a href="#a0db4f980cc7248b864972095a639323d">更多...</a><br /></td></tr>
+<tr class="separator:a0db4f980cc7248b864972095a639323d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62e7ce29eab7b11903f0ba0387ea68a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae62e7ce29eab7b11903f0ba0387ea68a">getRowfromClip</a> (int clipId) const </td></tr>
+<tr class="memdesc:ae62e7ce29eab7b11903f0ba0387ea68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used only by the QAbstractItemModel Given a clip ID, returns the row of the clip.  <a href="#ae62e7ce29eab7b11903f0ba0387ea68a">更多...</a><br /></td></tr>
+<tr class="separator:ae62e7ce29eab7b11903f0ba0387ea68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88062e38089ce7c7ff30c84d1ad12c6a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a88062e38089ce7c7ff30c84d1ad12c6a">getRowfromComposition</a> (int compoId) const </td></tr>
+<tr class="memdesc:a88062e38089ce7c7ff30c84d1ad12c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used only by the QAbstractItemModel Given a composition ID, returns the row of the composition.  <a href="#a88062e38089ce7c7ff30c84d1ad12c6a">更多...</a><br /></td></tr>
+<tr class="separator:a88062e38089ce7c7ff30c84d1ad12c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a923fc0e18740c6aee4cd4e0f48699b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a8a923fc0e18740c6aee4cd4e0f48699b">checkConsistency</a> ()</td></tr>
+<tr class="memdesc:a8a923fc0e18740c6aee4cd4e0f48699b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an helper function that test frame level consistency with the MLT structures.  <a href="#a8a923fc0e18740c6aee4cd4e0f48699b">更多...</a><br /></td></tr>
+<tr class="separator:a8a923fc0e18740c6aee4cd4e0f48699b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0abda04e56090767940f9675d90d60c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae0abda04e56090767940f9675d90d60c">hasIntersectingComposition</a> (int in, int out) const </td></tr>
+<tr class="memdesc:ae0abda04e56090767940f9675d90d60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have a composition intersecting with the range [in,out].  <a href="#ae0abda04e56090767940f9675d90d60c">更多...</a><br /></td></tr>
+<tr class="separator:ae0abda04e56090767940f9675d90d60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d775ce5b449e1c736ad707863f0d212"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a2d775ce5b449e1c736ad707863f0d212">getClipIndexAt</a> (int position, int playlist=-1)</td></tr>
+<tr class="memdesc:a2d775ce5b449e1c736ad707863f0d212"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an helper function that returns the sub-playlist in which the clip is inserted, along with its index in the playlist.  <a href="#a2d775ce5b449e1c736ad707863f0d212">更多...</a><br /></td></tr>
+<tr class="separator:a2d775ce5b449e1c736ad707863f0d212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8222d73a3264925901df1afda20c5902"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; Mlt::Producer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a8222d73a3264925901df1afda20c5902">getClipProducer</a> (int clipId)</td></tr>
+<tr class="separator:a8222d73a3264925901df1afda20c5902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97280674e40484014e7f1cdf6dc573b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#af97280674e40484014e7f1cdf6dc573b">isBlankAt</a> (int position, int playlist=-1)</td></tr>
+<tr class="memdesc:af97280674e40484014e7f1cdf6dc573b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an helper function that checks in all playlists if the given position is a blank.  <a href="#af97280674e40484014e7f1cdf6dc573b">更多...</a><br /></td></tr>
+<tr class="separator:af97280674e40484014e7f1cdf6dc573b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f094c06228a8f2664f4048b2eec9a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#af7f094c06228a8f2664f4048b2eec9a9">getBlankEnd</a> (int position)</td></tr>
+<tr class="memdesc:af7f094c06228a8f2664f4048b2eec9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an helper function that returns the end of the blank that covers given position.  <a href="#af7f094c06228a8f2664f4048b2eec9a9">更多...</a><br /></td></tr>
+<tr class="separator:af7f094c06228a8f2664f4048b2eec9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45adf2f3768f1809cd76c325bfa09314"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a45adf2f3768f1809cd76c325bfa09314">getBlankEnd</a> (int position, int track)</td></tr>
+<tr class="memdesc:a45adf2f3768f1809cd76c325bfa09314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but we restrict to a specific track.  <a href="#a45adf2f3768f1809cd76c325bfa09314">更多...</a><br /></td></tr>
+<tr class="separator:a45adf2f3768f1809cd76c325bfa09314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7240ceca76260e1f401fc54c3ea129"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a3b7240ceca76260e1f401fc54c3ea129">getClipByPosition</a> (int position, int playlist=-1)</td></tr>
+<tr class="memdesc:a3b7240ceca76260e1f401fc54c3ea129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip id on this track at position requested, or -1 if no clip.  <a href="#a3b7240ceca76260e1f401fc54c3ea129">更多...</a><br /></td></tr>
+<tr class="separator:a3b7240ceca76260e1f401fc54c3ea129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17fa9471e3796beeb1ba3b30804c0ac4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a17fa9471e3796beeb1ba3b30804c0ac4">getClipByStartPosition</a> (int position) const </td></tr>
+<tr class="memdesc:a17fa9471e3796beeb1ba3b30804c0ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip id on this track that starts at position requested, or -1 if no clip.  <a href="#a17fa9471e3796beeb1ba3b30804c0ac4">更多...</a><br /></td></tr>
+<tr class="separator:a17fa9471e3796beeb1ba3b30804c0ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae345f6bddc1eb5fe96e4a931d738b2e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae345f6bddc1eb5fe96e4a931d738b2e0">getCompositionByPosition</a> (int position)</td></tr>
+<tr class="memdesc:ae345f6bddc1eb5fe96e4a931d738b2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the composition id on this track starting position requested, or -1 if not found.  <a href="#ae345f6bddc1eb5fe96e4a931d738b2e0">更多...</a><br /></td></tr>
+<tr class="separator:ae345f6bddc1eb5fe96e4a931d738b2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5009f8048f2e54b849b63b2afd5ae670"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a5009f8048f2e54b849b63b2afd5ae670">addEffect</a> (const QString &amp;effectId)</td></tr>
+<tr class="memdesc:a5009f8048f2e54b849b63b2afd5ae670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a track effect.  <a href="#a5009f8048f2e54b849b63b2afd5ae670">更多...</a><br /></td></tr>
+<tr class="separator:a5009f8048f2e54b849b63b2afd5ae670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc63a58a82e543c43e090832a7a8ae2"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#abdc63a58a82e543c43e090832a7a8ae2">effectNames</a> () const </td></tr>
+<tr class="memdesc:abdc63a58a82e543c43e090832a7a8ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a comma separated list of effect names.  <a href="#abdc63a58a82e543c43e090832a7a8ae2">更多...</a><br /></td></tr>
+<tr class="separator:abdc63a58a82e543c43e090832a7a8ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35005cb64eca55897b499d894358e168"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a35005cb64eca55897b499d894358e168">stackEnabled</a> () const </td></tr>
+<tr class="memdesc:a35005cb64eca55897b499d894358e168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if effect stack is enabled.  <a href="#a35005cb64eca55897b499d894358e168">更多...</a><br /></td></tr>
+<tr class="separator:a35005cb64eca55897b499d894358e168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692b442139f5889adaf8fb9ece4cebb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a692b442139f5889adaf8fb9ece4cebb6">setEffectStackEnabled</a> (bool enable)</td></tr>
+<tr class="memdesc:a692b442139f5889adaf8fb9ece4cebb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable / disable the track's effect stack.  <a href="#a692b442139f5889adaf8fb9ece4cebb6">更多...</a><br /></td></tr>
+<tr class="separator:a692b442139f5889adaf8fb9ece4cebb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae013c4a0fbbe7d1c7623f03d53760067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae013c4a0fbbe7d1c7623f03d53760067">replugClip</a> (int clipId)</td></tr>
+<tr class="memdesc:ae013c4a0fbbe7d1c7623f03d53760067"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function removes the clip from the mlt object, and then insert it back in the same spot again. This is used when some properties of the clip have changed, and we need this to refresh it.  <a href="#ae013c4a0fbbe7d1c7623f03d53760067">更多...</a><br /></td></tr>
+<tr class="separator:ae013c4a0fbbe7d1c7623f03d53760067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2154c270e5e84eeaa31772297719637c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a2154c270e5e84eeaa31772297719637c">temporaryReplugClip</a> (int cid)</td></tr>
+<tr class="separator:a2154c270e5e84eeaa31772297719637c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63fbb62300eb46198833092f99d4f68b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a63fbb62300eb46198833092f99d4f68b">temporaryUnplugClip</a> (int clipId)</td></tr>
+<tr class="separator:a63fbb62300eb46198833092f99d4f68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5d2ff4344c498af9e3355b9c3f6439"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#aee5d2ff4344c498af9e3355b9c3f6439">trackDuration</a> () const </td></tr>
+<tr class="separator:aee5d2ff4344c498af9e3355b9c3f6439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f66acb89d7fe9a74ed9f267ead8747b"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a1f66acb89d7fe9a74ed9f267ead8747b">getClipsInRange</a> (int position, int end=-1)</td></tr>
+<tr class="memdesc:a1f66acb89d7fe9a74ed9f267ead8747b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the ids of the clips that intersect the given range.  <a href="#a1f66acb89d7fe9a74ed9f267ead8747b">更多...</a><br /></td></tr>
+<tr class="separator:a1f66acb89d7fe9a74ed9f267ead8747b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43baaf07a85f2d60888c19cd618ef69"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ad43baaf07a85f2d60888c19cd618ef69">getCompositionsInRange</a> (int position, int end)</td></tr>
+<tr class="memdesc:ad43baaf07a85f2d60888c19cd618ef69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the ids of the compositions that intersect the given range.  <a href="#ad43baaf07a85f2d60888c19cd618ef69">更多...</a><br /></td></tr>
+<tr class="separator:ad43baaf07a85f2d60888c19cd618ef69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae66c15c33cb53fd5ab21becb990454"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a0ae66c15c33cb53fd5ab21becb990454">importEffects</a> (std::weak_ptr&lt; Mlt::Service &gt; service)</td></tr>
+<tr class="memdesc:a0ae66c15c33cb53fd5ab21becb990454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import effects from a service that contains some (another track)  <a href="#a0ae66c15c33cb53fd5ab21becb990454">更多...</a><br /></td></tr>
+<tr class="separator:a0ae66c15c33cb53fd5ab21becb990454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dba293ae71c20f5cc83c848e3a9e305"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a0dba293ae71c20f5cc83c848e3a9e305">copyEffect</a> (const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;stackModel, int rowId)</td></tr>
+<tr class="memdesc:a0dba293ae71c20f5cc83c848e3a9e305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy effects from another effect stack.  <a href="#a0dba293ae71c20f5cc83c848e3a9e305">更多...</a><br /></td></tr>
+<tr class="separator:a0dba293ae71c20f5cc83c848e3a9e305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4d7f57e641dd892004c4cc0022ae33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a1e4d7f57e641dd892004c4cc0022ae33">isAvailable</a> (int position, int duration, int playlist)</td></tr>
+<tr class="memdesc:a1e4d7f57e641dd892004c4cc0022ae33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have a blank at position for duration.  <a href="#a1e4d7f57e641dd892004c4cc0022ae33">更多...</a><br /></td></tr>
+<tr class="separator:a1e4d7f57e641dd892004c4cc0022ae33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43ecccb4ba3069cec7ec66370cb9a06"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#af43ecccb4ba3069cec7ec66370cb9a06">mixCount</a> () const </td></tr>
+<tr class="memdesc:af43ecccb4ba3069cec7ec66370cb9a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of same track transitions (mix) in this track.  <a href="#af43ecccb4ba3069cec7ec66370cb9a06">更多...</a><br /></td></tr>
+<tr class="separator:af43ecccb4ba3069cec7ec66370cb9a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992f12ca9e3809e3e048a01967fe4987"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a992f12ca9e3809e3e048a01967fe4987">hasMix</a> (int cid) const </td></tr>
+<tr class="memdesc:a992f12ca9e3809e3e048a01967fe4987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the track has a same track transition for this clip (cid)  <a href="#a992f12ca9e3809e3e048a01967fe4987">更多...</a><br /></td></tr>
+<tr class="separator:a992f12ca9e3809e3e048a01967fe4987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d4ddb282b4d5c9161b5ad0394a213e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#ae9d4ddb282b4d5c9161b5ad0394a213e">hasStartMix</a> (int cid) const </td></tr>
+<tr class="memdesc:ae9d4ddb282b4d5c9161b5ad0394a213e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this clip has a mix at start.  <a href="#ae9d4ddb282b4d5c9161b5ad0394a213e">更多...</a><br /></td></tr>
+<tr class="separator:ae9d4ddb282b4d5c9161b5ad0394a213e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa73794c4fef2e54dc9299584edf60a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#afa73794c4fef2e54dc9299584edf60a2">hasEndMix</a> (int cid) const </td></tr>
+<tr class="memdesc:afa73794c4fef2e54dc9299584edf60a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this clip has a mix at end.  <a href="#afa73794c4fef2e54dc9299584edf60a2">更多...</a><br /></td></tr>
+<tr class="separator:afa73794c4fef2e54dc9299584edf60a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a52870dd3352670fd959836bfdbfa4503"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a52870dd3352670fd959836bfdbfa4503">m_effectStack</a></td></tr>
+<tr class="separator:a52870dd3352670fd959836bfdbfa4503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66156d37067ec11d3a635cc70e96a885"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a66156d37067ec11d3a635cc70e96a885">m_sameCompositions</a></td></tr>
+<tr class="separator:a66156d37067ec11d3a635cc70e96a885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+友元</h2></td></tr>
+<tr class="memitem:a677b8f051768725d574a85d9f3fc45c4"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a677b8f051768725d574a85d9f3fc45c4">ClipModel</a></td></tr>
+<tr class="separator:a677b8f051768725d574a85d9f3fc45c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f49f61fbb053d933e4e649be5ba49d6"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a4f49f61fbb053d933e4e649be5ba49d6">CompositionModel</a></td></tr>
+<tr class="separator:a4f49f61fbb053d933e4e649be5ba49d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a58cb31c458fe59a5e94e6301e2bfc9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a6a58cb31c458fe59a5e94e6301e2bfc9">TimelineController</a></td></tr>
+<tr class="separator:a6a58cb31c458fe59a5e94e6301e2bfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffff688c48f9bb5d2927decf6741d3a"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a3ffff688c48f9bb5d2927decf6741d3a">TimelineFunctions</a></td></tr>
+<tr class="separator:a3ffff688c48f9bb5d2927decf6741d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfaf8bede83fb4009bb72256a7ab16b9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#acfaf8bede83fb4009bb72256a7ab16b9">TimelineItemModel</a></td></tr>
+<tr class="separator:acfaf8bede83fb4009bb72256a7ab16b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4afea070a84b0f384933d36c173b68fb"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTrackModel.html#a4afea070a84b0f384933d36c173b68fb">TimelineModel</a></td></tr>
+<tr class="separator:a4afea070a84b0f384933d36c173b68fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>This class represents a Track object, as viewed by the backend. To allow same track transitions, a Track object corresponds to two Mlt::Playlist, between which we can switch when required by the transitions. In general, the Gui associated with it will send modification queries (such as resize or move), and this class authorize them or not depending on the validity of the modifications. </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a9fe72637bc6ec5737332cbc45eb9d55f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TrackModel::TrackModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6fdd4095a9ea7f99f884bf48113d2d8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TrackModel::~TrackModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a5009f8048f2e54b849b63b2afd5ae670"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::addEffect </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a track effect. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a923fc0e18740c6aee4cd4e0f48699b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::checkConsistency </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is an helper function that test frame level consistency with the MLT structures. </p>
+
+</div>
+</div>
+<a class="anchor" id="a36dfadf3f7371662dffccc40964c7533"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::construct </td>
+          <td>(</td>
+          <td class="paramtype">const std::weak_ptr&lt; <a class="el" href="classTimelineModel.html">TimelineModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>trackName</em> = <code>QString()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>audioTrack</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a track, which references itself to the parent Returns the (unique) id of the created track. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Requested id of the track. Automatic if id = -1 </td></tr>
+    <tr><td class="paramname">pos</td><td>is the optional position of the track. If left to -1, it will be added at the end </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0dba293ae71c20f5cc83c848e3a9e305"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::copyEffect </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classEffectStackModel.html">EffectStackModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>stackModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rowId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy effects from another effect stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="af7308654c270d46b8f4bf29dea6b7481"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::createMix </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>clipIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>mixData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a mix composition using clip ids. </p>
+
+</div>
+</div>
+<a class="anchor" id="a70463a3aa689e245dd7bcb1606ec23d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::createMix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMixInfo.html">MixInfo</a>&#160;</td>
+          <td class="paramname"><em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isAudio</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a mix composition using mix info. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2f1ae5e3589e652df3f5406365db244f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::deleteMix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>final</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>notify</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete a mix composition. </p>
+
+</div>
+</div>
+<a class="anchor" id="abdc63a58a82e543c43e090832a7a8ae2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString TrackModel::effectNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a comma separated list of effect names. </p>
+
+</div>
+</div>
+<a class="anchor" id="af7f094c06228a8f2664f4048b2eec9a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankEnd </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is an helper function that returns the end of the blank that covers given position. </p>
+
+</div>
+</div>
+<a class="anchor" id="a45adf2f3768f1809cd76c325bfa09314"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankEnd </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>track</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same, but we restrict to a specific track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a71b20c5807d15c6f6b6864e86b62fc7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankSizeAtPos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0319a669d2952d401e9b6d7050599bf5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankSizeNearClip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>after</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the size of the blank before or after the given clip. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clipId</td><td>is the id of the clip </td></tr>
+    <tr><td class="paramname">after</td><td>is true if we query the blank after, false otherwise </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af0446cbb90b6031c4c7fe325d164908f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankSizeNearComposition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>after</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae098e7c936ca6ca5bacb026da7345d20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankStart </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6c69d83433f923bc0d6eef9e637fb1ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getBlankStart </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>track</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the start of the blank on a specific playlist. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3b7240ceca76260e1f401fc54c3ea129"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getClipByPosition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>playlist</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the clip id on this track at position requested, or -1 if no clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae1da3259087fa289d1d067fb5bf12005"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getClipByRow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function is used only by the QAbstractItemModel Given a row in the model, retrieves the corresponding clip id. If it does not exist, returns -1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a17fa9471e3796beeb1ba3b30804c0ac4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getClipByStartPosition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the clip id on this track that starts at position requested, or -1 if no clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d775ce5b449e1c736ad707863f0d212"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; int, int &gt; TrackModel::getClipIndexAt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>playlist</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is an helper function that returns the sub-playlist in which the clip is inserted, along with its index in the playlist. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>the position of the target clip </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8222d73a3264925901df1afda20c5902"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSharedPointer&lt; Mlt::Producer &gt; TrackModel::getClipProducer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7f59e42987182ad6b32715d4415a9bad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getClipsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the number of clips </p>
+
+</div>
+</div>
+<a class="anchor" id="a1f66acb89d7fe9a74ed9f267ead8747b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt; int &gt; TrackModel::getClipsInRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>end</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the list of the ids of the clips that intersect the given range. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae345f6bddc1eb5fe96e4a931d738b2e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getCompositionByPosition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the composition id on this track starting position requested, or -1 if not found. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0db4f980cc7248b864972095a639323d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getCompositionByRow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function is used only by the QAbstractItemModel Given a row in the model, retrieves the corresponding composition id. If it does not exist, returns -1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a58481f018637d09b06f71c6caf1f96bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getCompositionsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the number of compositions </p>
+
+</div>
+</div>
+<a class="anchor" id="ad43baaf07a85f2d60888c19cd618ef69"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt; int &gt; TrackModel::getCompositionsInRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the list of the ids of the compositions that intersect the given range. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa6e945e269565547a9785742382fe426"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the (unique) construction id of the track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0f3785207bc6a7b138097e1c5186c8b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="classMixInfo.html">MixInfo</a>, <a class="el" href="classMixInfo.html">MixInfo</a> &gt; TrackModel::getMixInfo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get clip ids and in/out position for mixes in this clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2957eef675b61bf444e061d26763b462"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant TrackModel::getProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae62e7ce29eab7b11903f0ba0387ea68a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getRowfromClip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function is used only by the QAbstractItemModel Given a clip ID, returns the row of the clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a88062e38089ce7c7ff30c84d1ad12c6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::getRowfromComposition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function is used only by the QAbstractItemModel Given a composition ID, returns the row of the composition. </p>
+
+</div>
+</div>
+<a class="anchor" id="aea22344ef91cbd499ab58c17b8cc8813"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; Mlt::Tractor &gt; TrackModel::getTrackService </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afa73794c4fef2e54dc9299584edf60a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::hasEndMix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this clip has a mix at end. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae0abda04e56090767940f9675d90d60c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::hasIntersectingComposition </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if we have a composition intersecting with the range [in,out]. </p>
+
+</div>
+</div>
+<a class="anchor" id="a992f12ca9e3809e3e048a01967fe4987"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::hasMix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the track has a same track transition for this clip (cid) </p>
+
+</div>
+</div>
+<a class="anchor" id="ae9d4ddb282b4d5c9161b5ad0394a213e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::hasStartMix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this clip has a mix at start. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0ae66c15c33cb53fd5ab21becb990454"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::importEffects </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; Mlt::Service &gt;&#160;</td>
+          <td class="paramname"><em>service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Import effects from a service that contains some (another track) </p>
+
+</div>
+</div>
+<a class="anchor" id="a653bbaa332f700efd357fe1a12ed9734"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isAudioTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is an audio track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e4d7f57e641dd892004c4cc0022ae33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isAvailable </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>playlist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if we have a blank at position for duration. </p>
+
+</div>
+</div>
+<a class="anchor" id="af97280674e40484014e7f1cdf6dc573b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isBlankAt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>playlist</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is an helper function that checks in all playlists if the given position is a blank. </p>
+
+</div>
+</div>
+<a class="anchor" id="a54399f0daa9394afa699625d7cb1fb46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isHidden </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is disabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a17f375aa95a0a64939911fa81a6afc3d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isLastClip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if clip at position is the last on playlist. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>the position in playlist </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a810f79db2205d7c0b0207561820248cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isLocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is in locked state. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae82624fb4b43a3a37d18c586f5797b66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isMute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is disabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a16d50ddbdc1cd98e58bf73906639d7d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::isTimelineActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is active in timeline, ie. will receive insert/lift/overwrite/extract operations. </p>
+
+</div>
+</div>
+<a class="anchor" id="a691927c4e47555332d36dba8df2553db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::loadMix </td>
+          <td>(</td>
+          <td class="paramtype">Mlt::Transition *&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a same track transition from project. </p>
+
+</div>
+</div>
+<a class="anchor" id="a118bde1f88539ac3376fefba0104ec72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::lock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This will lock the track: it will no longer allow insertion/deletion/resize of items This functions are dangerous to call directly since locking the track will potentially mess up with the undo/redo system (a track lock may make an undo impossible). Prefer calling <a class="el" href="classTimelineModel.html#a8b49f26270730fd43a7c4615e6668ecf" title="Sets a track in a given lock state Locked tracks can&#39;t receive any operations (resize, move, insertion, deletion...) ">TimelineModel::setTrackLockedState</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="af43ecccb4ba3069cec7ec66370cb9a06"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::mixCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of same track transitions (mix) in this track. </p>
+
+</div>
+</div>
+<a class="anchor" id="afac0bef38fd4dfbc0715d8f392a161bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classAssetParameterModel.html">AssetParameterModel</a> &gt; TrackModel::mixModel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the assetparameter model for a mix. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1005109d00bde47d6b4c875ca03953ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TrackModel::operator Mlt::Producer &amp; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implicit conversion operator to access the underlying producer. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0327452ad659145442acf08a221b76f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::reAssignEndMix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>currentId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change id of first clip in a mix (in case of clip cut) </p>
+
+</div>
+</div>
+<a class="anchor" id="ae013c4a0fbbe7d1c7623f03d53760067"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::replugClip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function removes the clip from the mlt object, and then insert it back in the same spot again. This is used when some properties of the clip have changed, and we need this to refresh it. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab8f7fef069da4e1fc7ad87e130f2ffb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::requestClipDeletion </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>groupMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalDeletion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs an deletion of the given clip. Returns true if the operation succeeded, and otherwise, the track is not modified. This method is protected because it shouldn't be called directly. Call the function in the timeline instead. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clipId</td><td>is the id of the clip </td></tr>
+    <tr><td class="paramname">updateView</td><td>whether we send update to the view </td></tr>
+    <tr><td class="paramname">finalMove</td><td>if the move is finished (not while dragging), so we invalidate timeline preview / check project duration </td></tr>
+    <tr><td class="paramname">undo</td><td>Lambda function containing the current undo stack. Will be updated with current operation </td></tr>
+    <tr><td class="paramname">redo</td><td>Lambda function containing the current redo queue. Will be updated with current operation </td></tr>
+    <tr><td class="paramname">groupMove</td><td>If true, this is part of a larger operation and some operations like checking track duration will not be performed and have to be performed separately </td></tr>
+    <tr><td class="paramname">finalDeletion</td><td>If true, the clip will be deselected (should be false if this is a clip move doing delete/insert) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad3d9cda56d64da07d92716f181a089a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> TrackModel::requestClipDeletion_lambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>groupMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalDeletion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function returns a lambda that performs the requested operation. </p>
+
+</div>
+</div>
+<a class="anchor" id="af65130a66aa80b5fe320c29157fd358a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::requestClipInsertion </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>groupMove</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs an insertion of the given clip. Returns true if the operation succeeded, and otherwise, the track is not modified. This method is protected because it shouldn't be called directly. Call the function in the timeline instead. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clip</td><td>is the id of the clip </td></tr>
+    <tr><td class="paramname">position</td><td>is the position where to insert the clip </td></tr>
+    <tr><td class="paramname">updateView</td><td>whether we send update to the view </td></tr>
+    <tr><td class="paramname">finalMove</td><td>if the move is finished (not while dragging), so we invalidate timeline preview / check project duration </td></tr>
+    <tr><td class="paramname">undo</td><td>Lambda function containing the current undo stack. Will be updated with current operation </td></tr>
+    <tr><td class="paramname">redo</td><td>Lambda function containing the current redo queue. Will be updated with current operation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afaf302a2b88438df5eb2388f67e87385"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> TrackModel::requestClipInsertion_lambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>groupMove</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function returns a lambda that performs the requested operation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a56acaf2795fe2c0e4e049c25b27edc3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::requestClipMix </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>clipIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mixDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>groupMove</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a composition between 2 same track clips. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae20f87a4fbc24b4532e208b85ae12aa1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> TrackModel::requestClipResize_lambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hasMix</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a lambda that performs a resize of the given clip. The lambda returns true if the operation succeeded, and otherwise nothing is modified This method is protected because it shouldn't be called directly. Call the function in the timeline instead. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clipId</td><td>is the id of the clip </td></tr>
+    <tr><td class="paramname">in</td><td>is the new starting on the clip </td></tr>
+    <tr><td class="paramname">out</td><td>is the new ending on the clip </td></tr>
+    <tr><td class="paramname">right</td><td>is true if we change the right side of the clip, false otherwise </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ef8170551c994903bc4662fa95b38e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::requestCompositionDeletion </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalDeletion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a788e803f462ecf02ff6fec23f2b485d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> TrackModel::requestCompositionDeletion_lambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae36372f1c39dbc5599d02929ee604882"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::requestCompositionInsertion </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs an insertion of the given composition. Returns true if the operation succeeded, and otherwise, the track is not modified. This method is protected because it shouldn't be called directly. Call the function in the timeline instead. Note that in <a class="el" href="namespaceMlt.html">Mlt</a>, the composition insertion logic is not really at the track level, but we use that level to do collision checking. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">compoId</td><td>is the id of the composition </td></tr>
+    <tr><td class="paramname">position</td><td>is the position where to insert the composition </td></tr>
+    <tr><td class="paramname">updateView</td><td>whether we send update to the view </td></tr>
+    <tr><td class="paramname">undo</td><td>Lambda function containing the current undo stack. Will be updated with current operation </td></tr>
+    <tr><td class="paramname">redo</td><td>Lambda function containing the current redo queue. Will be updated with current operation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad2007445c9e1003b37aa560bce60759b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> TrackModel::requestCompositionInsertion_lambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function returns a lambda that performs the requested operation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3bcfdff551f823d8858f11e3b0ed8a83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> TrackModel::requestCompositionResize_lambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compoId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>out</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logUndo</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab7df2cc8e17fd27bf1878e7330eff76f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::requestRemoveMix </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>clipIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove a composition between 2 same track clips. </p>
+
+</div>
+</div>
+<a class="anchor" id="a692b442139f5889adaf8fb9ece4cebb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::setEffectStackEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable / disable the track's effect stack. </p>
+
+</div>
+</div>
+<a class="anchor" id="acb37c83ce77aa0b8e8915a9979794cc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::setMixDuration </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mixDuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mixCut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set mix duration and mix cut pos on a clip. </p>
+
+</div>
+</div>
+<a class="anchor" id="a158f7b06505d2cfaab270d099965b96e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::setProperty </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a139f7844daa9959de0aa0633e8c3a311"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::shouldReceiveTimelineOp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if track is active and not locked. </p>
+
+</div>
+</div>
+<a class="anchor" id="acd3d69c46ecaad96305f9959432e5f21"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::slotDelete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a65b4e5ac8eaeeb9c22f602e154a7aa42"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::splitClip </td>
+          <td>(</td>
+          <td class="paramtype">QSharedPointer&lt; <a class="el" href="classClipModel.html">ClipModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>caller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform a split at the requested position. </p>
+
+</div>
+</div>
+<a class="anchor" id="a35005cb64eca55897b499d894358e168"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::stackEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if effect stack is enabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="aefe101ba995c341bdd60e4b4e14e5a47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariantList TrackModel::stackZones </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a list of current effect stack zones. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d60f618e7c46ad1bea986a2f3239107"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::suggestCompositionLength </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the best composition duration depending on clips on the track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a837cd471dac05c6acfa83e34f2512ff5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::switchMix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>composition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9cac83a525246e913b9aa6c6337761d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TrackModel::switchPlaylist </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourcePlaylist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destPlaylist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switch a clip from one playlist to the other. </p>
+
+</div>
+</div>
+<a class="anchor" id="a44afb924f10e6914f9a5ecb4ae44e36b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::syncronizeMixes </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finalMove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ensure we don't have unsynced mixes in the playlist (mixes without owner clip) </p>
+
+</div>
+</div>
+<a class="anchor" id="a2154c270e5e84eeaa31772297719637c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::temporaryReplugClip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a63fbb62300eb46198833092f99d4f68b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::temporaryUnplugClip </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clipId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee5d2ff4344c498af9e3355b9c3f6439"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrackModel::trackDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad5c6b33de97508f4c65ef299152f9f56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacePlaylistState.html#a077b8d8c3dad4f6de05e8cef0033d7b2">PlaylistState::ClipState</a> TrackModel::trackType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the track type (audio / video) </p>
+
+</div>
+</div>
+<a class="anchor" id="afdd4dc8e715061cbadec883ecffe27a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TrackModel::unlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a266df5fd15a656ff6cb4a8e2699fe4b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPair&lt; int, int &gt; TrackModel::validateCompositionLength </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the best composition duration depending on compositions on the track. </p>
+
+</div>
+</div>
+<h2 class="groupheader">友元及相关函数文档</h2>
+<a class="anchor" id="a677b8f051768725d574a85d9f3fc45c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classClipModel.html">ClipModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4f49f61fbb053d933e4e649be5ba49d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classCompositionModel.html">CompositionModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a58cb31c458fe59a5e94e6301e2bfc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineController.html">TimelineController</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ffff688c48f9bb5d2927decf6741d3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct <a class="el" href="structTimelineFunctions.html">TimelineFunctions</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acfaf8bede83fb4009bb72256a7ab16b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineItemModel.html">TimelineItemModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4afea070a84b0f384933d36c173b68fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classTimelineModel.html">TimelineModel</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a52870dd3352670fd959836bfdbfa4503"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classEffectStackModel.html">EffectStackModel</a>&gt; TrackModel::m_effectStack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a66156d37067ec11d3a635cc70e96a885"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;int, std::shared_ptr&lt;<a class="el" href="classAssetParameterModel.html">AssetParameterModel</a>&gt; &gt; TrackModel::m_sameCompositions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/timeline2/model/<a class="el" href="trackmodel_8hpp_source.html">trackmodel.hpp</a></li>
+<li>src/timeline2/model/<a class="el" href="trackmodel_8cpp.html">trackmodel.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

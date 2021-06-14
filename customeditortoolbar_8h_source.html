@@ -1,0 +1,126 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/widgets/customeditortoolbar.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">customeditortoolbar.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="customeditortoolbar_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CUSTOMEDITORTOOLBAR_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CUSTOMEDITORTOOLBAR_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>QPushButton;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>QLabel;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classCustomEditorToolBar.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCustomEditorToolBar.html">CustomEditorToolBar</a>: <span class="keyword">public</span> QWidget {</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classCustomEditorToolBar.html#a138ac0a035f2729a2fcb8f70feb629b6">CustomEditorToolBar</a>(QWidget* parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> </div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classCustomEditorToolBar.html#af62bc774ca9abbd7321d80dbc623eab9">setDocumentString</a>(<span class="keyword">const</span> QString&amp; docStr);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    QString </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classCustomEditorToolBar.html#a7fb919217fed998061b97b20f4b9a41b">documentString</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    </div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#a8a0a87c61a0834e5a36b4ddb148bf679">resizeEvent</a>(QResizeEvent*) <span class="keyword">override</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#a438e95d3e092467f6cea53f8982b348c">slotOpenUndoView</a>();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#afb5030506e51717d64ffd74b2724bfb1">slotCloseUndoView</a>();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#ab3f48cc59a3502cfadb80bb61ddb90bc">slotOpenMessionView</a>();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#ac1bef1885aa49cdb04de9416fe5951b6">slotCloseMessionView</a>();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#aa08dc7d360c46a16c20c829795083b2e">slotOpenProjMediaset</a>();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCustomEditorToolBar.html#afa7c2a927e2aadc89b55739cdd83a857">slotCloseProjMediaset</a>();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    </div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    QLabel* </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        m_documentStr       = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    </div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    QPushButton* </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        m_leadinBtn         = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    QPushButton* </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        m_undoViewBtn       = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    QPushButton* </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        m_messionViewBtn    = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    QPushButton* </div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        m_projMediasetBtn   = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif // CUSTOMEDITORTOOLBAR_H</span></div><div class="ttc" id="classCustomEditorToolBar_html_af62bc774ca9abbd7321d80dbc623eab9"><div class="ttname"><a href="classCustomEditorToolBar.html#af62bc774ca9abbd7321d80dbc623eab9">CustomEditorToolBar::setDocumentString</a></div><div class="ttdeci">void setDocumentString(const QString &amp;docStr)</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:179</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_a8a0a87c61a0834e5a36b4ddb148bf679"><div class="ttname"><a href="classCustomEditorToolBar.html#a8a0a87c61a0834e5a36b4ddb148bf679">CustomEditorToolBar::resizeEvent</a></div><div class="ttdeci">void resizeEvent(QResizeEvent *) override</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:165</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_afb5030506e51717d64ffd74b2724bfb1"><div class="ttname"><a href="classCustomEditorToolBar.html#afb5030506e51717d64ffd74b2724bfb1">CustomEditorToolBar::slotCloseUndoView</a></div><div class="ttdeci">void slotCloseUndoView()</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:196</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_a7fb919217fed998061b97b20f4b9a41b"><div class="ttname"><a href="classCustomEditorToolBar.html#a7fb919217fed998061b97b20f4b9a41b">CustomEditorToolBar::documentString</a></div><div class="ttdeci">QString documentString() const </div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:186</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_ac1bef1885aa49cdb04de9416fe5951b6"><div class="ttname"><a href="classCustomEditorToolBar.html#ac1bef1885aa49cdb04de9416fe5951b6">CustomEditorToolBar::slotCloseMessionView</a></div><div class="ttdeci">void slotCloseMessionView()</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:204</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_afa7c2a927e2aadc89b55739cdd83a857"><div class="ttname"><a href="classCustomEditorToolBar.html#afa7c2a927e2aadc89b55739cdd83a857">CustomEditorToolBar::slotCloseProjMediaset</a></div><div class="ttdeci">void slotCloseProjMediaset()</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:212</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_a138ac0a035f2729a2fcb8f70feb629b6"><div class="ttname"><a href="classCustomEditorToolBar.html#a138ac0a035f2729a2fcb8f70feb629b6">CustomEditorToolBar::CustomEditorToolBar</a></div><div class="ttdeci">CustomEditorToolBar(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:15</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_aa08dc7d360c46a16c20c829795083b2e"><div class="ttname"><a href="classCustomEditorToolBar.html#aa08dc7d360c46a16c20c829795083b2e">CustomEditorToolBar::slotOpenProjMediaset</a></div><div class="ttdeci">void slotOpenProjMediaset()</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:208</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html"><div class="ttname"><a href="classCustomEditorToolBar.html">CustomEditorToolBar</a></div><div class="ttdef"><b>Definition:</b> customeditortoolbar.h:9</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_ab3f48cc59a3502cfadb80bb61ddb90bc"><div class="ttname"><a href="classCustomEditorToolBar.html#ab3f48cc59a3502cfadb80bb61ddb90bc">CustomEditorToolBar::slotOpenMessionView</a></div><div class="ttdeci">void slotOpenMessionView()</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:200</div></div>
+<div class="ttc" id="classCustomEditorToolBar_html_a438e95d3e092467f6cea53f8982b348c"><div class="ttname"><a href="classCustomEditorToolBar.html#a438e95d3e092467f6cea53f8982b348c">CustomEditorToolBar::slotOpenUndoView</a></div><div class="ttdeci">void slotOpenUndoView()</div><div class="ttdef"><b>Definition:</b> customeditortoolbar.cpp:192</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

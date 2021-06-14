@@ -1,0 +1,15 @@
+<map id="src/jobs/cuttask.cpp" name="src/jobs/cuttask.cpp">
+<area shape="rect" id="node2" href="$cuttask_8h.html" title="cuttask.h" alt="" coords="1497,80,1579,107"/>
+<area shape="rect" id="node9" href="$bin_8h.html" title="bin/bin.h" alt="" coords="1516,155,1595,181"/>
+<area shape="rect" id="node28" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="772,80,888,107"/>
+<area shape="rect" id="node37" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="43,155,169,181"/>
+<area shape="rect" id="node38" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="133,80,273,107"/>
+<area shape="rect" id="node40" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1783,80,1957,107"/>
+<area shape="rect" id="node41" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="1811,155,1995,181"/>
+<area shape="rect" id="node42" href="$core_8h.html" title="core.h" alt="" coords="1377,155,1440,181"/>
+<area shape="rect" id="node44" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="2326,80,2425,107"/>
+<area shape="rect" id="node45" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="1654,80,1758,107"/>
+<area shape="rect" id="node3" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="1238,155,1353,181"/>
+<area shape="rect" id="node10" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="193,229,355,256"/>
+<area shape="rect" id="node11" href="$timecode_8h.html" title="timecode.h" alt="" coords="997,229,1092,256"/>
+</map>

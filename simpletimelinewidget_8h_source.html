@@ -1,0 +1,138 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/simplekeyframes/simpletimelinewidget.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d96c470fc2c1d0ec2ea621f2335d2515.html">simplekeyframes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">simpletimelinewidget.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="simpletimelinewidget_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2011 by Till Theato (root@ttill.de)                     *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   This file is part of Kdenlive (www.kdenlive.org).                     *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   Kdenlive is free software: you can redistribute it and/or modify      *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation, either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   Kdenlive is distributed in the hope that it will be useful,           *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   along with Kdenlive.  If not, see &lt;http://www.gnu.org/licenses/&gt;.     *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef SIMPLETIMELINEWIDGET_H</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define SIMPLETIMELINEWIDGET_H</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classSimpleTimelineWidget.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSimpleTimelineWidget.html">SimpleTimelineWidget</a> : <span class="keyword">public</span> QWidget</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classSimpleTimelineWidget.html#aadb146c59f26bec88397eacc967652eb">SimpleTimelineWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a78b4b800132846aaafebf9e7ab642a2e">setKeyframes</a>(<span class="keyword">const</span> QList&lt;int&gt; &amp;keyframes);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#aefd9c4a3a401114afdab8b39ab420c83">setDuration</a>(<span class="keywordtype">int</span> dur);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#aed4f9a9666bfd165358029e93b09977f">slotSetPosition</a>(<span class="keywordtype">int</span> pos);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#ab72949a7ebde13ce38806c9182b8f8ab">slotRemoveKeyframe</a>(<span class="keywordtype">int</span> pos);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a94906f2da411c65b98dcdf18bdcbdcff">slotAddKeyframe</a>(<span class="keywordtype">int</span> pos = -1, <span class="keywordtype">int</span> select = <span class="keyword">false</span>);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#aebcc2b7470d5d967715fe33811e4a052">slotAddRemove</a>();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a2a713b882785021e5dda55bde1277080">slotGoToNext</a>();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a606d642256c82a9ba936f73c63e506f1">slotGoToPrev</a>();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a2aaa570c28fc4fe092caa63c10b459c8">paintEvent</a>(QPaintEvent *event) <span class="keyword">override</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a8f1602dd41a30220efd45f44f0b32333">mousePressEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a4aa76ea4f7d494f2951cb7ed35164172">mouseReleaseEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#ac715d42945c0403085896a05f90990e6">mouseMoveEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a26052cf84cad3805ad9106936b972b36">mouseDoubleClickEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a9029affdb81bbc58c738a20fd713f066">wheelEvent</a>(QWheelEvent *event) <span class="keyword">override</span>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">int</span> m_duration{1};</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">int</span> m_position{0};</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> m_currentKeyframe{-1};</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">int</span> m_currentKeyframeOriginal{-1};</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> m_hoverKeyframe{-1};</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    QList&lt;int&gt; m_keyframes;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">int</span> m_lineHeight;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">double</span> m_scale{1};</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> m_size;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    QColor m_colSelected;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    QColor m_colKeyframe;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    QColor m_colKeyframeBg;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;signals:</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#ae254452413fbdc0548ea9eab3b8b647e">positionChanged</a>(<span class="keywordtype">int</span> pos);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a35dd936e2d044bd4db960335391dcd7d">atKeyframe</a>(<span class="keywordtype">bool</span>);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a06293afc87ef4a0c2bba8574660be1be">keyframeSelected</a>();</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a892cdcc4ab5b46bc6a74cfff688ecc0c">keyframeMoving</a>(<span class="keywordtype">int</span> oldPos, <span class="keywordtype">int</span> currentPos);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#acb58e5cee6d07bfb6b74e7a54462798b">keyframeMoved</a>(<span class="keywordtype">int</span> oldPos, <span class="keywordtype">int</span> newPos);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#a1108588a52ac073dbe279d7fb6bff042">keyframeAdded</a>(<span class="keywordtype">int</span> pos);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSimpleTimelineWidget.html#aa370625cfe8181c7a97e304d280cbd60">keyframeRemoved</a>(<span class="keywordtype">int</span> pos);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classSimpleTimelineWidget_html_aefd9c4a3a401114afdab8b39ab420c83"><div class="ttname"><a href="classSimpleTimelineWidget.html#aefd9c4a3a401114afdab8b39ab420c83">SimpleTimelineWidget::setDuration</a></div><div class="ttdeci">void setDuration(int dur)</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:105</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a2a713b882785021e5dda55bde1277080"><div class="ttname"><a href="classSimpleTimelineWidget.html#a2a713b882785021e5dda55bde1277080">SimpleTimelineWidget::slotGoToNext</a></div><div class="ttdeci">void slotGoToNext()</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:110</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_aa370625cfe8181c7a97e304d280cbd60"><div class="ttname"><a href="classSimpleTimelineWidget.html#aa370625cfe8181c7a97e304d280cbd60">SimpleTimelineWidget::keyframeRemoved</a></div><div class="ttdeci">void keyframeRemoved(int pos)</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a06293afc87ef4a0c2bba8574660be1be"><div class="ttname"><a href="classSimpleTimelineWidget.html#a06293afc87ef4a0c2bba8574660be1be">SimpleTimelineWidget::keyframeSelected</a></div><div class="ttdeci">void keyframeSelected()</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a892cdcc4ab5b46bc6a74cfff688ecc0c"><div class="ttname"><a href="classSimpleTimelineWidget.html#a892cdcc4ab5b46bc6a74cfff688ecc0c">SimpleTimelineWidget::keyframeMoving</a></div><div class="ttdeci">void keyframeMoving(int oldPos, int currentPos)</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_aed4f9a9666bfd165358029e93b09977f"><div class="ttname"><a href="classSimpleTimelineWidget.html#aed4f9a9666bfd165358029e93b09977f">SimpleTimelineWidget::slotSetPosition</a></div><div class="ttdeci">void slotSetPosition(int pos)</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:55</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_ab72949a7ebde13ce38806c9182b8f8ab"><div class="ttname"><a href="classSimpleTimelineWidget.html#ab72949a7ebde13ce38806c9182b8f8ab">SimpleTimelineWidget::slotRemoveKeyframe</a></div><div class="ttdeci">void slotRemoveKeyframe(int pos)</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:92</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a1108588a52ac073dbe279d7fb6bff042"><div class="ttname"><a href="classSimpleTimelineWidget.html#a1108588a52ac073dbe279d7fb6bff042">SimpleTimelineWidget::keyframeAdded</a></div><div class="ttdeci">void keyframeAdded(int pos)</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a26052cf84cad3805ad9106936b972b36"><div class="ttname"><a href="classSimpleTimelineWidget.html#a26052cf84cad3805ad9106936b972b36">SimpleTimelineWidget::mouseDoubleClickEvent</a></div><div class="ttdeci">void mouseDoubleClickEvent(QMouseEvent *event) override</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:228</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a4aa76ea4f7d494f2951cb7ed35164172"><div class="ttname"><a href="classSimpleTimelineWidget.html#a4aa76ea4f7d494f2951cb7ed35164172">SimpleTimelineWidget::mouseReleaseEvent</a></div><div class="ttdeci">void mouseReleaseEvent(QMouseEvent *event) override</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:218</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_aadb146c59f26bec88397eacc967652eb"><div class="ttname"><a href="classSimpleTimelineWidget.html#aadb146c59f26bec88397eacc967652eb">SimpleTimelineWidget::SimpleTimelineWidget</a></div><div class="ttdeci">SimpleTimelineWidget(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:28</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_acb58e5cee6d07bfb6b74e7a54462798b"><div class="ttname"><a href="classSimpleTimelineWidget.html#acb58e5cee6d07bfb6b74e7a54462798b">SimpleTimelineWidget::keyframeMoved</a></div><div class="ttdeci">void keyframeMoved(int oldPos, int newPos)</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html"><div class="ttname"><a href="classSimpleTimelineWidget.html">SimpleTimelineWidget</a></div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.h:24</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a606d642256c82a9ba936f73c63e506f1"><div class="ttname"><a href="classSimpleTimelineWidget.html#a606d642256c82a9ba936f73c63e506f1">SimpleTimelineWidget::slotGoToPrev</a></div><div class="ttdeci">void slotGoToPrev()</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:131</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a78b4b800132846aaafebf9e7ab642a2e"><div class="ttname"><a href="classSimpleTimelineWidget.html#a78b4b800132846aaafebf9e7ab642a2e">SimpleTimelineWidget::setKeyframes</a></div><div class="ttdeci">void setKeyframes(const QList&lt; int &gt; &amp;keyframes)</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:46</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_ae254452413fbdc0548ea9eab3b8b647e"><div class="ttname"><a href="classSimpleTimelineWidget.html#ae254452413fbdc0548ea9eab3b8b647e">SimpleTimelineWidget::positionChanged</a></div><div class="ttdeci">void positionChanged(int pos)</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a8f1602dd41a30220efd45f44f0b32333"><div class="ttname"><a href="classSimpleTimelineWidget.html#a8f1602dd41a30220efd45f44f0b32333">SimpleTimelineWidget::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QMouseEvent *event) override</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:153</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a2aaa570c28fc4fe092caa63c10b459c8"><div class="ttname"><a href="classSimpleTimelineWidget.html#a2aaa570c28fc4fe092caa63c10b459c8">SimpleTimelineWidget::paintEvent</a></div><div class="ttdeci">void paintEvent(QPaintEvent *event) override</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:272</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a9029affdb81bbc58c738a20fd713f066"><div class="ttname"><a href="classSimpleTimelineWidget.html#a9029affdb81bbc58c738a20fd713f066">SimpleTimelineWidget::wheelEvent</a></div><div class="ttdeci">void wheelEvent(QWheelEvent *event) override</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:258</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_aebcc2b7470d5d967715fe33811e4a052"><div class="ttname"><a href="classSimpleTimelineWidget.html#aebcc2b7470d5d967715fe33811e4a052">SimpleTimelineWidget::slotAddRemove</a></div><div class="ttdeci">void slotAddRemove()</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:83</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a35dd936e2d044bd4db960335391dcd7d"><div class="ttname"><a href="classSimpleTimelineWidget.html#a35dd936e2d044bd4db960335391dcd7d">SimpleTimelineWidget::atKeyframe</a></div><div class="ttdeci">void atKeyframe(bool)</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_a94906f2da411c65b98dcdf18bdcbdcff"><div class="ttname"><a href="classSimpleTimelineWidget.html#a94906f2da411c65b98dcdf18bdcbdcff">SimpleTimelineWidget::slotAddKeyframe</a></div><div class="ttdeci">void slotAddKeyframe(int pos=-1, int select=false)</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:64</div></div>
+<div class="ttc" id="classSimpleTimelineWidget_html_ac715d42945c0403085896a05f90990e6"><div class="ttname"><a href="classSimpleTimelineWidget.html#ac715d42945c0403085896a05f90990e6">SimpleTimelineWidget::mouseMoveEvent</a></div><div class="ttdeci">void mouseMoveEvent(QMouseEvent *event) override</div><div class="ttdef"><b>Definition:</b> simpletimelinewidget.cpp:176</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

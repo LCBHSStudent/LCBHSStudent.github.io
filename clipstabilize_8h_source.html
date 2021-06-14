@@ -1,0 +1,129 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/project/clipstabilize.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_00f0a3b1654669903f8939607e046ce9.html">project</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">clipstabilize.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="clipstabilize_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2008 by Jean-Baptiste Mardelle (jb@kdenlive.org)        *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   Copyright (C) 2011 by Marco Gittler (marco@gitma.de)                  *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   This program is distributed in the hope that it will be useful,       *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   along with this program; if not, write to the                         *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *   Free Software Foundation, Inc.,                                       *</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA          *</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef CLIPSTABILIZE_H</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#define CLIPSTABILIZE_H</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="definitions_8h.html">definitions.h</a>&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="timecode_8h.html">timecode.h</a>&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;ui_clipstabilize_ui.h&quot;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;QUrl&gt;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span><a class="code" href="classAssetParameterModel.html">AssetParameterModel</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span><a class="code" href="classAssetParameterView.html">AssetParameterView</a>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classClipStabilize.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="classClipStabilize.html">ClipStabilize</a> : <span class="keyword">public</span> QDialog, <span class="keyword">public</span> Ui::ClipStabilize_UI</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classClipStabilize.html#a57ae9b124f319b78f24923d605756321">ClipStabilize</a>(<span class="keyword">const</span> std::vector&lt;QString&gt; &amp;binIds, QString <a class="code" href="classClipStabilize.html#a89d525e3ee10932f0baf98f78473f2b7">filterName</a>, QWidget *parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classClipStabilize.html#ae4df6ab89841cb36d5a7f7099efcfbe7">~ClipStabilize</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classClipStabilize.html#a37c036e4a7b8b392996f261de8057780">autoAddClip</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    std::unordered_map&lt;QString, QVariant&gt; <a class="code" href="classClipStabilize.html#a73f082194c3d0fbbd2526412bfd572af">filterParams</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    QString <a class="code" href="classClipStabilize.html#ac3bdd61eedd3200c0f7b939b2dfb8734">destination</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QString <a class="code" href="classClipStabilize.html#af6ce38689eb8b750b233bb40eef82a16">desc</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">/* Return the name of the actual mlt filter used */</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    QString <a class="code" href="classClipStabilize.html#a89d525e3ee10932f0baf98f78473f2b7">filterName</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> slotValidate();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    QString m_filtername;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::vector&lt;QString&gt; m_binIds;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    QVBoxLayout *m_vbox;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="classTimecode.html">Timecode</a> m_tc;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::shared_ptr&lt;AssetParameterModel&gt; m_assetModel;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    std::unique_ptr&lt;AssetParameterView&gt; m_view;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;signals:</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classClipStabilize.html#aa481d9d45d2e645fcd0e6745aa7e4105">addClip</a>(<span class="keyword">const</span> QUrl &amp;url);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classClipStabilize_html_ae4df6ab89841cb36d5a7f7099efcfbe7"><div class="ttname"><a href="classClipStabilize.html#ae4df6ab89841cb36d5a7f7099efcfbe7">ClipStabilize::~ClipStabilize</a></div><div class="ttdeci">~ClipStabilize() override</div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:93</div></div>
+<div class="ttc" id="classClipStabilize_html_a73f082194c3d0fbbd2526412bfd572af"><div class="ttname"><a href="classClipStabilize.html#a73f082194c3d0fbbd2526412bfd572af">ClipStabilize::filterParams</a></div><div class="ttdeci">std::unordered_map&lt; QString, QVariant &gt; filterParams() const </div><div class="ttdoc">Return the filter parameters, filter name as value of &quot;filter&quot; entry. </div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:101</div></div>
+<div class="ttc" id="classAssetParameterView_html"><div class="ttname"><a href="classAssetParameterView.html">AssetParameterView</a></div><div class="ttdoc">This class is the view for a list of parameters. </div><div class="ttdef"><b>Definition:</b> assetparameterview.hpp:42</div></div>
+<div class="ttc" id="classClipStabilize_html_aa481d9d45d2e645fcd0e6745aa7e4105"><div class="ttname"><a href="classClipStabilize.html#aa481d9d45d2e645fcd0e6745aa7e4105">ClipStabilize::addClip</a></div><div class="ttdeci">void addClip(const QUrl &amp;url)</div></div>
+<div class="ttc" id="classClipStabilize_html_a57ae9b124f319b78f24923d605756321"><div class="ttname"><a href="classClipStabilize.html#a57ae9b124f319b78f24923d605756321">ClipStabilize::ClipStabilize</a></div><div class="ttdeci">ClipStabilize(const std::vector&lt; QString &gt; &amp;binIds, QString filterName, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:38</div></div>
+<div class="ttc" id="definitions_8h_html"><div class="ttname"><a href="definitions_8h.html">definitions.h</a></div></div>
+<div class="ttc" id="classClipStabilize_html"><div class="ttname"><a href="classClipStabilize.html">ClipStabilize</a></div><div class="ttdef"><b>Definition:</b> clipstabilize.h:33</div></div>
+<div class="ttc" id="timecode_8h_html"><div class="ttname"><a href="timecode_8h.html">timecode.h</a></div></div>
+<div class="ttc" id="classAssetParameterModel_html"><div class="ttname"><a href="classAssetParameterModel.html">AssetParameterModel</a></div><div class="ttdoc">This class is the model for a list of parameters. The behaviour of a transition or an effect is typic...</div><div class="ttdef"><b>Definition:</b> assetparametermodel.hpp:73</div></div>
+<div class="ttc" id="classClipStabilize_html_af6ce38689eb8b750b233bb40eef82a16"><div class="ttname"><a href="classClipStabilize.html#af6ce38689eb8b750b233bb40eef82a16">ClipStabilize::desc</a></div><div class="ttdeci">QString desc() const </div><div class="ttdoc">Return the job description. </div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:126</div></div>
+<div class="ttc" id="classClipStabilize_html_a37c036e4a7b8b392996f261de8057780"><div class="ttname"><a href="classClipStabilize.html#a37c036e4a7b8b392996f261de8057780">ClipStabilize::autoAddClip</a></div><div class="ttdeci">bool autoAddClip() const </div><div class="ttdoc">Should the generated clip be added to current project. </div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:131</div></div>
+<div class="ttc" id="classClipStabilize_html_ac3bdd61eedd3200c0f7b939b2dfb8734"><div class="ttname"><a href="classClipStabilize.html#ac3bdd61eedd3200c0f7b939b2dfb8734">ClipStabilize::destination</a></div><div class="ttdeci">QString destination() const </div><div class="ttdoc">Return the destination file or folder. </div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:117</div></div>
+<div class="ttc" id="classClipStabilize_html_a89d525e3ee10932f0baf98f78473f2b7"><div class="ttname"><a href="classClipStabilize.html#a89d525e3ee10932f0baf98f78473f2b7">ClipStabilize::filterName</a></div><div class="ttdeci">QString filterName() const </div><div class="ttdef"><b>Definition:</b> clipstabilize.cpp:112</div></div>
+<div class="ttc" id="classTimecode_html"><div class="ttname"><a href="classTimecode.html">Timecode</a></div><div class="ttdef"><b>Definition:</b> timecode.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

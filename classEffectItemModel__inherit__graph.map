@@ -1,0 +1,8 @@
+<map id="EffectItemModel" name="EffectItemModel">
+<area shape="rect" id="node2" href="$classAbstractEffectItem.html" title="This represents an effect of the effectstack. " alt="" coords="395,1035,587,1317"/>
+<area shape="rect" id="node3" href="$classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="427,506,605,950"/>
+<area shape="rect" id="node4" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="424,307,613,414"/>
+<area shape="rect" id="node5" href="$classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="327,160,481,252"/>
+<area shape="rect" id="node9" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; AssetParameter\lModel \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="179,300,399,421"/>
+<area shape="rect" id="node7" href="$classAssetParameterModel.html" title="This class is the model for a list of parameters. The behaviour of a transition or an effect is typic..." alt="" coords="179,469,399,987"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="src/dialogs/textbasededit.cpp" name="src/dialogs/textbasededit.cpp">
+<area shape="rect" id="node2" href="$textbasededit_8h.html" title="textbasededit.h" alt="" coords="3459,155,3583,181"/>
+<area shape="rect" id="node13" href="$bin_8h.html" title="bin/bin.h" alt="" coords="2023,155,2102,181"/>
+<area shape="rect" id="node31" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1314,80,1441,107"/>
+<area shape="rect" id="node34" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="138,155,313,181"/>
+<area shape="rect" id="node36" href="$projectsubclip_8h.html" title="bin/projectsubclip.h" alt="" coords="668,155,817,181"/>
+<area shape="rect" id="node37" href="$core_8h.html" title="core.h" alt="" coords="1703,155,1766,181"/>
+<area shape="rect" id="node39" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="2005,80,2121,107"/>
+<area shape="rect" id="node41" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="1791,80,1929,107"/>
+<area shape="rect" id="node42" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="1790,155,1930,181"/>
+<area shape="rect" id="node43" href="$timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="892,155,1143,181"/>
+<area shape="rect" id="node44" href="$timelinewidget_8h.html" title="timeline2/view/timelinewidget.h" alt="" coords="2414,80,2647,107"/>
+<area shape="rect" id="node45" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="5,229,189,256"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="838,229,941,256"/>
+<area shape="rect" id="node14" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1001,229,1164,256"/>
+<area shape="rect" id="node15" href="$timecode_8h.html" title="timecode.h" alt="" coords="1687,229,1782,256"/>
+<area shape="rect" id="node32" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="1370,155,1577,181"/>
+<area shape="rect" id="node33" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="388,155,644,181"/>
+<area shape="rect" id="node35" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="265,229,533,256"/>
+</map>

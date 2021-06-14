@@ -1,0 +1,136 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/timecode.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">timecode.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="timecode_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">                        timecode  -  description</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">                           -------------------</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">  begin                : Wed Dec 17 2003</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">  copyright            : (C) 2003 by Jason Wood</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">  email                : jasonwood@blueyonder.co.uk</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">***************************************************************************/</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef TIMECODE_H</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define TIMECODE_H</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gentime_8h.html">gentime.h</a>&quot;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classTimecode.html">   38</a></span>&#160;<span class="keyword">class </span><a class="code" href="classTimecode.html">Timecode</a></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba92209784123fadb687a5b8f8b5e662a5">   41</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801b">Formats</a> { <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba03b7c6047f0a6475d546e111fea33b91">HH_MM_SS_FF</a>, <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801babb63edb8a2f42503d1706750297034d9">HH_MM_SS_HH</a>, <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801bad36a72b83ef837f2dbdc85e718c393d1">Frames</a>, <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba92209784123fadb687a5b8f8b5e662a5">Seconds</a> };</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classTimecode.html#a673e26f6cfa10054779052628696ca22">Timecode</a>(<a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801b">Formats</a> <a class="code" href="classTimecode.html#a65838882e42133ea14a371169f433b7f">format</a> = <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba03b7c6047f0a6475d546e111fea33b91">HH_MM_SS_FF</a>, <span class="keywordtype">double</span> framesPerSecond = 25);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classTimecode.html#aea4f06ce27d700d4d9cf3a1c607dd5ea">setFormat</a>(<span class="keywordtype">double</span> framesPerSecond, <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801b">Formats</a> <a class="code" href="classTimecode.html#a65838882e42133ea14a371169f433b7f">format</a> = <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba03b7c6047f0a6475d546e111fea33b91">HH_MM_SS_FF</a>);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801b">Formats</a> <a class="code" href="classTimecode.html#a65838882e42133ea14a371169f433b7f">format</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classTimecode.html#a82f245780f114bfa47bb8b5d4238ecca">~Timecode</a>();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    QString <a class="code" href="classTimecode.html#acb33917871ea0fbbb4bd486b4045412e">getDisplayTimecode</a>(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time, <span class="keywordtype">bool</span> frameDisplay) <span class="keyword">const</span>;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    QString <a class="code" href="classTimecode.html#ade39144a3db76a4cf4e127339c980531">getTimecode</a>(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time) <span class="keyword">const</span>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classTimecode.html#a4d123a4a1f2ce18f210a379005292712">getFrameCount</a>(<span class="keyword">const</span> QString &amp;duration) <span class="keyword">const</span>;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">static</span> QString <a class="code" href="classTimecode.html#a6de18ebd5fa361e0f09b166b98191711">getStringTimecode</a>(<span class="keywordtype">int</span> frames, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp;<a class="code" href="classTimecode.html#a129ba54fc3c9421c5da13fb0acddab8f">fps</a>, <span class="keywordtype">bool</span> showFrames = <span class="keyword">false</span>);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">const</span> QString <a class="code" href="classTimecode.html#abf31e8e04f94d1898108777d48503ed0">getDisplayTimecodeFromFrames</a>(<span class="keywordtype">int</span> frames, <span class="keywordtype">bool</span> frameDisplay) <span class="keyword">const</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">const</span> QString <a class="code" href="classTimecode.html#aec82e972d9aa69ad3d8cc286d9254921">getTimecodeFromFrames</a>(<span class="keywordtype">int</span> frames) <span class="keyword">const</span>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="classTimecode.html#a129ba54fc3c9421c5da13fb0acddab8f">fps</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">const</span> QString <a class="code" href="classTimecode.html#a3b8464e29cd46f9e5208317518efdbb7">mask</a>(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;t = <a class="code" href="classGenTime.html">GenTime</a>()) <span class="keyword">const</span>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    QString <a class="code" href="classTimecode.html#af33c8307753a2878b8c478231bf9c141">reformatSeparators</a>(QString duration) <span class="keyword">const</span>;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801b">Formats</a> m_format;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">bool</span> m_dropFrameTimecode;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> m_displayedFramesPerSecond;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">double</span> m_realFps;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">double</span> m_dropFrames;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> m_framesPer10Minutes;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">const</span> QString getTimecodeHH_MM_SS_FF(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time) <span class="keyword">const</span>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">const</span> QString getTimecodeHH_MM_SS_FF(<span class="keywordtype">int</span> frames) <span class="keyword">const</span>;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">const</span> QString getTimecodeHH_MM_SS_HH(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time) <span class="keyword">const</span>;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">const</span> QString getTimecodeFrames(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time) <span class="keyword">const</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">const</span> QString getTimecodeSeconds(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time) <span class="keyword">const</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">const</span> QString getTimecodeDropFrame(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;time) <span class="keyword">const</span>;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">const</span> QString getTimecodeDropFrame(<span class="keywordtype">int</span> framenumber) <span class="keyword">const</span>;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;};</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classTimecode_html_a4d123a4a1f2ce18f210a379005292712"><div class="ttname"><a href="classTimecode.html#a4d123a4a1f2ce18f210a379005292712">Timecode::getFrameCount</a></div><div class="ttdeci">int getFrameCount(const QString &amp;duration) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:136</div></div>
+<div class="ttc" id="classTimecode_html_a6de18ebd5fa361e0f09b166b98191711"><div class="ttname"><a href="classTimecode.html#a6de18ebd5fa361e0f09b166b98191711">Timecode::getStringTimecode</a></div><div class="ttdeci">static QString getStringTimecode(int frames, const double &amp;fps, bool showFrames=false)</div><div class="ttdef"><b>Definition:</b> timecode.cpp:209</div></div>
+<div class="ttc" id="classTimecode_html_a814ff7d1749ee3ad6f37ce262c80801ba92209784123fadb687a5b8f8b5e662a5"><div class="ttname"><a href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba92209784123fadb687a5b8f8b5e662a5">Timecode::Seconds</a></div><div class="ttdef"><b>Definition:</b> timecode.h:41</div></div>
+<div class="ttc" id="classTimecode_html_a814ff7d1749ee3ad6f37ce262c80801b"><div class="ttname"><a href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801b">Timecode::Formats</a></div><div class="ttdeci">Formats</div><div class="ttdef"><b>Definition:</b> timecode.h:41</div></div>
+<div class="ttc" id="classTimecode_html_acb33917871ea0fbbb4bd486b4045412e"><div class="ttname"><a href="classTimecode.html#acb33917871ea0fbbb4bd486b4045412e">Timecode::getDisplayTimecode</a></div><div class="ttdeci">QString getDisplayTimecode(const GenTime &amp;time, bool frameDisplay) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:166</div></div>
+<div class="ttc" id="classTimecode_html_a814ff7d1749ee3ad6f37ce262c80801babb63edb8a2f42503d1706750297034d9"><div class="ttname"><a href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801babb63edb8a2f42503d1706750297034d9">Timecode::HH_MM_SS_HH</a></div><div class="ttdef"><b>Definition:</b> timecode.h:41</div></div>
+<div class="ttc" id="classTimecode_html_aec82e972d9aa69ad3d8cc286d9254921"><div class="ttname"><a href="classTimecode.html#aec82e972d9aa69ad3d8cc286d9254921">Timecode::getTimecodeFromFrames</a></div><div class="ttdeci">const QString getTimecodeFromFrames(int frames) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:203</div></div>
+<div class="ttc" id="classTimecode_html_a65838882e42133ea14a371169f433b7f"><div class="ttname"><a href="classTimecode.html#a65838882e42133ea14a371169f433b7f">Timecode::format</a></div><div class="ttdeci">Formats format() const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:104</div></div>
+<div class="ttc" id="gentime_8h_html"><div class="ttname"><a href="gentime_8h.html">gentime.h</a></div></div>
+<div class="ttc" id="classGenTime_html"><div class="ttname"><a href="classGenTime.html">GenTime</a></div><div class="ttdoc">Encapsulates a time, which can be set in various forms and outputted in various forms. </div><div class="ttdef"><b>Definition:</b> gentime.h:29</div></div>
+<div class="ttc" id="classTimecode_html_af33c8307753a2878b8c478231bf9c141"><div class="ttname"><a href="classTimecode.html#af33c8307753a2878b8c478231bf9c141">Timecode::reformatSeparators</a></div><div class="ttdeci">QString reformatSeparators(QString duration) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:128</div></div>
+<div class="ttc" id="classTimecode_html_aea4f06ce27d700d4d9cf3a1c607dd5ea"><div class="ttname"><a href="classTimecode.html#aea4f06ce27d700d4d9cf3a1c607dd5ea">Timecode::setFormat</a></div><div class="ttdeci">void setFormat(double framesPerSecond, Formats format=HH_MM_SS_FF)</div><div class="ttdef"><b>Definition:</b> timecode.cpp:92</div></div>
+<div class="ttc" id="classTimecode_html_abf31e8e04f94d1898108777d48503ed0"><div class="ttname"><a href="classTimecode.html#abf31e8e04f94d1898108777d48503ed0">Timecode::getDisplayTimecodeFromFrames</a></div><div class="ttdeci">const QString getDisplayTimecodeFromFrames(int frames, bool frameDisplay) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:195</div></div>
+<div class="ttc" id="classTimecode_html_a82f245780f114bfa47bb8b5d4238ecca"><div class="ttname"><a href="classTimecode.html#a82f245780f114bfa47bb8b5d4238ecca">Timecode::~Timecode</a></div><div class="ttdeci">~Timecode()</div></div>
+<div class="ttc" id="classTimecode_html_a814ff7d1749ee3ad6f37ce262c80801ba03b7c6047f0a6475d546e111fea33b91"><div class="ttname"><a href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801ba03b7c6047f0a6475d546e111fea33b91">Timecode::HH_MM_SS_FF</a></div><div class="ttdef"><b>Definition:</b> timecode.h:41</div></div>
+<div class="ttc" id="classTimecode_html_ade39144a3db76a4cf4e127339c980531"><div class="ttname"><a href="classTimecode.html#ade39144a3db76a4cf4e127339c980531">Timecode::getTimecode</a></div><div class="ttdeci">QString getTimecode(const GenTime &amp;time) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:174</div></div>
+<div class="ttc" id="classTimecode_html_a129ba54fc3c9421c5da13fb0acddab8f"><div class="ttname"><a href="classTimecode.html#a129ba54fc3c9421c5da13fb0acddab8f">Timecode::fps</a></div><div class="ttdeci">double fps() const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:109</div></div>
+<div class="ttc" id="classTimecode_html_a814ff7d1749ee3ad6f37ce262c80801bad36a72b83ef837f2dbdc85e718c393d1"><div class="ttname"><a href="classTimecode.html#a814ff7d1749ee3ad6f37ce262c80801bad36a72b83ef837f2dbdc85e718c393d1">Timecode::Frames</a></div><div class="ttdef"><b>Definition:</b> timecode.h:41</div></div>
+<div class="ttc" id="classTimecode_html_a673e26f6cfa10054779052628696ca22"><div class="ttname"><a href="classTimecode.html#a673e26f6cfa10054779052628696ca22">Timecode::Timecode</a></div><div class="ttdeci">Timecode(Formats format=HH_MM_SS_FF, double framesPerSecond=25)</div><div class="ttdef"><b>Definition:</b> timecode.cpp:85</div></div>
+<div class="ttc" id="classTimecode_html_a3b8464e29cd46f9e5208317518efdbb7"><div class="ttname"><a href="classTimecode.html#a3b8464e29cd46f9e5208317518efdbb7">Timecode::mask</a></div><div class="ttdeci">const QString mask(const GenTime &amp;t=GenTime()) const </div><div class="ttdef"><b>Definition:</b> timecode.cpp:114</div></div>
+<div class="ttc" id="classTimecode_html"><div class="ttname"><a href="classTimecode.html">Timecode</a></div><div class="ttdef"><b>Definition:</b> timecode.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

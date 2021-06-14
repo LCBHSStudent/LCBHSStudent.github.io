@@ -1,0 +1,610 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: MixerManager类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="classMixerManager-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MixerManager类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="mixermanager_8hpp_source.html">mixermanager.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 MixerManager 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMixerManager__inherit__graph.png" border="0" usemap="#MixerManager_inherit__map" alt="Inheritance graph"/></div>
+<map name="MixerManager_inherit__map" id="MixerManager_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+MixerManager 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMixerManager__coll__graph.png" border="0" usemap="#MixerManager_coll__map" alt="Collaboration graph"/></div>
+<map name="MixerManager_coll__map" id="MixerManager_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:acf76850e55a8e61392ce260a065dcec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#acf76850e55a8e61392ce260a065dcec2">recordStateChanged</a> (int tid, bool recording)</td></tr>
+<tr class="separator:acf76850e55a8e61392ce260a065dcec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:abc576ca92f2ac540b128e13bd0a930f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#abc576ca92f2ac540b128e13bd0a930f0">updateLevels</a> (int)</td></tr>
+<tr class="separator:abc576ca92f2ac540b128e13bd0a930f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e2b1052b366ace94348d6ce12a7b063"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a5e2b1052b366ace94348d6ce12a7b063">recordAudio</a> (int tid)</td></tr>
+<tr class="separator:a5e2b1052b366ace94348d6ce12a7b063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50722bf6753c01b460abe7b3f67873d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a50722bf6753c01b460abe7b3f67873d2">purgeCache</a> ()</td></tr>
+<tr class="separator:a50722bf6753c01b460abe7b3f67873d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5948c7fbdce49360b02dcaf080eb32a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a5948c7fbdce49360b02dcaf080eb32a8">clearMixers</a> ()</td></tr>
+<tr class="separator:a5948c7fbdce49360b02dcaf080eb32a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814bbadc0409fd1cb107ba1c85bf02e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a814bbadc0409fd1cb107ba1c85bf02e9">updateRecVolume</a> ()</td></tr>
+<tr class="separator:a814bbadc0409fd1cb107ba1c85bf02e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d0dcd010190f67edcaf21c01ebdee20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a4d0dcd010190f67edcaf21c01ebdee20">showEffectStack</a> (int tid)</td></tr>
+<tr class="separator:a4d0dcd010190f67edcaf21c01ebdee20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:afd0910acfbf0cd5a234c89233f547bc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#afd0910acfbf0cd5a234c89233f547bc7">MixerManager</a> (QWidget *parent)</td></tr>
+<tr class="separator:afd0910acfbf0cd5a234c89233f547bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800da7fe0de70cf054c038986759aaec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a800da7fe0de70cf054c038986759aaec">registerTrack</a> (int tid, std::shared_ptr&lt; Mlt::Tractor &gt; service, const QString &amp;trackTag, const QString &amp;trackName)</td></tr>
+<tr class="memdesc:a800da7fe0de70cf054c038986759aaec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the parameters of the given transition model.  <a href="#a800da7fe0de70cf054c038986759aaec">更多...</a><br /></td></tr>
+<tr class="separator:a800da7fe0de70cf054c038986759aaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9fc9583b4c687714d973e1f87b1d13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a4e9fc9583b4c687714d973e1f87b1d13">deregisterTrack</a> (int tid)</td></tr>
+<tr class="separator:a4e9fc9583b4c687714d973e1f87b1d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2baf2a29380089179e2035e7dd7c19a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#af2baf2a29380089179e2035e7dd7c19a">setModel</a> (std::shared_ptr&lt; <a class="el" href="classTimelineItemModel.html">TimelineItemModel</a> &gt; model)</td></tr>
+<tr class="separator:af2baf2a29380089179e2035e7dd7c19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5644a21a68422d167520d6003115bfa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a5644a21a68422d167520d6003115bfa7">cleanup</a> ()</td></tr>
+<tr class="separator:a5644a21a68422d167520d6003115bfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a344a4de7aa34c2a4e8af3bf81f16e06c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a344a4de7aa34c2a4e8af3bf81f16e06c">connectMixer</a> (bool doConnect)</td></tr>
+<tr class="memdesc:a344a4de7aa34c2a4e8af3bf81f16e06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the mixer widgets to the correspondent filters.  <a href="#a344a4de7aa34c2a4e8af3bf81f16e06c">更多...</a><br /></td></tr>
+<tr class="separator:a344a4de7aa34c2a4e8af3bf81f16e06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f91a36e98cfc48a37dee8930020136f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a6f91a36e98cfc48a37dee8930020136f">collapseMixers</a> ()</td></tr>
+<tr class="separator:a6f91a36e98cfc48a37dee8930020136f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e51651590301afd862d2c753f2d34e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a11e51651590301afd862d2c753f2d34e">pauseMonitoring</a> (bool pause)</td></tr>
+<tr class="memdesc:a11e51651590301afd862d2c753f2d34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause/unpause audio monitoring.  <a href="#a11e51651590301afd862d2c753f2d34e">更多...</a><br /></td></tr>
+<tr class="separator:a11e51651590301afd862d2c753f2d34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad82d28ce42b3fe72ce2a8a523ac5368"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#aad82d28ce42b3fe72ce2a8a523ac5368">unsetModel</a> ()</td></tr>
+<tr class="memdesc:aad82d28ce42b3fe72ce2a8a523ac5368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the timeline model ownership.  <a href="#aad82d28ce42b3fe72ce2a8a523ac5368">更多...</a><br /></td></tr>
+<tr class="separator:aad82d28ce42b3fe72ce2a8a523ac5368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a3842d1d462196ec9e38b1a6e27751ac4"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a3842d1d462196ec9e38b1a6e27751ac4">sizeHint</a> () const  override</td></tr>
+<tr class="separator:a3842d1d462196ec9e38b1a6e27751ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a1471084f0a0a1c94c0d166c514536367"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, std::shared_ptr&lt; <a class="el" href="classMixerWidget.html">MixerWidget</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a1471084f0a0a1c94c0d166c514536367">m_mixers</a></td></tr>
+<tr class="separator:a1471084f0a0a1c94c0d166c514536367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cb2a9749b4800a7f659829680c87a9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMixerWidget.html">MixerWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMixerManager.html#a30cb2a9749b4800a7f659829680c87a9">m_masterMixer</a></td></tr>
+<tr class="separator:a30cb2a9749b4800a7f659829680c87a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="afd0910acfbf0cd5a234c89233f547bc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MixerManager::MixerManager </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a5644a21a68422d167520d6003115bfa7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::cleanup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5948c7fbdce49360b02dcaf080eb32a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::clearMixers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6f91a36e98cfc48a37dee8930020136f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::collapseMixers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a344a4de7aa34c2a4e8af3bf81f16e06c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::connectMixer </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>doConnect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect the mixer widgets to the correspondent filters. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4e9fc9583b4c687714d973e1f87b1d13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::deregisterTrack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a11e51651590301afd862d2c753f2d34e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::pauseMonitoring </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pause</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pause/unpause audio monitoring. </p>
+
+</div>
+</div>
+<a class="anchor" id="a50722bf6753c01b460abe7b3f67873d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::purgeCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5e2b1052b366ace94348d6ce12a7b063"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::recordAudio </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acf76850e55a8e61392ce260a065dcec2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::recordStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>recording</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a800da7fe0de70cf054c038986759aaec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::registerTrack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; Mlt::Tractor &gt;&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>trackTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>trackName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shows the parameters of the given transition model. </p>
+
+</div>
+</div>
+<a class="anchor" id="af2baf2a29380089179e2035e7dd7c19a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::setModel </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classTimelineItemModel.html">TimelineItemModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>model</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d0dcd010190f67edcaf21c01ebdee20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::showEffectStack </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3842d1d462196ec9e38b1a6e27751ac4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize MixerManager::sizeHint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad82d28ce42b3fe72ce2a8a523ac5368"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::unsetModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Release the timeline model ownership. </p>
+
+</div>
+</div>
+<a class="anchor" id="abc576ca92f2ac540b128e13bd0a930f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::updateLevels </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a814bbadc0409fd1cb107ba1c85bf02e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MixerManager::updateRecVolume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a30cb2a9749b4800a7f659829680c87a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMixerWidget.html">MixerWidget</a>&gt; MixerManager::m_masterMixer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1471084f0a0a1c94c0d166c514536367"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;int, std::shared_ptr&lt;<a class="el" href="classMixerWidget.html">MixerWidget</a>&gt; &gt; MixerManager::m_mixers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/audiomixer/<a class="el" href="mixermanager_8hpp_source.html">mixermanager.hpp</a></li>
+<li>src/audiomixer/<a class="el" href="mixermanager_8cpp.html">mixermanager.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

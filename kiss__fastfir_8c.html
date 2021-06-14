@@ -1,0 +1,372 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/lib/external/kiss_fft/tools/kiss_fastfir.c 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_f12b4398bd6bee78960580574110c364.html">external</a></li><li class="navelem"><a class="el" href="dir_757801d8cd5c463331a728a261f85ba1.html">kiss_fft</a></li><li class="navelem"><a class="el" href="dir_8f7a23037848993efbc2c5bc1ed73d28.html">tools</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">kiss_fastfir.c 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="__kiss__fft__guts_8h_source.html">../_kiss_fft_guts.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="kiss__fftr_8h_source.html">kiss_fftr.h</a>&quot;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;sys/mman.h&gt;</code><br />
+<code>#include &lt;assert.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+kiss_fastfir.c 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="kiss__fastfir_8c__incl.png" border="0" usemap="#src_2lib_2external_2kiss__fft_2tools_2kiss__fastfir_8c" alt=""/></div>
+<map name="src_2lib_2external_2kiss__fft_2tools_2kiss__fastfir_8c" id="src_2lib_2external_2kiss__fft_2tools_2kiss__fastfir_8c">
+<area shape="rect" id="node2" href="__kiss__fft__guts_8h.html" title="../_kiss_fft_guts.h" alt="" coords="340,95,475,121"/>
+<area shape="rect" id="node10" href="kiss__fftr_8h.html" title="kiss_fftr.h" alt="" coords="230,95,315,121"/>
+<area shape="rect" id="node3" href="kiss__fft_8h.html" title="kiss_fft.h" alt="" coords="249,169,331,196"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkiss__fastfir__state.html">kiss_fastfir_state</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a1afa4e940e0518d888715e8d969baea9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a1afa4e940e0518d888715e8d969baea9">MIN_FFT_LEN</a>&#160;&#160;&#160;2048</td></tr>
+<tr class="separator:a1afa4e940e0518d888715e8d969baea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d38631169c1ea4093c37a0d57d29093"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a2d38631169c1ea4093c37a0d57d29093">FFT_ALLOC</a>&#160;&#160;&#160;<a class="el" href="kiss__fftr_8h.html#aead7aaed139f58158b446ea623a8b8cb">kiss_fftr_alloc</a></td></tr>
+<tr class="separator:a2d38631169c1ea4093c37a0d57d29093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e7dc81966a2ce5196b34d0e706a90c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a7e7dc81966a2ce5196b34d0e706a90c1">FFTFWD</a>&#160;&#160;&#160;<a class="el" href="kiss__fftr_8h.html#a10fb9f5b5d83d074766cb54aa7269000">kiss_fftr</a></td></tr>
+<tr class="separator:a7e7dc81966a2ce5196b34d0e706a90c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15190b7895237562c690847f33cf0ff7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a15190b7895237562c690847f33cf0ff7">FFTINV</a>&#160;&#160;&#160;<a class="el" href="kiss__fftr_8h.html#a16dc872f6d9d4a613cea584cf86eae2e">kiss_fftri</a></td></tr>
+<tr class="separator:a15190b7895237562c690847f33cf0ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:aac52ef066aee437466e17d6d93c4549b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="kiss__fft_8h.html#a4d9bf2d6a2ce1b061545a16faf77d337">kiss_fft_scalar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a></td></tr>
+<tr class="separator:aac52ef066aee437466e17d6d93c4549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4194dae50d1b0761fb679c5d0a2e230b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="kiss__fftr_8h.html#a9770a73a2aed969522b253322d069fb8">kiss_fftr_cfg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a4194dae50d1b0761fb679c5d0a2e230b">kfcfg_t</a></td></tr>
+<tr class="separator:a4194dae50d1b0761fb679c5d0a2e230b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7530c182247ae6b8c41f4bc29b627697"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structkiss__fastfir__state.html">kiss_fastfir_state</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a7530c182247ae6b8c41f4bc29b627697">kiss_fastfir_cfg</a></td></tr>
+<tr class="separator:a7530c182247ae6b8c41f4bc29b627697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a0ce003413b3cfda0ec6d80183c01d02a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="kiss__fastfir_8c.html#a7530c182247ae6b8c41f4bc29b627697">kiss_fastfir_cfg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a0ce003413b3cfda0ec6d80183c01d02a">kiss_fastfir_alloc</a> (const <a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a> *imp_resp, size_t n_imp_resp, size_t *<a class="el" href="psdpng_8c.html#a5fe0c446c13b53f5c7d455b623a25234">nfft</a>, void *mem, size_t *lenmem)</td></tr>
+<tr class="separator:a0ce003413b3cfda0ec6d80183c01d02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b518ffb1d0d64abca0375848b8d2d6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a13b518ffb1d0d64abca0375848b8d2d6">kiss_fastfir</a> (<a class="el" href="kiss__fastfir_8c.html#a7530c182247ae6b8c41f4bc29b627697">kiss_fastfir_cfg</a> cfg, <a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a> *inbuf, <a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a> *outbuf, size_t n, size_t *offset)</td></tr>
+<tr class="separator:a13b518ffb1d0d64abca0375848b8d2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kiss__fastfir_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="a2d38631169c1ea4093c37a0d57d29093"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FFT_ALLOC&#160;&#160;&#160;<a class="el" href="kiss__fftr_8h.html#aead7aaed139f58158b446ea623a8b8cb">kiss_fftr_alloc</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7e7dc81966a2ce5196b34d0e706a90c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FFTFWD&#160;&#160;&#160;<a class="el" href="kiss__fftr_8h.html#a10fb9f5b5d83d074766cb54aa7269000">kiss_fftr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a15190b7895237562c690847f33cf0ff7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FFTINV&#160;&#160;&#160;<a class="el" href="kiss__fftr_8h.html#a16dc872f6d9d4a613cea584cf86eae2e">kiss_fftri</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1afa4e940e0518d888715e8d969baea9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN_FFT_LEN&#160;&#160;&#160;2048</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类型定义说明</h2>
+<a class="anchor" id="a4194dae50d1b0761fb679c5d0a2e230b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="kiss__fftr_8h.html#a9770a73a2aed969522b253322d069fb8">kiss_fftr_cfg</a> <a class="el" href="kiss__fastfir_8c.html#a4194dae50d1b0761fb679c5d0a2e230b">kfcfg_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aac52ef066aee437466e17d6d93c4549b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="kiss__fft_8h.html#a4d9bf2d6a2ce1b061545a16faf77d337">kiss_fft_scalar</a> <a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7530c182247ae6b8c41f4bc29b627697"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structkiss__fastfir__state.html">kiss_fastfir_state</a>* <a class="el" href="kiss__fastfir_8c.html#a7530c182247ae6b8c41f4bc29b627697">kiss_fastfir_cfg</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="a13b518ffb1d0d64abca0375848b8d2d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t kiss_fastfir </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="kiss__fastfir_8c.html#a7530c182247ae6b8c41f4bc29b627697">kiss_fastfir_cfg</a>&#160;</td>
+          <td class="paramname"><em>cfg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a> *&#160;</td>
+          <td class="paramname"><em>inbuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a> *&#160;</td>
+          <td class="paramname"><em>outbuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ce003413b3cfda0ec6d80183c01d02a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="kiss__fastfir_8c.html#a7530c182247ae6b8c41f4bc29b627697">kiss_fastfir_cfg</a> kiss_fastfir_alloc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="kiss__fastfir_8c.html#aac52ef066aee437466e17d6d93c4549b">kffsamp_t</a> *&#160;</td>
+          <td class="paramname"><em>imp_resp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n_imp_resp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>nfft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>mem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>lenmem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

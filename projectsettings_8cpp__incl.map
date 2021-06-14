@@ -1,0 +1,22 @@
+<map id="src/project/dialogs/projectsettings.cpp" name="src/project/dialogs/projectsettings.cpp">
+<area shape="rect" id="node2" href="$projectsettings_8h.html" title="projectsettings.h" alt="" coords="646,169,777,196"/>
+<area shape="rect" id="node6" href="$bin_8h.html" title="bin/bin.h" alt="" coords="1241,169,1320,196"/>
+<area shape="rect" id="node24" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1719,95,1845,121"/>
+<area shape="rect" id="node28" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="2043,169,2249,196"/>
+<area shape="rect" id="node30" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="1344,169,1484,196"/>
+<area shape="rect" id="node31" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="3235,169,3409,196"/>
+<area shape="rect" id="node33" href="$core_8h.html" title="core.h" alt="" coords="2632,169,2695,196"/>
+<area shape="rect" id="node34" href="$encodingprofilesdialog_8h.html" title="dialogs/encodingprofilesdialog.h" alt="" coords="3101,95,3333,121"/>
+<area shape="rect" id="node35" href="$profilesdialog_8h.html" title="dialogs/profilesdialog.h" alt="" coords="2986,169,3159,196"/>
+<area shape="rect" id="node36" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2771,169,2911,196"/>
+<area shape="rect" id="node38" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="3323,244,3507,271"/>
+<area shape="rect" id="node39" href="$profilewidget_8h.html" title="project/dialogs/profilewidget.h" alt="" coords="2375,95,2594,121"/>
+<area shape="rect" id="node40" href="$temporarydata_8h.html" title="project/dialogs/temporarydata.h" alt="" coords="2325,169,2556,196"/>
+<area shape="rect" id="node41" href="$titlewidget_8h.html" title="titler/titlewidget.h" alt="" coords="2669,95,2807,121"/>
+<area shape="rect" id="node42" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="3434,169,3538,196"/>
+<area shape="rect" id="node7" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1717,244,1879,271"/>
+<area shape="rect" id="node8" href="$timecode_8h.html" title="timecode.h" alt="" coords="2683,244,2777,271"/>
+<area shape="rect" id="node25" href="$definitions_8h.html" title="definitions.h" alt="" coords="2853,244,2956,271"/>
+<area shape="rect" id="node29" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="1762,169,2018,196"/>
+<area shape="rect" id="node32" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="2980,244,3248,271"/>
+</map>

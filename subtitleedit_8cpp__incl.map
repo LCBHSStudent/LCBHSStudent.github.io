@@ -1,0 +1,18 @@
+<map id="src/dialogs/subtitleedit.cpp" name="src/dialogs/subtitleedit.cpp">
+<area shape="rect" id="node2" href="$subtitleedit_8h.html" title="subtitleedit.h" alt="" coords="274,80,382,107"/>
+<area shape="rect" id="node13" href="$subtitlemodel_8hpp.html" title="bin/model/subtitlemodel.hpp" alt="" coords="1387,80,1597,107"/>
+<area shape="rect" id="node30" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="803,80,941,107"/>
+<area shape="rect" id="node34" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="150,155,290,181"/>
+<area shape="rect" id="node38" href="$core_8h.html" title="core.h" alt="" coords="2713,80,2775,107"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="1029,229,1131,256"/>
+<area shape="rect" id="node5" href="$gentime_8h.html" title="gentime.h" alt="" coords="793,304,881,331"/>
+<area shape="rect" id="node14" href="$bin_8h.html" title="bin/bin.h" alt="" coords="2473,155,2551,181"/>
+<area shape="rect" id="node16" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="2780,304,2903,331"/>
+<area shape="rect" id="node15" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="2565,229,2728,256"/>
+<area shape="rect" id="node19" href="$timecode_8h.html" title="timecode.h" alt="" coords="910,229,1005,256"/>
+<area shape="rect" id="node31" href="$abstractmonitor_8h.html" title="abstractmonitor.h" alt="" coords="1625,155,1762,181"/>
+<area shape="rect" id="node32" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="1837,155,2064,181"/>
+<area shape="rect" id="node33" href="$sharedframe_8h.html" title="scopes/sharedframe.h" alt="" coords="617,155,783,181"/>
+<area shape="rect" id="node39" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="2241,155,2391,181"/>
+<area shape="rect" id="node41" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="3050,155,3217,181"/>
+</map>

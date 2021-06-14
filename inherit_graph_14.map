@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classBinItemDelegate.html" title="This class is responsible for drawing items in the QTreeView. " alt="" coords="229,5,361,32"/>
+<area shape="rect" id="node3" href="$classBinListItemDelegate.html" title="This class is responsible for drawing items in the QListView. " alt="" coords="218,56,373,83"/>
+<area shape="rect" id="node4" href="$classLibraryItemDelegate.html" title="LibraryItemDelegate" alt="" coords="217,107,373,133"/>
+<area shape="rect" id="node5" href="$classNoEditDelegate.html" title="NoEditDelegate" alt="" coords="233,157,357,184"/>
+<area shape="rect" id="node6" href="$classRenderViewDelegate.html" title="RenderViewDelegate" alt="" coords="216,208,375,235"/>
+<area shape="rect" id="node7" href="$classWidgetDelegate.html" title="WidgetDelegate" alt="" coords="232,259,359,285"/>
+</map>

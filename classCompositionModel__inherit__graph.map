@@ -1,0 +1,6 @@
+<map id="CompositionModel" name="CompositionModel">
+<area shape="rect" id="node2" href="$classMoveableItem.html" title="{MoveableItem\&lt; Mlt::\lTransition \&gt;\n|+ selected\l# m_parent\l# m_id\l# m_position\l# m_currentTrackId\l# m_grabbed\l# m_lock\l|+ MoveableItem()\l+ getId()\l+ getPlaytime()\l+ getCurrentTrackId()\l+ getPosition()\l+ getInOut()\l+ getIn()\l+ getOut()\l+ setGrab()\l+ operator Mlt::Transition &amp;()\l+ isValid()\l+ getProperty()\l+ isGrabbed()\l+ setSelected()\l# ~MoveableItem()\l# service()\l# requestResize()\l# setPosition()\l# setCurrentTrackId()\l# setInOut()\l}" alt="" coords="5,499,217,957"/>
+<area shape="rect" id="node3" href="$classAssetParameterModel.html" title="This class is the model for a list of parameters. The behaviour of a transition or an effect is typic..." alt="" coords="241,469,461,987"/>
+<area shape="rect" id="node5" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; AssetParameter\lModel \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="347,300,567,421"/>
+<area shape="rect" id="node6" href="$classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="379,160,534,252"/>
+</map>

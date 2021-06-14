@@ -1,0 +1,12 @@
+<map id="AbstractTask" name="AbstractTask">
+<area shape="rect" id="node4" href="$classAudioLevelsTask.html" title="{AudioLevelsTask\n||+ AudioLevelsTask()\l+ start()\l# run()\l}" alt="" coords="5,498,160,605"/>
+<area shape="rect" id="node5" href="$classCacheTask.html" title="{CacheTask\n||+ CacheTask()\l+ ~CacheTask()\l+ start()\l# run()\l}" alt="" coords="185,491,311,612"/>
+<area shape="rect" id="node6" href="$classClipLoadTask.html" title="{ClipLoadTask\n||+ ClipLoadTask()\l+ ~ClipLoadTask()\l+ loadResource()\l+ loadPlaylist()\l+ processProducerProperties()\l+ processSlideShow()\l+ start()\l+ getTypeForService()\l+ checkProfile()\l# run()\l}" alt="" coords="335,447,555,656"/>
+<area shape="rect" id="node7" href="$classCutTask.html" title="{CutTask\n|+ length\l|+ CutTask()\l+ start()\l# run()\l}" alt="" coords="580,498,679,605"/>
+<area shape="rect" id="node8" href="$classFilterTask.html" title="{FilterTask\n|+ length\l|+ FilterTask()\l+ start()\l# run()\l}" alt="" coords="703,498,812,605"/>
+<area shape="rect" id="node9" href="$classProxyTask.html" title="{ProxyTask\n||+ ProxyTask()\l+ start()\l# run()\l}" alt="" coords="837,498,950,605"/>
+<area shape="rect" id="node10" href="$classSceneSplitTask.html" title="{SceneSplitTask\n||+ SceneSplitTask()\l+ start()\l# run()\l}" alt="" coords="975,498,1119,605"/>
+<area shape="rect" id="node11" href="$classSpeedTask.html" title="{SpeedTask\n|+ length\l|+ SpeedTask()\l+ start()\l# run()\l}" alt="" coords="1143,498,1259,605"/>
+<area shape="rect" id="node12" href="$classStabilizeTask.html" title="{StabilizeTask\n|+ length\l|+ StabilizeTask()\l+ start()\l# run()\l}" alt="" coords="1283,498,1415,605"/>
+<area shape="rect" id="node13" href="$classTranscodeTask.html" title="{TranscodeTask\n||+ TranscodeTask()\l+ start()\l# run()\l}" alt="" coords="1440,498,1581,605"/>
+</map>

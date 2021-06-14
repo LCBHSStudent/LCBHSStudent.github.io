@@ -1,0 +1,124 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/bin/projectsubclip.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_031c4fc26031de218e3c67acfca35073.html">bin</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">projectsubclip.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="projectsubclip_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">Copyright (C) 2015 Jean-Baptiste Mardelle &lt;jb@kdenlive.org&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">This file is part of Kdenlive. See www.kdenlive.org.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">This program is free software; you can redistribute it and/or</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">modify it under the terms of the GNU General Public License as</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">published by the Free Software Foundation; either version 2 of</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">the License or (at your option) version 3 or any later version</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">accepted by the membership of KDE e.V. (or its successor approved</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">by the membership of KDE e.V.), which shall act as a proxy</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">defined in Section 14 of version 3 of the license.</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">This program is distributed in the hope that it will be useful,</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">GNU General Public License for more details.</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">You should have received a copy of the GNU General Public License</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">*/</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef PROJECTSUBCLIP_H</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define PROJECTSUBCLIP_H</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="abstractprojectitem_8h.html">abstractprojectitem.h</a>&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="definitions_8h.html">definitions.h</a>&quot;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">class </span><a class="code" href="classProjectFolder.html">ProjectFolder</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span><a class="code" href="classProjectClip.html">ProjectClip</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span>QDomElement;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMlt.html">Mlt</a> {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classProjectSubClip.html">   39</a></span>&#160;<span class="keyword">class </span><a class="code" href="classProjectSubClip.html">ProjectSubClip</a> : <span class="keyword">public</span> <a class="code" href="classAbstractProjectItem.html">AbstractProjectItem</a></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">static</span> std::shared_ptr&lt;ProjectSubClip&gt; construct(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>, <span class="keyword">const</span> std::shared_ptr&lt;ProjectClip&gt; &amp;parent,</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                     <span class="keyword">const</span> std::shared_ptr&lt;ProjectItemModel&gt; &amp;model, <span class="keywordtype">int</span> in, <span class="keywordtype">int</span> out, <span class="keyword">const</span> QString &amp;timecode,</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                     <span class="keyword">const</span> QMap&lt;QString, QString&gt; zoneProperties);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classProjectSubClip.html">ProjectSubClip</a>(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>, <span class="keyword">const</span> std::shared_ptr&lt;ProjectClip&gt; &amp;parent, <span class="keyword">const</span> std::shared_ptr&lt;ProjectItemModel&gt; &amp;model, <span class="keywordtype">int</span> in, <span class="keywordtype">int</span> out,</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                   <span class="keyword">const</span> QString &amp;timecode, <span class="keyword">const</span> QMap&lt;QString, QString&gt; zoneProperties);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    ~<a class="code" href="classProjectSubClip.html">ProjectSubClip</a>() <span class="keyword">override</span>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::shared_ptr&lt;ProjectClip&gt; clip(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>) <span class="keyword">override</span>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::shared_ptr&lt;ProjectFolder&gt; folder(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>) <span class="keyword">override</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    std::shared_ptr&lt;ProjectSubClip&gt; subClip(<span class="keywordtype">int</span> in, <span class="keywordtype">int</span> out);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    std::shared_ptr&lt;ProjectClip&gt; clipAt(<span class="keywordtype">int</span> ix) <span class="keyword">override</span>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> setBinEffectsEnabled(<span class="keywordtype">bool</span> enabled) <span class="keyword">override</span>;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    QDomElement toXml(QDomDocument &amp;document, <span class="keywordtype">bool</span> includeMeta = <span class="keyword">false</span>, <span class="keywordtype">bool</span> includeProfile = <span class="keyword">true</span>) <span class="keyword">override</span>;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="classGenTime.html">GenTime</a> duration() <span class="keyword">const</span>;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">const</span> QString cutClipId() <span class="keyword">const</span>;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> setThumbnail(<span class="keyword">const</span> QImage &amp;);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    QPixmap thumbnail(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> getThumbFromPercent(<span class="keywordtype">int</span> percent);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    QPoint zone() <span class="keyword">const override</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    QString getToolTip() <span class="keyword">const override</span>;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">bool</span> rename(<span class="keyword">const</span> QString &amp;name, <span class="keywordtype">int</span> column) <span class="keyword">override</span>;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">bool</span> hasAudioAndVideo() <span class="keyword">const override</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    std::shared_ptr&lt;ProjectClip&gt; getMasterClip() <span class="keyword">const</span>;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> clipType() <span class="keyword">const override</span>;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> setProperties(<span class="keyword">const</span> QMap&lt;QString, QString&gt; &amp;properties);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> setRating(uint rating) <span class="keyword">override</span>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    std::shared_ptr&lt;ProjectClip&gt; m_masterClip;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    QString m_parentClipId;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">void</span> gotThumb(<span class="keywordtype">int</span> pos, <span class="keyword">const</span> QImage &amp;img);</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;};</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="namespaceMlt_html"><div class="ttname"><a href="namespaceMlt.html">Mlt</a></div><div class="ttdef"><b>Definition:</b> keyframeimport.h:38</div></div>
+<div class="ttc" id="namespaceClipType_html_a293ad0131334e0677c220ae52ff49ea2"><div class="ttname"><a href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a></div><div class="ttdeci">ProducerType</div><div class="ttdef"><b>Definition:</b> definitions.h:116</div></div>
+<div class="ttc" id="classProjectSubClip_html"><div class="ttname"><a href="classProjectSubClip.html">ProjectSubClip</a></div><div class="ttdoc">Represents a clip in the project (not timeline). </div><div class="ttdef"><b>Definition:</b> projectsubclip.h:39</div></div>
+<div class="ttc" id="definitions_8h_html"><div class="ttname"><a href="definitions_8h.html">definitions.h</a></div></div>
+<div class="ttc" id="classGenTime_html"><div class="ttname"><a href="classGenTime.html">GenTime</a></div><div class="ttdoc">Encapsulates a time, which can be set in various forms and outputted in various forms. </div><div class="ttdef"><b>Definition:</b> gentime.h:29</div></div>
+<div class="ttc" id="classProjectClip_html"><div class="ttname"><a href="classProjectClip.html">ProjectClip</a></div><div class="ttdoc">Represents a clip in the project (not timeline). It will be displayed as a bin item that can be dragg...</div><div class="ttdef"><b>Definition:</b> projectclip.h:57</div></div>
+<div class="ttc" id="classAbstractProjectItem_html"><div class="ttname"><a href="classAbstractProjectItem.html">AbstractProjectItem</a></div><div class="ttdoc">Base class for all project items (clips, folders, ...). </div><div class="ttdef"><b>Definition:</b> abstractprojectitem.h:47</div></div>
+<div class="ttc" id="abstractprojectitem_8h_html"><div class="ttname"><a href="abstractprojectitem_8h.html">abstractprojectitem.h</a></div></div>
+<div class="ttc" id="classProjectFolder_html"><div class="ttname"><a href="classProjectFolder.html">ProjectFolder</a></div><div class="ttdoc">A folder in the bin. </div><div class="ttdef"><b>Definition:</b> projectfolder.h:35</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

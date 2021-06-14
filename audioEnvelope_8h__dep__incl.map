@@ -1,0 +1,16 @@
+<map id="src/lib/audio/audioEnvelope.h" name="src/lib/audio/audioEnvelope.h">
+<area shape="rect" id="node2" href="$audioCorrelation_8h.html" title="src/lib/audio/audioCorrelation.h" alt="" coords="1480,80,1705,107"/>
+<area shape="rect" id="node10" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="1869,244,2037,285"/>
+<area shape="rect" id="node15" href="$audioEnvelope_8cpp.html" title="src/lib/audio/audioEnvelope.cpp" alt="" coords="1889,80,2117,107"/>
+<area shape="rect" id="node3" href="$timelinecontroller_8h.html" title="src/timeline2/view\l/timelinecontroller.h" alt="" coords="1093,155,1247,196"/>
+<area shape="rect" id="node14" href="$audioCorrelation_8cpp.html" title="src/lib/audio/audioCorrelation.cpp" alt="" coords="1473,162,1713,189"/>
+<area shape="rect" id="node4" href="$core_8cpp.html" title="src/core.cpp" alt="" coords="5,251,105,278"/>
+<area shape="rect" id="node5" href="$kdenlivesettingsdialog_8cpp.html" title="src/dialogs/kdenlivesettingsdialog.cpp" alt="" coords="129,251,400,278"/>
+<area shape="rect" id="node6" href="$textbasededit_8cpp.html" title="src/dialogs/textbasededit.cpp" alt="" coords="425,251,638,278"/>
+<area shape="rect" id="node7" href="$mainwindow_8cpp.html" title="src/mainwindow.cpp" alt="" coords="662,251,817,278"/>
+<area shape="rect" id="node8" href="$projectmanager_8cpp.html" title="src/project/projectmanager.cpp" alt="" coords="841,251,1064,278"/>
+<area shape="rect" id="node9" href="$previewmanager_8cpp.html" title="src/timeline2/view\l/previewmanager.cpp" alt="" coords="1089,244,1251,285"/>
+<area shape="rect" id="node11" href="$timelinetabs_8cpp.html" title="src/timeline2/view\l/timelinetabs.cpp" alt="" coords="1276,244,1419,285"/>
+<area shape="rect" id="node12" href="$timelinewidget_8cpp.html" title="src/timeline2/view\l/timelinewidget.cpp" alt="" coords="1443,244,1593,285"/>
+<area shape="rect" id="node13" href="$timelinetoolbar_8cpp.html" title="src/widgets/timelinetoolbar.cpp" alt="" coords="1618,251,1845,278"/>
+</map>

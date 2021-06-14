@@ -1,0 +1,17 @@
+<map id="src/project/dialogs/archivewidget.cpp" name="src/project/dialogs/archivewidget.cpp">
+<area shape="rect" id="node2" href="$archivewidget_8h.html" title="archivewidget.h" alt="" coords="3163,95,3290,121"/>
+<area shape="rect" id="node15" href="$bin_8h.html" title="bin/bin.h" alt="" coords="2068,95,2147,121"/>
+<area shape="rect" id="node32" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="976,95,1103,121"/>
+<area shape="rect" id="node34" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="731,95,871,121"/>
+<area shape="rect" id="node35" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="30,169,204,196"/>
+<area shape="rect" id="node36" href="$core_8h.html" title="core.h" alt="" coords="1310,169,1372,196"/>
+<area shape="rect" id="node37" href="$projectsettings_8h.html" title="projectsettings.h" alt="" coords="2957,95,3088,121"/>
+<area shape="rect" id="node38" href="$titlewidget_8h.html" title="titler/titlewidget.h" alt="" coords="1642,95,1781,121"/>
+<area shape="rect" id="node39" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="229,169,333,196"/>
+<area shape="rect" id="node40" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="3055,169,3195,196"/>
+<area shape="rect" id="node4" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="696,169,952,196"/>
+<area shape="rect" id="node5" href="$definitions_8h.html" title="definitions.h" alt="" coords="642,244,744,271"/>
+<area shape="rect" id="node16" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="458,169,621,196"/>
+<area shape="rect" id="node17" href="$timecode_8h.html" title="timecode.h" alt="" coords="1810,244,1904,271"/>
+<area shape="rect" id="node33" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="976,169,1183,196"/>
+</map>

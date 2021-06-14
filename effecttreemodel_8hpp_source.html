@@ -1,0 +1,131 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/effects/effectlist/model/effecttreemodel.hpp 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_191f852b87741474e2df76292b1f55c1.html">effects</a></li><li class="navelem"><a class="el" href="dir_af2f414c9800ba0a1b49101efbebef5f.html">effectlist</a></li><li class="navelem"><a class="el" href="dir_bbf0247191594ac3503140dde1a48f98.html">model</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">effecttreemodel.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="effecttreemodel_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2017 by Nicolas Carion                                  *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   This file is part of Kdenlive. See www.kdenlive.org.                  *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) version 3 or any later version accepted by the       *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *   membership of KDE e.V. (or its successor approved  by the membership  *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   of KDE e.V.), which shall act as a proxy defined in Section 14 of     *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   version 3 of the license.                                             *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   This program is distributed in the hope that it will be useful,       *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> *   along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;. *</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef EFFECTTREEMODEL_H</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define EFFECTTREEMODEL_H</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="abstracttreemodel_8hpp.html">abstractmodel/abstracttreemodel.hpp</a>&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="assettreemodel_8hpp.html">assets/assetlist/model/assettreemodel.hpp</a>&quot;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span><a class="code" href="classTreeItem.html">TreeItem</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classEffectTreeModel.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEffectTreeModel.html">EffectTreeModel</a> : <span class="keyword">public</span> <a class="code" href="classAssetTreeModel.html">AssetTreeModel</a></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classEffectTreeModel.html#a601dbb658eef8c3172d5e7be1576d20b">EffectTreeModel</a>(QObject *<a class="code" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a> = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">static</span> std::shared_ptr&lt;EffectTreeModel&gt; <a class="code" href="classEffectTreeModel.html#aeb0dd5513f26fd809306c790d8d234ae">construct</a>(<span class="keyword">const</span> QString &amp;categoryFile, QObject *<a class="code" href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">parent</a>);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classEffectTreeModel.html#a166f7dc5d44fe26f57ad007e74c22db1">reloadEffect</a>(<span class="keyword">const</span> QString &amp;path);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classEffectTreeModel.html#a7b5fb5af3e042c516b3419eabcdc9a01">reloadEffectFromIndex</a>(<span class="keyword">const</span> QModelIndex &amp;<a class="code" href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">index</a>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classEffectTreeModel.html#ac9ecd663af72db98cdc0285efe3cf3ba">reloadAssetMenu</a>(QMenu *effectsMenu, KActionCategory *effectActions) <span class="keyword">override</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classEffectTreeModel.html#a0d2df9bd695fc5f95aea18780d8972fb">setFavorite</a>(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">bool</span> favorite, <span class="keywordtype">bool</span> isEffect) <span class="keyword">override</span>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classEffectTreeModel.html#a41c2fa2f124990fe7ec656be69ab6a26">deleteEffect</a>(<span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">override</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classEffectTreeModel.html#ac436971a60035a6ea4e135bad8f2fd4b">editCustomAsset</a>(<span class="keyword">const</span> QString newName, <span class="keyword">const</span> QString newDescription, <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">override</span>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classEffectTreeModel.html#ac722fe51b80ba3f4637a3910e174934a">   48</a></span>&#160;    std::shared_ptr&lt;TreeItem&gt; <a class="code" href="classEffectTreeModel.html#ac722fe51b80ba3f4637a3910e174934a">m_customCategory</a>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classEffectTreeModel_html_a41c2fa2f124990fe7ec656be69ab6a26"><div class="ttname"><a href="classEffectTreeModel.html#a41c2fa2f124990fe7ec656be69ab6a26">EffectTreeModel::deleteEffect</a></div><div class="ttdeci">void deleteEffect(const QModelIndex &amp;index) override</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:152</div></div>
+<div class="ttc" id="classEffectTreeModel_html_ac436971a60035a6ea4e135bad8f2fd4b"><div class="ttname"><a href="classEffectTreeModel.html#ac436971a60035a6ea4e135bad8f2fd4b">EffectTreeModel::editCustomAsset</a></div><div class="ttdeci">void editCustomAsset(const QString newName, const QString newDescription, const QModelIndex &amp;index) override</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:206</div></div>
+<div class="ttc" id="classEffectTreeModel_html_ac9ecd663af72db98cdc0285efe3cf3ba"><div class="ttname"><a href="classEffectTreeModel.html#ac9ecd663af72db98cdc0285efe3cf3ba">EffectTreeModel::reloadAssetMenu</a></div><div class="ttdeci">void reloadAssetMenu(QMenu *effectsMenu, KActionCategory *effectActions) override</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:163</div></div>
+<div class="ttc" id="classEffectTreeModel_html_a7b5fb5af3e042c516b3419eabcdc9a01"><div class="ttname"><a href="classEffectTreeModel.html#a7b5fb5af3e042c516b3419eabcdc9a01">EffectTreeModel::reloadEffectFromIndex</a></div><div class="ttdeci">void reloadEffectFromIndex(const QModelIndex &amp;index)</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:123</div></div>
+<div class="ttc" id="classEffectTreeModel_html_a0d2df9bd695fc5f95aea18780d8972fb"><div class="ttname"><a href="classEffectTreeModel.html#a0d2df9bd695fc5f95aea18780d8972fb">EffectTreeModel::setFavorite</a></div><div class="ttdeci">void setFavorite(const QModelIndex &amp;index, bool favorite, bool isEffect) override</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:182</div></div>
+<div class="ttc" id="classAbstractTreeModel_html_a84faffe11e274cc2c39bda6186c9ee8e"><div class="ttname"><a href="classAbstractTreeModel.html#a84faffe11e274cc2c39bda6186c9ee8e">AbstractTreeModel::index</a></div><div class="ttdeci">QModelIndex index(int row, int column, const QModelIndex &amp;parent=QModelIndex()) const  override</div><div class="ttdef"><b>Definition:</b> abstracttreemodel.cpp:92</div></div>
+<div class="ttc" id="classAbstractTreeModel_html_aec5715ea0a2f64ffee9c5344b050880a"><div class="ttname"><a href="classAbstractTreeModel.html#aec5715ea0a2f64ffee9c5344b050880a">AbstractTreeModel::parent</a></div><div class="ttdeci">QModelIndex parent(const QModelIndex &amp;index) const  override</div><div class="ttdef"><b>Definition:</b> abstracttreemodel.cpp:109</div></div>
+<div class="ttc" id="classEffectTreeModel_html_aeb0dd5513f26fd809306c790d8d234ae"><div class="ttname"><a href="classEffectTreeModel.html#aeb0dd5513f26fd809306c790d8d234ae">EffectTreeModel::construct</a></div><div class="ttdeci">static std::shared_ptr&lt; EffectTreeModel &gt; construct(const QString &amp;categoryFile, QObject *parent)</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:43</div></div>
+<div class="ttc" id="classEffectTreeModel_html_a601dbb658eef8c3172d5e7be1576d20b"><div class="ttname"><a href="classEffectTreeModel.html#a601dbb658eef8c3172d5e7be1576d20b">EffectTreeModel::EffectTreeModel</a></div><div class="ttdeci">EffectTreeModel(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:37</div></div>
+<div class="ttc" id="classEffectTreeModel_html"><div class="ttname"><a href="classEffectTreeModel.html">EffectTreeModel</a></div><div class="ttdef"><b>Definition:</b> effecttreemodel.hpp:32</div></div>
+<div class="ttc" id="classEffectTreeModel_html_ac722fe51b80ba3f4637a3910e174934a"><div class="ttname"><a href="classEffectTreeModel.html#ac722fe51b80ba3f4637a3910e174934a">EffectTreeModel::m_customCategory</a></div><div class="ttdeci">std::shared_ptr&lt; TreeItem &gt; m_customCategory</div><div class="ttdef"><b>Definition:</b> effecttreemodel.hpp:48</div></div>
+<div class="ttc" id="classTreeItem_html"><div class="ttname"><a href="classTreeItem.html">TreeItem</a></div><div class="ttdoc">This class is a generic class to represent items of a tree-like model. It works in tandem with Abstra...</div><div class="ttdef"><b>Definition:</b> treeitem.hpp:48</div></div>
+<div class="ttc" id="classEffectTreeModel_html_a166f7dc5d44fe26f57ad007e74c22db1"><div class="ttname"><a href="classEffectTreeModel.html#a166f7dc5d44fe26f57ad007e74c22db1">EffectTreeModel::reloadEffect</a></div><div class="ttdeci">void reloadEffect(const QString &amp;path)</div><div class="ttdef"><b>Definition:</b> effecttreemodel.cpp:133</div></div>
+<div class="ttc" id="classAssetTreeModel_html"><div class="ttname"><a href="classAssetTreeModel.html">AssetTreeModel</a></div><div class="ttdef"><b>Definition:</b> assettreemodel.hpp:33</div></div>
+<div class="ttc" id="abstracttreemodel_8hpp_html"><div class="ttname"><a href="abstracttreemodel_8hpp.html">abstracttreemodel.hpp</a></div></div>
+<div class="ttc" id="assettreemodel_8hpp_html"><div class="ttname"><a href="assettreemodel_8hpp.html">assettreemodel.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

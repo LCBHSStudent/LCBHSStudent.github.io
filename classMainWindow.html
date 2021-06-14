@@ -1,0 +1,2125 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: MainWindow类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="classMainWindow-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MainWindow类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MainWindow 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMainWindow__inherit__graph.png" border="0" usemap="#MainWindow_inherit__map" alt="Inheritance graph"/></div>
+<map name="MainWindow_inherit__map" id="MainWindow_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+MainWindow 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMainWindow__coll__graph.png" border="0" usemap="#MainWindow_coll__map" alt="Collaboration graph"/></div>
+<map name="MainWindow_coll__map" id="MainWindow_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:aa7ac7832cff21d77208dd9e564165ebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aa7ac7832cff21d77208dd9e564165ebc">slotReloadEffects</a> (const QStringList &amp;paths)</td></tr>
+<tr class="separator:aa7ac7832cff21d77208dd9e564165ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d322d8b42a79ed093bb215f9ec2a68b"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7d322d8b42a79ed093bb215f9ec2a68b">setRenderingProgress</a> (const QString &amp;url, int progress, int frame)</td></tr>
+<tr class="separator:a7d322d8b42a79ed093bb215f9ec2a68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949aaedcce9cdd33b1972fabcfd05ef7"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a949aaedcce9cdd33b1972fabcfd05ef7">setRenderingFinished</a> (const QString &amp;url, int status, const QString &amp;error)</td></tr>
+<tr class="separator:a949aaedcce9cdd33b1972fabcfd05ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c3ca8aa986573dd36bb48369470b2f"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a54c3ca8aa986573dd36bb48369470b2f">addProjectClip</a> (const QString &amp;url, const QString &amp;folder=QStringLiteral(&quot;-1&quot;))</td></tr>
+<tr class="separator:a54c3ca8aa986573dd36bb48369470b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42aaa397ac3fd5aa2b7fcd4447279a0d"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a42aaa397ac3fd5aa2b7fcd4447279a0d">addTimelineClip</a> (const QString &amp;url)</td></tr>
+<tr class="separator:a42aaa397ac3fd5aa2b7fcd4447279a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76eed24c003d6354becb3a9de9edee80"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a76eed24c003d6354becb3a9de9edee80">addEffect</a> (const QString &amp;effectId)</td></tr>
+<tr class="separator:a76eed24c003d6354becb3a9de9edee80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bb09981d61390184c03de044e68004c"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a3bb09981d61390184c03de044e68004c">scriptRender</a> (const QString &amp;url)</td></tr>
+<tr class="separator:a3bb09981d61390184c03de044e68004c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4505871e42a98290ef377e0b8952206f"><td class="memItemLeft" align="right" valign="top">Q_NOREPLY void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a4505871e42a98290ef377e0b8952206f">exitApp</a> ()</td></tr>
+<tr class="separator:a4505871e42a98290ef377e0b8952206f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f90fc5cbda46cf39510ebc250c159c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af6f90fc5cbda46cf39510ebc250c159c">slotSwitchVideoThumbs</a> ()</td></tr>
+<tr class="separator:af6f90fc5cbda46cf39510ebc250c159c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6ac341d32d7f9505456deb3b4d66f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aee6ac341d32d7f9505456deb3b4d66f6">slotSwitchAudioThumbs</a> ()</td></tr>
+<tr class="separator:aee6ac341d32d7f9505456deb3b4d66f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b440f85edfb0920c52cb87f15fe05c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a5b440f85edfb0920c52cb87f15fe05c5">slotPreferences</a> (int page=-1, int option=-1)</td></tr>
+<tr class="separator:a5b440f85edfb0920c52cb87f15fe05c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b563b97e233f542b7f6105d5452a371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a6b563b97e233f542b7f6105d5452a371">connectDocument</a> ()</td></tr>
+<tr class="separator:a6b563b97e233f542b7f6105d5452a371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa21ea8d4a9b5a4a2a843c35930cc5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a4fa21ea8d4a9b5a4a2a843c35930cc5b">slotRefreshProfiles</a> ()</td></tr>
+<tr class="memdesc:a4fa21ea8d4a9b5a4a2a843c35930cc5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload project profile in config dialog if changed.  <a href="#a4fa21ea8d4a9b5a4a2a843c35930cc5b">更多...</a><br /></td></tr>
+<tr class="separator:a4fa21ea8d4a9b5a4a2a843c35930cc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb788b32a74f666db34873698268c3e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#adb788b32a74f666db34873698268c3e1">updateDockTitleBars</a> (bool isTopLevel=true)</td></tr>
+<tr class="separator:adb788b32a74f666db34873698268c3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d52c04cf3064ca3fc84f5c9cad87019"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a0d52c04cf3064ca3fc84f5c9cad87019">slotUpdateDockLocation</a> (Qt::DockWidgetArea dockLocationArea)</td></tr>
+<tr class="memdesc:a0d52c04cf3064ca3fc84f5c9cad87019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add/remove Dock tile bar depending on state (tabbed, floating, ...)  <a href="#a0d52c04cf3064ca3fc84f5c9cad87019">更多...</a><br /></td></tr>
+<tr class="separator:a0d52c04cf3064ca3fc84f5c9cad87019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6617eac50ae6fcb571126cfb937685a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aa6617eac50ae6fcb571126cfb937685a">configureToolbars</a> () override</td></tr>
+<tr class="separator:aa6617eac50ae6fcb571126cfb937685a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a340001c52529d61c7aed6807a78bcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a0a340001c52529d61c7aed6807a78bcf">slotSwitchTimelineZone</a> (bool toggled)</td></tr>
+<tr class="memdesc:a0a340001c52529d61c7aed6807a78bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable the use of timeline zone for edits.  <a href="#a0a340001c52529d61c7aed6807a78bcf">更多...</a><br /></td></tr>
+<tr class="separator:a0a340001c52529d61c7aed6807a78bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35eaaceff4891e6e4571700ee8f634a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aa35eaaceff4891e6e4571700ee8f634a">slotDownloadResources</a> ()</td></tr>
+<tr class="memdesc:aa35eaaceff4891e6e4571700ee8f634a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the online services search dialog.  <a href="#aa35eaaceff4891e6e4571700ee8f634a">更多...</a><br /></td></tr>
+<tr class="separator:aa35eaaceff4891e6e4571700ee8f634a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ed82ed4fba0b8d68f41298cf675aca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aa3ed82ed4fba0b8d68f41298cf675aca">slotEditSubtitle</a> (QMap&lt; QString, QString &gt; subProperties={})</td></tr>
+<tr class="separator:aa3ed82ed4fba0b8d68f41298cf675aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff4e4f4e5be1c48644b464012d9f83b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7ff4e4f4e5be1c48644b464012d9f83b">slotTranscode</a> (const QStringList &amp;urls=QStringList())</td></tr>
+<tr class="separator:a7ff4e4f4e5be1c48644b464012d9f83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4fdb294cacf26d5863b853504547a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af4fdb294cacf26d5863b853504547a92">slotAddSubtitle</a> (const QString &amp;text=QString())</td></tr>
+<tr class="memdesc:af4fdb294cacf26d5863b853504547a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add subtitle clip to timeline.  <a href="#af4fdb294cacf26d5863b853504547a92">更多...</a><br /></td></tr>
+<tr class="separator:af4fdb294cacf26d5863b853504547a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ed2ac9f8921a4931d67016d97cde83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ae9ed2ac9f8921a4931d67016d97cde83">showSubtitleTrack</a> ()</td></tr>
+<tr class="memdesc:ae9ed2ac9f8921a4931d67016d97cde83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure subtitle track is displayed.  <a href="#ae9ed2ac9f8921a4931d67016d97cde83">更多...</a><br /></td></tr>
+<tr class="separator:ae9ed2ac9f8921a4931d67016d97cde83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6713fef36bb97447c9c5f769a5003ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af6713fef36bb97447c9c5f769a5003ee">setProjectMediasetVisible</a> (bool visible)</td></tr>
+<tr class="memdesc:af6713fef36bb97447c9c5f769a5003ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置项目资源库可见性：bool: show/hide  <a href="#af6713fef36bb97447c9c5f769a5003ee">更多...</a><br /></td></tr>
+<tr class="separator:af6713fef36bb97447c9c5f769a5003ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:acd779d2a4e34c1087c7308bc6dbc7467"><td class="memItemLeft" align="right" valign="top">Q_SCRIPTABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#acd779d2a4e34c1087c7308bc6dbc7467">abortRenderJob</a> (const QString &amp;url)</td></tr>
+<tr class="separator:acd779d2a4e34c1087c7308bc6dbc7467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91d6e92713eeed6bc032a45152cba0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ad91d6e92713eeed6bc032a45152cba0e">configurationChanged</a> ()</td></tr>
+<tr class="separator:ad91d6e92713eeed6bc032a45152cba0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7d07e4c0240f64b76f8f9c99b96ac3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ab7d07e4c0240f64b76f8f9c99b96ac3f">GUISetupDone</a> ()</td></tr>
+<tr class="separator:ab7d07e4c0240f64b76f8f9c99b96ac3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3751ffd20f645fb577988538f5706b8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a3751ffd20f645fb577988538f5706b8b">setPreviewProgress</a> (int)</td></tr>
+<tr class="separator:a3751ffd20f645fb577988538f5706b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30806e8bd8b68443234a7b3d2fa1172"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af30806e8bd8b68443234a7b3d2fa1172">setRenderProgress</a> (int)</td></tr>
+<tr class="separator:af30806e8bd8b68443234a7b3d2fa1172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4cf98b35c2c6bb5ddf7907b075aa70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a1e4cf98b35c2c6bb5ddf7907b075aa70">displayMessage</a> (const QString &amp;, <a class="el" href="definitions_8h.html#ac6606ebe91c8ac66a2c314c79f5ab013">MessageType</a>, int)</td></tr>
+<tr class="separator:a1e4cf98b35c2c6bb5ddf7907b075aa70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e118076f3cfb094ee3098fd42dc7251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a6e118076f3cfb094ee3098fd42dc7251">displayProgressMessage</a> (const QString &amp;, <a class="el" href="definitions_8h.html#ac6606ebe91c8ac66a2c314c79f5ab013">MessageType</a>, int)</td></tr>
+<tr class="separator:a6e118076f3cfb094ee3098fd42dc7251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a187312429797fdb1f5bfe5488de97bdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a187312429797fdb1f5bfe5488de97bdf">updateRenderWidgetProfile</a> ()</td></tr>
+<tr class="memdesc:a187312429797fdb1f5bfe5488de97bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project profile changed, update render widget accordingly.  <a href="#a187312429797fdb1f5bfe5488de97bdf">更多...</a><br /></td></tr>
+<tr class="separator:a187312429797fdb1f5bfe5488de97bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6706bfc6be580aa8f38cff7863007eca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a6706bfc6be580aa8f38cff7863007eca">clearAssetPanel</a> (int itemId=-1)</td></tr>
+<tr class="memdesc:a6706bfc6be580aa8f38cff7863007eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear asset view if itemId is displayed.  <a href="#a6706bfc6be580aa8f38cff7863007eca">更多...</a><br /></td></tr>
+<tr class="separator:a6706bfc6be580aa8f38cff7863007eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6c5967b4b4956efa6fa5418e6701ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a0c6c5967b4b4956efa6fa5418e6701ab">assetPanelWarning</a> (const QString service, const QString id, const QString message)</td></tr>
+<tr class="separator:a0c6c5967b4b4956efa6fa5418e6701ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72762168b5e791d6cfbef88c3145292d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a72762168b5e791d6cfbef88c3145292d">adjustAssetPanelRange</a> (int itemId, int in, int out)</td></tr>
+<tr class="separator:a72762168b5e791d6cfbef88c3145292d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a4134986a4e9cffe58abda382f006d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a86a4134986a4e9cffe58abda382f006d">enableUndo</a> (bool enable)</td></tr>
+<tr class="memdesc:a86a4134986a4e9cffe58abda382f006d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable the undo stack. For example undo/redo should not be enabled when dragging a clip in timeline or we risk corruption.  <a href="#a86a4134986a4e9cffe58abda382f006d">更多...</a><br /></td></tr>
+<tr class="separator:a86a4134986a4e9cffe58abda382f006d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10fa002f386b98f9a160e575226cc5b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a10fa002f386b98f9a160e575226cc5b4">focusTimeline</a> (bool focus, bool highlight)</td></tr>
+<tr class="separator:a10fa002f386b98f9a160e575226cc5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009b5e2ae5309782a3e482a5f8fb9be0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a009b5e2ae5309782a3e482a5f8fb9be0">updateProjectPath</a> (const QString &amp;path)</td></tr>
+<tr class="separator:a009b5e2ae5309782a3e482a5f8fb9be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a996c5a2b6f77944776856f08ec30858d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a996c5a2b6f77944776856f08ec30858d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9373a85655a664828821cb5d207e28a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a9373a85655a664828821cb5d207e28a1">init</a> (const QString &amp;mltPath)</td></tr>
+<tr class="memdesc:a9373a85655a664828821cb5d207e28a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises the main window.  <a href="#a9373a85655a664828821cb5d207e28a1">更多...</a><br /></td></tr>
+<tr class="separator:a9373a85655a664828821cb5d207e28a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7d2c56410fc1bfa135bb907d43313f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a1f7d2c56410fc1bfa135bb907d43313f">~MainWindow</a> () override</td></tr>
+<tr class="separator:a1f7d2c56410fc1bfa135bb907d43313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0417591cc789a8c1c1ed53a74ae044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aca0417591cc789a8c1c1ed53a74ae044">addAction</a> (const QString &amp;name, QAction *action, const QKeySequence &amp;shortcut=QKeySequence(), KActionCategory *category=nullptr)</td></tr>
+<tr class="memdesc:aca0417591cc789a8c1c1ed53a74ae044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an action to the action collection and stores the name.  <a href="#aca0417591cc789a8c1c1ed53a74ae044">更多...</a><br /></td></tr>
+<tr class="separator:aca0417591cc789a8c1c1ed53a74ae044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539336b1d1daf9d6e68a5d4612cfec46"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a539336b1d1daf9d6e68a5d4612cfec46">addAction</a> (const QString &amp;name, const QString &amp;text, const QObject *receiver, const char *member, const QIcon &amp;icon=QIcon(), const QKeySequence &amp;shortcut=QKeySequence(), KActionCategory *category=nullptr)</td></tr>
+<tr class="memdesc:a539336b1d1daf9d6e68a5d4612cfec46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an action to the action collection and stores the name.  <a href="#a539336b1d1daf9d6e68a5d4612cfec46">更多...</a><br /></td></tr>
+<tr class="separator:a539336b1d1daf9d6e68a5d4612cfec46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1603facd36cf5a859481bb576168310"><td class="memItemLeft" align="right" valign="top">QList&lt; QAction * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ae1603facd36cf5a859481bb576168310">getExtraActions</a> (const QString &amp;name)</td></tr>
+<tr class="separator:ae1603facd36cf5a859481bb576168310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021e201ce00d3d1be1dc3f44ecb42e23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimelineWidget.html">TimelineWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a021e201ce00d3d1be1dc3f44ecb42e23">getMainTimeline</a> () const </td></tr>
+<tr class="memdesc:a021e201ce00d3d1be1dc3f44ecb42e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a ptr to the main timeline widget of the project.  <a href="#a021e201ce00d3d1be1dc3f44ecb42e23">更多...</a><br /></td></tr>
+<tr class="separator:a021e201ce00d3d1be1dc3f44ecb42e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fed1ca06438c514fd27d0ad4f6a8632"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTimelineWidget.html">TimelineWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a9fed1ca06438c514fd27d0ad4f6a8632">getCurrentTimeline</a> () const </td></tr>
+<tr class="memdesc:a9fed1ca06438c514fd27d0ad4f6a8632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the current timeline.  <a href="#a9fed1ca06438c514fd27d0ad4f6a8632">更多...</a><br /></td></tr>
+<tr class="separator:a9fed1ca06438c514fd27d0ad4f6a8632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8a87325ab91397a3950542a916c8d0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ab8a87325ab91397a3950542a916c8d0c">hasTimeline</a> () const </td></tr>
+<tr class="memdesc:ab8a87325ab91397a3950542a916c8d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a timeline widget is available.  <a href="#ab8a87325ab91397a3950542a916c8d0c">更多...</a><br /></td></tr>
+<tr class="separator:ab8a87325ab91397a3950542a916c8d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd861c2afbdeb8eef4567e6a5edc0343"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#afd861c2afbdeb8eef4567e6a5edc0343">timelineVisible</a> () const </td></tr>
+<tr class="memdesc:afd861c2afbdeb8eef4567e6a5edc0343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the timeline widget is visible.  <a href="#afd861c2afbdeb8eef4567e6a5edc0343">更多...</a><br /></td></tr>
+<tr class="separator:afd861c2afbdeb8eef4567e6a5edc0343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d9b8af5c7240a79213706bf2354061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ac9d9b8af5c7240a79213706bf2354061">raiseMonitor</a> (bool clipMonitor)</td></tr>
+<tr class="memdesc:ac9d9b8af5c7240a79213706bf2354061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise (show) the clip or project monitor.  <a href="#ac9d9b8af5c7240a79213706bf2354061">更多...</a><br /></td></tr>
+<tr class="separator:ac9d9b8af5c7240a79213706bf2354061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100a2694c66bf06282b36b32c5e41852"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a100a2694c66bf06282b36b32c5e41852">raiseBin</a> ()</td></tr>
+<tr class="memdesc:a100a2694c66bf06282b36b32c5e41852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise (show) the project bin.  <a href="#a100a2694c66bf06282b36b32c5e41852">更多...</a><br /></td></tr>
+<tr class="separator:a100a2694c66bf06282b36b32c5e41852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1bd6f0b1430eb2c78addb9173a162d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#afb1bd6f0b1430eb2c78addb9173a162d">resetSubtitles</a> ()</td></tr>
+<tr class="memdesc:afb1bd6f0b1430eb2c78addb9173a162d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hide subtitle track.  <a href="#afb1bd6f0b1430eb2c78addb9173a162d">更多...</a><br /></td></tr>
+<tr class="separator:afb1bd6f0b1430eb2c78addb9173a162d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48bf624653be683800776fbab0f3991b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a48bf624653be683800776fbab0f3991b">cleanRestart</a> (bool clean)</td></tr>
+<tr class="memdesc:a48bf624653be683800776fbab0f3991b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the application and delete config files if clean is true.  <a href="#a48bf624653be683800776fbab0f3991b">更多...</a><br /></td></tr>
+<tr class="separator:a48bf624653be683800776fbab0f3991b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407df48bc1a60c1e3abbe1c2658ece67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a407df48bc1a60c1e3abbe1c2658ece67">showToolMessage</a> ()</td></tr>
+<tr class="memdesc:a407df48bc1a60c1e3abbe1c2658ece67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show current tool key combination in status bar.  <a href="#a407df48bc1a60c1e3abbe1c2658ece67">更多...</a><br /></td></tr>
+<tr class="separator:a407df48bc1a60c1e3abbe1c2658ece67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9b80224610b755b195ad656a3f7aa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#adc9b80224610b755b195ad656a3f7aa4">setWidgetKeyBinding</a> (const QString &amp;text=QString())</td></tr>
+<tr class="memdesc:adc9b80224610b755b195ad656a3f7aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the widget's default key binding message.  <a href="#adc9b80224610b755b195ad656a3f7aa4">更多...</a><br /></td></tr>
+<tr class="separator:adc9b80224610b755b195ad656a3f7aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f8c782d2e57132946de1b9cdf0b21f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7f8c782d2e57132946de1b9cdf0b21f5">showKeyBinding</a> (const QString &amp;text=QString())</td></tr>
+<tr class="memdesc:a7f8c782d2e57132946de1b9cdf0b21f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show a key binding in status bar.  <a href="#a7f8c782d2e57132946de1b9cdf0b21f5">更多...</a><br /></td></tr>
+<tr class="separator:a7f8c782d2e57132946de1b9cdf0b21f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d1f4f22e1466a940b8f93af154b84a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a80d1f4f22e1466a940b8f93af154b84a">setWindowModified</a> (bool isModified=true)</td></tr>
+<tr class="memdesc:a80d1f4f22e1466a940b8f93af154b84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for QWidget::setWindowModified(void)  <a href="#a80d1f4f22e1466a940b8f93af154b84a">更多...</a><br /></td></tr>
+<tr class="separator:a80d1f4f22e1466a940b8f93af154b84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9005a6801e46d08f9e5146d2d5dc5586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProjectMonitorFrame.html">ProjectMonitorFrame</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a9005a6801e46d08f9e5146d2d5dc5586">projectMonitorFrame</a> () const </td></tr>
+<tr class="memdesc:a9005a6801e46d08f9e5146d2d5dc5586"><td class="mdescLeft">&#160;</td><td class="mdescRight">get project monitor frame  <a href="#a9005a6801e46d08f9e5146d2d5dc5586">更多...</a><br /></td></tr>
+<tr class="separator:a9005a6801e46d08f9e5146d2d5dc5586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e211b47196fa3ab4c51c57b90776c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClipMonitorFrame.html">ClipMonitorFrame</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aa9e211b47196fa3ab4c51c57b90776c5">clipMonitorFrame</a> () const </td></tr>
+<tr class="memdesc:aa9e211b47196fa3ab4c51c57b90776c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get clip monitor frame  <a href="#aa9e211b47196fa3ab4c51c57b90776c5">更多...</a><br /></td></tr>
+<tr class="separator:aa9e211b47196fa3ab4c51c57b90776c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a258c2b8acd399b2bf8148457f6e52218"><td class="memItemLeft" align="right" valign="top">QUndoGroup *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a258c2b8acd399b2bf8148457f6e52218">m_commandStack</a></td></tr>
+<tr class="separator:a258c2b8acd399b2bf8148457f6e52218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d3d101e887537ede162dd0d57ca5aed"><td class="memItemLeft" align="right" valign="top">QUndoView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a6d3d101e887537ede162dd0d57ca5aed">m_undoView</a></td></tr>
+<tr class="separator:a6d3d101e887537ede162dd0d57ca5aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a937830b2b0c111036fa04d74b2248e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a8a937830b2b0c111036fa04d74b2248e">m_gpuAllowed</a></td></tr>
+<tr class="memdesc:a8a937830b2b0c111036fa04d74b2248e"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds info about whether movit is available on this system  <a href="#a8a937830b2b0c111036fa04d74b2248e">更多...</a><br /></td></tr>
+<tr class="separator:a8a937830b2b0c111036fa04d74b2248e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ef7473505e738880ce62e67ae64cfb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a99ef7473505e738880ce62e67ae64cfb">m_exitCode</a> {EXIT_SUCCESS}</td></tr>
+<tr class="separator:a99ef7473505e738880ce62e67ae64cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0135216c03fa61bc831816270506c7a"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, KActionCategory * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ab0135216c03fa61bc831816270506c7a">kdenliveCategoryMap</a></td></tr>
+<tr class="separator:ab0135216c03fa61bc831816270506c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a7028273253f7e8bf2963e066829c4ea9"><td class="memItemLeft" align="right" valign="top">static QMap&lt; QString, QImage &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7028273253f7e8bf2963e066829c4ea9">m_lumacache</a></td></tr>
+<tr class="memdesc:a7028273253f7e8bf2963e066829c4ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache for luma files thumbnails.  <a href="#a7028273253f7e8bf2963e066829c4ea9">更多...</a><br /></td></tr>
+<tr class="separator:a7028273253f7e8bf2963e066829c4ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af40277bc3fb0178065a5484fd844b1a9"><td class="memItemLeft" align="right" valign="top">static QMap&lt; QString, QStringList &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af40277bc3fb0178065a5484fd844b1a9">m_lumaFiles</a></td></tr>
+<tr class="separator:af40277bc3fb0178065a5484fd844b1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a0c3d299e4fe7943110caa8c462838478"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a0c3d299e4fe7943110caa8c462838478">queryClose</a> () override</td></tr>
+<tr class="memdesc:a0c3d299e4fe7943110caa8c462838478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the window.  <a href="#a0c3d299e4fe7943110caa8c462838478">更多...</a><br /></td></tr>
+<tr class="separator:a0c3d299e4fe7943110caa8c462838478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa386518569b0bbceb958df0ddc8f32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a4aa386518569b0bbceb958df0ddc8f32">closeEvent</a> (QCloseEvent *) override</td></tr>
+<tr class="separator:a4aa386518569b0bbceb958df0ddc8f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455b783f4ba8ecd90d7aeb7ae1e942fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a455b783f4ba8ecd90d7aeb7ae1e942fe">customEvent</a> (QEvent *e) override</td></tr>
+<tr class="memdesc:a455b783f4ba8ecd90d7aeb7ae1e942fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports a message in the status bar when an error occurs.  <a href="#a455b783f4ba8ecd90d7aeb7ae1e942fe">更多...</a><br /></td></tr>
+<tr class="separator:a455b783f4ba8ecd90d7aeb7ae1e942fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2c6c422f684906408630914191e504"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a9b2c6c422f684906408630914191e504">hideEvent</a> (QHideEvent *e) override</td></tr>
+<tr class="memdesc:a9b2c6c422f684906408630914191e504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the active monitor when the window gets hidden.  <a href="#a9b2c6c422f684906408630914191e504">更多...</a><br /></td></tr>
+<tr class="separator:a9b2c6c422f684906408630914191e504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55adca2ca6aea31a81ae53f423dbee2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a55adca2ca6aea31a81ae53f423dbee2a">saveProperties</a> (KConfigGroup &amp;config) override</td></tr>
+<tr class="memdesc:a55adca2ca6aea31a81ae53f423dbee2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the file and the window properties when saving the session.  <a href="#a55adca2ca6aea31a81ae53f423dbee2a">更多...</a><br /></td></tr>
+<tr class="separator:a55adca2ca6aea31a81ae53f423dbee2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbcfbe66b4c58327594d8b431fb82809"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#abbcfbe66b4c58327594d8b431fb82809">saveNewToolbarConfig</a> () override</td></tr>
+<tr class="separator:abbcfbe66b4c58327594d8b431fb82809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e5c29a25c95c09da8b707adb483c35c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7e5c29a25c95c09da8b707adb483c35c">eventFilter</a> (QObject *, QEvent *) override</td></tr>
+<tr class="separator:a7e5c29a25c95c09da8b707adb483c35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f74c18f8c78a9bc9d193f93ec78e7d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a3f74c18f8c78a9bc9d193f93ec78e7d6">resizeEvent</a> (QResizeEvent *) override</td></tr>
+<tr class="separator:a3f74c18f8c78a9bc9d193f93ec78e7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a996c5a2b6f77944776856f08ec30858d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainWindow::MainWindow </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1f7d2c56410fc1bfa135bb907d43313f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainWindow::~MainWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="acd779d2a4e34c1087c7308bc6dbc7467"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_SCRIPTABLE void MainWindow::abortRenderJob </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca0417591cc789a8c1c1ed53a74ae044"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::addAction </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QAction *&#160;</td>
+          <td class="paramname"><em>action</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QKeySequence &amp;&#160;</td>
+          <td class="paramname"><em>shortcut</em> = <code>QKeySequence()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">KActionCategory *&#160;</td>
+          <td class="paramname"><em>category</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an action to the action collection and stores the name. </p>
+
+</div>
+</div>
+<a class="anchor" id="a539336b1d1daf9d6e68a5d4612cfec46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction * MainWindow::addAction </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QObject *&#160;</td>
+          <td class="paramname"><em>receiver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>member</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QIcon &amp;&#160;</td>
+          <td class="paramname"><em>icon</em> = <code>QIcon()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QKeySequence &amp;&#160;</td>
+          <td class="paramname"><em>shortcut</em> = <code>QKeySequence()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">KActionCategory *&#160;</td>
+          <td class="paramname"><em>category</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an action to the action collection and stores the name. </p>
+
+</div>
+</div>
+<a class="anchor" id="a76eed24c003d6354becb3a9de9edee80"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::addEffect </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>effectId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a54c3ca8aa986573dd36bb48369470b2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::addProjectClip </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>folder</em> = <code>QStringLiteral(&quot;-1&quot;)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a42aaa397ac3fd5aa2b7fcd4447279a0d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::addTimelineClip </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a72762168b5e791d6cfbef88c3145292d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::adjustAssetPanelRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c6c5967b4b4956efa6fa5418e6701ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::assetPanelWarning </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48bf624653be683800776fbab0f3991b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::cleanRestart </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>clean</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Restart the application and delete config files if clean is true. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6706bfc6be580aa8f38cff7863007eca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::clearAssetPanel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemId</em> = <code>-1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear asset view if itemId is displayed. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa9e211b47196fa3ab4c51c57b90776c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classClipMonitorFrame.html">ClipMonitorFrame</a>* MainWindow::clipMonitorFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get clip monitor frame </p>
+
+</div>
+</div>
+<a class="anchor" id="a4aa386518569b0bbceb958df0ddc8f32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad91d6e92713eeed6bc032a45152cba0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::configurationChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa6617eac50ae6fcb571126cfb937685a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::configureToolbars </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6b563b97e233f542b7f6105d5452a371"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::connectDocument </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a455b783f4ba8ecd90d7aeb7ae1e942fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::customEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reports a message in the status bar when an error occurs. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e4cf98b35c2c6bb5ddf7907b075aa70"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::displayMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#ac6606ebe91c8ac66a2c314c79f5ab013">MessageType</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6e118076f3cfb094ee3098fd42dc7251"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::displayProgressMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="definitions_8h.html#ac6606ebe91c8ac66a2c314c79f5ab013">MessageType</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a86a4134986a4e9cffe58abda382f006d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::enableUndo </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable or disable the undo stack. For example undo/redo should not be enabled when dragging a clip in timeline or we risk corruption. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7e5c29a25c95c09da8b707adb483c35c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>tgt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4505871e42a98290ef377e0b8952206f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::exitApp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a10fa002f386b98f9a160e575226cc5b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::focusTimeline </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>focus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>highlight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9fed1ca06438c514fd27d0ad4f6a8632"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTimelineWidget.html">TimelineWidget</a> * MainWindow::getCurrentTimeline </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the current timeline. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae1603facd36cf5a859481bb576168310"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QAction * &gt; MainWindow::getExtraActions </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a021e201ce00d3d1be1dc3f44ecb42e23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTimelineWidget.html">TimelineWidget</a> * MainWindow::getMainTimeline </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a ptr to the main timeline widget of the project. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab7d07e4c0240f64b76f8f9c99b96ac3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::GUISetupDone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8a87325ab91397a3950542a916c8d0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::hasTimeline </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if a timeline widget is available. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9b2c6c422f684906408630914191e504"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops the active monitor when the window gets hidden. </p>
+<p>Gets called when the window gets hidden </p>
+
+</div>
+</div>
+<a class="anchor" id="a9373a85655a664828821cb5d207e28a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::init </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>mltPath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialises the main window. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">MltPath</td><td>(optional) path to MLT environment </td></tr>
+    <tr><td class="paramname">Url</td><td>(optional) file to open </td></tr>
+    <tr><td class="paramname">clipsToLoad</td><td>(optional) a comma separated list of clips to import in project</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>If Url is present, it will be opened, otherwise, if openlastproject is set, latest project will be opened. If no file is open after trying this, a default new file will be created. </p>
+<p>Add Widgets </p>
+
+</div>
+</div>
+<a class="anchor" id="a9005a6801e46d08f9e5146d2d5dc5586"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classProjectMonitorFrame.html">ProjectMonitorFrame</a>* MainWindow::projectMonitorFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get project monitor frame </p>
+
+</div>
+</div>
+<a class="anchor" id="a0c3d299e4fe7943110caa8c462838478"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::queryClose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Closes the window. </p>
+<dl class="section return"><dt>返回</dt><dd>false if the user presses "Cancel" on a confirmation dialog or the operation requested (starting waiting jobs or saving file) fails, true otherwise </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a100a2694c66bf06282b36b32c5e41852"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::raiseBin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Raise (show) the project bin. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac9d9b8af5c7240a79213706bf2354061"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::raiseMonitor </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>clipMonitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Raise (show) the clip or project monitor. </p>
+
+</div>
+</div>
+<a class="anchor" id="afb1bd6f0b1430eb2c78addb9173a162d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::resetSubtitles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hide subtitle track. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3f74c18f8c78a9bc9d193f93ec78e7d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::resizeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QResizeEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abbcfbe66b4c58327594d8b431fb82809"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::saveNewToolbarConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a55adca2ca6aea31a81ae53f423dbee2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::saveProperties </td>
+          <td>(</td>
+          <td class="paramtype">KConfigGroup &amp;&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves the file and the window properties when saving the session. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3bb09981d61390184c03de044e68004c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::scriptRender </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3751ffd20f645fb577988538f5706b8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setPreviewProgress </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6713fef36bb97447c9c5f769a5003ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setProjectMediasetVisible </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>visible</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置项目资源库可见性：bool: show/hide </p>
+
+</div>
+</div>
+<a class="anchor" id="a949aaedcce9cdd33b1972fabcfd05ef7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setRenderingFinished </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7d322d8b42a79ed093bb215f9ec2a68b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setRenderingProgress </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af30806e8bd8b68443234a7b3d2fa1172"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setRenderProgress </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adc9b80224610b755b195ad656a3f7aa4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setWidgetKeyBinding </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em> = <code>QString()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show the widget's default key binding message. </p>
+
+</div>
+</div>
+<a class="anchor" id="a80d1f4f22e1466a940b8f93af154b84a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setWindowModified </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isModified</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Override for QWidget::setWindowModified(void) </p>
+
+</div>
+</div>
+<a class="anchor" id="a7f8c782d2e57132946de1b9cdf0b21f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::showKeyBinding </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em> = <code>QString()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show a key binding in status bar. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae9ed2ac9f8921a4931d67016d97cde83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::showSubtitleTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ensure subtitle track is displayed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a407df48bc1a60c1e3abbe1c2658ece67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::showToolMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show current tool key combination in status bar. </p>
+
+</div>
+</div>
+<a class="anchor" id="af4fdb294cacf26d5863b853504547a92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotAddSubtitle </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em> = <code>QString()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add subtitle clip to timeline. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa35eaaceff4891e6e4571700ee8f634a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotDownloadResources </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open the online services search dialog. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa3ed82ed4fba0b8d68f41298cf675aca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotEditSubtitle </td>
+          <td>(</td>
+          <td class="paramtype">QMap&lt; QString, QString &gt;&#160;</td>
+          <td class="paramname"><em>subProperties</em> = <code>{}</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5b440f85edfb0920c52cb87f15fe05c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotPreferences </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>page</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>option</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4fa21ea8d4a9b5a4a2a843c35930cc5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotRefreshProfiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reload project profile in config dialog if changed. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7ac7832cff21d77208dd9e564165ebc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotReloadEffects </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>paths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee6ac341d32d7f9505456deb3b4d66f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotSwitchAudioThumbs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a340001c52529d61c7aed6807a78bcf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotSwitchTimelineZone </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toggled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable or disable the use of timeline zone for edits. </p>
+
+</div>
+</div>
+<a class="anchor" id="af6f90fc5cbda46cf39510ebc250c159c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotSwitchVideoThumbs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7ff4e4f4e5be1c48644b464012d9f83b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotTranscode </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>urls</em> = <code>QStringList()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d52c04cf3064ca3fc84f5c9cad87019"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::slotUpdateDockLocation </td>
+          <td>(</td>
+          <td class="paramtype">Qt::DockWidgetArea&#160;</td>
+          <td class="paramname"><em>dockLocationArea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add/remove Dock tile bar depending on state (tabbed, floating, ...) </p>
+
+</div>
+</div>
+<a class="anchor" id="afd861c2afbdeb8eef4567e6a5edc0343"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::timelineVisible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the timeline widget is visible. </p>
+
+</div>
+</div>
+<a class="anchor" id="adb788b32a74f666db34873698268c3e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::updateDockTitleBars </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isTopLevel</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a009b5e2ae5309782a3e482a5f8fb9be0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::updateProjectPath </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a187312429797fdb1f5bfe5488de97bdf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::updateRenderWidgetProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Project profile changed, update render widget accordingly. </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ab0135216c03fa61bc831816270506c7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, KActionCategory *&gt; MainWindow::kdenliveCategoryMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a258c2b8acd399b2bf8148457f6e52218"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QUndoGroup* MainWindow::m_commandStack</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99ef7473505e738880ce62e67ae64cfb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MainWindow::m_exitCode {EXIT_SUCCESS}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a937830b2b0c111036fa04d74b2248e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::m_gpuAllowed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>holds info about whether movit is available on this system </p>
+
+</div>
+</div>
+<a class="anchor" id="a7028273253f7e8bf2963e066829c4ea9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; QString, QImage &gt; MainWindow::m_lumacache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cache for luma files thumbnails. </p>
+
+</div>
+</div>
+<a class="anchor" id="af40277bc3fb0178065a5484fd844b1a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; QString, QStringList &gt; MainWindow::m_lumaFiles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d3d101e887537ede162dd0d57ca5aed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QUndoView* MainWindow::m_undoView</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a></li>
+<li>src/<a class="el" href="mainwindow_8cpp.html">mainwindow.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

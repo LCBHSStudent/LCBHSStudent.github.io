@@ -1,0 +1,4 @@
+<map id="TimelineItemModel" name="TimelineItemModel">
+<area shape="rect" id="node2" href="$classTimelineModel.html" title="This class represents a Timeline object, as viewed by the backend. In general, the Gui associated wit..." alt="" coords="18,329,241,905"/>
+<area shape="rect" id="node3" href="$classQAbstractItemModel__shared__from__this.html" title="{QAbstractItemModel\l_shared_from_this\&lt; Timeline\lModel \&gt;\n|+ weak_this_\l|+ shared_from_this()\l+ shared_from_this()\l# QAbstractItemModel\l_shared_from_this()\l}" alt="" coords="22,131,237,281"/>
+</map>

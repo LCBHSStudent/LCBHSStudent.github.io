@@ -1,0 +1,12 @@
+<map id="src/timeline2/view/timelinecontroller.h" name="src/timeline2/view/timelinecontroller.h">
+<area shape="rect" id="node2" href="$core_8cpp.html" title="src/core.cpp" alt="" coords="5,102,105,129"/>
+<area shape="rect" id="node3" href="$kdenlivesettingsdialog_8cpp.html" title="src/dialogs/kdenlivesettingsdialog.cpp" alt="" coords="129,102,400,129"/>
+<area shape="rect" id="node4" href="$textbasededit_8cpp.html" title="src/dialogs/textbasededit.cpp" alt="" coords="425,102,638,129"/>
+<area shape="rect" id="node5" href="$mainwindow_8cpp.html" title="src/mainwindow.cpp" alt="" coords="662,102,817,129"/>
+<area shape="rect" id="node6" href="$projectmanager_8cpp.html" title="src/project/projectmanager.cpp" alt="" coords="841,102,1064,129"/>
+<area shape="rect" id="node7" href="$previewmanager_8cpp.html" title="src/timeline2/view\l/previewmanager.cpp" alt="" coords="1089,95,1251,136"/>
+<area shape="rect" id="node8" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="1275,95,1443,136"/>
+<area shape="rect" id="node9" href="$timelinetabs_8cpp.html" title="src/timeline2/view\l/timelinetabs.cpp" alt="" coords="1468,95,1611,136"/>
+<area shape="rect" id="node10" href="$timelinewidget_8cpp.html" title="src/timeline2/view\l/timelinewidget.cpp" alt="" coords="1635,95,1785,136"/>
+<area shape="rect" id="node11" href="$timelinetoolbar_8cpp.html" title="src/widgets/timelinetoolbar.cpp" alt="" coords="1810,102,2037,129"/>
+</map>

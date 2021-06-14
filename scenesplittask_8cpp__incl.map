@@ -1,0 +1,17 @@
+<map id="src/jobs/scenesplittask.cpp" name="src/jobs/scenesplittask.cpp">
+<area shape="rect" id="node2" href="$scenesplittask_8h.html" title="scenesplittask.h" alt="" coords="1467,80,1595,107"/>
+<area shape="rect" id="node5" href="$bin_8h.html" title="bin/bin.h" alt="" coords="873,155,952,181"/>
+<area shape="rect" id="node24" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="1916,80,2032,107"/>
+<area shape="rect" id="node36" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="312,155,439,181"/>
+<area shape="rect" id="node37" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="789,80,929,107"/>
+<area shape="rect" id="node38" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="2272,80,2447,107"/>
+<area shape="rect" id="node39" href="$clipcreator_8hpp.html" title="bin/clipcreator.hpp" alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node40" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="2471,80,2698,107"/>
+<area shape="rect" id="node41" href="$core_8h.html" title="core.h" alt="" coords="976,155,1039,181"/>
+<area shape="rect" id="node43" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2108,80,2248,107"/>
+<area shape="rect" id="node45" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="3085,80,3183,107"/>
+<area shape="rect" id="node50" href="$projectmanager_8h.html" title="project/projectmanager.h" alt="" coords="1063,155,1248,181"/>
+<area shape="rect" id="node3" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="575,155,690,181"/>
+<area shape="rect" id="node6" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="103,229,266,256"/>
+<area shape="rect" id="node7" href="$timecode_8h.html" title="timecode.h" alt="" coords="1916,229,2011,256"/>
+</map>

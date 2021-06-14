@@ -1,0 +1,411 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/lib/external/media_ctrl/mediactrl.c 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_f12b4398bd6bee78960580574110c364.html">external</a></li><li class="navelem"><a class="el" href="dir_c3c3e6797014277f0cddb08c7d16c76d.html">media_ctrl</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a> &#124;
+<a href="#var-members">变量</a>  </div>
+  <div class="headertitle">
+<div class="title">mediactrl.c 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;asm/types.h&gt;</code><br />
+<code>#include &lt;errno.h&gt;</code><br />
+<code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;sys/stat.h&gt;</code><br />
+<code>#include &lt;sys/time.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="mediactrl_8h_source.html">mediactrl.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+mediactrl.c 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="mediactrl_8c__incl.png" border="0" usemap="#src_2lib_2external_2media__ctrl_2mediactrl_8c" alt=""/></div>
+<map name="src_2lib_2external_2media__ctrl_2mediactrl_8c" id="src_2lib_2external_2media__ctrl_2mediactrl_8c">
+<area shape="rect" id="node13" href="mediactrl_8h.html" title="mediactrl.h" alt="" coords="1058,95,1154,121"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a5babf52db654636b33d22b993610339f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structmedia__ctrl__key.html">media_ctrl_key</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a5babf52db654636b33d22b993610339f">media_ctrl_get_key</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *ctrl, int code, int *index)</td></tr>
+<tr class="separator:a5babf52db654636b33d22b993610339f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9776ede01d43adb3457903442ab698c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#aa9776ede01d43adb3457903442ab698c">media_ctrl_get_keys_count</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *ctrl)</td></tr>
+<tr class="separator:aa9776ede01d43adb3457903442ab698c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a83319d0e299916c9214fa43b09ebe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a7a83319d0e299916c9214fa43b09ebe3">translate_contour_hid_event</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *ctrl, struct input_event *ev, struct <a class="el" href="structmedia__ctrl__event.html">media_ctrl_event</a> *me)</td></tr>
+<tr class="separator:a7a83319d0e299916c9214fa43b09ebe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83584dfd1300e73e0855b1b0c10c753a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a83584dfd1300e73e0855b1b0c10c753a">translate_compliant</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *ctrl, struct input_event *ev, struct <a class="el" href="structmedia__ctrl__event.html">media_ctrl_event</a> *me)</td></tr>
+<tr class="separator:a83584dfd1300e73e0855b1b0c10c753a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d7e1aa64b1d71b31e1f80b56dc440e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a53d7e1aa64b1d71b31e1f80b56dc440e">media_ctrl_read_event</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *ctrl, struct <a class="el" href="structmedia__ctrl__event.html">media_ctrl_event</a> *me)</td></tr>
+<tr class="separator:a53d7e1aa64b1d71b31e1f80b56dc440e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307051b92dd4dcf79ef9e37b57c16673"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a307051b92dd4dcf79ef9e37b57c16673">probe_device</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *mc)</td></tr>
+<tr class="separator:a307051b92dd4dcf79ef9e37b57c16673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0cc07075cd106cdc107cb98212a9cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a3b0cc07075cd106cdc107cb98212a9cf">find_first_device</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *mc)</td></tr>
+<tr class="separator:a3b0cc07075cd106cdc107cb98212a9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2bde1dffae04295f1571f0d8fa5430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#acc2bde1dffae04295f1571f0d8fa5430">media_ctrl_close</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *mc)</td></tr>
+<tr class="separator:acc2bde1dffae04295f1571f0d8fa5430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09842439057d70adbd4098790665c4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#af09842439057d70adbd4098790665c4c">media_ctrl_open</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *mc)</td></tr>
+<tr class="separator:af09842439057d70adbd4098790665c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a937ef57fc4baadcca84f81eb9092d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#a62a937ef57fc4baadcca84f81eb9092d">media_ctrl_open_dev</a> (struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *mc, const char *devname)</td></tr>
+<tr class="separator:a62a937ef57fc4baadcca84f81eb9092d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+变量</h2></td></tr>
+<tr class="memitem:ad0335d749379c924ce4583a3c2ead4ae"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structmedia__ctrl__device.html">media_ctrl_device</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mediactrl_8c.html#ad0335d749379c924ce4583a3c2ead4ae">supported_devices</a> []</td></tr>
+<tr class="separator:ad0335d749379c924ce4583a3c2ead4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="a3b0cc07075cd106cdc107cb98212a9cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void find_first_device </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acc2bde1dffae04295f1571f0d8fa5430"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void media_ctrl_close </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5babf52db654636b33d22b993610339f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structmedia__ctrl__key.html">media_ctrl_key</a>* media_ctrl_get_key </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>ctrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa9776ede01d43adb3457903442ab698c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int media_ctrl_get_keys_count </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>ctrl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af09842439057d70adbd4098790665c4c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void media_ctrl_open </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a62a937ef57fc4baadcca84f81eb9092d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void media_ctrl_open_dev </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>mc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>devname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a53d7e1aa64b1d71b31e1f80b56dc440e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void media_ctrl_read_event </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>ctrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl__event.html">media_ctrl_event</a> *&#160;</td>
+          <td class="paramname"><em>me</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a307051b92dd4dcf79ef9e37b57c16673"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int probe_device </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>mc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83584dfd1300e73e0855b1b0c10c753a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void translate_compliant </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>ctrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct input_event *&#160;</td>
+          <td class="paramname"><em>ev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl__event.html">media_ctrl_event</a> *&#160;</td>
+          <td class="paramname"><em>me</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7a83319d0e299916c9214fa43b09ebe3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void translate_contour_hid_event </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl.html">media_ctrl</a> *&#160;</td>
+          <td class="paramname"><em>ctrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct input_event *&#160;</td>
+          <td class="paramname"><em>ev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structmedia__ctrl__event.html">media_ctrl_event</a> *&#160;</td>
+          <td class="paramname"><em>me</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">变量说明</h2>
+<a class="anchor" id="ad0335d749379c924ce4583a3c2ead4ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structmedia__ctrl__device.html">media_ctrl_device</a> supported_devices[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>初始值:</b><div class="fragment"><div class="line">= {</div><div class="line">    {0x0b33, 0x0030, <span class="stringliteral">&quot;Contour Design ShuttlePRO v2&quot;</span>, mc_shuttle_pro_v2_keys, <a class="code" href="mediactrl_8c.html#a7a83319d0e299916c9214fa43b09ebe3">translate_contour_hid_event</a>},</div><div class="line">    {0x0b33, 0x0020, <span class="stringliteral">&quot;Contour Design ShuttleXpress&quot;</span>, mc_shuttle_xpress_keys, translate_contour_hid_event},</div><div class="line">    {0x0b33, 0x0010, <span class="stringliteral">&quot;Contour Design ShuttlePro&quot;</span>, mc_shuttle_pro_keys, translate_contour_hid_event},</div><div class="line">    {0x0b33, 0x0011, <span class="stringliteral">&quot;Contour Design ShuttlePro&quot;</span>, mc_shuttle_pro_keys, translate_contour_hid_event}, </div><div class="line">    {0x05f3, 0x0240, <span class="stringliteral">&quot;Contour Design ShuttlePro&quot;</span>, mc_shuttle_pro_keys, translate_contour_hid_event},</div><div class="line">    {0x0760, 0x0001, <span class="stringliteral">&quot;JLCooper MCS3&quot;</span>, mc_jlcooper_mcs3_keys, <a class="code" href="mediactrl_8c.html#a83584dfd1300e73e0855b1b0c10c753a">translate_compliant</a>},</div><div class="line">    {0x077d, 0x0410, <span class="stringliteral">&quot;Griffin PowerMate&quot;</span>, mc_powermate_keys, translate_compliant},</div><div class="line">    {0x05f3, 0x0241, <span class="stringliteral">&quot;X-Keys Editor&quot;</span>, mc_x_keys, translate_contour_hid_event},</div><div class="line">    {0, 0, 0, 0, 0}}</div><div class="ttc" id="mediactrl_8c_html_a83584dfd1300e73e0855b1b0c10c753a"><div class="ttname"><a href="mediactrl_8c.html#a83584dfd1300e73e0855b1b0c10c753a">translate_compliant</a></div><div class="ttdeci">void translate_compliant(struct media_ctrl *ctrl, struct input_event *ev, struct media_ctrl_event *me)</div><div class="ttdef"><b>Definition:</b> mediactrl.c:224</div></div>
+<div class="ttc" id="mediactrl_8c_html_a7a83319d0e299916c9214fa43b09ebe3"><div class="ttname"><a href="mediactrl_8c.html#a7a83319d0e299916c9214fa43b09ebe3">translate_contour_hid_event</a></div><div class="ttdeci">void translate_contour_hid_event(struct media_ctrl *ctrl, struct input_event *ev, struct media_ctrl_event *me)</div><div class="ttdef"><b>Definition:</b> mediactrl.c:162</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

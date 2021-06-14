@@ -1,0 +1,18 @@
+<map id="src/jobs/taskmanager.cpp" name="src/jobs/taskmanager.cpp">
+<area shape="rect" id="node2" href="$taskmanager_8h.html" title="taskmanager.h" alt="" coords="1929,155,2048,181"/>
+<area shape="rect" id="node22" href="$abstractprojectitem_8h.html" title="bin/abstractprojectitem.h" alt="" coords="390,155,576,181"/>
+<area shape="rect" id="node24" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="2364,304,2487,331"/>
+<area shape="rect" id="node29" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="354,80,481,107"/>
+<area shape="rect" id="node34" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1624,155,1798,181"/>
+<area shape="rect" id="node38" href="$core_8h.html" title="core.h" alt="" coords="2409,80,2472,107"/>
+<area shape="rect" id="node47" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="3322,80,3420,107"/>
+<area shape="rect" id="node3" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="2028,229,2143,256"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="1788,304,1890,331"/>
+<area shape="rect" id="node5" href="$gentime_8h.html" title="gentime.h" alt="" coords="2698,379,2786,405"/>
+<area shape="rect" id="node23" href="$treeitem_8hpp.html" title="abstractmodel/treeitem.hpp" alt="" coords="349,229,553,256"/>
+<area shape="rect" id="node30" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="65,155,272,181"/>
+<area shape="rect" id="node31" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="800,155,1056,181"/>
+<area shape="rect" id="node35" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="1157,229,1425,256"/>
+<area shape="rect" id="node39" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2554,155,2721,181"/>
+<area shape="rect" id="node45" href="$timecode_8h.html" title="timecode.h" alt="" coords="2765,304,2860,331"/>
+</map>

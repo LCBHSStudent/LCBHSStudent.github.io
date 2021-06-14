@@ -1,0 +1,3 @@
+<map id="ClipModel" name="ClipModel">
+<area shape="rect" id="node2" href="$classMoveableItem.html" title="{MoveableItem\&lt; Mlt::\lProducer \&gt;\n|+ selected\l# m_parent\l# m_id\l# m_position\l# m_currentTrackId\l# m_grabbed\l# m_lock\l|+ MoveableItem()\l+ getId()\l+ getPlaytime()\l+ getCurrentTrackId()\l+ getPosition()\l+ getInOut()\l+ getIn()\l+ getOut()\l+ setGrab()\l+ operator Mlt::Producer &amp;()\l+ isValid()\l+ getProperty()\l+ isGrabbed()\l+ setSelected()\l# ~MoveableItem()\l# service()\l# requestResize()\l# setPosition()\l# setCurrentTrackId()\l# setInOut()\l}" alt="" coords="12,5,219,464"/>
+</map>

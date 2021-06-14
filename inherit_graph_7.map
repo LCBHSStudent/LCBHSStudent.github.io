@@ -1,0 +1,11 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classGLWidget.html" title="GLWidget" alt="" coords="249,5,333,32"/>
+<area shape="rect" id="node4" href="$classAssetListWidget.html" title="This class is a generic widget that display the list of available assets. " alt="" coords="227,56,354,83"/>
+<area shape="rect" id="node7" href="$classBuiltStack.html" title="BuiltStack" alt="" coords="247,107,335,133"/>
+<area shape="rect" id="node8" href="$classProjectSettingsWidget.html" title="ProjectSettingsWidget" alt="" coords="207,157,374,184"/>
+<area shape="rect" id="node9" href="$classRSToolBar.html" title="RSToolBar" alt="" coords="247,208,334,235"/>
+<area shape="rect" id="node10" href="$classTimelineWidget.html" title="TimelineWidget" alt="" coords="228,259,353,285"/>
+<area shape="rect" id="node11" href="$classTransitionParameterView.html" title="This class is the view of the properties of a transition. " alt="" coords="199,309,383,336"/>
+<area shape="rect" id="node5" href="$classEffectListWidget.html" title="This class is a widget that display the list of available effects. " alt="" coords="444,31,572,57"/>
+<area shape="rect" id="node6" href="$classTransitionListWidget.html" title="This class is a widget that display the list of available effects. " alt="" coords="431,81,585,108"/>
+</map>

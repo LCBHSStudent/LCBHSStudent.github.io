@@ -1,0 +1,17 @@
+<map id="src/assets/keyframes/model/keyframemodellist.hpp" name="src/assets/keyframes/model/keyframemodellist.hpp">
+<area shape="rect" id="node2" href="$cornershelper_8cpp.html" title="src/assets/keyframes\l/model/corners/cornershelper.cpp" alt="" coords="5,95,244,136"/>
+<area shape="rect" id="node3" href="$keyframemodellist_8cpp.html" title="src/assets/keyframes\l/model/keyframemodellist.cpp" alt="" coords="269,95,490,136"/>
+<area shape="rect" id="node4" href="$keyframemonitorhelper_8cpp.html" title="src/assets/keyframes\l/model/keyframemonitorhelper.cpp" alt="" coords="514,95,765,136"/>
+<area shape="rect" id="node5" href="$rotohelper_8cpp.html" title="src/assets/keyframes\l/model/rotoscoping/rotohelper.cpp" alt="" coords="789,95,1033,136"/>
+<area shape="rect" id="node6" href="$keyframeview_8hpp.html" title="src/assets/keyframes\l/view/keyframeview.hpp" alt="" coords="1109,95,1290,136"/>
+<area shape="rect" id="node7" href="$keyframeview_8cpp.html" title="src/assets/keyframes\l/view/keyframeview.cpp" alt="" coords="907,184,1087,225"/>
+<area shape="rect" id="node9" href="$keyframewidget_8cpp.html" title="src/assets/view/widgets\l/keyframewidget.cpp" alt="" coords="1312,184,1489,225"/>
+<area shape="rect" id="node10" href="$assetcommand_8cpp.html" title="src/assets/model/assetcommand.cpp" alt="" coords="1365,102,1628,129"/>
+<area shape="rect" id="node11" href="$assetparametermodel_8cpp.html" title="src/assets/model/assetparametermodel.cpp" alt="" coords="1653,102,1959,129"/>
+<area shape="rect" id="node12" href="$effectstackmodel_8cpp.html" title="src/effects/effectstack\l/model/effectstackmodel.cpp" alt="" coords="1983,95,2194,136"/>
+<area shape="rect" id="node13" href="$compositionmodel_8cpp.html" title="src/timeline2/model\l/compositionmodel.cpp" alt="" coords="2219,95,2393,136"/>
+<area shape="rect" id="node14" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="2418,95,2586,136"/>
+<area shape="rect" id="node15" href="$mixstackview_8cpp.html" title="src/transitions/view\l/mixstackview.cpp" alt="" coords="2610,95,2759,136"/>
+<area shape="rect" id="node16" href="$transitionstackview_8cpp.html" title="src/transitions/view\l/transitionstackview.cpp" alt="" coords="2784,95,2964,136"/>
+<area shape="rect" id="node8" href="$keyframeimport_8cpp.html" title="src/assets/view/widgets\l/keyframeimport.cpp" alt="" coords="1111,184,1288,225"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="src/core.cpp" name="src/core.cpp">
+<area shape="rect" id="node2" href="$core_8h.html" title="core.h" alt="" coords="2839,80,2901,107"/>
+<area shape="rect" id="node19" href="$bin_8h.html" title="bin/bin.h" alt="" coords="2487,155,2565,181"/>
+<area shape="rect" id="node22" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1460,155,1635,181"/>
+<area shape="rect" id="node23" href="$mediacapture_8h.html" title="capture/mediacapture.h" alt="" coords="2589,155,2767,181"/>
+<area shape="rect" id="node24" href="$docundostack_8hpp.html" title="doc/docundostack.hpp" alt="" coords="3444,80,3611,107"/>
+<area shape="rect" id="node25" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="1244,155,1384,181"/>
+<area shape="rect" id="node27" href="$librarywidget_8h.html" title="library/librarywidget.h" alt="" coords="1053,155,1220,181"/>
+<area shape="rect" id="node28" href="$mixermanager_8hpp.html" title="audiomixer/mixermanager.hpp" alt="" coords="394,155,615,181"/>
+<area shape="rect" id="node29" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="1843,80,1959,107"/>
+<area shape="rect" id="node30" href="$mltconnection_8h.html" title="mltconnection.h" alt="" coords="137,229,264,256"/>
+<area shape="rect" id="node31" href="$qmltypehelper_8h.html" title="qml/qmltypehelper.h" alt="" coords="3802,80,3959,107"/>
+<area shape="rect" id="node32" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="1812,155,2019,181"/>
+<area shape="rect" id="node33" href="$monitormanager_8h.html" title="monitor/monitormanager.h" alt="" coords="2043,155,2241,181"/>
+<area shape="rect" id="node34" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="731,229,915,256"/>
+<area shape="rect" id="node35" href="$profilerepository_8hpp.html" title="profiles/profilerepository.hpp" alt="" coords="163,155,369,181"/>
+<area shape="rect" id="node36" href="$projectmanager_8h.html" title="project/projectmanager.h" alt="" coords="2925,80,3111,107"/>
+<area shape="rect" id="node37" href="$timelineitemmodel_8hpp.html" title="timeline2/model/timelineitemmodel.hpp" alt="" coords="4107,155,4393,181"/>
+<area shape="rect" id="node38" href="$timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="1983,80,2234,107"/>
+<area shape="rect" id="node39" href="$timelinewidget_8h.html" title="timeline2/view/timelinewidget.h" alt="" coords="3187,80,3420,107"/>
+<area shape="rect" id="node40" href="$subtitleedit_8h.html" title="dialogs/subtitleedit.h" alt="" coords="691,80,849,107"/>
+<area shape="rect" id="node41" href="$textbasededit_8h.html" title="dialogs/textbasededit.h" alt="" coords="873,80,1048,107"/>
+<area shape="rect" id="node42" href="$customtooltip_8h.html" title="widgets/customtooltip.h" alt="" coords="3983,80,4162,107"/>
+<area shape="rect" id="node43" href="$clippropertieswidget_8h.html" title="widgets/clippropertieswidget.h" alt="" coords="1331,229,1553,256"/>
+<area shape="rect" id="node44" href="$proxytest_8h.html" title="dialogs/proxytest.h" alt="" coords="2265,155,2411,181"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="964,229,1067,256"/>
+<area shape="rect" id="node6" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="3728,155,3879,181"/>
+<area shape="rect" id="node9" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="3144,155,3311,181"/>
+<area shape="rect" id="node10" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="3614,304,3737,331"/>
+<area shape="rect" id="node18" href="$timecode_8h.html" title="timecode.h" alt="" coords="2439,229,2533,256"/>
+<area shape="rect" id="node20" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="3770,229,3933,256"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="src/timeline2/model/trackmodel.hpp" name="src/timeline2/model/trackmodel.hpp">
+<area shape="rect" id="node2" href="$meltBuilder_8cpp.html" title="src/timeline2/model\l/builders/meltBuilder.cpp" alt="" coords="5,95,189,136"/>
+<area shape="rect" id="node3" href="$clipmodel_8cpp.html" title="src/timeline2/model\l/clipmodel.cpp" alt="" coords="213,95,365,136"/>
+<area shape="rect" id="node4" href="$compositionmodel_8cpp.html" title="src/timeline2/model\l/compositionmodel.cpp" alt="" coords="390,95,565,136"/>
+<area shape="rect" id="node5" href="$groupsmodel_8cpp.html" title="src/timeline2/model\l/groupsmodel.cpp" alt="" coords="589,95,741,136"/>
+<area shape="rect" id="node6" href="$timelinefunctions_8cpp.html" title="src/timeline2/model\l/timelinefunctions.cpp" alt="" coords="766,95,933,136"/>
+<area shape="rect" id="node7" href="$timelineitemmodel_8cpp.html" title="src/timeline2/model\l/timelineitemmodel.cpp" alt="" coords="957,95,1136,136"/>
+<area shape="rect" id="node8" href="$timelinemodel_8cpp.html" title="src/timeline2/model\l/timelinemodel.cpp" alt="" coords="1160,95,1312,136"/>
+<area shape="rect" id="node9" href="$trackmodel_8cpp.html" title="src/timeline2/model\l/trackmodel.cpp" alt="" coords="1336,95,1488,136"/>
+<area shape="rect" id="node10" href="$timelinecontroller_8cpp.html" title="src/timeline2/view\l/timelinecontroller.cpp" alt="" coords="1512,95,1680,136"/>
+</map>

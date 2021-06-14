@@ -1,0 +1,126 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/timeline2/view/dialogs/spacerdialog.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_50716357520eb43729caf1b82d8ac70b.html">timeline2</a></li><li class="navelem"><a class="el" href="dir_1b8966e5a082a93a58fae172531b5386.html">view</a></li><li class="navelem"><a class="el" href="dir_e0b10c294f745b7473068453430873e2.html">dialogs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">spacerdialog.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="spacerdialog_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2008 by Jean-Baptiste Mardelle (jb@kdenlive.org)        *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *   This program is distributed in the hope that it will be useful,       *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   along with this program; if not, write to the                         *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   Free Software Foundation, Inc.,                                       *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA          *</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifndef SPACERDIALOG_H</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define SPACERDIALOG_H</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="definitions_8h.html">definitions.h</a>&quot;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="timecode_8h.html">timecode.h</a>&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="timecodedisplay_8h.html">timecodedisplay.h</a>&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;ui_spacerdialog_ui.h&quot;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classSpacerDialog.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSpacerDialog.html">SpacerDialog</a> : <span class="keyword">public</span> QDialog, <span class="keyword">public</span> Ui::SpacerDialog_UI</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classSpacerDialog.html#a64548e5dafe919c1ae73d7679b40e4b6">SpacerDialog</a>(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;duration, <span class="keyword">const</span> <a class="code" href="classTimecode.html">Timecode</a> &amp;tc, <span class="keywordtype">int</span> track, <span class="keyword">const</span> QList&lt;TrackInfo&gt; &amp;tracks, QWidget *parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classSpacerDialog.html#a64548e5dafe919c1ae73d7679b40e4b6">SpacerDialog</a>(<span class="keyword">const</span> <a class="code" href="classGenTime.html">GenTime</a> &amp;duration, <span class="keyword">const</span> <a class="code" href="classTimecode.html">Timecode</a> &amp;tc, QWidget *parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classGenTime.html">GenTime</a> <a class="code" href="classSpacerDialog.html#aa6087d6a356f0a4f4be8e06d8280cbca">selectedDuration</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classSpacerDialog.html#a5d763e2bee101a5318df03a9777f6424">selectedTrack</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classSpacerDialog.html#abfe9fc06d4e30d4ab24f908f0980546e">affectAllTracks</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="classTimecodeDisplay.html">TimecodeDisplay</a> m_in;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classTimecodeDisplay_html"><div class="ttname"><a href="classTimecodeDisplay.html">TimecodeDisplay</a></div><div class="ttdoc">A widget for inserting a timecode value. </div><div class="ttdef"><b>Definition:</b> timecodedisplay.h:48</div></div>
+<div class="ttc" id="classSpacerDialog_html_a5d763e2bee101a5318df03a9777f6424"><div class="ttname"><a href="classSpacerDialog.html#a5d763e2bee101a5318df03a9777f6424">SpacerDialog::selectedTrack</a></div><div class="ttdeci">int selectedTrack() const </div><div class="ttdef"><b>Definition:</b> spacerdialog.cpp:75</div></div>
+<div class="ttc" id="timecodedisplay_8h_html"><div class="ttname"><a href="timecodedisplay_8h.html">timecodedisplay.h</a></div></div>
+<div class="ttc" id="classSpacerDialog_html_a64548e5dafe919c1ae73d7679b40e4b6"><div class="ttname"><a href="classSpacerDialog.html#a64548e5dafe919c1ae73d7679b40e4b6">SpacerDialog::SpacerDialog</a></div><div class="ttdeci">SpacerDialog(const GenTime &amp;duration, const Timecode &amp;tc, int track, const QList&lt; TrackInfo &gt; &amp;tracks, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> spacerdialog.cpp:31</div></div>
+<div class="ttc" id="definitions_8h_html"><div class="ttname"><a href="definitions_8h.html">definitions.h</a></div></div>
+<div class="ttc" id="classGenTime_html"><div class="ttname"><a href="classGenTime.html">GenTime</a></div><div class="ttdoc">Encapsulates a time, which can be set in various forms and outputted in various forms. </div><div class="ttdef"><b>Definition:</b> gentime.h:29</div></div>
+<div class="ttc" id="classSpacerDialog_html_abfe9fc06d4e30d4ab24f908f0980546e"><div class="ttname"><a href="classSpacerDialog.html#abfe9fc06d4e30d4ab24f908f0980546e">SpacerDialog::affectAllTracks</a></div><div class="ttdeci">bool affectAllTracks() const </div><div class="ttdef"><b>Definition:</b> spacerdialog.cpp:70</div></div>
+<div class="ttc" id="timecode_8h_html"><div class="ttname"><a href="timecode_8h.html">timecode.h</a></div></div>
+<div class="ttc" id="classSpacerDialog_html_aa6087d6a356f0a4f4be8e06d8280cbca"><div class="ttname"><a href="classSpacerDialog.html#aa6087d6a356f0a4f4be8e06d8280cbca">SpacerDialog::selectedDuration</a></div><div class="ttdeci">GenTime selectedDuration() const </div><div class="ttdef"><b>Definition:</b> spacerdialog.cpp:65</div></div>
+<div class="ttc" id="classSpacerDialog_html"><div class="ttname"><a href="classSpacerDialog.html">SpacerDialog</a></div><div class="ttdoc">A dialog to specify length and track of inserted space. </div><div class="ttdef"><b>Definition:</b> spacerdialog.h:32</div></div>
+<div class="ttc" id="classTimecode_html"><div class="ttname"><a href="classTimecode.html">Timecode</a></div><div class="ttdef"><b>Definition:</b> timecode.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

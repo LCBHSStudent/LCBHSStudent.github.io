@@ -1,0 +1,17 @@
+<map id="src/titler/titlewidget.cpp" name="src/titler/titlewidget.cpp">
+<area shape="rect" id="node2" href="$titlewidget_8h.html" title="titlewidget.h" alt="" coords="1525,80,1629,107"/>
+<area shape="rect" id="node14" href="$core_8h.html" title="core.h" alt="" coords="239,80,301,107"/>
+<area shape="rect" id="node18" href="$bin_8h.html" title="bin/bin.h" alt="" coords="887,80,965,107"/>
+<area shape="rect" id="node21" href="$kthumb_8h.html" title="doc/kthumb.h" alt="" coords="1805,80,1916,107"/>
+<area shape="rect" id="node22" href="$gradientwidget_8h.html" title="gradientwidget.h" alt="" coords="1940,80,2072,107"/>
+<area shape="rect" id="node23" href="$timecodedisplay_8h.html" title="timecodedisplay.h" alt="" coords="584,155,724,181"/>
+<area shape="rect" id="node25" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="450,80,589,107"/>
+<area shape="rect" id="node28" href="$patternsmodel_8h.html" title="titler/patternsmodel.h" alt="" coords="2263,80,2427,107"/>
+<area shape="rect" id="node29" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="2502,80,2686,107"/>
+<area shape="rect" id="node3" href="$graphicsscenerectmove_8h.html" title="graphicsscenerectmove.h" alt="" coords="1673,155,1862,181"/>
+<area shape="rect" id="node6" href="$timecode_8h.html" title="timecode.h" alt="" coords="740,229,835,256"/>
+<area shape="rect" id="node7" href="$titledocument_8h.html" title="titler/titledocument.h" alt="" coords="1971,155,2131,181"/>
+<area shape="rect" id="node9" href="$unicodedialog_8h.html" title="titler/unicodedialog.h" alt="" coords="1321,155,1481,181"/>
+<area shape="rect" id="node15" href="$definitions_8h.html" title="definitions.h" alt="" coords="136,229,239,256"/>
+<area shape="rect" id="node17" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="56,155,207,181"/>
+</map>

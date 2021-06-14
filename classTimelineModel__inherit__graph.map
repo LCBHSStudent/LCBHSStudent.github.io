@@ -1,0 +1,4 @@
+<map id="TimelineModel" name="TimelineModel">
+<area shape="rect" id="node4" href="$classTimelineItemModel.html" title="This class is the thin wrapper around the TimelineModel that provides interface for the QML..." alt="" coords="5,953,253,1221"/>
+<area shape="rect" id="node2" href="$classQAbstractItemModel__shared__from__this.html" title="{QAbstractItemModel\l_shared_from_this\&lt; Timeline\lModel \&gt;\n|+ weak_this_\l|+ shared_from_this()\l+ shared_from_this()\l# QAbstractItemModel\l_shared_from_this()\l}" alt="" coords="22,131,237,281"/>
+</map>

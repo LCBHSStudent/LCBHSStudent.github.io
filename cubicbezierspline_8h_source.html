@@ -1,0 +1,130 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/assets/view/widgets/curves/bezier/cubicbezierspline.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_10713331a9c2c730d0277dc05e8141d6.html">assets</a></li><li class="navelem"><a class="el" href="dir_a0d2a0c1542c5e05aa2f0846a7cbebaf.html">view</a></li><li class="navelem"><a class="el" href="dir_91ff046831ad821683bd0f3339be33d6.html">widgets</a></li><li class="navelem"><a class="el" href="dir_00728adbea4f6faec92af8b70dbce2ab.html">curves</a></li><li class="navelem"><a class="el" href="dir_00945ad450f255ac40cff1f4ca327b54.html">bezier</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cubicbezierspline.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cubicbezierspline_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2010 by Till Theato (root@ttill.de)                     *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   This file is part of Kdenlive (www.kdenlive.org).                     *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   Kdenlive is free software: you can redistribute it and/or modify      *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation, either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *   Kdenlive is distributed in the hope that it will be useful,           *</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *   GNU General Public License for more details.                          *</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *   You should have received a copy of the GNU General Public License     *</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *   along with Kdenlive.  If not, see &lt;http://www.gnu.org/licenses/&gt;.     *</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef CUBICBEZIERSPLINE_H</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define CUBICBEZIERSPLINE_H</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="view_2widgets_2curves_2bezier_2bpoint_8h.html">bpoint.h</a>&quot;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;QList&gt;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classCubicBezierSpline.html">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCubicBezierSpline.html">CubicBezierSpline</a></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classCubicBezierSpline.html#afb1f26faa65e747e50fac6522766bec3">   35</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classBPoint.html">Point_t</a> = <a class="code" href="classBPoint.html">BPoint</a>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classCubicBezierSpline.html#a680d3ac485e62596f7bea3237a2da482">CubicBezierSpline</a>();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classCubicBezierSpline.html#a680d3ac485e62596f7bea3237a2da482">CubicBezierSpline</a>(<span class="keyword">const</span> <a class="code" href="classCubicBezierSpline.html">CubicBezierSpline</a> &amp;spline);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classCubicBezierSpline.html">CubicBezierSpline</a> &amp;<a class="code" href="classCubicBezierSpline.html#a3768b44023d6aa4c967b5e17dd3d0c46">operator=</a>(<span class="keyword">const</span> <a class="code" href="classCubicBezierSpline.html">CubicBezierSpline</a> &amp;spline);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCubicBezierSpline.html#a09d6e0b7cede6bb3a0ed9b8cacabdb8e">fromString</a>(<span class="keyword">const</span> QString &amp;spline);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    QString <a class="code" href="classCubicBezierSpline.html#af55f2003801a0cfa9337dee3cc6a75f8">toString</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    QList&lt;BPoint&gt; <a class="code" href="classCubicBezierSpline.html#a7cd77f6b083aef3e226ca3aaa48fb3ab">points</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classCubicBezierSpline.html#ad16d715b5561cf2508b114869e45c331">count</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classCubicBezierSpline.html#a86e13f52b4b6a9ea9dd55d4d0b1a6df7">setPoint</a>(<span class="keywordtype">int</span> ix, <span class="keyword">const</span> <a class="code" href="classBPoint.html">BPoint</a> &amp;point);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classCubicBezierSpline.html#a19162436b66332370879728645f516b1">addPoint</a>(<span class="keyword">const</span> <a class="code" href="classBPoint.html">BPoint</a> &amp;point);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classCubicBezierSpline.html#a19162436b66332370879728645f516b1">addPoint</a>(<span class="keyword">const</span> QPointF &amp;point);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCubicBezierSpline.html#aea1cf9f11210cfe3b5726c8997514093">removePoint</a>(<span class="keywordtype">int</span> ix);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="classBPoint.html">BPoint</a> <a class="code" href="classCubicBezierSpline.html#aa1eda8af3f8ebad4184f10cd60420dbe">getPoint</a>(<span class="keywordtype">int</span> ix, <span class="keywordtype">int</span> normalisedWidth = 1, <span class="keywordtype">int</span> normalisedHeight = 1, <span class="keywordtype">bool</span> invertHeight = <span class="keyword">false</span>);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    std::pair&lt;int, BPoint::PointType&gt; <a class="code" href="classCubicBezierSpline.html#a795aa4d7f7255383a24b404b7d13e610">closestPoint</a>(<span class="keyword">const</span> QPointF &amp;p) <span class="keyword">const</span>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    QList&lt;BPoint&gt; <a class="code" href="classCubicBezierSpline.html#a1890b2a66b0cfb480bb9337abdb6f29f">getPoints</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">void</span> validatePoints();</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">void</span> keepSorted();</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">int</span> indexOf(<span class="keyword">const</span> <a class="code" href="classBPoint.html">BPoint</a> &amp;p);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    QList&lt;BPoint&gt; m_points;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classCubicBezierSpline_html_a7cd77f6b083aef3e226ca3aaa48fb3ab"><div class="ttname"><a href="classCubicBezierSpline.html#a7cd77f6b083aef3e226ca3aaa48fb3ab">CubicBezierSpline::points</a></div><div class="ttdeci">QList&lt; BPoint &gt; points() const </div><div class="ttdoc">Returns a list of the points defining the spline. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:83</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a3768b44023d6aa4c967b5e17dd3d0c46"><div class="ttname"><a href="classCubicBezierSpline.html#a3768b44023d6aa4c967b5e17dd3d0c46">CubicBezierSpline::operator=</a></div><div class="ttdeci">CubicBezierSpline &amp; operator=(const CubicBezierSpline &amp;spline)</div></div>
+<div class="ttc" id="classCubicBezierSpline_html"><div class="ttname"><a href="classCubicBezierSpline.html">CubicBezierSpline</a></div><div class="ttdoc">@todo Describe class CubicBezierSpline </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.h:31</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_aa1eda8af3f8ebad4184f10cd60420dbe"><div class="ttname"><a href="classCubicBezierSpline.html#aa1eda8af3f8ebad4184f10cd60420dbe">CubicBezierSpline::getPoint</a></div><div class="ttdeci">BPoint getPoint(int ix, int normalisedWidth=1, int normalisedHeight=1, bool invertHeight=false)</div><div class="ttdoc">Returns the point at. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:126</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_aea1cf9f11210cfe3b5726c8997514093"><div class="ttname"><a href="classCubicBezierSpline.html#aea1cf9f11210cfe3b5726c8997514093">CubicBezierSpline::removePoint</a></div><div class="ttdeci">void removePoint(int ix)</div><div class="ttdoc">Removes the point at. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:88</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_ad16d715b5561cf2508b114869e45c331"><div class="ttname"><a href="classCubicBezierSpline.html#ad16d715b5561cf2508b114869e45c331">CubicBezierSpline::count</a></div><div class="ttdeci">int count() const </div><div class="ttdoc">Returns the number of points in the spline. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:173</div></div>
+<div class="ttc" id="classBPoint_html"><div class="ttname"><a href="classBPoint.html">BPoint</a></div><div class="ttdoc">Represents a point in a cubic Bézier spline. </div><div class="ttdef"><b>Definition:</b> bpoint.h:27</div></div>
+<div class="ttc" id="view_2widgets_2curves_2bezier_2bpoint_8h_html"><div class="ttname"><a href="view_2widgets_2curves_2bezier_2bpoint_8h.html">bpoint.h</a></div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a09d6e0b7cede6bb3a0ed9b8cacabdb8e"><div class="ttname"><a href="classCubicBezierSpline.html#a09d6e0b7cede6bb3a0ed9b8cacabdb8e">CubicBezierSpline::fromString</a></div><div class="ttdeci">void fromString(const QString &amp;spline)</div><div class="ttdoc">Loads the points from the string. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:41</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_af55f2003801a0cfa9337dee3cc6a75f8"><div class="ttname"><a href="classCubicBezierSpline.html#af55f2003801a0cfa9337dee3cc6a75f8">CubicBezierSpline::toString</a></div><div class="ttdeci">QString toString() const </div><div class="ttdoc">Returns the points stored in a string. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:63</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a795aa4d7f7255383a24b404b7d13e610"><div class="ttname"><a href="classCubicBezierSpline.html#a795aa4d7f7255383a24b404b7d13e610">CubicBezierSpline::closestPoint</a></div><div class="ttdeci">std::pair&lt; int, BPoint::PointType &gt; closestPoint(const QPointF &amp;p) const </div><div class="ttdoc">Returns the closest point to. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:183</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a86e13f52b4b6a9ea9dd55d4d0b1a6df7"><div class="ttname"><a href="classCubicBezierSpline.html#a86e13f52b4b6a9ea9dd55d4d0b1a6df7">CubicBezierSpline::setPoint</a></div><div class="ttdeci">int setPoint(int ix, const BPoint &amp;point)</div><div class="ttdoc">Sets the point at index. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:75</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a1890b2a66b0cfb480bb9337abdb6f29f"><div class="ttname"><a href="classCubicBezierSpline.html#a1890b2a66b0cfb480bb9337abdb6f29f">CubicBezierSpline::getPoints</a></div><div class="ttdeci">QList&lt; BPoint &gt; getPoints() const </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:178</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a680d3ac485e62596f7bea3237a2da482"><div class="ttname"><a href="classCubicBezierSpline.html#a680d3ac485e62596f7bea3237a2da482">CubicBezierSpline::CubicBezierSpline</a></div><div class="ttdeci">CubicBezierSpline()</div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:28</div></div>
+<div class="ttc" id="classCubicBezierSpline_html_a19162436b66332370879728645f516b1"><div class="ttname"><a href="classCubicBezierSpline.html#a19162436b66332370879728645f516b1">CubicBezierSpline::addPoint</a></div><div class="ttdeci">int addPoint(const BPoint &amp;point)</div><div class="ttdoc">Adds. </div><div class="ttdef"><b>Definition:</b> cubicbezierspline.cpp:93</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<map id="DoubleParamWidget" name="DoubleParamWidget">
+<area shape="rect" id="node2" href="$classAbstractParamWidget.html" title="Base class of all the widgets representing a parameter of an asset (effect or transition) ..." alt="" coords="5,154,204,334"/>
+<area shape="rect" id="node4" href="$classDoubleWidget.html" title="Widget to choose a double parameter (for a effect) with the help of a slider and a spinbox..." alt="" coords="229,132,407,356"/>
+</map>

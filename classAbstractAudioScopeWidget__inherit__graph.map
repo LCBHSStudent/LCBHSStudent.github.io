@@ -1,0 +1,6 @@
+<map id="AbstractAudioScopeWidget" name="AbstractAudioScopeWidget">
+<area shape="rect" id="node4" href="$classAudioSignal.html" title="{AudioSignal\n||+ AudioSignal()\l+ ~AudioSignal()\l+ monitoringEnabled()\l+ scopeRect()\l+ renderHUD()\l+ renderBackground()\l+ renderAudioScope()\l+ widgetName()\l+ isHUDDependingOnInput()\l+ isScopeDependingOnInput()\l+ isBackgroundDependingOnInput()\l+ showAudio()\l+ slotReceiveAudio()\l}" alt="" coords="5,1239,261,1493"/>
+<area shape="rect" id="node5" href="$classAudioSpectrum.html" title="Displays a spectral power distribution of audio samples. The frequency distribution is calculated by ..." alt="" coords="286,1261,453,1471"/>
+<area shape="rect" id="node6" href="$classSpectrogram.html" title="This Spectrogram shows the spectral power distribution of incoming audio samples over time..." alt="" coords="477,1232,733,1500"/>
+<area shape="rect" id="node2" href="$classAbstractScopeWidget.html" title="Abstract class for audio/colour scopes (receive data and paint it). " alt="" coords="235,131,503,971"/>
+</map>

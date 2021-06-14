@@ -1,0 +1,5 @@
+<map id="AssetTreeModel" name="AssetTreeModel">
+<area shape="rect" id="node5" href="$classEffectTreeModel.html" title="{EffectTreeModel\n|# m_customCategory\l|+ reloadEffect()\l+ reloadEffectFromIndex()\l+ reloadAssetMenu()\l+ setFavorite()\l+ deleteEffect()\l+ editCustomAsset()\l+ construct()\l# EffectTreeModel()\l}" alt="" coords="5,968,200,1148"/>
+<area shape="rect" id="node6" href="$classTransitionTreeModel.html" title="{TransitionTreeModel\n||+ reloadAssetMenu()\l+ setFavorite()\l+ deleteEffect()\l+ editCustomAsset()\l+ construct()\l# TransitionTreeModel()\l}" alt="" coords="225,983,402,1133"/>
+<area shape="rect" id="node2" href="$classAbstractTreeModel.html" title="This class represents a generic tree hierarchy. " alt="" coords="101,145,315,604"/>
+</map>

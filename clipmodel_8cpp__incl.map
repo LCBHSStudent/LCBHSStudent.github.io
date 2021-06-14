@@ -1,0 +1,23 @@
+<map id="src/timeline2/model/clipmodel.cpp" name="src/timeline2/model/clipmodel.cpp">
+<area shape="rect" id="node2" href="$clipmodel_8hpp.html" title="clipmodel.hpp" alt="" coords="1576,95,1691,121"/>
+<area shape="rect" id="node4" href="$timelinemodel_8hpp.html" title="timelinemodel.hpp" alt="" coords="1478,259,1623,285"/>
+<area shape="rect" id="node16" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1849,177,1975,203"/>
+<area shape="rect" id="node24" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="182,177,357,203"/>
+<area shape="rect" id="node28" href="$clipsnapmodel_8hpp.html" title="clipsnapmodel.hpp" alt="" coords="3806,177,3951,203"/>
+<area shape="rect" id="node31" href="$core_8h.html" title="core.h" alt="" coords="3134,177,3197,203"/>
+<area shape="rect" id="node41" href="$effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="1999,169,2211,211"/>
+<area shape="rect" id="node42" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="2295,95,2393,121"/>
+<area shape="rect" id="node44" href="$trackmodel_8hpp.html" title="trackmodel.hpp" alt="" coords="1038,259,1162,285"/>
+<area shape="rect" id="node47" href="$effectsrepository_8hpp.html" title="effects/effectsrepository.hpp" alt="" coords="2235,177,2442,203"/>
+<area shape="rect" id="node3" href="$moveableItem_8hpp.html" title="moveableItem.hpp" alt="" coords="1478,177,1623,203"/>
+<area shape="rect" id="node9" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="593,333,716,360"/>
+<area shape="rect" id="node5" href="$definitions_8h.html" title="definitions.h" alt="" coords="741,333,843,360"/>
+<area shape="rect" id="node17" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="597,259,760,285"/>
+<area shape="rect" id="node20" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="2001,259,2207,285"/>
+<area shape="rect" id="node25" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="1186,259,1454,285"/>
+<area shape="rect" id="node29" href="$snapmodel_8hpp.html" title="snapmodel.hpp" alt="" coords="4143,259,4265,285"/>
+<area shape="rect" id="node32" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="3917,259,4067,285"/>
+<area shape="rect" id="node34" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="3674,259,3841,285"/>
+<area shape="rect" id="node40" href="$timecode_8h.html" title="timecode.h" alt="" coords="3453,259,3547,285"/>
+<area shape="rect" id="node48" href="$abstractassetsrepository_8hpp.html" title="assets/abstractassetsrepository.hpp" alt="" coords="2334,259,2589,285"/>
+</map>

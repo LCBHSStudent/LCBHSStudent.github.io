@@ -1,0 +1,21 @@
+<map id="AbstractParamWidget" name="AbstractParamWidget">
+<area shape="rect" id="node3" href="$classBoolParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="5,476,176,597"/>
+<area shape="rect" id="node4" href="$classButtonParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="201,476,378,597"/>
+<area shape="rect" id="node5" href="$classClickableLabelParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="402,476,630,597"/>
+<area shape="rect" id="node6" href="$classColorEditWidget.html" title="Provides options to choose a color. Two mechanisms are provided: color&#45;picking directly on the screen..." alt="" coords="655,461,825,612"/>
+<area shape="rect" id="node7" href="$classCurveParamWidget.html" title="Class representing a curve and some additional controls. " alt="" coords="850,359,1123,715"/>
+<area shape="rect" id="node8" href="$classDoubleParamWidget.html" title="This represent a double parameter. " alt="" coords="1147,469,1327,605"/>
+<area shape="rect" id="node9" href="$classFontParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="1352,483,1523,590"/>
+<area shape="rect" id="node10" href="$classGeometryEditWidget.html" title="This class is used to display a parameter with time value. " alt="" coords="1547,469,1741,605"/>
+<area shape="rect" id="node11" href="$classHideParamWidget.html" title="This class represents a parameter that requires no display. " alt="" coords="1765,483,1936,590"/>
+<area shape="rect" id="node12" href="$classKeyframeWidget.html" title="{KeyframeWidget\n||+ KeyframeWidget()\l+ ~KeyframeWidget()\l+ addParameter()\l+ getPosition()\l+ requiredScene()\l+ updateTimecodeFormat()\l+ showKeyframes()\l+ keyframesVisible()\l+ resetKeyframes()\l+ slotRefresh()\l+ slotInitMonitor()\l+ slotSetPosition()\l}" alt="" coords="1960,417,2163,656"/>
+<area shape="rect" id="node13" href="$classKeywordParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="2187,483,2378,590"/>
+<area shape="rect" id="node14" href="$classListParamWidget.html" title="This class represents a parameter that requires the user to choose a value from a list..." alt="" coords="2403,439,2573,634"/>
+<area shape="rect" id="node15" href="$classLumaLiftGainParam.html" title="Provides options to choose 3 colors. " alt="" coords="2598,469,2773,605"/>
+<area shape="rect" id="node16" href="$classPositionEditWidget.html" title="This class is used to display a parameter with time value. " alt="" coords="2797,447,3000,627"/>
+<area shape="rect" id="node17" href="$classSlideWidget.html" title="Provides options to choose slide. " alt="" coords="3024,469,3195,605"/>
+<area shape="rect" id="node18" href="$classSwitchParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="3219,483,3397,590"/>
+<area shape="rect" id="node19" href="$classUnsupported.html" title="{Unsupported\n|# m_label\l|+ Unsupported()\l+ setText()\l+ slotRefresh()\l}" alt="" coords="3421,483,3552,590"/>
+<area shape="rect" id="node20" href="$classUrlListParamWidget.html" title="This class represents a parameter that requires the user to choose a value from a list..." alt="" coords="3576,425,3752,649"/>
+<area shape="rect" id="node21" href="$classUrlParamWidget.html" title="This class represents a parameter that requires the user to choose tick a checkbox. " alt="" coords="3776,483,3947,590"/>
+</map>

@@ -1,0 +1,698 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: AbstractMonitor类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="classAbstractMonitor-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">AbstractMonitor类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="abstractmonitor_8h_source.html">abstractmonitor.h</a>&gt;</code></p>
+<div class="dynheader">
+类 AbstractMonitor 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAbstractMonitor__inherit__graph.png" border="0" usemap="#AbstractMonitor_inherit__map" alt="Inheritance graph"/></div>
+<map name="AbstractMonitor_inherit__map" id="AbstractMonitor_inherit__map">
+<area shape="rect" id="node3" href="classMonitor.html" title="{Monitor\n||+ Monitor()\l+ ~Monitor()\l+ resetProfile()\l+ resetConsumer()\l+ setCustomProfile()\l+ setupMenu()\l+ sceneList()\l+ activeClipId()\l+ position()\l+ updateTimecodeFormat()\l和 46 更多...\l+ slotSetScreen()\l+ slotPreviewResource()\l+ updateClipProducer()\l+ updateClipProducer()\l+ slotOpenClip()\l+ slotRefreshMonitor()\l+ slotSeek()\l+ stop()\l+ start()\l+ switchPlay()\l和 34 更多...\l# mousePressEvent()\l# mouseReleaseEvent()\l# mouseDoubleClickEvent()\l# resizeEvent()\l# keyPressEvent()\l# wheelEvent()\l# mouseMoveEvent()\l# mimeTypes()\l# updateBgColor()\l}" alt="" coords="5,461,212,979"/>
+</map>
+</div>
+<div class="dynheader">
+AbstractMonitor 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAbstractMonitor__coll__graph.png" border="0" usemap="#AbstractMonitor_coll__map" alt="Collaboration graph"/></div>
+<map name="AbstractMonitor_coll__map" id="AbstractMonitor_coll__map">
+<area shape="rect" id="node3" href="classMonitorManager.html" title="{MonitorManager\n|+ refreshTimer\l+ speedArray\l|+ MonitorManager()\l+ initMonitors()\l+ appendMonitor()\l+ removeMonitor()\l+ timecode()\l+ resetProfiles()\l+ resetConsumers()\l+ stopActiveMonitor()\l+ pauseActiveMonitor()\l+ activeMonitor()\l和 15 更多...\l+ activateMonitor()\l+ slotPlay()\l+ slotPause()\l+ slotPlayZone()\l+ slotLoopZone()\l+ slotRewind()\l+ slotForward()\l+ slotRewindOneFrame()\l+ slotForwardOneFrame()\l+ slotRewindOneSecond()\l和 17 更多...\l}" alt="" coords="145,132,337,532"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:aa86391d42f6c8540024633d5e978e6c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#aa86391d42f6c8540024633d5e978e6c7">stop</a> ()=0</td></tr>
+<tr class="separator:aa86391d42f6c8540024633d5e978e6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4aff9ef11d56093d812ed6efd4bbb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a0b4aff9ef11d56093d812ed6efd4bbb9">start</a> ()=0</td></tr>
+<tr class="separator:a0b4aff9ef11d56093d812ed6efd4bbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4da97de62d978bc2b4b0587ebb8123e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#ac4da97de62d978bc2b4b0587ebb8123e">slotPlay</a> ()=0</td></tr>
+<tr class="separator:ac4da97de62d978bc2b4b0587ebb8123e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ef3fbaca81a554b77c5df54fb36e633"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a0ef3fbaca81a554b77c5df54fb36e633">slotRewind</a> (double speed=0)=0</td></tr>
+<tr class="separator:a0ef3fbaca81a554b77c5df54fb36e633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012b3b9fc4d3fcb034a6f1f65d57f82a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a012b3b9fc4d3fcb034a6f1f65d57f82a">slotForward</a> (double speed=0, bool allowNormalPlay=false)=0</td></tr>
+<tr class="separator:a012b3b9fc4d3fcb034a6f1f65d57f82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b02d69ce68ffbc6b1180b841dd03eca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a0b02d69ce68ffbc6b1180b841dd03eca">refreshMonitorIfActive</a> (bool directUpdate=false)=0</td></tr>
+<tr class="separator:a0b02d69ce68ffbc6b1180b841dd03eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d893678307a965b7e68446b07f0394"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a24d893678307a965b7e68446b07f0394">slotMouseSeek</a> (int eventDelta, uint modifiers)=0</td></tr>
+<tr class="separator:a24d893678307a965b7e68446b07f0394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab772467d0d83166108b5f4b29832ece1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#ab772467d0d83166108b5f4b29832ece1">slotActivateMonitor</a> ()</td></tr>
+<tr class="separator:ab772467d0d83166108b5f4b29832ece1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81aa0b9e2890634228c732fe9195e8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#ae81aa0b9e2890634228c732fe9195e8b">slotSwitchFullScreen</a> (bool minimizeOnly=false)=0</td></tr>
+<tr class="separator:ae81aa0b9e2890634228c732fe9195e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a294fd433a63245d14a25c8e188395670"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a294fd433a63245d14a25c8e188395670">frameUpdated</a> (const QImage &amp;)</td></tr>
+<tr class="memdesc:a294fd433a63245d14a25c8e188395670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a frame for analysis or title background display.  <a href="#a294fd433a63245d14a25c8e188395670">更多...</a><br /></td></tr>
+<tr class="separator:a294fd433a63245d14a25c8e188395670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b24214f1398ed6cf1b0686497ac5ac2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a0b24214f1398ed6cf1b0686497ac5ac2">audioSamplesSignal</a> (const <a class="el" href="definitions_8h.html#a33c8ebac3cea7e31dc2c84532f504c22">audioShortVector</a> &amp;, int, int, int)</td></tr>
+<tr class="memdesc:a0b24214f1398ed6cf1b0686497ac5ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This signal contains the audio of the current frame.  <a href="#a0b24214f1398ed6cf1b0686497ac5ac2">更多...</a><br /></td></tr>
+<tr class="separator:a0b24214f1398ed6cf1b0686497ac5ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5b8ae5fdb3024770329303a9a193c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a4a5b8ae5fdb3024770329303a9a193c8">scopesClear</a> ()</td></tr>
+<tr class="memdesc:a4a5b8ae5fdb3024770329303a9a193c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scopes are ready to receive a new frame.  <a href="#a4a5b8ae5fdb3024770329303a9a193c8">更多...</a><br /></td></tr>
+<tr class="separator:a4a5b8ae5fdb3024770329303a9a193c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:af202b4927026812d2d3f8ba7acf1c789"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#af202b4927026812d2d3f8ba7acf1c789">AbstractMonitor</a> (<a class="el" href="namespaceKdenlive.html#a7e2c1d95d7951054436db39caa35d3e5">Kdenlive::MonitorId</a> <a class="el" href="classAbstractMonitor.html#aaa5e2039955d80d39e89f333fd255cac">id</a>, <a class="el" href="classMonitorManager.html">MonitorManager</a> *manager, QWidget *parent=nullptr)</td></tr>
+<tr class="separator:af202b4927026812d2d3f8ba7acf1c789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5e2039955d80d39e89f333fd255cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceKdenlive.html#a7e2c1d95d7951054436db39caa35d3e5">Kdenlive::MonitorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#aaa5e2039955d80d39e89f333fd255cac">id</a> ()</td></tr>
+<tr class="separator:aaa5e2039955d80d39e89f333fd255cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3e88d5eb9b996ec8177c52217aca6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a8b3e88d5eb9b996ec8177c52217aca6a">~AbstractMonitor</a> () override</td></tr>
+<tr class="separator:a8b3e88d5eb9b996ec8177c52217aca6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716b22faa1acc49bad0754775825ec7f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a716b22faa1acc49bad0754775825ec7f">isActive</a> () const </td></tr>
+<tr class="separator:a716b22faa1acc49bad0754775825ec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765017f220bf12678e793b29909bac11"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a765017f220bf12678e793b29909bac11">mute</a> (bool mute, bool updateIconOnly=false)=0</td></tr>
+<tr class="separator:a765017f220bf12678e793b29909bac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:aff72bb83b57432a8d31a2ac1f79cd9cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceKdenlive.html#a7e2c1d95d7951054436db39caa35d3e5">Kdenlive::MonitorId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#aff72bb83b57432a8d31a2ac1f79cd9cf">m_id</a></td></tr>
+<tr class="separator:aff72bb83b57432a8d31a2ac1f79cd9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05165385db3dab4267f7117001c8b3bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMonitorManager.html">MonitorManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractMonitor.html#a05165385db3dab4267f7117001c8b3bf">m_monitorManager</a></td></tr>
+<tr class="separator:a05165385db3dab4267f7117001c8b3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="af202b4927026812d2d3f8ba7acf1c789"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractMonitor::AbstractMonitor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceKdenlive.html#a7e2c1d95d7951054436db39caa35d3e5">Kdenlive::MonitorId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMonitorManager.html">MonitorManager</a> *&#160;</td>
+          <td class="paramname"><em>manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8b3e88d5eb9b996ec8177c52217aca6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractMonitor::~AbstractMonitor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a0b24214f1398ed6cf1b0686497ac5ac2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractMonitor::audioSamplesSignal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="definitions_8h.html#a33c8ebac3cea7e31dc2c84532f504c22">audioShortVector</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This signal contains the audio of the current frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="a294fd433a63245d14a25c8e188395670"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractMonitor::frameUpdated </td>
+          <td>(</td>
+          <td class="paramtype">const QImage &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send a frame for analysis or title background display. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaa5e2039955d80d39e89f333fd255cac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceKdenlive.html#a7e2c1d95d7951054436db39caa35d3e5">Kdenlive::MonitorId</a> AbstractMonitor::id </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a716b22faa1acc49bad0754775825ec7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractMonitor::isActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a765017f220bf12678e793b29909bac11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::mute </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateIconOnly</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMonitor.html#a412fa7a3c3f542f5c616324a8683a8c8">Monitor</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0b02d69ce68ffbc6b1180b841dd03eca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::refreshMonitorIfActive </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>directUpdate</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4a5b8ae5fdb3024770329303a9a193c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractMonitor::scopesClear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scopes are ready to receive a new frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab772467d0d83166108b5f4b29832ece1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractMonitor::slotActivateMonitor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a012b3b9fc4d3fcb034a6f1f65d57f82a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::slotForward </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allowNormalPlay</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24d893678307a965b7e68446b07f0394"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::slotMouseSeek </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>eventDelta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>modifiers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac4da97de62d978bc2b4b0587ebb8123e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::slotPlay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ef3fbaca81a554b77c5df54fb36e633"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::slotRewind </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae81aa0b9e2890634228c732fe9195e8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::slotSwitchFullScreen </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>minimizeOnly</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0b4aff9ef11d56093d812ed6efd4bbb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa86391d42f6c8540024633d5e978e6c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractMonitor::stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="aff72bb83b57432a8d31a2ac1f79cd9cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceKdenlive.html#a7e2c1d95d7951054436db39caa35d3e5">Kdenlive::MonitorId</a> AbstractMonitor::m_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05165385db3dab4267f7117001c8b3bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMonitorManager.html">MonitorManager</a>* AbstractMonitor::m_monitorManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/monitor/<a class="el" href="abstractmonitor_8h_source.html">abstractmonitor.h</a></li>
+<li>src/monitor/<a class="el" href="abstractmonitor_8cpp.html">abstractmonitor.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<map id="src/effects/effectstack/model/abstracteffectitem.hpp" name="src/effects/effectstack/model/abstracteffectitem.hpp">
+<area shape="rect" id="node2" href="$effectitemmodel_8hpp.html" title="src/effects/effectstack\l/model/effectitemmodel.hpp" alt="" coords="641,95,847,136"/>
+<area shape="rect" id="node9" href="$abstracteffectitem_8cpp.html" title="src/effects/effectstack\l/model/abstracteffectitem.cpp" alt="" coords="872,95,1091,136"/>
+<area shape="rect" id="node10" href="$effectgroupmodel_8hpp.html" title="src/effects/effectstack\l/model/effectgroupmodel.hpp" alt="" coords="1115,95,1330,136"/>
+<area shape="rect" id="node3" href="$assetcontroller_8cpp.html" title="src/assetcontroller.cpp" alt="" coords="5,191,173,218"/>
+<area shape="rect" id="node4" href="$assetpanel_8cpp.html" title="src/assets/assetpanel.cpp" alt="" coords="197,191,387,218"/>
+<area shape="rect" id="node5" href="$effectitemmodel_8cpp.html" title="src/effects/effectstack\l/model/effectitemmodel.cpp" alt="" coords="411,184,618,225"/>
+<area shape="rect" id="node6" href="$effectstackmodel_8cpp.html" title="src/effects/effectstack\l/model/effectstackmodel.cpp" alt="" coords="1107,184,1317,225"/>
+<area shape="rect" id="node7" href="$collapsibleeffectview_8cpp.html" title="src/effects/effectstack\l/view/collapsibleeffectview.cpp" alt="" coords="642,184,867,225"/>
+<area shape="rect" id="node8" href="$effectstackview_8cpp.html" title="src/effects/effectstack\l/view/effectstackview.cpp" alt="" coords="891,184,1082,225"/>
+<area shape="rect" id="node11" href="$effectgroupmodel_8cpp.html" title="src/effects/effectstack\l/model/effectgroupmodel.cpp" alt="" coords="1341,184,1555,225"/>
+</map>

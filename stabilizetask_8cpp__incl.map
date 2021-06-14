@@ -1,0 +1,17 @@
+<map id="src/jobs/stabilizetask.cpp" name="src/jobs/stabilizetask.cpp">
+<area shape="rect" id="node2" href="$stabilizetask_8h.html" title="stabilizetask.h" alt="" coords="3176,80,3293,107"/>
+<area shape="rect" id="node8" href="$bin_8h.html" title="bin/bin.h" alt="" coords="975,155,1054,181"/>
+<area shape="rect" id="node27" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="2055,80,2171,107"/>
+<area shape="rect" id="node38" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1130,155,1257,181"/>
+<area shape="rect" id="node39" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="1545,80,1685,107"/>
+<area shape="rect" id="node40" href="$clipstabilize_8h.html" title="project/clipstabilize.h" alt="" coords="2905,155,3066,181"/>
+<area shape="rect" id="node41" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="3369,80,3543,107"/>
+<area shape="rect" id="node42" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="3333,155,3517,181"/>
+<area shape="rect" id="node43" href="$assetparametermodel_8hpp.html" title="assets/model/assetparametermodel.hpp" alt="" coords="3592,155,3877,181"/>
+<area shape="rect" id="node45" href="$core_8h.html" title="core.h" alt="" coords="2818,155,2881,181"/>
+<area shape="rect" id="node47" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="3837,80,3936,107"/>
+<area shape="rect" id="node48" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="3952,155,4056,181"/>
+<area shape="rect" id="node3" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="2679,155,2793,181"/>
+<area shape="rect" id="node9" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="1533,229,1696,256"/>
+<area shape="rect" id="node10" href="$timecode_8h.html" title="timecode.h" alt="" coords="2918,229,3013,256"/>
+</map>

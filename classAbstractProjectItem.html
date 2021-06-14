@@ -1,0 +1,1879 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: AbstractProjectItem类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="classAbstractProjectItem-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">AbstractProjectItem类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Base class for all project items (clips, folders, ...).  
+ <a href="classAbstractProjectItem.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="abstractprojectitem_8h_source.html">abstractprojectitem.h</a>&gt;</code></p>
+<div class="dynheader">
+类 AbstractProjectItem 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAbstractProjectItem__inherit__graph.png" border="0" usemap="#AbstractProjectItem_inherit__map" alt="Inheritance graph"/></div>
+<map name="AbstractProjectItem_inherit__map" id="AbstractProjectItem_inherit__map">
+<area shape="rect" id="node7" href="classProjectClip.html" title="Represents a clip in the project (not timeline). It will be displayed as a bin item that can be dragg..." alt="" coords="5,1380,204,1956"/>
+<area shape="rect" id="node8" href="classProjectFolder.html" title="A folder in the bin. " alt="" coords="229,1512,413,1824"/>
+<area shape="rect" id="node9" href="classProjectSubClip.html" title="Represents a clip in the project (not timeline). " alt="" coords="437,1541,621,1795"/>
+<area shape="rect" id="node3" href="classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="307,455,486,899"/>
+<area shape="rect" id="node4" href="structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="302,300,491,407"/>
+<area shape="rect" id="node5" href="classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="319,160,474,252"/>
+</map>
+</div>
+<div class="dynheader">
+AbstractProjectItem 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAbstractProjectItem__coll__graph.png" border="0" usemap="#AbstractProjectItem_coll__map" alt="Collaboration graph"/></div>
+<map name="AbstractProjectItem_coll__map" id="AbstractProjectItem_coll__map">
+<area shape="rect" id="node3" href="classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="104,455,283,899"/>
+<area shape="rect" id="node4" href="structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="99,300,288,407"/>
+<area shape="rect" id="node5" href="classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="116,160,271,252"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a3a032c1e012a70097208487a9f182472"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">PROJECTITEMTYPE</a> { <a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472ababd0ccc663abe2c7b10056a6d56e9a6">FolderItem</a>, 
+<a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472ad9ec2d2ae55dae0b81fb5935471debf5">ClipItem</a>, 
+<a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472a3ddc966654fa784a5f465c3ce1d0e44d">SubClipItem</a>
+ }</td></tr>
+<tr class="separator:a3a032c1e012a70097208487a9f182472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b22cd0b68b4b73d4ad1160b78ec7bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bd">DataType</a> { <br />
+&#160;&#160;<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda874da16090f452aeac35b5cf23a30846">DataName</a> = Qt::DisplayRole, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bdae3e83fe3b864d5bb09cfabdf2651828a">DataThumbnail</a> = Qt::DecorationRole, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda48e2626f08755005e241b1f97a68754c">ClipToolTip</a> = Qt::ToolTipRole, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda9d20c6d363fabe7b48030cb2c14258e3">DataId</a> = Qt::UserRole, 
+<br />
+&#160;&#160;<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda56867386626560be546772aacdd38f9d">DataDate</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda4a0e15a4e2f5f0fd38fcad629ab0584c">DataDescription</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda1ebbd38a6f833c34edcbfe36ac3eefdd">UsageCount</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda21c99c6637361c4bf1f55a362cc31c95">IconOverlay</a>, 
+<br />
+&#160;&#160;<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda0e1c43ba0ad112ca9f76141539be3888">ItemTypeRole</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bdaa38da177156910147dba9af9b0cc1a27">DataDuration</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda4a1a14bcf1b3b569c79fbf247ec9265a">DataTag</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bdac0c0a2e15d6b86fbca6d7107a249e328">DataRating</a>, 
+<br />
+&#160;&#160;<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda1ab45b241970c95f580e650931e6596f">ParentDuration</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda38d9daffd0df512aefb5707dc4150871">DataInPoint</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda231c14a80709abc19fc013ccf71643c5">DataOutPoint</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda845c57f9bf161b67f421b45443eaa901">JobProgress</a>, 
+<br />
+&#160;&#160;<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bdaacdca95d7c7a5cc47fbc6e6ebf81d705">JobSuccess</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda31dc5d5cb0c336c8ac48ec58d6331e42">JobStatus</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda0491fc3d78aa413af4df8decda962e5b">ClipStatus</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bda19e9d4f61fc81a8a0f96b548a1fafa89">ClipType</a>, 
+<br />
+&#160;&#160;<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bdaaf4a834fc61aff1e9e8e060c050ef7ca">ClipHasAudioAndVideo</a>, 
+<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bdabac4e20bfa1e882cf5ef0f158580aa1e">AssetStatus</a>
+<br />
+ }</td></tr>
+<tr class="separator:aa6b22cd0b68b4b73d4ad1160b78ec7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_structenable__shared__from__this__virtual"><td colspan="2" onclick="javascript:toggleInherit('pub_types_structenable__shared__from__this__virtual')"><img src="closed.png" alt="-"/>&#160;Public 类型 继承自 <a class="el" href="structenable__shared__from__this__virtual.html">enable_shared_from_this_virtual&lt; TreeItem &gt;</a></td></tr>
+<tr class="memitem:a3d13b45479011a8cd997ea3353e18673 inherit pub_types_structenable__shared__from__this__virtual"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structenable__shared__from__this__virtual.html#a3d13b45479011a8cd997ea3353e18673">base_type</a> = <a class="el" href="classenable__shared__from__this__virtual__base.html">enable_shared_from_this_virtual_base</a></td></tr>
+<tr class="separator:a3d13b45479011a8cd997ea3353e18673 inherit pub_types_structenable__shared__from__this__virtual"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a78514a0b9ce0353f21797b8bc0a2f84c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a78514a0b9ce0353f21797b8bc0a2f84c">childAdded</a> (<a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> *<a class="el" href="classTreeItem.html#a9ce873c1fd1d951973aa2f4390956cd3">child</a>)</td></tr>
+<tr class="separator:a78514a0b9ce0353f21797b8bc0a2f84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7b9bab1e51b5273f666c82eb019fda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#acc7b9bab1e51b5273f666c82eb019fda">aboutToRemoveChild</a> (<a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> *<a class="el" href="classTreeItem.html#a9ce873c1fd1d951973aa2f4390956cd3">child</a>)</td></tr>
+<tr class="separator:acc7b9bab1e51b5273f666c82eb019fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a4eddf31c1af5ff5bff23889b0ed3d6f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a4eddf31c1af5ff5bff23889b0ed3d6f9">AbstractProjectItem</a> (<a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">PROJECTITEMTYPE</a> type, QString id, const std::shared_ptr&lt; <a class="el" href="classProjectItemModel.html">ProjectItemModel</a> &gt; &amp;model, bool <a class="el" href="classTreeItem.html#ad06a2b8a13ac8031dfec4346f5512839">isRoot</a>=false)</td></tr>
+<tr class="memdesc:a4eddf31c1af5ff5bff23889b0ed3d6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a4eddf31c1af5ff5bff23889b0ed3d6f9">更多...</a><br /></td></tr>
+<tr class="separator:a4eddf31c1af5ff5bff23889b0ed3d6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acacd71a1a03e66ce4fc98915b0722c90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#acacd71a1a03e66ce4fc98915b0722c90">operator==</a> (const std::shared_ptr&lt; <a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> &gt; &amp;projectItem) const </td></tr>
+<tr class="separator:acacd71a1a03e66ce4fc98915b0722c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39829551dd6078c25c545e781790e2f2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a39829551dd6078c25c545e781790e2f2">parent</a> () const </td></tr>
+<tr class="memdesc:a39829551dd6078c25c545e781790e2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the parent item (or NULL).  <a href="#a39829551dd6078c25c545e781790e2f2">更多...</a><br /></td></tr>
+<tr class="separator:a39829551dd6078c25c545e781790e2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c4917ab13b8379a1d3924e92e4eae3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">PROJECTITEMTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a4c4917ab13b8379a1d3924e92e4eae3c">itemType</a> () const </td></tr>
+<tr class="memdesc:a4c4917ab13b8379a1d3924e92e4eae3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of this item (folder, clip, subclip, etc).  <a href="#a4c4917ab13b8379a1d3924e92e4eae3c">更多...</a><br /></td></tr>
+<tr class="separator:a4c4917ab13b8379a1d3924e92e4eae3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb3612dfe4b57cfd19b385d753f602e"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classProjectClip.html">ProjectClip</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#afdb3612dfe4b57cfd19b385d753f602e">clip</a> (const QString &amp;id)=0</td></tr>
+<tr class="memdesc:afdb3612dfe4b57cfd19b385d753f602e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to search for a clip with a specific id.  <a href="#afdb3612dfe4b57cfd19b385d753f602e">更多...</a><br /></td></tr>
+<tr class="separator:afdb3612dfe4b57cfd19b385d753f602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8538a92bfc2fe7f16c9e10833192645b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classProjectFolder.html">ProjectFolder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a8538a92bfc2fe7f16c9e10833192645b">folder</a> (const QString &amp;id)=0</td></tr>
+<tr class="memdesc:a8538a92bfc2fe7f16c9e10833192645b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to search for a folder with a specific id.  <a href="#a8538a92bfc2fe7f16c9e10833192645b">更多...</a><br /></td></tr>
+<tr class="separator:a8538a92bfc2fe7f16c9e10833192645b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905a7c789bfcc56ac4a31bef81879fc8"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classProjectClip.html">ProjectClip</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a905a7c789bfcc56ac4a31bef81879fc8">clipAt</a> (int ix)=0</td></tr>
+<tr class="separator:a905a7c789bfcc56ac4a31bef81879fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea33cf3fc21cc126f30e161a32b5b659"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aea33cf3fc21cc126f30e161a32b5b659">setBinEffectsEnabled</a> (bool enabled)=0</td></tr>
+<tr class="memdesc:aea33cf3fc21cc126f30e161a32b5b659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively disable/enable bin effects.  <a href="#aea33cf3fc21cc126f30e161a32b5b659">更多...</a><br /></td></tr>
+<tr class="separator:aea33cf3fc21cc126f30e161a32b5b659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2d08cc022030b97f7eb67fb0e2242e0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ae2d08cc022030b97f7eb67fb0e2242e0">hasAudioAndVideo</a> () const  =0</td></tr>
+<tr class="memdesc:ae2d08cc022030b97f7eb67fb0e2242e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if item has both audio and video enabled.  <a href="#ae2d08cc022030b97f7eb67fb0e2242e0">更多...</a><br /></td></tr>
+<tr class="separator:ae2d08cc022030b97f7eb67fb0e2242e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad8df08cc32c756aa7b8bde253a8104"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a8ad8df08cc32c756aa7b8bde253a8104">selfSoftDelete</a> (<a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:a8ad8df08cc32c756aa7b8bde253a8104"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function executes what should be done when the item is deleted but without deleting effectively. For example, the item will deregister itself from the model and delete the clips from the timeline. However, the object is NOT actually deleted, and the tree structure is preserved.  <a href="#a8ad8df08cc32c756aa7b8bde253a8104">更多...</a><br /></td></tr>
+<tr class="separator:a8ad8df08cc32c756aa7b8bde253a8104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bb435d486132d3f2680e5e56c6778a3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a2bb435d486132d3f2680e5e56c6778a3">getAudio_lambda</a> ()</td></tr>
+<tr class="separator:a2bb435d486132d3f2680e5e56c6778a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082097c04f768aef51804b2f84bc8f08"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a082097c04f768aef51804b2f84bc8f08">clipId</a> () const </td></tr>
+<tr class="memdesc:a082097c04f768aef51804b2f84bc8f08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the clip's id.  <a href="#a082097c04f768aef51804b2f84bc8f08">更多...</a><br /></td></tr>
+<tr class="separator:a082097c04f768aef51804b2f84bc8f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bd934d7e5e85df05183302407fb790"><td class="memItemLeft" align="right" valign="top">virtual QPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a31bd934d7e5e85df05183302407fb790">zone</a> () const </td></tr>
+<tr class="separator:a31bd934d7e5e85df05183302407fb790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa186bb975acb366974332475cee908dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aa186bb975acb366974332475cee908dd">setRefCount</a> (uint count)</td></tr>
+<tr class="memdesc:aa186bb975acb366974332475cee908dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current usage count.  <a href="#aa186bb975acb366974332475cee908dd">更多...</a><br /></td></tr>
+<tr class="separator:aa186bb975acb366974332475cee908dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aabf60511bc6b73d23bcfa66e07d82a"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a3aabf60511bc6b73d23bcfa66e07d82a">refCount</a> () const </td></tr>
+<tr class="memdesc:a3aabf60511bc6b73d23bcfa66e07d82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns clip's current usage count in timeline.  <a href="#a3aabf60511bc6b73d23bcfa66e07d82a">更多...</a><br /></td></tr>
+<tr class="separator:a3aabf60511bc6b73d23bcfa66e07d82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cfd2d94fecc19037287c1d61538d5c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a5cfd2d94fecc19037287c1d61538d5c8">addRef</a> ()</td></tr>
+<tr class="memdesc:a5cfd2d94fecc19037287c1d61538d5c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increase usage count.  <a href="#a5cfd2d94fecc19037287c1d61538d5c8">更多...</a><br /></td></tr>
+<tr class="separator:a5cfd2d94fecc19037287c1d61538d5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadd179aea33291ffa9f1a2b7bca9e13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#adadd179aea33291ffa9f1a2b7bca9e13">removeRef</a> ()</td></tr>
+<tr class="memdesc:adadd179aea33291ffa9f1a2b7bca9e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrease usage count.  <a href="#adadd179aea33291ffa9f1a2b7bca9e13">更多...</a><br /></td></tr>
+<tr class="separator:adadd179aea33291ffa9f1a2b7bca9e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6acc31ce40f96936696107c1f5c1e556"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a6acc31ce40f96936696107c1f5c1e556">setClipStatus</a> (<a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a> status)</td></tr>
+<tr class="separator:a6acc31ce40f96936696107c1f5c1e556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed25b7a38a7f01678c6b82b0ff697ba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aed25b7a38a7f01678c6b82b0ff697ba8">clipStatus</a> () const </td></tr>
+<tr class="separator:aed25b7a38a7f01678c6b82b0ff697ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e61fc9ae40c9da50d80480285f798e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a05e61fc9ae40c9da50d80480285f798e">statusReady</a> () const </td></tr>
+<tr class="separator:a05e61fc9ae40c9da50d80480285f798e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8eaaaf972dbb82bd7f201f7e725149"><td class="memItemLeft" align="right" valign="top">virtual QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a1a8eaaaf972dbb82bd7f201f7e725149">getData</a> (<a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bd">DataType</a> type) const </td></tr>
+<tr class="memdesc:a1a8eaaaf972dbb82bd7f201f7e725149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the data that describes this item.  <a href="#a1a8eaaaf972dbb82bd7f201f7e725149">更多...</a><br /></td></tr>
+<tr class="separator:a1a8eaaaf972dbb82bd7f201f7e725149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75bbafe090d123fdab49ee7c9324e23f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a75bbafe090d123fdab49ee7c9324e23f">supportedDataCount</a> () const </td></tr>
+<tr class="memdesc:a75bbafe090d123fdab49ee7c9324e23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the amount of different types of data this item supports.  <a href="#a75bbafe090d123fdab49ee7c9324e23f">更多...</a><br /></td></tr>
+<tr class="separator:a75bbafe090d123fdab49ee7c9324e23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33a44bf6f10bfcee7626f31e6650c5e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ab33a44bf6f10bfcee7626f31e6650c5e">name</a> () const </td></tr>
+<tr class="memdesc:ab33a44bf6f10bfcee7626f31e6650c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the (displayable) name of this item.  <a href="#ab33a44bf6f10bfcee7626f31e6650c5e">更多...</a><br /></td></tr>
+<tr class="separator:ab33a44bf6f10bfcee7626f31e6650c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0532985bd42ed7d224f8f36ad2413437"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a0532985bd42ed7d224f8f36ad2413437">setName</a> (const QString &amp;<a class="el" href="classAbstractProjectItem.html#ab33a44bf6f10bfcee7626f31e6650c5e">name</a>)</td></tr>
+<tr class="memdesc:a0532985bd42ed7d224f8f36ad2413437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new (displayable) name.  <a href="#a0532985bd42ed7d224f8f36ad2413437">更多...</a><br /></td></tr>
+<tr class="separator:a0532985bd42ed7d224f8f36ad2413437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11c4320499b7190fc4864eab3b73fd6"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ab11c4320499b7190fc4864eab3b73fd6">description</a> () const </td></tr>
+<tr class="memdesc:ab11c4320499b7190fc4864eab3b73fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the (displayable) description of this item.  <a href="#ab11c4320499b7190fc4864eab3b73fd6">更多...</a><br /></td></tr>
+<tr class="separator:ab11c4320499b7190fc4864eab3b73fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362c9126547ba81fb806dc77fd99eb53"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a362c9126547ba81fb806dc77fd99eb53">setDescription</a> (const QString &amp;<a class="el" href="classAbstractProjectItem.html#ab11c4320499b7190fc4864eab3b73fd6">description</a>)</td></tr>
+<tr class="memdesc:a362c9126547ba81fb806dc77fd99eb53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new description.  <a href="#a362c9126547ba81fb806dc77fd99eb53">更多...</a><br /></td></tr>
+<tr class="separator:a362c9126547ba81fb806dc77fd99eb53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4081a1e1262c57f10e9586dea99a80a6"><td class="memItemLeft" align="right" valign="top">virtual QDomElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a4081a1e1262c57f10e9586dea99a80a6">toXml</a> (QDomDocument &amp;document, bool includeMeta=false, bool includeProfile=true)=0</td></tr>
+<tr class="separator:a4081a1e1262c57f10e9586dea99a80a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1c85f8cc7c1c15fcf5f7dada5b993b"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ada1c85f8cc7c1c15fcf5f7dada5b993b">getToolTip</a> () const  =0</td></tr>
+<tr class="separator:ada1c85f8cc7c1c15fcf5f7dada5b993b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758f87fec5e061bfa69b313d4d4020ca"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a758f87fec5e061bfa69b313d4d4020ca">rename</a> (const QString &amp;<a class="el" href="classAbstractProjectItem.html#ab33a44bf6f10bfcee7626f31e6650c5e">name</a>, int column)=0</td></tr>
+<tr class="separator:a758f87fec5e061bfa69b313d4d4020ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b6add095787e3bf51f14795d302712"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#af4b6add095787e3bf51f14795d302712">lastParentId</a> () const </td></tr>
+<tr class="memdesc:af4b6add095787e3bf51f14795d302712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the bin id of the last parent that this element got, even if this parent has already been destroyed. Return the empty string if the element was parentless.  <a href="#af4b6add095787e3bf51f14795d302712">更多...</a><br /></td></tr>
+<tr class="separator:af4b6add095787e3bf51f14795d302712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45195334ba78cc4c4919d9fc13358903"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a45195334ba78cc4c4919d9fc13358903">updateParent</a> (std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; newParent) override</td></tr>
+<tr class="memdesc:a45195334ba78cc4c4919d9fc13358903"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an overload of <a class="el" href="classTreeItem.html#abae75c72bf617f288486933af38302ce" title="Reflect update of the parent ptr (for example set the correct depth) This is meant to be overridden i...">TreeItem::updateParent</a> that tracks the id of the id of the parent.  <a href="#a45195334ba78cc4c4919d9fc13358903">更多...</a><br /></td></tr>
+<tr class="separator:a45195334ba78cc4c4919d9fc13358903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9c137881a4c4b2259e5343b4f7475f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aac9c137881a4c4b2259e5343b4f7475f">getEnclosingFolder</a> (bool strict=false)</td></tr>
+<tr class="memdesc:aac9c137881a4c4b2259e5343b4f7475f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a ptr to the enclosing dir, and nullptr if none is found.  <a href="#aac9c137881a4c4b2259e5343b4f7475f">更多...</a><br /></td></tr>
+<tr class="separator:aac9c137881a4c4b2259e5343b4f7475f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fec19b83de3a499f725e1c6cfc8c4ea"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a4fec19b83de3a499f725e1c6cfc8c4ea">isIncludedInTimeline</a> ()</td></tr>
+<tr class="memdesc:a4fec19b83de3a499f725e1c6cfc8c4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a clip corresponding to this bin is inserted in a timeline. Note that this function does not account for children, use <a class="el" href="classTreeItem.html#a8588e664d34e814838d128d101d280a1" title="This is similar to the std::accumulate function, except that it operates on the whole subtree...">TreeItem::accumulate</a> if you want to get that information as well.  <a href="#a4fec19b83de3a499f725e1c6cfc8c4ea">更多...</a><br /></td></tr>
+<tr class="separator:a4fec19b83de3a499f725e1c6cfc8c4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3f89f66fbbf37c6eb39246258d8a89"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a3f3f89f66fbbf37c6eb39246258d8a89">clipType</a> () const  =0</td></tr>
+<tr class="separator:a3f3f89f66fbbf37c6eb39246258d8a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4e38bdffd2957cef05345ec8c5d939"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a1b4e38bdffd2957cef05345ec8c5d939">rating</a> () const </td></tr>
+<tr class="separator:a1b4e38bdffd2957cef05345ec8c5d939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea8c74ad2d2ddcbf4db74116f605ff1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a8ea8c74ad2d2ddcbf4db74116f605ff1">setRating</a> (uint <a class="el" href="classAbstractProjectItem.html#a1b4e38bdffd2957cef05345ec8c5d939">rating</a>)</td></tr>
+<tr class="separator:a8ea8c74ad2d2ddcbf4db74116f605ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36fd7466aefeec4431ff242af20a40b"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aa36fd7466aefeec4431ff242af20a40b">tags</a> () const </td></tr>
+<tr class="separator:aa36fd7466aefeec4431ff242af20a40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827c4413c97ea5c02039956974999ee1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a827c4413c97ea5c02039956974999ee1">setTags</a> (const QString <a class="el" href="classAbstractProjectItem.html#aa36fd7466aefeec4431ff242af20a40b">tags</a>)</td></tr>
+<tr class="separator:a827c4413c97ea5c02039956974999ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classTreeItem"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classTreeItem')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classTreeItem.html">TreeItem</a></td></tr>
+<tr class="memitem:a859429185d908c3e54861bbbfb185425 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a859429185d908c3e54861bbbfb185425">~TreeItem</a> ()</td></tr>
+<tr class="separator:a859429185d908c3e54861bbbfb185425 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2927d76c0391ac0ab73fb21ffa7c203b inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a2927d76c0391ac0ab73fb21ffa7c203b">appendChild</a> (const QList&lt; QVariant &gt; &amp;data)</td></tr>
+<tr class="memdesc:a2927d76c0391ac0ab73fb21ffa7c203b inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a child of the current item.  <a href="#a2927d76c0391ac0ab73fb21ffa7c203b">更多...</a><br /></td></tr>
+<tr class="separator:a2927d76c0391ac0ab73fb21ffa7c203b inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d91e8ca8e96deda840f681263762d1 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a74d91e8ca8e96deda840f681263762d1">appendChild</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;<a class="el" href="classTreeItem.html#a9ce873c1fd1d951973aa2f4390956cd3">child</a>)</td></tr>
+<tr class="memdesc:a74d91e8ca8e96deda840f681263762d1 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends an already created child Useful for example if the child should be a subclass of <a class="el" href="classTreeItem.html" title="This class is a generic class to represent items of a tree-like model. It works in tandem with Abstra...">TreeItem</a>.  <a href="#a74d91e8ca8e96deda840f681263762d1">更多...</a><br /></td></tr>
+<tr class="separator:a74d91e8ca8e96deda840f681263762d1 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad713c97e3e28b85e4f340a0cb1fcb42 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#aad713c97e3e28b85e4f340a0cb1fcb42">moveChild</a> (int ix, const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;<a class="el" href="classTreeItem.html#a9ce873c1fd1d951973aa2f4390956cd3">child</a>)</td></tr>
+<tr class="separator:aad713c97e3e28b85e4f340a0cb1fcb42 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fa0bc28096a06928e0c1006341c2c5b inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a2fa0bc28096a06928e0c1006341c2c5b">removeChild</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;<a class="el" href="classTreeItem.html#a9ce873c1fd1d951973aa2f4390956cd3">child</a>)</td></tr>
+<tr class="memdesc:a2fa0bc28096a06928e0c1006341c2c5b inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove given child from children list. The parent of the child is updated accordingly.  <a href="#a2fa0bc28096a06928e0c1006341c2c5b">更多...</a><br /></td></tr>
+<tr class="separator:a2fa0bc28096a06928e0c1006341c2c5b inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097a196a84c83d8471a33853e45ebf60 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a097a196a84c83d8471a33853e45ebf60">changeParent</a> (std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; newParent)</td></tr>
+<tr class="memdesc:a097a196a84c83d8471a33853e45ebf60 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the parent of the current item. Structures are modified accordingly.  <a href="#a097a196a84c83d8471a33853e45ebf60">更多...</a><br /></td></tr>
+<tr class="separator:a097a196a84c83d8471a33853e45ebf60 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ce873c1fd1d951973aa2f4390956cd3 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a9ce873c1fd1d951973aa2f4390956cd3">child</a> (int <a class="el" href="classTreeItem.html#a5a062d24b35421360ad1d101c564e9be">row</a>) const </td></tr>
+<tr class="memdesc:a9ce873c1fd1d951973aa2f4390956cd3 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a child of the current item.  <a href="#a9ce873c1fd1d951973aa2f4390956cd3">更多...</a><br /></td></tr>
+<tr class="separator:a9ce873c1fd1d951973aa2f4390956cd3 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3231f1bba7eb9326e96b90c50c02f3 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#aeb3231f1bba7eb9326e96b90c50c02f3">getLeaves</a> ()</td></tr>
+<tr class="memdesc:aeb3231f1bba7eb9326e96b90c50c02f3 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector containing a pointer to all the leaves in the subtree rooted in this element.  <a href="#aeb3231f1bba7eb9326e96b90c50c02f3">更多...</a><br /></td></tr>
+<tr class="separator:aeb3231f1bba7eb9326e96b90c50c02f3 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ffe6dd27750e479034b93e753f87af inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a55ffe6dd27750e479034b93e753f87af">childCount</a> () const </td></tr>
+<tr class="memdesc:a55ffe6dd27750e479034b93e753f87af inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of children.  <a href="#a55ffe6dd27750e479034b93e753f87af">更多...</a><br /></td></tr>
+<tr class="separator:a55ffe6dd27750e479034b93e753f87af inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c3fb89ad8e19ae696a310a1f843a8e inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a31c3fb89ad8e19ae696a310a1f843a8e">columnCount</a> () const </td></tr>
+<tr class="memdesc:a31c3fb89ad8e19ae696a310a1f843a8e inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of data fields (columns)  <a href="#a31c3fb89ad8e19ae696a310a1f843a8e">更多...</a><br /></td></tr>
+<tr class="separator:a31c3fb89ad8e19ae696a310a1f843a8e inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290a6db56a0e1a1918002307fd0d1975 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a290a6db56a0e1a1918002307fd0d1975">dataColumn</a> (int column) const </td></tr>
+<tr class="memdesc:a290a6db56a0e1a1918002307fd0d1975 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the content of a column.  <a href="#a290a6db56a0e1a1918002307fd0d1975">更多...</a><br /></td></tr>
+<tr class="separator:a290a6db56a0e1a1918002307fd0d1975 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2588d569b5e3046d4181fdcaeb444dcc inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a2588d569b5e3046d4181fdcaeb444dcc">setData</a> (int column, const QVariant &amp;<a class="el" href="classTreeItem.html#a290a6db56a0e1a1918002307fd0d1975">dataColumn</a>)</td></tr>
+<tr class="separator:a2588d569b5e3046d4181fdcaeb444dcc inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a062d24b35421360ad1d101c564e9be inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a5a062d24b35421360ad1d101c564e9be">row</a> () const </td></tr>
+<tr class="memdesc:a5a062d24b35421360ad1d101c564e9be inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index of current item amongst father's children Returns -1 on error (eg: no parent set)  <a href="#a5a062d24b35421360ad1d101c564e9be">更多...</a><br /></td></tr>
+<tr class="separator:a5a062d24b35421360ad1d101c564e9be inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af45782fd40767bfa2a87158f39394a8d inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#af45782fd40767bfa2a87158f39394a8d">parentItem</a> () const </td></tr>
+<tr class="memdesc:af45782fd40767bfa2a87158f39394a8d inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a ptr to the parent item.  <a href="#af45782fd40767bfa2a87158f39394a8d">更多...</a><br /></td></tr>
+<tr class="separator:af45782fd40767bfa2a87158f39394a8d inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeedff0824ea2fa5ff3cb58513a888f93 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#aeedff0824ea2fa5ff3cb58513a888f93">depth</a> () const </td></tr>
+<tr class="memdesc:aeedff0824ea2fa5ff3cb58513a888f93 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the depth of the current item.  <a href="#aeedff0824ea2fa5ff3cb58513a888f93">更多...</a><br /></td></tr>
+<tr class="separator:aeedff0824ea2fa5ff3cb58513a888f93 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1228a8fa82a5f1728be584f60bd5a34 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#aa1228a8fa82a5f1728be584f60bd5a34">getId</a> () const </td></tr>
+<tr class="memdesc:aa1228a8fa82a5f1728be584f60bd5a34 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the id of the current item.  <a href="#aa1228a8fa82a5f1728be584f60bd5a34">更多...</a><br /></td></tr>
+<tr class="separator:aa1228a8fa82a5f1728be584f60bd5a34 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a753ca670e97c513ae83e8efe9aaeae51 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a753ca670e97c513ae83e8efe9aaeae51">isInModel</a> () const </td></tr>
+<tr class="memdesc:a753ca670e97c513ae83e8efe9aaeae51 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the current item has been registered.  <a href="#a753ca670e97c513ae83e8efe9aaeae51">更多...</a><br /></td></tr>
+<tr class="separator:a753ca670e97c513ae83e8efe9aaeae51 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8588e664d34e814838d128d101d280a1 inherit pub_methods_classTreeItem"><td class="memTemplParams" colspan="2">template&lt;class T , class BinaryOperation &gt; </td></tr>
+<tr class="memitem:a8588e664d34e814838d128d101d280a1 inherit pub_methods_classTreeItem"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a8588e664d34e814838d128d101d280a1">accumulate</a> (T init, BinaryOperation op)</td></tr>
+<tr class="memdesc:a8588e664d34e814838d128d101d280a1 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is similar to the std::accumulate function, except that it operates on the whole subtree.  <a href="#a8588e664d34e814838d128d101d280a1">更多...</a><br /></td></tr>
+<tr class="separator:a8588e664d34e814838d128d101d280a1 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c45529bc8ce6b8fe583761bd629f6f7 inherit pub_methods_classTreeItem"><td class="memTemplParams" colspan="2">template&lt;class T , class BinaryOperation &gt; </td></tr>
+<tr class="memitem:a3c45529bc8ce6b8fe583761bd629f6f7 inherit pub_methods_classTreeItem"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a3c45529bc8ce6b8fe583761bd629f6f7">accumulate_const</a> (T init, BinaryOperation op) const </td></tr>
+<tr class="separator:a3c45529bc8ce6b8fe583761bd629f6f7 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fec1f30c8f0c01f9a84e82f82cbb10c inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a5fec1f30c8f0c01f9a84e82f82cbb10c">hasAncestor</a> (int id)</td></tr>
+<tr class="memdesc:a5fec1f30c8f0c01f9a84e82f82cbb10c inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the current item has the item with given id as an ancestor.  <a href="#a5fec1f30c8f0c01f9a84e82f82cbb10c">更多...</a><br /></td></tr>
+<tr class="separator:a5fec1f30c8f0c01f9a84e82f82cbb10c inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad06a2b8a13ac8031dfec4346f5512839 inherit pub_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#ad06a2b8a13ac8031dfec4346f5512839">isRoot</a> () const </td></tr>
+<tr class="memdesc:ad06a2b8a13ac8031dfec4346f5512839 inherit pub_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the item thinks it is a root. Note that it should be consistent with what the model thinks, but it may have been messed up at some point if someone wrongly constructed the object with isRoot = true.  <a href="#ad06a2b8a13ac8031dfec4346f5512839">更多...</a><br /></td></tr>
+<tr class="separator:ad06a2b8a13ac8031dfec4346f5512839 inherit pub_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structenable__shared__from__this__virtual"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structenable__shared__from__this__virtual')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="structenable__shared__from__this__virtual.html">enable_shared_from_this_virtual&lt; TreeItem &gt;</a></td></tr>
+<tr class="memitem:ad9ff46bb9d318c8415fc60a0c0f8613f inherit pub_methods_structenable__shared__from__this__virtual"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structenable__shared__from__this__virtual.html#ad9ff46bb9d318c8415fc60a0c0f8613f">shared_from_this</a> ()</td></tr>
+<tr class="separator:ad9ff46bb9d318c8415fc60a0c0f8613f inherit pub_methods_structenable__shared__from__this__virtual"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ee0ca0ae291348053699b26318e187 inherit pub_methods_structenable__shared__from__this__virtual"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> const  &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structenable__shared__from__this__virtual.html#a09ee0ca0ae291348053699b26318e187">shared_from_this</a> () const</td></tr>
+<tr class="separator:a09ee0ca0ae291348053699b26318e187 inherit pub_methods_structenable__shared__from__this__virtual"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a341914325f5f0cad77e14148f4a0f721"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a341914325f5f0cad77e14148f4a0f721">roundedPixmap</a> (const QPixmap &amp;source)</td></tr>
+<tr class="memdesc:a341914325f5f0cad77e14148f4a0f721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a rounded border pixmap from the.  <a href="#a341914325f5f0cad77e14148f4a0f721">更多...</a><br /></td></tr>
+<tr class="separator:a341914325f5f0cad77e14148f4a0f721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classTreeItem"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTreeItem')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="classTreeItem.html">TreeItem</a></td></tr>
+<tr class="memitem:ab2d69e23e671c88a832b4ead517f03d2 inherit pro_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#ab2d69e23e671c88a832b4ead517f03d2">TreeItem</a> (QList&lt; QVariant &gt; data, const std::shared_ptr&lt; <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a> &gt; &amp;model, bool <a class="el" href="classTreeItem.html#ad06a2b8a13ac8031dfec4346f5512839">isRoot</a>, int id=-1)</td></tr>
+<tr class="separator:ab2d69e23e671c88a832b4ead517f03d2 inherit pro_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a53c5b7e34a20d0718b5e65dd64411a inherit pro_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a0a53c5b7e34a20d0718b5e65dd64411a">deregisterSelf</a> ()</td></tr>
+<tr class="separator:a0a53c5b7e34a20d0718b5e65dd64411a inherit pro_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:ada6ea01fcfb78269acda62e033857106"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ada6ea01fcfb78269acda62e033857106">m_name</a></td></tr>
+<tr class="separator:ada6ea01fcfb78269acda62e033857106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f11334893760b99b224ec770cc83586"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a1f11334893760b99b224ec770cc83586">m_description</a></td></tr>
+<tr class="separator:a1f11334893760b99b224ec770cc83586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323a6469d166eff89309620ff543f521"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a323a6469d166eff89309620ff543f521">m_thumbnail</a></td></tr>
+<tr class="separator:a323a6469d166eff89309620ff543f521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81569908d4459a35bffc123f776bcad"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ab81569908d4459a35bffc123f776bcad">m_duration</a></td></tr>
+<tr class="separator:ab81569908d4459a35bffc123f776bcad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bbbfc604bb1e5779163b5b3cb8fcfa4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a9bbbfc604bb1e5779163b5b3cb8fcfa4">m_parentDuration</a></td></tr>
+<tr class="separator:a9bbbfc604bb1e5779163b5b3cb8fcfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ced9e644b0902db50973fc0209af0d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a0ced9e644b0902db50973fc0209af0d4">m_inPoint</a></td></tr>
+<tr class="separator:a0ced9e644b0902db50973fc0209af0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f6287e6c39527648b309e9882ac99a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ae3f6287e6c39527648b309e9882ac99a">m_outPoint</a></td></tr>
+<tr class="separator:ae3f6287e6c39527648b309e9882ac99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fac2b6cabc34adfcf1a126201e114b7"><td class="memItemLeft" align="right" valign="top">QDateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a2fac2b6cabc34adfcf1a126201e114b7">m_date</a></td></tr>
+<tr class="separator:a2fac2b6cabc34adfcf1a126201e114b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e42bb3d8529f88ef9d2fa8ad7abadca"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a7e42bb3d8529f88ef9d2fa8ad7abadca">m_binId</a></td></tr>
+<tr class="separator:a7e42bb3d8529f88ef9d2fa8ad7abadca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cffbc85e66995d5b33556231ef975cb"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a3cffbc85e66995d5b33556231ef975cb">m_usage</a></td></tr>
+<tr class="separator:a3cffbc85e66995d5b33556231ef975cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a610d7bb72d42196f977f9e5f3ba1bb0e"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a610d7bb72d42196f977f9e5f3ba1bb0e">m_rating</a></td></tr>
+<tr class="separator:a610d7bb72d42196f977f9e5f3ba1bb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38654349e3e8f5c523e3624c13fc2e30"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a38654349e3e8f5c523e3624c13fc2e30">m_tags</a></td></tr>
+<tr class="separator:a38654349e3e8f5c523e3624c13fc2e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e5608c333b39cc057786ca43f285f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a68e5608c333b39cc057786ca43f285f9">m_clipStatus</a></td></tr>
+<tr class="separator:a68e5608c333b39cc057786ca43f285f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24a637e58ed70686ea066ef7015a9d18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceAssetStatus.html#a5ad75235136d77f82ac40e8ae3797cef">AssetStatus::AssetType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a24a637e58ed70686ea066ef7015a9d18">m_assetStatus</a></td></tr>
+<tr class="separator:a24a637e58ed70686ea066ef7015a9d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49dd91c2523cda294e94402d5b10927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">PROJECTITEMTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#aa49dd91c2523cda294e94402d5b10927">m_itemType</a></td></tr>
+<tr class="separator:aa49dd91c2523cda294e94402d5b10927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b085cc8105a36fabb4182074d8455b2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#a8b085cc8105a36fabb4182074d8455b2">m_lastParentId</a></td></tr>
+<tr class="separator:a8b085cc8105a36fabb4182074d8455b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4cb325cd7c2fd39b71393e9cf362759"><td class="memItemLeft" align="right" valign="top">QReadWriteLock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractProjectItem.html#ad4cb325cd7c2fd39b71393e9cf362759">m_lock</a></td></tr>
+<tr class="memdesc:ad4cb325cd7c2fd39b71393e9cf362759"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a lock that ensures safety in case of concurrent access.  <a href="#ad4cb325cd7c2fd39b71393e9cf362759">更多...</a><br /></td></tr>
+<tr class="separator:ad4cb325cd7c2fd39b71393e9cf362759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classTreeItem"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classTreeItem')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="classTreeItem.html">TreeItem</a></td></tr>
+<tr class="memitem:ab4ddc8447a2b033a19c2350773126ab7 inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#ab4ddc8447a2b033a19c2350773126ab7">m_childItems</a></td></tr>
+<tr class="separator:ab4ddc8447a2b033a19c2350773126ab7 inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f1377e5c077db5cc8a16de8f7d35c8 inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, std::list&lt; std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &gt;::iterator &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a89f1377e5c077db5cc8a16de8f7d35c8">m_iteratorTable</a></td></tr>
+<tr class="separator:a89f1377e5c077db5cc8a16de8f7d35c8 inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd22fb4724689f8a11bb49db5b08e30 inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">QList&lt; QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a0fd22fb4724689f8a11bb49db5b08e30">m_itemData</a></td></tr>
+<tr class="separator:a0fd22fb4724689f8a11bb49db5b08e30 inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af41cbc7506dd69def5ba773f61a98ad5 inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#af41cbc7506dd69def5ba773f61a98ad5">m_parentItem</a></td></tr>
+<tr class="separator:af41cbc7506dd69def5ba773f61a98ad5 inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35bbe80c51d86da334c24122af2b432b inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a35bbe80c51d86da334c24122af2b432b">m_model</a></td></tr>
+<tr class="separator:a35bbe80c51d86da334c24122af2b432b inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7629b2cb42be280ed625fa3949dfb59b inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a7629b2cb42be280ed625fa3949dfb59b">m_depth</a></td></tr>
+<tr class="separator:a7629b2cb42be280ed625fa3949dfb59b inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace409e981549043d239fefbd20c3357a inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#ace409e981549043d239fefbd20c3357a">m_id</a></td></tr>
+<tr class="separator:ace409e981549043d239fefbd20c3357a inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294362f82210c1145b2db3dca9383a1a inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a294362f82210c1145b2db3dca9383a1a">m_isInModel</a></td></tr>
+<tr class="separator:a294362f82210c1145b2db3dca9383a1a inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dce5d1e0031c7879bf58c296a375265 inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a2dce5d1e0031c7879bf58c296a375265">m_isRoot</a></td></tr>
+<tr class="separator:a2dce5d1e0031c7879bf58c296a375265 inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d9fb6fb0f3e21e7af7166a369c7443 inherit pro_attribs_classTreeItem"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a71d9fb6fb0f3e21e7af7166a369c7443">m_isInvalid</a></td></tr>
+<tr class="separator:a71d9fb6fb0f3e21e7af7166a369c7443 inherit pro_attribs_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classTreeItem"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classTreeItem')"><img src="closed.png" alt="-"/>&#160;静态 Public 成员函数 继承自 <a class="el" href="classTreeItem.html">TreeItem</a></td></tr>
+<tr class="memitem:a20025b598755289669af35b2feca36a3 inherit pub_static_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a20025b598755289669af35b2feca36a3">construct</a> (const QList&lt; QVariant &gt; &amp;data, std::shared_ptr&lt; <a class="el" href="classAbstractTreeModel.html">AbstractTreeModel</a> &gt; model, bool <a class="el" href="classTreeItem.html#ad06a2b8a13ac8031dfec4346f5512839">isRoot</a>, int id=-1)</td></tr>
+<tr class="memdesc:a20025b598755289669af35b2feca36a3 inherit pub_static_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="classTreeItem.html" title="This class is a generic class to represent items of a tree-like model. It works in tandem with Abstra...">TreeItem</a>.  <a href="#a20025b598755289669af35b2feca36a3">更多...</a><br /></td></tr>
+<tr class="separator:a20025b598755289669af35b2feca36a3 inherit pub_static_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classTreeItem"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classTreeItem')"><img src="closed.png" alt="-"/>&#160;静态 Protected 成员函数 继承自 <a class="el" href="classTreeItem.html">TreeItem</a></td></tr>
+<tr class="memitem:a53175df480e1c1e762f3d874d25c8714 inherit pro_static_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#a53175df480e1c1e762f3d874d25c8714">baseFinishConstruct</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;self)</td></tr>
+<tr class="memdesc:a53175df480e1c1e762f3d874d25c8714 inherit pro_static_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finish construction of object given its pointer This is a separated function so that it can be called from derived classes.  <a href="#a53175df480e1c1e762f3d874d25c8714">更多...</a><br /></td></tr>
+<tr class="separator:a53175df480e1c1e762f3d874d25c8714 inherit pro_static_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ef33a40965452081cdac6c589c8e41 inherit pro_static_methods_classTreeItem"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeItem.html#ac4ef33a40965452081cdac6c589c8e41">registerSelf</a> (const std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt; &amp;self)</td></tr>
+<tr class="memdesc:ac4ef33a40965452081cdac6c589c8e41 inherit pro_static_methods_classTreeItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper functions to handle registration / deregistration to the model.  <a href="#ac4ef33a40965452081cdac6c589c8e41">更多...</a><br /></td></tr>
+<tr class="separator:ac4ef33a40965452081cdac6c589c8e41 inherit pro_static_methods_classTreeItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Base class for all project items (clips, folders, ...). </p>
+<p>Project items are stored in a tree like structure ... </p>
+</div><h2 class="groupheader">成员枚举类型说明</h2>
+<a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bd">AbstractProjectItem::DataType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda874da16090f452aeac35b5cf23a30846"></a>DataName&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bdae3e83fe3b864d5bb09cfabdf2651828a"></a>DataThumbnail&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda48e2626f08755005e241b1f97a68754c"></a>ClipToolTip&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda9d20c6d363fabe7b48030cb2c14258e3"></a>DataId&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda56867386626560be546772aacdd38f9d"></a>DataDate&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda4a0e15a4e2f5f0fd38fcad629ab0584c"></a>DataDescription&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda1ebbd38a6f833c34edcbfe36ac3eefdd"></a>UsageCount&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda21c99c6637361c4bf1f55a362cc31c95"></a>IconOverlay&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda0e1c43ba0ad112ca9f76141539be3888"></a>ItemTypeRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bdaa38da177156910147dba9af9b0cc1a27"></a>DataDuration&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda4a1a14bcf1b3b569c79fbf247ec9265a"></a>DataTag&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bdac0c0a2e15d6b86fbca6d7107a249e328"></a>DataRating&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda1ab45b241970c95f580e650931e6596f"></a>ParentDuration&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda38d9daffd0df512aefb5707dc4150871"></a>DataInPoint&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda231c14a80709abc19fc013ccf71643c5"></a>DataOutPoint&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda845c57f9bf161b67f421b45443eaa901"></a>JobProgress&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bdaacdca95d7c7a5cc47fbc6e6ebf81d705"></a>JobSuccess&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda31dc5d5cb0c336c8ac48ec58d6331e42"></a>JobStatus&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda0491fc3d78aa413af4df8decda962e5b"></a>ClipStatus&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bda19e9d4f61fc81a8a0f96b548a1fafa89"></a>ClipType&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bdaaf4a834fc61aff1e9e8e060c050ef7ca"></a>ClipHasAudioAndVideo&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa6b22cd0b68b4b73d4ad1160b78ec7bdabac4e20bfa1e882cf5ef0f158580aa1e"></a>AssetStatus&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a3a032c1e012a70097208487a9f182472"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">AbstractProjectItem::PROJECTITEMTYPE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a class="anchor" id="a3a032c1e012a70097208487a9f182472ababd0ccc663abe2c7b10056a6d56e9a6"></a>FolderItem&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a3a032c1e012a70097208487a9f182472ad9ec2d2ae55dae0b81fb5935471debf5"></a>ClipItem&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a3a032c1e012a70097208487a9f182472a3ddc966654fa784a5f465c3ce1d0e44d"></a>SubClipItem&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a4eddf31c1af5ff5bff23889b0ed3d6f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractProjectItem::AbstractProjectItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">PROJECTITEMTYPE</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classProjectItemModel.html">ProjectItemModel</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isRoot</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>is the type of the bin item </td></tr>
+    <tr><td class="paramname">id</td><td>is the binId </td></tr>
+    <tr><td class="paramname">model</td><td>is the ptr to the item model </td></tr>
+    <tr><td class="paramname">isRoot</td><td>is true if this is the topmost folder </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="acc7b9bab1e51b5273f666c82eb019fda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::aboutToRemoveChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> *&#160;</td>
+          <td class="paramname"><em>child</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5cfd2d94fecc19037287c1d61538d5c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::addRef </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increase usage count. </p>
+
+</div>
+</div>
+<a class="anchor" id="a78514a0b9ce0353f21797b8bc0a2f84c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::childAdded </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> *&#160;</td>
+          <td class="paramname"><em>child</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afdb3612dfe4b57cfd19b385d753f602e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classProjectClip.html">ProjectClip</a>&gt; AbstractProjectItem::clip </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to search for a clip with a specific id. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#a448c5a41349e90646664f7c1b91b3ca3">ProjectClip</a>, <a class="el" href="classProjectFolder.html#a82d77fe4d754b7de0dd0eac5a2c9ece6">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#a71cbe998b0ce00bc95d6d470d33a87d1">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a905a7c789bfcc56ac4a31bef81879fc8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classProjectClip.html">ProjectClip</a>&gt; AbstractProjectItem::clipAt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#a0f888491eacaedcd1e13c4e5a51e7472">ProjectClip</a>, <a class="el" href="classProjectFolder.html#a9ec3f7861dd7922d35659303271e55ee">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#a58fbfdfe23582cdfa4dd1315ab692398">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a082097c04f768aef51804b2f84bc8f08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString &amp; AbstractProjectItem::clipId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the clip's id. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed25b7a38a7f01678c6b82b0ff697ba8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a> AbstractProjectItem::clipStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3f3f89f66fbbf37c6eb39246258d8a89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespaceClipType.html#a293ad0131334e0677c220ae52ff49ea2">ClipType::ProducerType</a> AbstractProjectItem::clipType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#a8ab5ecdcc72d019f9b5f0c47e3e70471">ProjectClip</a>, <a class="el" href="classProjectSubClip.html#a3aaa7df8dc25e638ce2da7d34f628c5c">ProjectSubClip</a> , 以及 <a class="el" href="classProjectFolder.html#a9cead6226f58239932b015004fb0b3b3">ProjectFolder</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab11c4320499b7190fc4864eab3b73fd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::description </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the (displayable) description of this item. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8538a92bfc2fe7f16c9e10833192645b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classProjectFolder.html">ProjectFolder</a>&gt; AbstractProjectItem::folder </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to search for a folder with a specific id. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#a7e13fc6a4acefe0d338e51757a35a27e">ProjectClip</a>, <a class="el" href="classProjectFolder.html#a29575939ac25b415238bcb205fe99cb8">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#aebf30a5078fcb6399e44f4eb6e2d8f7d">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2bb435d486132d3f2680e5e56c6778a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> AbstractProjectItem::getAudio_lambda </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classProjectClip.html#a5edce5728a24345b0433ac92a8e8dd97">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a8eaaaf972dbb82bd7f201f7e725149"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant AbstractProjectItem::getData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractProjectItem.html#aa6b22cd0b68b4b73d4ad1160b78ec7bd">DataType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the data that describes this item. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>type of data to return</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This function is necessary for interaction with <a class="el" href="classProjectItemModel.html" title="Acts as an adaptor to be able to use BinModel with item views. ">ProjectItemModel</a>. </p>
+
+<p>被 <a class="el" href="classProjectClip.html#a9d859f9e949fed7b08f042285cc0f3f3">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac9c137881a4c4b2259e5343b4f7475f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> &gt; AbstractProjectItem::getEnclosingFolder </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>strict</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a ptr to the enclosing dir, and nullptr if none is found. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">strict</td><td>if set to false, the enclosing dir of a dir is itself, otherwise we try to find a "true" parent </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ada1c85f8cc7c1c15fcf5f7dada5b993b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QString AbstractProjectItem::getToolTip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#a8be7e09435dfedcf3f22e905bc84cbe0">ProjectClip</a>, <a class="el" href="classProjectFolder.html#a1e77db8715a540f55edb87e439eaeb28">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#afae71c4684437ecbc929a4bef4c03f71">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae2d08cc022030b97f7eb67fb0e2242e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractProjectItem::hasAudioAndVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if item has both audio and video enabled. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#a788cf7dd8fe57577603af4633afaeb2a">ProjectClip</a>, <a class="el" href="classProjectFolder.html#acb02695d84a3e77836ad1d91057c861d">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#a285d75ea3eca9918d71d10e3b67afd23">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4fec19b83de3a499f725e1c6cfc8c4ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractProjectItem::isIncludedInTimeline </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if a clip corresponding to this bin is inserted in a timeline. Note that this function does not account for children, use <a class="el" href="classTreeItem.html#a8588e664d34e814838d128d101d280a1" title="This is similar to the std::accumulate function, except that it operates on the whole subtree...">TreeItem::accumulate</a> if you want to get that information as well. </p>
+
+<p>被 <a class="el" href="classProjectClip.html#a8aa230c9ae69991984b2a205d3805018">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c4917ab13b8379a1d3924e92e4eae3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">AbstractProjectItem::PROJECTITEMTYPE</a> AbstractProjectItem::itemType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the type of this item (folder, clip, subclip, etc). </p>
+
+</div>
+</div>
+<a class="anchor" id="af4b6add095787e3bf51f14795d302712"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::lastParentId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the bin id of the last parent that this element got, even if this parent has already been destroyed. Return the empty string if the element was parentless. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab33a44bf6f10bfcee7626f31e6650c5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the (displayable) name of this item. </p>
+
+</div>
+</div>
+<a class="anchor" id="acacd71a1a03e66ce4fc98915b0722c90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractProjectItem::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>projectItem</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a39829551dd6078c25c545e781790e2f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classAbstractProjectItem.html">AbstractProjectItem</a> &gt; AbstractProjectItem::parent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the parent item (or NULL). </p>
+
+</div>
+</div>
+<a class="anchor" id="a1b4e38bdffd2957cef05345ec8c5d939"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint AbstractProjectItem::rating </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3aabf60511bc6b73d23bcfa66e07d82a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint AbstractProjectItem::refCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns clip's current usage count in timeline. </p>
+
+</div>
+</div>
+<a class="anchor" id="adadd179aea33291ffa9f1a2b7bca9e13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::removeRef </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decrease usage count. </p>
+
+</div>
+</div>
+<a class="anchor" id="a758f87fec5e061bfa69b313d4d4020ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractProjectItem::rename </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>column</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#a0dee623df8cf6424b7d9ed9260e9d76f">ProjectClip</a>, <a class="el" href="classProjectFolder.html#a07fb8adbf07b734460e226fb449b81d6">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#aeef9bf1c396cc3961f2dddeb252f9ec0">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a341914325f5f0cad77e14148f4a0f721"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap AbstractProjectItem::roundedPixmap </td>
+          <td>(</td>
+          <td class="paramtype">const QPixmap &amp;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a rounded border pixmap from the. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>pixmap. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ad8df08cc32c756aa7b8bde253a8104"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractProjectItem::selfSoftDelete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function executes what should be done when the item is deleted but without deleting effectively. For example, the item will deregister itself from the model and delete the clips from the timeline. However, the object is NOT actually deleted, and the tree structure is preserved. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Undo,Redo</td><td>are the lambdas accumulating the update. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>被 <a class="el" href="classProjectClip.html#a0ba4e747459420c7b343fa97e9ff8fa3">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea33cf3fc21cc126f30e161a32b5b659"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractProjectItem::setBinEffectsEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recursively disable/enable bin effects. </p>
+
+<p>在 <a class="el" href="classProjectClip.html#a4fe3ef03eefad97c4ed96587e052f737">ProjectClip</a>, <a class="el" href="classProjectFolder.html#af3e3774b413b5681cbf358436328e264">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#aab2b25c300be82c4ddd1a2916c047377">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6acc31ce40f96936696107c1f5c1e556"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::setClipStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a>&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classProjectClip.html#ab185862e95f67348acbfc77e5480cfea">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a362c9126547ba81fb806dc77fd99eb53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::setDescription </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>description</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new description. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0532985bd42ed7d224f8f36ad2413437"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::setName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new (displayable) name. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8ea8c74ad2d2ddcbf4db74116f605ff1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::setRating </td>
+          <td>(</td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>rating</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classProjectClip.html#a0b1327592907a207085944210f96d992">ProjectClip</a> , 以及 <a class="el" href="classProjectSubClip.html#ace1092e953512a7bb6b0db13570ab3d7">ProjectSubClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa186bb975acb366974332475cee908dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::setRefCount </td>
+          <td>(</td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set current usage count. </p>
+
+</div>
+</div>
+<a class="anchor" id="a827c4413c97ea5c02039956974999ee1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::setTags </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>tags</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05e61fc9ae40c9da50d80480285f798e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractProjectItem::statusReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75bbafe090d123fdab49ee7c9324e23f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AbstractProjectItem::supportedDataCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the amount of different types of data this item supports. </p>
+<p>This base class supports only DataName and DataDescription, so the return value is always 2. This function is necessary for interaction with <a class="el" href="classProjectItemModel.html" title="Acts as an adaptor to be able to use BinModel with item views. ">ProjectItemModel</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa36fd7466aefeec4431ff242af20a40b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString &amp; AbstractProjectItem::tags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4081a1e1262c57f10e9586dea99a80a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QDomElement AbstractProjectItem::toXml </td>
+          <td>(</td>
+          <td class="paramtype">QDomDocument &amp;&#160;</td>
+          <td class="paramname"><em>document</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeMeta</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeProfile</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classProjectClip.html#ae8365459bfdfc73c88459c2b08e4a374">ProjectClip</a>, <a class="el" href="classProjectFolder.html#a4d2fc3b9abce33b9bfa9dfba2f339020">ProjectFolder</a> , 以及 <a class="el" href="classProjectSubClip.html#a8e6fe0e6be58145ac18bf97cc45527bf">ProjectSubClip</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a45195334ba78cc4c4919d9fc13358903"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractProjectItem::updateParent </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classTreeItem.html">TreeItem</a> &gt;&#160;</td>
+          <td class="paramname"><em>newParent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is an overload of <a class="el" href="classTreeItem.html#abae75c72bf617f288486933af38302ce" title="Reflect update of the parent ptr (for example set the correct depth) This is meant to be overridden i...">TreeItem::updateParent</a> that tracks the id of the id of the parent. </p>
+
+<p>重载 <a class="el" href="classTreeItem.html#abae75c72bf617f288486933af38302ce">TreeItem</a> .</p>
+
+<p>被 <a class="el" href="classProjectClip.html#ad753d83c9235f7e51d0a56167b28d27d">ProjectClip</a> 重载.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31bd934d7e5e85df05183302407fb790"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint AbstractProjectItem::zone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classProjectClip.html#a1f850b48bde0848344aa38ebdfa70da4">ProjectClip</a> , 以及 <a class="el" href="classProjectSubClip.html#a98076b57a78b58fd0c4555ca86c17ebe">ProjectSubClip</a> 重载.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a24a637e58ed70686ea066ef7015a9d18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceAssetStatus.html#a5ad75235136d77f82ac40e8ae3797cef">AssetStatus::AssetType</a> AbstractProjectItem::m_assetStatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7e42bb3d8529f88ef9d2fa8ad7abadca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::m_binId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a68e5608c333b39cc057786ca43f285f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceFileStatus.html#aba94231e786c7e7aaab72d4042f79998">FileStatus::ClipStatus</a> AbstractProjectItem::m_clipStatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2fac2b6cabc34adfcf1a126201e114b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDateTime AbstractProjectItem::m_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1f11334893760b99b224ec770cc83586"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::m_description</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab81569908d4459a35bffc123f776bcad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::m_duration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ced9e644b0902db50973fc0209af0d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AbstractProjectItem::m_inPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa49dd91c2523cda294e94402d5b10927"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAbstractProjectItem.html#a3a032c1e012a70097208487a9f182472">PROJECTITEMTYPE</a> AbstractProjectItem::m_itemType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8b085cc8105a36fabb4182074d8455b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::m_lastParentId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4cb325cd7c2fd39b71393e9cf362759"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QReadWriteLock AbstractProjectItem::m_lock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a lock that ensures safety in case of concurrent access. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada6ea01fcfb78269acda62e033857106"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::m_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae3f6287e6c39527648b309e9882ac99a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AbstractProjectItem::m_outPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9bbbfc604bb1e5779163b5b3cb8fcfa4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AbstractProjectItem::m_parentDuration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a610d7bb72d42196f977f9e5f3ba1bb0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint AbstractProjectItem::m_rating</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a38654349e3e8f5c523e3624c13fc2e30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AbstractProjectItem::m_tags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a323a6469d166eff89309620ff543f521"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QIcon AbstractProjectItem::m_thumbnail</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3cffbc85e66995d5b33556231ef975cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint AbstractProjectItem::m_usage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/bin/<a class="el" href="abstractprojectitem_8h_source.html">abstractprojectitem.h</a></li>
+<li>src/bin/<a class="el" href="abstractprojectitem_8cpp.html">abstractprojectitem.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

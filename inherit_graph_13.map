@@ -1,0 +1,9 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$classBin.html" title="The bin widget takes care of both item model and view upon project opening. " alt="" coords="201,5,243,32"/>
+<area shape="rect" id="node3" href="$classFramelessMovableWidget.html" title="FramelessMovableWidget" alt="" coords="127,56,317,83"/>
+<area shape="rect" id="node6" href="$classMyFrame.html" title="MyFrame" alt="" coords="181,107,263,133"/>
+<area shape="rect" id="node7" href="$classProjectMonitorFrame.html" title="ProjectMonitorFrame" alt="" coords="143,157,301,184"/>
+<area shape="rect" id="node8" href="$classTimelineToolBar.html" title="TimelineToolBar" alt="" coords="159,208,285,235"/>
+<area shape="rect" id="node4" href="$classClipMonitorFrame.html" title="ClipMonitorFrame" alt="" coords="375,31,514,57"/>
+<area shape="rect" id="node5" href="$classClipPropertiesWidget.html" title="ClipPropertiesWidget" alt="" coords="365,81,524,108"/>
+</map>

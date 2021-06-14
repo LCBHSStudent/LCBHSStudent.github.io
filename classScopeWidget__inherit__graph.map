@@ -1,0 +1,4 @@
+<map id="ScopeWidget" name="ScopeWidget">
+<area shape="rect" id="node3" href="$classAudioGraphSpectrum.html" title="An audio spectrum allowing to edit audio level / equalize clips or tracks. " alt="" coords="5,344,201,524"/>
+<area shape="rect" id="node4" href="$classMonitorAudioLevel.html" title="{MonitorAudioLevel\n|+ audioChannels\l+ isValid\l|+ MonitorAudioLevel()\l+ ~MonitorAudioLevel()\l+ refreshPixmap()\l+ setVisibility()\l+ setAudioValues()\l# paintEvent()\l# resizeEvent()\l}" alt="" coords="225,344,405,524"/>
+</map>

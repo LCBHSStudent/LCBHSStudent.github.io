@@ -1,0 +1,7 @@
+<map id="AbstractEffectItem" name="AbstractEffectItem">
+<area shape="rect" id="node6" href="$classEffectGroupModel.html" title="This represents a group of effects of the effectstack. " alt="" coords="5,1351,168,1545"/>
+<area shape="rect" id="node7" href="$classEffectItemModel.html" title="This represents an effect of the effectstack. " alt="" coords="192,1277,347,1619"/>
+<area shape="rect" id="node2" href="$classTreeItem.html" title="This class is a generic class to represent items of a tree&#45;like model. It works in tandem with Abstra..." alt="" coords="88,455,267,899"/>
+<area shape="rect" id="node3" href="$structenable__shared__from__this__virtual.html" title="{enable_shared_from\l_this_virtual\&lt; TreeItem \&gt;\n||+ shared_from_this()\l+ shared_from_this()\l}" alt="" coords="83,300,272,407"/>
+<area shape="rect" id="node4" href="$classenable__shared__from__this__virtual__base.html" title="{enable_shared_from\l_this_virtual_base\n||}" alt="" coords="100,160,255,252"/>
+</map>

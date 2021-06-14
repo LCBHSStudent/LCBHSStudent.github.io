@@ -1,0 +1,3 @@
+<map id="ProxyTask" name="ProxyTask">
+<area shape="rect" id="node2" href="$classAbstractTask.html" title="{AbstractTask\n|# m_owner\l# m_object\l# m_progress\l# m_successful\l# m_isCanceled\l# m_softDelete\l# m_isForce\l# m_running\l|+ AbstractTask()\l+ ~AbstractTask()\l+ ownerId()\l+ operator==()\l+ closeAll()\l# run()\l# cleanup()\l}" alt="" coords="25,131,167,399"/>
+</map>

@@ -1,0 +1,200 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/monitor/glwidget.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_0ed54ec999b4474c70e586f61222a471.html">monitor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a>  </div>
+  <div class="headertitle">
+<div class="title">glwidget.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;KDeclarative/KDeclarative&gt;</code><br />
+<code>#include &lt;KLocalizedContext&gt;</code><br />
+<code>#include &lt;KMessageBox&gt;</code><br />
+<code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QFontDatabase&gt;</code><br />
+<code>#include &lt;QOpenGLFunctions_3_2_Core&gt;</code><br />
+<code>#include &lt;QPainter&gt;</code><br />
+<code>#include &lt;QQmlContext&gt;</code><br />
+<code>#include &lt;QQuickItem&gt;</code><br />
+<code>#include &lt;kdeclarative_version.h&gt;</code><br />
+<code>#include &lt;klocalizedstring.h&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;QUuid&gt;</code><br />
+<code>#include &quot;<a class="el" href="thumbnailprovider_8h_source.html">timeline2/view/qmltypes/thumbnailprovider.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_8h_source.html">core.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bin_8h_source.html">bin/bin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="glwidget_8h_source.html">glwidget.h</a>&quot;</code><br />
+<code>#include &quot;kdenlivesettings.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="monitorproxy_8h_source.html">monitorproxy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="profilemodel_8hpp_source.html">profiles/profilemodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timelineitems_8h_source.html">timeline2/view/qml/timelineitems.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="customtooltip_8h_source.html">widgets/customtooltip.h</a>&quot;</code><br />
+<code>#include &lt;mlt++/Mlt.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="localeHandling_8h_source.html">lib/localeHandling.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+glwidget.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="glwidget_8cpp__incl.png" border="0" usemap="#src_2monitor_2glwidget_8cpp" alt=""/></div>
+<map name="src_2monitor_2glwidget_8cpp" id="src_2monitor_2glwidget_8cpp">
+<area shape="rect" id="node15" href="thumbnailprovider_8h.html" title="timeline2/view/qmltypes\l/thumbnailprovider.h" alt="" coords="1760,80,1944,121"/>
+<area shape="rect" id="node21" href="core_8h.html" title="core.h" alt="" coords="2974,87,3037,114"/>
+<area shape="rect" id="node37" href="bin_8h.html" title="bin/bin.h" alt="" coords="3762,87,3841,114"/>
+<area shape="rect" id="node43" href="glwidget_8h.html" title="glwidget.h" alt="" coords="2227,87,2317,114"/>
+<area shape="rect" id="node45" href="monitorproxy_8h.html" title="monitorproxy.h" alt="" coords="3617,87,3737,114"/>
+<area shape="rect" id="node46" href="profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="1968,87,2152,114"/>
+<area shape="rect" id="node47" href="timelineitems_8h.html" title="timeline2/view/qml\l/timelineitems.h" alt="" coords="3951,80,4099,121"/>
+<area shape="rect" id="node48" href="customtooltip_8h.html" title="widgets/customtooltip.h" alt="" coords="4124,87,4303,114"/>
+<area shape="rect" id="node50" href="localeHandling_8h.html" title="lib/localeHandling.h" alt="" coords="4454,87,4605,114"/>
+<area shape="rect" id="node22" href="definitions_8h.html" title="definitions.h" alt="" coords="2801,244,2903,271"/>
+<area shape="rect" id="node24" href="taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="2777,169,2927,196"/>
+<area shape="rect" id="node27" href="kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="3473,169,3639,196"/>
+<area shape="rect" id="node28" href="undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="3848,244,3971,271"/>
+<area shape="rect" id="node36" href="timecode_8h.html" title="timecode.h" alt="" coords="3841,169,3935,196"/>
+<area shape="rect" id="node38" href="abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="4011,169,4173,196"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a064963100a3dd5257d893a35986e4acb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glwidget_8cpp.html#a064963100a3dd5257d893a35986e4acb">check_error</a>(fn)&#160;&#160;&#160;{}</td></tr>
+<tr class="separator:a064963100a3dd5257d893a35986e4acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d0d00ec4423fb93b7b5176a1478e636"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="glwidget_8cpp.html#a8d0d00ec4423fb93b7b5176a1478e636">GL_TIMEOUT_IGNORED</a>&#160;&#160;&#160;0xFFFFFFFFFFFFFFFFull</td></tr>
+<tr class="separator:a8d0d00ec4423fb93b7b5176a1478e636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="a064963100a3dd5257d893a35986e4acb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define check_error</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fn</td><td>)</td>
+          <td>&#160;&#160;&#160;{}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d0d00ec4423fb93b7b5176a1478e636"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GL_TIMEOUT_IGNORED&#160;&#160;&#160;0xFFFFFFFFFFFFFFFFull</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

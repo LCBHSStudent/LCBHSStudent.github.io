@@ -1,0 +1,137 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/colortools.h 源文件</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">colortools.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="colortools_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *   Copyright (C) 2010 by Simon Andreas Eugster (simon.eu@gmail.com)      *</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *   This file is part of kdenlive. See www.kdenlive.org.                  *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *                                                                         *</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   This program is free software; you can redistribute it and/or modify  *</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   it under the terms of the GNU General Public License as published by  *</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   the Free Software Foundation; either version 2 of the License, or     *</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   (at your option) any later version.                                   *</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> ***************************************************************************/</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef COLORTOOLS_H</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define COLORTOOLS_H</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;QImage&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classColorTools.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classColorTools.html">ColorTools</a> : <span class="keyword">public</span> QObject</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classColorTools.html#a80e0527a95f2e53879ca2e9ba819680b">ColorTools</a>(QObject *parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// enum ColorsRGB { COL_R, COL_G, COL_B, COL_Luma, COL_A, COL_RGB };</span></div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classColorTools.html#a83a10c019351410de5c358bd58a3911d">   28</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911d">ColorsRGB</a> { <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911dae1e1d3d40573127e9ee0480caf1283d6">R</a>, <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911dadfcf28d0734569a6a693bc8194de62bf">G</a>, <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911da9d5ed678fe57bcca610140957afab571">B</a>, <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911dac1d6d72f876393dc1a2f9020a3e99797">Luma</a>, <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911da7fc56270e7a70fa81a5935b72eacbe29">A</a>, <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911da889574aebacda6bfd3e534e2b49b8028">RGB</a> };</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2">   30</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2">ComponentsHSV</a> { <a class="code" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2aa11a1fc10b8c2e1b847b6d8650eac8c3">COM_H</a>, <a class="code" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2a9ee146f73a1fdd2730cdb216bab18a03">COM_S</a>, <a class="code" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2a770733a51f5c683154a1b60811571a69">COM_V</a> };</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    QImage <a class="code" href="classColorTools.html#a310e7d147c2d1b2e13a1f4a5093d4eed">yuvColorWheel</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keywordtype">int</span> Y, <span class="keywordtype">float</span> scaling, <span class="keywordtype">bool</span> modifiedVersion, <span class="keywordtype">bool</span> circleOnly);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QImage <a class="code" href="classColorTools.html#a8456c5f98717828795e27cd0ff4bf818">yuvVerticalPlane</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keywordtype">int</span> angle, <span class="keywordtype">float</span> scaling);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">static</span> QImage <a class="code" href="classColorTools.html#aa6e42a16f673b4013f4a411f3cd69c44">rgbCurvePlane</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keyword">const</span> <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911d">ColorTools::ColorsRGB</a> &amp;color, <span class="keywordtype">float</span> scaling = 1, <span class="keyword">const</span> QRgb &amp;background = QRgb());</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keyword">static</span> QImage <a class="code" href="classColorTools.html#a039b6fe82caf419b711b2a21afbff418">rgbCurveLine</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keyword">const</span> <a class="code" href="classColorTools.html#a83a10c019351410de5c358bd58a3911d">ColorTools::ColorsRGB</a> &amp;color, <span class="keyword">const</span> QRgb &amp;background);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    QImage <a class="code" href="classColorTools.html#aa3e27dacb4495ff438ab69bf9eff8c4c">yPbPrColorWheel</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keywordtype">int</span> Y, <span class="keywordtype">float</span> scaling, <span class="keywordtype">bool</span> circleOnly);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">static</span> QImage <a class="code" href="classColorTools.html#ab28cd82134fc36ae18afddc58a08b326">hsvHueShiftPlane</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keywordtype">int</span> S, <span class="keywordtype">int</span> V, <span class="keywordtype">int</span> MIN, <span class="keywordtype">int</span> <a class="code" href="kiss__fftndr_8c.html#aacc3ee1a7f283f8ef65cea31f4436a95">MAX</a>);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">static</span> QImage <a class="code" href="classColorTools.html#ae38d53d78af8f7df9f569ff72b0e8f89">hsvCurvePlane</a>(<span class="keyword">const</span> QSize &amp;size, <span class="keyword">const</span> QColor &amp;baseColor, <span class="keyword">const</span> <a class="code" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2">ComponentsHSV</a> &amp;xVariant, <span class="keyword">const</span> <a class="code" href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2">ComponentsHSV</a> &amp;yVariant, <span class="keywordtype">bool</span> shear = <span class="keyword">false</span>,</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                <span class="keyword">const</span> <span class="keywordtype">float</span> offsetY = 0);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;signals:</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classColorTools.html#a7e113f1ae4e66ccf29815199b94587b0">signalYuvWheelCalculationFinished</a>();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif // COLORTOOLS_H</span></div><div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911da9d5ed678fe57bcca610140957afab571"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911da9d5ed678fe57bcca610140957afab571">ColorTools::ColorsRGB::B</a></div></div>
+<div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911d"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911d">ColorTools::ColorsRGB</a></div><div class="ttdeci">ColorsRGB</div><div class="ttdef"><b>Definition:</b> colortools.h:28</div></div>
+<div class="ttc" id="classColorTools_html_a3b07a2c5dd0d9df878a05f1e621456e2a9ee146f73a1fdd2730cdb216bab18a03"><div class="ttname"><a href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2a9ee146f73a1fdd2730cdb216bab18a03">ColorTools::COM_S</a></div><div class="ttdef"><b>Definition:</b> colortools.h:30</div></div>
+<div class="ttc" id="classColorTools_html_a80e0527a95f2e53879ca2e9ba819680b"><div class="ttname"><a href="classColorTools.html#a80e0527a95f2e53879ca2e9ba819680b">ColorTools::ColorTools</a></div><div class="ttdeci">ColorTools(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> colortools.cpp:28</div></div>
+<div class="ttc" id="classColorTools_html_a8456c5f98717828795e27cd0ff4bf818"><div class="ttname"><a href="classColorTools.html#a8456c5f98717828795e27cd0ff4bf818">ColorTools::yuvVerticalPlane</a></div><div class="ttdeci">QImage yuvVerticalPlane(const QSize &amp;size, int angle, float scaling)</div><div class="ttdoc">Draws a UV plane with given UV angle (ratio u:v stays constant) scaling defines how far to zoom in (o...</div><div class="ttdef"><b>Definition:</b> colortools.cpp:102</div></div>
+<div class="ttc" id="classColorTools_html_a3b07a2c5dd0d9df878a05f1e621456e2a770733a51f5c683154a1b60811571a69"><div class="ttname"><a href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2a770733a51f5c683154a1b60811571a69">ColorTools::COM_V</a></div><div class="ttdef"><b>Definition:</b> colortools.h:30</div></div>
+<div class="ttc" id="classColorTools_html_a039b6fe82caf419b711b2a21afbff418"><div class="ttname"><a href="classColorTools.html#a039b6fe82caf419b711b2a21afbff418">ColorTools::rgbCurveLine</a></div><div class="ttdeci">static QImage rgbCurveLine(const QSize &amp;size, const ColorTools::ColorsRGB &amp;color, const QRgb &amp;background)</div><div class="ttdef"><b>Definition:</b> colortools.cpp:180</div></div>
+<div class="ttc" id="classColorTools_html"><div class="ttname"><a href="classColorTools.html">ColorTools</a></div><div class="ttdoc">@todo Describe class ColorTools </div><div class="ttdef"><b>Definition:</b> colortools.h:20</div></div>
+<div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911dadfcf28d0734569a6a693bc8194de62bf"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911dadfcf28d0734569a6a693bc8194de62bf">ColorTools::ColorsRGB::G</a></div></div>
+<div class="ttc" id="classColorTools_html_a3b07a2c5dd0d9df878a05f1e621456e2"><div class="ttname"><a href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2">ColorTools::ComponentsHSV</a></div><div class="ttdeci">ComponentsHSV</div><div class="ttdef"><b>Definition:</b> colortools.h:30</div></div>
+<div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911dae1e1d3d40573127e9ee0480caf1283d6"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911dae1e1d3d40573127e9ee0480caf1283d6">ColorTools::ColorsRGB::R</a></div></div>
+<div class="ttc" id="classColorTools_html_ae38d53d78af8f7df9f569ff72b0e8f89"><div class="ttname"><a href="classColorTools.html#ae38d53d78af8f7df9f569ff72b0e8f89">ColorTools::hsvCurvePlane</a></div><div class="ttdeci">static QImage hsvCurvePlane(const QSize &amp;size, const QColor &amp;baseColor, const ComponentsHSV &amp;xVariant, const ComponentsHSV &amp;yVariant, bool shear=false, const float offsetY=0)</div><div class="ttdef"><b>Definition:</b> colortools.cpp:304</div></div>
+<div class="ttc" id="classColorTools_html_ab28cd82134fc36ae18afddc58a08b326"><div class="ttname"><a href="classColorTools.html#ab28cd82134fc36ae18afddc58a08b326">ColorTools::hsvHueShiftPlane</a></div><div class="ttdeci">static QImage hsvHueShiftPlane(const QSize &amp;size, int S, int V, int MIN, int MAX)</div><div class="ttdoc">Draws a HSV plane with Hue on the x axis and hue difference on the y axis. This is for the Bézier Cur...</div><div class="ttdef"><b>Definition:</b> colortools.cpp:268</div></div>
+<div class="ttc" id="classColorTools_html_a3b07a2c5dd0d9df878a05f1e621456e2aa11a1fc10b8c2e1b847b6d8650eac8c3"><div class="ttname"><a href="classColorTools.html#a3b07a2c5dd0d9df878a05f1e621456e2aa11a1fc10b8c2e1b847b6d8650eac8c3">ColorTools::COM_H</a></div><div class="ttdef"><b>Definition:</b> colortools.h:30</div></div>
+<div class="ttc" id="kiss__fftndr_8c_html_aacc3ee1a7f283f8ef65cea31f4436a95"><div class="ttname"><a href="kiss__fftndr_8c.html#aacc3ee1a7f283f8ef65cea31f4436a95">MAX</a></div><div class="ttdeci">#define MAX(x, y)</div><div class="ttdef"><b>Definition:</b> kiss_fftndr.c:17</div></div>
+<div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911da7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911da7fc56270e7a70fa81a5935b72eacbe29">ColorTools::ColorsRGB::A</a></div></div>
+<div class="ttc" id="classColorTools_html_a310e7d147c2d1b2e13a1f4a5093d4eed"><div class="ttname"><a href="classColorTools.html#a310e7d147c2d1b2e13a1f4a5093d4eed">ColorTools::yuvColorWheel</a></div><div class="ttdeci">QImage yuvColorWheel(const QSize &amp;size, int Y, float scaling, bool modifiedVersion, bool circleOnly)</div><div class="ttdoc">Draws a UV plane with given Y value. scaling defines how far to zoom in (or out). Lower value = zoom ...</div><div class="ttdef"><b>Definition:</b> colortools.cpp:33</div></div>
+<div class="ttc" id="classColorTools_html_a7e113f1ae4e66ccf29815199b94587b0"><div class="ttname"><a href="classColorTools.html#a7e113f1ae4e66ccf29815199b94587b0">ColorTools::signalYuvWheelCalculationFinished</a></div><div class="ttdeci">void signalYuvWheelCalculationFinished()</div></div>
+<div class="ttc" id="classColorTools_html_aa6e42a16f673b4013f4a411f3cd69c44"><div class="ttname"><a href="classColorTools.html#aa6e42a16f673b4013f4a411f3cd69c44">ColorTools::rgbCurvePlane</a></div><div class="ttdeci">static QImage rgbCurvePlane(const QSize &amp;size, const ColorTools::ColorsRGB &amp;color, float scaling=1, const QRgb &amp;background=QRgb())</div><div class="ttdoc">Draws a RGB plane with two values on one axis and one on the other. This is e.g. useful as background...</div><div class="ttdef"><b>Definition:</b> colortools.cpp:135</div></div>
+<div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911da889574aebacda6bfd3e534e2b49b8028"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911da889574aebacda6bfd3e534e2b49b8028">ColorTools::ColorsRGB::RGB</a></div></div>
+<div class="ttc" id="classColorTools_html_a83a10c019351410de5c358bd58a3911dac1d6d72f876393dc1a2f9020a3e99797"><div class="ttname"><a href="classColorTools.html#a83a10c019351410de5c358bd58a3911dac1d6d72f876393dc1a2f9020a3e99797">ColorTools::ColorsRGB::Luma</a></div></div>
+<div class="ttc" id="classColorTools_html_aa3e27dacb4495ff438ab69bf9eff8c4c"><div class="ttname"><a href="classColorTools.html#aa3e27dacb4495ff438ab69bf9eff8c4c">ColorTools::yPbPrColorWheel</a></div><div class="ttdeci">QImage yPbPrColorWheel(const QSize &amp;size, int Y, float scaling, bool circleOnly)</div><div class="ttdoc">Draws a YPbPr plane with Pb on the x axis and Pr on the y axis. Y is the Y value to use...</div><div class="ttdef"><b>Definition:</b> colortools.cpp:218</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

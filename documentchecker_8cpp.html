@@ -1,0 +1,402 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/doc/documentchecker.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_659facb5ea1bf65b3deecf95a0be0132.html">doc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#enum-members">枚举</a> &#124;
+<a href="#var-members">变量</a>  </div>
+  <div class="headertitle">
+<div class="title">documentchecker.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="documentchecker_8h_source.html">documentchecker.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="binplaylist_8hpp_source.html">bin/binplaylist.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="effectsrepository_8hpp_source.html">effects/effectsrepository.hpp</a>&quot;</code><br />
+<code>#include &quot;kdenlivesettings.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="kthumb_8h_source.html">kthumb.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="titlewidget_8h_source.html">titler/titlewidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectclip_8h_source.html">bin/projectclip.h</a>&quot;</code><br />
+<code>#include &lt;KMessageBox&gt;</code><br />
+<code>#include &lt;KRecentDirs&gt;</code><br />
+<code>#include &lt;KUrlRequesterDialog&gt;</code><br />
+<code>#include &lt;klocalizedstring.h&gt;</code><br />
+<code>#include &quot;kdenlive_debug.h&quot;</code><br />
+<code>#include &lt;QCryptographicHash&gt;</code><br />
+<code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFileDialog&gt;</code><br />
+<code>#include &lt;QFontDatabase&gt;</code><br />
+<code>#include &lt;QStandardPaths&gt;</code><br />
+<code>#include &lt;QTreeWidgetItem&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;kurlrequester.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+documentchecker.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="documentchecker_8cpp__incl.png" border="0" usemap="#src_2doc_2documentchecker_8cpp" alt=""/></div>
+<map name="src_2doc_2documentchecker_8cpp" id="src_2doc_2documentchecker_8cpp">
+<area shape="rect" id="node2" href="documentchecker_8h.html" title="documentchecker.h" alt="" coords="1315,155,1463,181"/>
+<area shape="rect" id="node14" href="binplaylist_8hpp.html" title="bin/binplaylist.hpp" alt="" coords="2302,155,2445,181"/>
+<area shape="rect" id="node17" href="effectsrepository_8hpp.html" title="effects/effectsrepository.hpp" alt="" coords="2649,80,2855,107"/>
+<area shape="rect" id="node22" href="kthumb_8h.html" title="kthumb.h" alt="" coords="1213,80,1297,107"/>
+<area shape="rect" id="node24" href="titlewidget_8h.html" title="titler/titlewidget.h" alt="" coords="581,80,720,107"/>
+<area shape="rect" id="node33" href="projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1858,80,1985,107"/>
+<area shape="rect" id="node3" href="definitions_8h.html" title="definitions.h" alt="" coords="1862,229,1965,256"/>
+<area shape="rect" id="node4" href="gentime_8h.html" title="gentime.h" alt="" coords="1647,304,1735,331"/>
+<area shape="rect" id="node18" href="abstractassetsrepository_8hpp.html" title="assets/abstractassetsrepository.hpp" alt="" coords="2707,155,2962,181"/>
+<area shape="rect" id="node25" href="graphicsscenerectmove_8h.html" title="graphicsscenerectmove.h" alt="" coords="5,155,195,181"/>
+<area shape="rect" id="node26" href="timecode_8h.html" title="timecode.h" alt="" coords="1018,229,1113,256"/>
+<area shape="rect" id="node27" href="titledocument_8h.html" title="titler/titledocument.h" alt="" coords="983,155,1143,181"/>
+<area shape="rect" id="node28" href="unicodedialog_8h.html" title="titler/unicodedialog.h" alt="" coords="269,155,429,181"/>
+<area shape="rect" id="node34" href="abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="2469,155,2632,181"/>
+<area shape="rect" id="node35" href="clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="1539,155,1746,181"/>
+<area shape="rect" id="node37" href="timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="2021,155,2277,181"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:a38e07dbcc43a787f7f32a06d60bcb345"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a38e07dbcc43a787f7f32a06d60bcb345">MISSINGTYPE</a> { <a class="el" href="documentchecker_8cpp.html#a38e07dbcc43a787f7f32a06d60bcb345a4e3a0e977752725cc2f3a23919b9bfbf">TITLE_IMAGE_ELEMENT</a> = 20, 
+<a class="el" href="documentchecker_8cpp.html#a38e07dbcc43a787f7f32a06d60bcb345a7107d78c899e28b020b586ebe754dca2">TITLE_FONT_ELEMENT</a> = 21
+ }</td></tr>
+<tr class="separator:a38e07dbcc43a787f7f32a06d60bcb345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+变量</h2></td></tr>
+<tr class="memitem:a6e73df65e141fbb65853b80d0d523546"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a6e73df65e141fbb65853b80d0d523546">hashRole</a> = Qt::UserRole</td></tr>
+<tr class="separator:a6e73df65e141fbb65853b80d0d523546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e7cbc864d7ad5739a8344f1da29e52"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a05e7cbc864d7ad5739a8344f1da29e52">sizeRole</a> = Qt::UserRole + 1</td></tr>
+<tr class="separator:a05e7cbc864d7ad5739a8344f1da29e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48c6d309ae37cb011add1012cd2d41b"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#ad48c6d309ae37cb011add1012cd2d41b">idRole</a> = Qt::UserRole + 2</td></tr>
+<tr class="separator:ad48c6d309ae37cb011add1012cd2d41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a769dc0bfc2503335492958232c34ad92"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a769dc0bfc2503335492958232c34ad92">statusRole</a> = Qt::UserRole + 3</td></tr>
+<tr class="separator:a769dc0bfc2503335492958232c34ad92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b092f09172b669031945df0d314c3b"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a68b092f09172b669031945df0d314c3b">typeRole</a> = Qt::UserRole + 4</td></tr>
+<tr class="separator:a68b092f09172b669031945df0d314c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac775b630f3ed4de09400d7873ea9a9fa"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#ac775b630f3ed4de09400d7873ea9a9fa">typeOriginalResource</a> = Qt::UserRole + 5</td></tr>
+<tr class="separator:ac775b630f3ed4de09400d7873ea9a9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697ea576d4d900798251fa297d2f2a2e"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a697ea576d4d900798251fa297d2f2a2e">clipTypeRole</a> = Qt::UserRole + 6</td></tr>
+<tr class="separator:a697ea576d4d900798251fa297d2f2a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af480b82faddee5fbfcdee4ae0e8c1672"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#af480b82faddee5fbfcdee4ae0e8c1672">CLIPMISSING</a> = 0</td></tr>
+<tr class="separator:af480b82faddee5fbfcdee4ae0e8c1672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b44f047295690920f3ecf6fe8209f4a"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a7b44f047295690920f3ecf6fe8209f4a">CLIPOK</a> = 1</td></tr>
+<tr class="separator:a7b44f047295690920f3ecf6fe8209f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d2f14c3de8a434bc98c1ca26098c46"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#ad3d2f14c3de8a434bc98c1ca26098c46">CLIPPLACEHOLDER</a> = 2</td></tr>
+<tr class="separator:ad3d2f14c3de8a434bc98c1ca26098c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4978ea831467da0dd5bf541affe9177e"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a4978ea831467da0dd5bf541affe9177e">PROXYMISSING</a> = 4</td></tr>
+<tr class="separator:a4978ea831467da0dd5bf541affe9177e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8412dc5de4eca8ffecd3f7bb47dfa4"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#add8412dc5de4eca8ffecd3f7bb47dfa4">SOURCEMISSING</a> = 5</td></tr>
+<tr class="separator:add8412dc5de4eca8ffecd3f7bb47dfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba88dc18093a287a5a3384e9cc64576"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a5ba88dc18093a287a5a3384e9cc64576">LUMAMISSING</a> = 10</td></tr>
+<tr class="separator:a5ba88dc18093a287a5a3384e9cc64576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb838a0e5f37aef2768054723d779b33"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#adb838a0e5f37aef2768054723d779b33">LUMAOK</a> = 11</td></tr>
+<tr class="separator:adb838a0e5f37aef2768054723d779b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e99210789b2d251751bc59be862f340"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="documentchecker_8cpp.html#a7e99210789b2d251751bc59be862f340">LUMAPLACEHOLDER</a> = 12</td></tr>
+<tr class="separator:a7e99210789b2d251751bc59be862f340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">枚举类型说明</h2>
+<a class="anchor" id="a38e07dbcc43a787f7f32a06d60bcb345"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="documentchecker_8cpp.html#a38e07dbcc43a787f7f32a06d60bcb345">MISSINGTYPE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a class="anchor" id="a38e07dbcc43a787f7f32a06d60bcb345a4e3a0e977752725cc2f3a23919b9bfbf"></a>TITLE_IMAGE_ELEMENT&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a38e07dbcc43a787f7f32a06d60bcb345a7107d78c899e28b020b586ebe754dca2"></a>TITLE_FONT_ELEMENT&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">变量说明</h2>
+<a class="anchor" id="af480b82faddee5fbfcdee4ae0e8c1672"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CLIPMISSING = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7b44f047295690920f3ecf6fe8209f4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CLIPOK = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3d2f14c3de8a434bc98c1ca26098c46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CLIPPLACEHOLDER = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a697ea576d4d900798251fa297d2f2a2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int clipTypeRole = Qt::UserRole + 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6e73df65e141fbb65853b80d0d523546"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int hashRole = Qt::UserRole</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad48c6d309ae37cb011add1012cd2d41b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int idRole = Qt::UserRole + 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ba88dc18093a287a5a3384e9cc64576"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LUMAMISSING = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adb838a0e5f37aef2768054723d779b33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LUMAOK = 11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7e99210789b2d251751bc59be862f340"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LUMAPLACEHOLDER = 12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4978ea831467da0dd5bf541affe9177e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int PROXYMISSING = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05e7cbc864d7ad5739a8344f1da29e52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int sizeRole = Qt::UserRole + 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add8412dc5de4eca8ffecd3f7bb47dfa4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int SOURCEMISSING = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a769dc0bfc2503335492958232c34ad92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int statusRole = Qt::UserRole + 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac775b630f3ed4de09400d7873ea9a9fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int typeOriginalResource = Qt::UserRole + 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a68b092f09172b669031945df0d314c3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int typeRole = Qt::UserRole + 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

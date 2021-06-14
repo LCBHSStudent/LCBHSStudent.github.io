@@ -1,0 +1,17 @@
+<map id="src/transitions/transitionsrepository.cpp" name="src/transitions/transitionsrepository.cpp">
+<area shape="rect" id="node2" href="$transitionsrepository_8hpp.html" title="transitionsrepository.hpp" alt="" coords="680,80,863,107"/>
+<area shape="rect" id="node18" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="1573,304,1677,331"/>
+<area shape="rect" id="node28" href="$core_8h.html" title="core.h" alt="" coords="2395,155,2458,181"/>
+<area shape="rect" id="node48" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="173,304,357,331"/>
+<area shape="rect" id="node3" href="$abstractassetsrepository_8hpp.html" title="assets/abstractassetsrepository.hpp" alt="" coords="727,155,982,181"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="1824,379,1927,405"/>
+<area shape="rect" id="node23" href="$assetparametermodel_8hpp.html" title="assets/model/assetparametermodel.hpp" alt="" coords="604,304,889,331"/>
+<area shape="rect" id="node17" href="$abstractassetsrepository_8ipp.html" title="abstractassetsrepository.ipp" alt="" coords="1209,229,1414,256"/>
+<area shape="rect" id="node5" href="$gentime_8h.html" title="gentime.h" alt="" coords="2269,453,2357,480"/>
+<area shape="rect" id="node29" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="2284,229,2435,256"/>
+<area shape="rect" id="node38" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2094,229,2260,256"/>
+<area shape="rect" id="node39" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="3096,229,3218,256"/>
+<area shape="rect" id="node47" href="$timecode_8h.html" title="timecode.h" alt="" coords="2046,379,2140,405"/>
+<area shape="rect" id="node30" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="2144,304,2258,331"/>
+<area shape="rect" id="node49" href="$profileinfo_8hpp.html" title="profileinfo.hpp" alt="" coords="198,379,314,405"/>
+</map>

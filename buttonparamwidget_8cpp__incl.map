@@ -1,0 +1,15 @@
+<map id="src/assets/view/widgets/buttonparamwidget.cpp" name="src/assets/view/widgets/buttonparamwidget.cpp">
+<area shape="rect" id="node2" href="$buttonparamwidget_8hpp.html" title="buttonparamwidget.hpp" alt="" coords="62,244,241,271"/>
+<area shape="rect" id="node8" href="$assetparametermodel_8hpp.html" title="assets/model/assetparametermodel.hpp" alt="" coords="786,169,1071,196"/>
+<area shape="rect" id="node21" href="$filtertask_8h.html" title="jobs/filtertask.h" alt="" coords="1643,169,1766,196"/>
+<area shape="rect" id="node28" href="$assetcommand_8hpp.html" title="assets/model/assetcommand.hpp" alt="" coords="276,95,517,121"/>
+<area shape="rect" id="node31" href="$core_8h.html" title="core.h" alt="" coords="1984,95,2047,121"/>
+<area shape="rect" id="node3" href="$abstractparamwidget_8hpp.html" title="abstractparamwidget.hpp" alt="" coords="66,319,255,345"/>
+<area shape="rect" id="node9" href="$definitions_8h.html" title="definitions.h" alt="" coords="2053,319,2156,345"/>
+<area shape="rect" id="node10" href="$gentime_8h.html" title="gentime.h" alt="" coords="2275,393,2363,420"/>
+<area shape="rect" id="node22" href="$abstracttask_8h.html" title="abstracttask.h" alt="" coords="1863,244,1978,271"/>
+<area shape="rect" id="node32" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="1940,169,2091,196"/>
+<area shape="rect" id="node37" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2217,169,2384,196"/>
+<area shape="rect" id="node38" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="537,169,659,196"/>
+<area shape="rect" id="node45" href="$timecode_8h.html" title="timecode.h" alt="" coords="2353,319,2448,345"/>
+</map>

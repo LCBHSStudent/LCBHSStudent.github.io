@@ -1,0 +1,18 @@
+<map id="src/effects/effectstack/view/effectstackview.cpp" name="src/effects/effectstack/view/effectstackview.cpp">
+<area shape="rect" id="node2" href="$effectstackview_8hpp.html" title="effectstackview.hpp" alt="" coords="597,191,749,218"/>
+<area shape="rect" id="node10" href="$asseticonprovider_8hpp.html" title="assets/assetlist/view\l/qmltypes/asseticonprovider.hpp" alt="" coords="1088,95,1322,136"/>
+<area shape="rect" id="node14" href="$assetpanel_8hpp.html" title="assets/assetpanel.hpp" alt="" coords="1516,191,1683,218"/>
+<area shape="rect" id="node16" href="$assetparameterview_8hpp.html" title="assets/view/assetparameterview.hpp" alt="" coords="258,191,522,218"/>
+<area shape="rect" id="node19" href="$builtstack_8hpp.html" title="builtstack.hpp" alt="" coords="1921,191,2036,218"/>
+<area shape="rect" id="node21" href="$collapsibleeffectview_8hpp.html" title="collapsibleeffectview.hpp" alt="" coords="736,102,922,129"/>
+<area shape="rect" id="node24" href="$core_8h.html" title="core.h" alt="" coords="2259,102,2322,129"/>
+<area shape="rect" id="node36" href="$effectitemmodel_8hpp.html" title="effects/effectstack\l/model/effectitemmodel.hpp" alt="" coords="2346,95,2552,136"/>
+<area shape="rect" id="node37" href="$effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="2060,184,2272,225"/>
+<area shape="rect" id="node39" href="$monitor_8h.html" title="monitor/monitor.h" alt="" coords="1708,191,1846,218"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="1636,273,1739,300"/>
+<area shape="rect" id="node22" href="$abstractcollapsiblewidget_8h.html" title="abstractcollapsiblewidget.h" alt="" coords="32,191,234,218"/>
+<area shape="rect" id="node23" href="$timecode_8h.html" title="timecode.h" alt="" coords="1398,191,1492,218"/>
+<area shape="rect" id="node25" href="$taskmanager_8h.html" title="jobs/taskmanager.h" alt="" coords="3175,191,3326,218"/>
+<area shape="rect" id="node28" href="$kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="2347,191,2514,218"/>
+<area shape="rect" id="node29" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="2613,273,2736,300"/>
+</map>

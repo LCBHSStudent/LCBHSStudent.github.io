@@ -1,0 +1,1464 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: MarkerListModel类 参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-slots">Public 槽</a> &#124;
+<a href="#signals">信号</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-static-methods">静态 Protected 成员函数</a> &#124;
+<a href="classMarkerListModel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MarkerListModel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This class is the model for a list of markers. A marker is defined by a time, a type (the color used to represent it) and a comment string. We store them in a sorted fashion using a std::map.  
+ <a href="classMarkerListModel.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="markerlistmodel_8hpp_source.html">markerlistmodel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 MarkerListModel 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMarkerListModel__inherit__graph.png" border="0" usemap="#MarkerListModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="MarkerListModel_inherit__map" id="MarkerListModel_inherit__map">
+</map>
+</div>
+<div class="dynheader">
+MarkerListModel 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classMarkerListModel__coll__graph.png" border="0" usemap="#MarkerListModel_coll__map" alt="Collaboration graph"/></div>
+<map name="MarkerListModel_coll__map" id="MarkerListModel_coll__map">
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a27b4ade484b1111400d3848647f57bb9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="classMarkerListModel.html#a27b4ade484b1111400d3848647f57bb9ade0fff5d31c2309bc62f0c0da87c4de7">CommentRole</a> = Qt::UserRole + 1, 
+<a class="el" href="classMarkerListModel.html#a27b4ade484b1111400d3848647f57bb9adddec390a2fe726ab0825cda5f05c22b">PosRole</a>, 
+<a class="el" href="classMarkerListModel.html#a27b4ade484b1111400d3848647f57bb9a668a41019b9fdf55a1f6a02b6937780e">FrameRole</a>, 
+<a class="el" href="classMarkerListModel.html#a27b4ade484b1111400d3848647f57bb9aead5ec194cc97d555fc1b07d055def37">ColorRole</a>, 
+<br />
+&#160;&#160;<a class="el" href="classMarkerListModel.html#a27b4ade484b1111400d3848647f57bb9a8310f678e8315f77d1682fa8707346b5">TypeRole</a>, 
+<a class="el" href="classMarkerListModel.html#a27b4ade484b1111400d3848647f57bb9aa2ee2da14745a1791e6aea4301f802fa">IdRole</a>
+<br />
+ }</td></tr>
+<tr class="separator:a27b4ade484b1111400d3848647f57bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public 槽</h2></td></tr>
+<tr class="memitem:a70692c65e60de0a868f901a6cbafc54f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a70692c65e60de0a868f901a6cbafc54f">importFromJson</a> (const QString &amp;<a class="el" href="classMarkerListModel.html#af076558e530b7cea933b53a0920d3d91">data</a>, bool ignoreConflicts, bool pushUndo=true)</td></tr>
+<tr class="memdesc:a70692c65e60de0a868f901a6cbafc54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a list of markers from json data The data should be formatted as follows: [{"pos":0.2, "comment":"marker 1", "type":1}, {...}, ...] return true on success and logs undo object.  <a href="#a70692c65e60de0a868f901a6cbafc54f">更多...</a><br /></td></tr>
+<tr class="separator:a70692c65e60de0a868f901a6cbafc54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e753b1872efc4238bf6f83dcd4a867c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a1e753b1872efc4238bf6f83dcd4a867c">importFromJson</a> (const QString &amp;<a class="el" href="classMarkerListModel.html#af076558e530b7cea933b53a0920d3d91">data</a>, bool ignoreConflicts, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="separator:a1e753b1872efc4238bf6f83dcd4a867c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:a2efb011b6ca54a9f1992effb7498ac5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a2efb011b6ca54a9f1992effb7498ac5d">modelChanged</a> ()</td></tr>
+<tr class="separator:a2efb011b6ca54a9f1992effb7498ac5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a2cfd40c14ccbb018f6e92c44c9b06735"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a2cfd40c14ccbb018f6e92c44c9b06735">MarkerListModel</a> (QString clipId, std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; undo_stack, QObject *parent=nullptr)</td></tr>
+<tr class="memdesc:a2cfd40c14ccbb018f6e92c44c9b06735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a marker list bound to the bin clip with given id.  <a href="#a2cfd40c14ccbb018f6e92c44c9b06735">更多...</a><br /></td></tr>
+<tr class="separator:a2cfd40c14ccbb018f6e92c44c9b06735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa815d0eeb123404f63ae0e6e7c0d0577"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aa815d0eeb123404f63ae0e6e7c0d0577">MarkerListModel</a> (std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt; undo_stack, QObject *parent=nullptr)</td></tr>
+<tr class="memdesc:aa815d0eeb123404f63ae0e6e7c0d0577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a guide list (bound to the timeline)  <a href="#aa815d0eeb123404f63ae0e6e7c0d0577">更多...</a><br /></td></tr>
+<tr class="separator:aa815d0eeb123404f63ae0e6e7c0d0577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313eb9b76a3d961148887ba761243363"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a313eb9b76a3d961148887ba761243363">addMarker</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, const QString &amp;comment, int type=-1)</td></tr>
+<tr class="memdesc:a313eb9b76a3d961148887ba761243363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a marker at the given position. If there is already one, the comment will be overridden.  <a href="#a313eb9b76a3d961148887ba761243363">更多...</a><br /></td></tr>
+<tr class="separator:a313eb9b76a3d961148887ba761243363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5a2f915ae91d3965d31d2084f8d2fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aae5a2f915ae91d3965d31d2084f8d2fb">addMarkers</a> (QMap&lt; <a class="el" href="classGenTime.html">GenTime</a>, QString &gt; markers, int type=-1)</td></tr>
+<tr class="separator:aae5a2f915ae91d3965d31d2084f8d2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e6a0405e461719043bed7f8cbf1ebf5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a2e6a0405e461719043bed7f8cbf1ebf5">removeMarker</a> (<a class="el" href="classGenTime.html">GenTime</a> pos)</td></tr>
+<tr class="memdesc:a2e6a0405e461719043bed7f8cbf1ebf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the marker at the given position. Returns false if no marker was found at given pos.  <a href="#a2e6a0405e461719043bed7f8cbf1ebf5">更多...</a><br /></td></tr>
+<tr class="separator:a2e6a0405e461719043bed7f8cbf1ebf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5184772bb03123376d32877d7c723b62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a5184772bb03123376d32877d7c723b62">removeAllMarkers</a> ()</td></tr>
+<tr class="memdesc:a5184772bb03123376d32877d7c723b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete all the markers of the model.  <a href="#a5184772bb03123376d32877d7c723b62">更多...</a><br /></td></tr>
+<tr class="separator:a5184772bb03123376d32877d7c723b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a696c19f918dd187de740cfd86e35c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a4a696c19f918dd187de740cfd86e35c5">removeMarker</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:a4a696c19f918dd187de740cfd86e35c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same function but accumulates undo/redo.  <a href="#a4a696c19f918dd187de740cfd86e35c5">更多...</a><br /></td></tr>
+<tr class="separator:a4a696c19f918dd187de740cfd86e35c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c1bd54f87bbc2c43568a31a6530c61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a73c1bd54f87bbc2c43568a31a6530c61">editMarker</a> (<a class="el" href="classGenTime.html">GenTime</a> oldPos, <a class="el" href="classGenTime.html">GenTime</a> pos, QString comment=QString(), int type=-1)</td></tr>
+<tr class="memdesc:a73c1bd54f87bbc2c43568a31a6530c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edit a marker.  <a href="#a73c1bd54f87bbc2c43568a31a6530c61">更多...</a><br /></td></tr>
+<tr class="separator:a73c1bd54f87bbc2c43568a31a6530c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0b5f9a518c1b0f1047baf926e83fb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aaf0b5f9a518c1b0f1047baf926e83fb9">moveMarkers</a> (QList&lt; <a class="el" href="classCommentedTime.html">CommentedTime</a> &gt; markers, <a class="el" href="classGenTime.html">GenTime</a> fromPos, <a class="el" href="classGenTime.html">GenTime</a> toPos, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:aaf0b5f9a518c1b0f1047baf926e83fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves all markers from on to another position.  <a href="#aaf0b5f9a518c1b0f1047baf926e83fb9">更多...</a><br /></td></tr>
+<tr class="separator:aaf0b5f9a518c1b0f1047baf926e83fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad494ee6fb6e9a11c1d11e3fd2db67a27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ad494ee6fb6e9a11c1d11e3fd2db67a27">moveMarker</a> (int mid, <a class="el" href="classGenTime.html">GenTime</a> pos)</td></tr>
+<tr class="separator:ad494ee6fb6e9a11c1d11e3fd2db67a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac398fc196ff3cad5a8f1f4de22d5035e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ac398fc196ff3cad5a8f1f4de22d5035e">moveMarkersWithoutUndo</a> (QVector&lt; int &gt; markersId, int offset, bool updateView=true)</td></tr>
+<tr class="separator:ac398fc196ff3cad5a8f1f4de22d5035e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6442de914053a1663e2167b62dc2dc80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCommentedTime.html">CommentedTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a6442de914053a1663e2167b62dc2dc80">getMarker</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos, bool *ok) const </td></tr>
+<tr class="memdesc:a6442de914053a1663e2167b62dc2dc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a marker data at given pos.  <a href="#a6442de914053a1663e2167b62dc2dc80">更多...</a><br /></td></tr>
+<tr class="separator:a6442de914053a1663e2167b62dc2dc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7228ba357bf16ec7b4e8cb6c524d39bb"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="classCommentedTime.html">CommentedTime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a7228ba357bf16ec7b4e8cb6c524d39bb">getAllMarkers</a> () const </td></tr>
+<tr class="memdesc:a7228ba357bf16ec7b4e8cb6c524d39bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all markers in model.  <a href="#a7228ba357bf16ec7b4e8cb6c524d39bb">更多...</a><br /></td></tr>
+<tr class="separator:a7228ba357bf16ec7b4e8cb6c524d39bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4bb61c5a8e243f85f04f96ad44e5c3c"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="classCommentedTime.html">CommentedTime</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ad4bb61c5a8e243f85f04f96ad44e5c3c">getMarkersInRange</a> (int start, int end) const </td></tr>
+<tr class="memdesc:ad4bb61c5a8e243f85f04f96ad44e5c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all markers of model that are intersect with a given range.  <a href="#ad4bb61c5a8e243f85f04f96ad44e5c3c">更多...</a><br /></td></tr>
+<tr class="separator:ad4bb61c5a8e243f85f04f96ad44e5c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb5afcb675c5a0b7ffed48ba2069ec9"><td class="memItemLeft" align="right" valign="top">QVector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a7fb5afcb675c5a0b7ffed48ba2069ec9">getMarkersIdInRange</a> (int start, int end) const </td></tr>
+<tr class="separator:a7fb5afcb675c5a0b7ffed48ba2069ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2956dd641ef8cdf810ba188f9ec3bd2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ad2956dd641ef8cdf810ba188f9ec3bd2">getMarkerPos</a> (int mid) const </td></tr>
+<tr class="memdesc:ad2956dd641ef8cdf810ba188f9ec3bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a marker position in frames given it's id.  <a href="#ad2956dd641ef8cdf810ba188f9ec3bd2">更多...</a><br /></td></tr>
+<tr class="separator:ad2956dd641ef8cdf810ba188f9ec3bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21921207ecc2f5ef0cc156d0772bdab6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a21921207ecc2f5ef0cc156d0772bdab6">getSnapPoints</a> () const </td></tr>
+<tr class="memdesc:a21921207ecc2f5ef0cc156d0772bdab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all markers positions in model.  <a href="#a21921207ecc2f5ef0cc156d0772bdab6">更多...</a><br /></td></tr>
+<tr class="separator:a21921207ecc2f5ef0cc156d0772bdab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74eb2a5af4fa65cf7f2c0ceb9633f1cd"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a74eb2a5af4fa65cf7f2c0ceb9633f1cd">hasMarker</a> (int frame) const </td></tr>
+<tr class="memdesc:a74eb2a5af4fa65cf7f2c0ceb9633f1cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a marker exists at given pos Notice that add/remove queries are done in real time (gentime), but this request is made in frame.  <a href="#a74eb2a5af4fa65cf7f2c0ceb9633f1cd">更多...</a><br /></td></tr>
+<tr class="separator:a74eb2a5af4fa65cf7f2c0ceb9633f1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae634a27529daf0e3eadb50e27fab387c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ae634a27529daf0e3eadb50e27fab387c">hasMarker</a> (<a class="el" href="classGenTime.html">GenTime</a> pos) const </td></tr>
+<tr class="separator:ae634a27529daf0e3eadb50e27fab387c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc162db7f53f179ebf2a9a6493079f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCommentedTime.html">CommentedTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a9bc162db7f53f179ebf2a9a6493079f2">marker</a> (<a class="el" href="classGenTime.html">GenTime</a> pos) const </td></tr>
+<tr class="separator:a9bc162db7f53f179ebf2a9a6493079f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4c3da3c5cc637bc88deea10f0b0bba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aad4c3da3c5cc637bc88deea10f0b0bba">registerSnapModel</a> (const std::weak_ptr&lt; <a class="el" href="classSnapInterface.html">SnapInterface</a> &gt; &amp;snapModel)</td></tr>
+<tr class="memdesc:aad4c3da3c5cc637bc88deea10f0b0bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a snapModel to the marker model. This is intended to be used for a guide model, so that the timelines can register their snapmodel to be updated when the guide moves. This is also used on the clip monitor to keep tracking the clip markers The snap logic for clips is managed from the Timeline Note that no deregistration is necessary, the weak_ptr will be discarded as soon as it becomes invalid.  <a href="#aad4c3da3c5cc637bc88deea10f0b0bba">更多...</a><br /></td></tr>
+<tr class="separator:aad4c3da3c5cc637bc88deea10f0b0bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b312b958e5bcdf6ad6cd261f576ca3"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ad2b312b958e5bcdf6ad6cd261f576ca3">toJson</a> () const </td></tr>
+<tr class="memdesc:ad2b312b958e5bcdf6ad6cd261f576ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exports the model to json using format above.  <a href="#ad2b312b958e5bcdf6ad6cd261f576ca3">更多...</a><br /></td></tr>
+<tr class="separator:ad2b312b958e5bcdf6ad6cd261f576ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b9a1f14756e30337dd60ab6ca81e89"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a48b9a1f14756e30337dd60ab6ca81e89">editMarkerGui</a> (const <a class="el" href="classGenTime.html">GenTime</a> &amp;pos, QWidget *parent, bool createIfNotFound, <a class="el" href="classClipController.html">ClipController</a> *clip=nullptr, bool createOnly=false)</td></tr>
+<tr class="memdesc:a48b9a1f14756e30337dd60ab6ca81e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog to edit a marker/guide.  <a href="#a48b9a1f14756e30337dd60ab6ca81e89">更多...</a><br /></td></tr>
+<tr class="separator:a48b9a1f14756e30337dd60ab6ca81e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af076558e530b7cea933b53a0920d3d91"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#af076558e530b7cea933b53a0920d3d91">data</a> (const QModelIndex &amp;index, int role) const  override</td></tr>
+<tr class="separator:af076558e530b7cea933b53a0920d3d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f0ee16758895ec6ab8b41df36b50aa"><td class="memItemLeft" align="right" valign="top">QHash&lt; int, QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ad2f0ee16758895ec6ab8b41df36b50aa">roleNames</a> () const  override</td></tr>
+<tr class="separator:ad2f0ee16758895ec6ab8b41df36b50aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42144e97da8f0f7aaeffadaca9b49a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aa42144e97da8f0f7aaeffadaca9b49a6">rowCount</a> (const QModelIndex &amp;parent=QModelIndex()) const  override</td></tr>
+<tr class="separator:aa42144e97da8f0f7aaeffadaca9b49a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a42beeb11c98da85266e0872532ad9ede"><td class="memItemLeft" align="right" valign="top">static std::array&lt; QColor, 9 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a42beeb11c98da85266e0872532ad9ede">markerTypes</a> {{QColor(QLatin1String(&quot;#9b59b6&quot;)), QColor(QLatin1String(&quot;#3daee9&quot;)),QColor(QLatin1String(&quot;#1abc9c&quot;)),QColor(QLatin1String(&quot;#1cdc9a&quot;)),QColor(QLatin1String(&quot;#c9ce3b&quot;)),QColor(QLatin1String(&quot;#fdbc4b&quot;)),QColor(QLatin1String(&quot;#f39c1f&quot;)),QColor(QLatin1String(&quot;#f47750&quot;)),QColor(QLatin1String(&quot;#da4453&quot;))}}</td></tr>
+<tr class="memdesc:a42beeb11c98da85266e0872532ad9ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">This describes the available markers type and their corresponding colors.  <a href="#a42beeb11c98da85266e0872532ad9ede">更多...</a><br /></td></tr>
+<tr class="separator:a42beeb11c98da85266e0872532ad9ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:aac9fd60cd5f51206a1440bc0c5eda9cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aac9fd60cd5f51206a1440bc0c5eda9cf">addMarker</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, const QString &amp;comment, int type, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;undo, <a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;redo)</td></tr>
+<tr class="memdesc:aac9fd60cd5f51206a1440bc0c5eda9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same function but accumulates undo/redo.  <a href="#aac9fd60cd5f51206a1440bc0c5eda9cf">更多...</a><br /></td></tr>
+<tr class="separator:aac9fd60cd5f51206a1440bc0c5eda9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d8e5880e1e86874d92433a75ff0f16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a57d8e5880e1e86874d92433a75ff0f16">addSnapPoint</a> (<a class="el" href="classGenTime.html">GenTime</a> pos)</td></tr>
+<tr class="memdesc:a57d8e5880e1e86874d92433a75ff0f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a snap point at marker position in the registered snap models (those that are still valid)  <a href="#a57d8e5880e1e86874d92433a75ff0f16">更多...</a><br /></td></tr>
+<tr class="separator:a57d8e5880e1e86874d92433a75ff0f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e4a65490de6e200de52564c39878e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#ae1e4a65490de6e200de52564c39878e5">removeSnapPoint</a> (<a class="el" href="classGenTime.html">GenTime</a> pos)</td></tr>
+<tr class="memdesc:ae1e4a65490de6e200de52564c39878e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a snap point at marker position in the registered snap models (those that are still valid)  <a href="#ae1e4a65490de6e200de52564c39878e5">更多...</a><br /></td></tr>
+<tr class="separator:ae1e4a65490de6e200de52564c39878e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90465e6dbe2e671e56393bdf22ff9f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a90465e6dbe2e671e56393bdf22ff9f86">changeComment_lambda</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, const QString &amp;comment, int type)</td></tr>
+<tr class="memdesc:a90465e6dbe2e671e56393bdf22ff9f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that generate a lambda to change comment / type of given marker.  <a href="#a90465e6dbe2e671e56393bdf22ff9f86">更多...</a><br /></td></tr>
+<tr class="separator:a90465e6dbe2e671e56393bdf22ff9f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fae50a9372ce918727a811037cd5f49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a3fae50a9372ce918727a811037cd5f49">addMarker_lambda</a> (<a class="el" href="classGenTime.html">GenTime</a> pos, const QString &amp;comment, int type)</td></tr>
+<tr class="memdesc:a3fae50a9372ce918727a811037cd5f49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that generate a lambda to add given marker.  <a href="#a3fae50a9372ce918727a811037cd5f49">更多...</a><br /></td></tr>
+<tr class="separator:a3fae50a9372ce918727a811037cd5f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fde709b43da462e62c09a1721f4cbae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#a5fde709b43da462e62c09a1721f4cbae">deleteMarker_lambda</a> (<a class="el" href="classGenTime.html">GenTime</a> pos)</td></tr>
+<tr class="memdesc:a5fde709b43da462e62c09a1721f4cbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that generate a lambda to remove given marker.  <a href="#a5fde709b43da462e62c09a1721f4cbae">更多...</a><br /></td></tr>
+<tr class="separator:a5fde709b43da462e62c09a1721f4cbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af058b0be9368536518eaaf7687da41b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#af058b0be9368536518eaaf7687da41b5">setup</a> ()</td></tr>
+<tr class="memdesc:af058b0be9368536518eaaf7687da41b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects the signals of this object.  <a href="#af058b0be9368536518eaaf7687da41b5">更多...</a><br /></td></tr>
+<tr class="separator:af058b0be9368536518eaaf7687da41b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+静态 Protected 成员函数</h2></td></tr>
+<tr class="memitem:aad041220f5a42ef69b34c0001a7b064e"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkerListModel.html#aad041220f5a42ef69b34c0001a7b064e">getModel</a> (bool guide, const QString &amp;clipId)</td></tr>
+<tr class="memdesc:aad041220f5a42ef69b34c0001a7b064e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that retrieves a pointer to the markermodel, given whether it's a guide model and its clipId.  <a href="#aad041220f5a42ef69b34c0001a7b064e">更多...</a><br /></td></tr>
+<tr class="separator:aad041220f5a42ef69b34c0001a7b064e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>This class is the model for a list of markers. A marker is defined by a time, a type (the color used to represent it) and a comment string. We store them in a sorted fashion using a std::map. </p>
+<p>A marker is essentially bound to a clip. We can also define guides, that are timeline-wise markers. For that, use the constructors without clipId </p>
+</div><h2 class="groupheader">成员枚举类型说明</h2>
+<a class="anchor" id="a27b4ade484b1111400d3848647f57bb9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a class="anchor" id="a27b4ade484b1111400d3848647f57bb9ade0fff5d31c2309bc62f0c0da87c4de7"></a>CommentRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a27b4ade484b1111400d3848647f57bb9adddec390a2fe726ab0825cda5f05c22b"></a>PosRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a27b4ade484b1111400d3848647f57bb9a668a41019b9fdf55a1f6a02b6937780e"></a>FrameRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a27b4ade484b1111400d3848647f57bb9aead5ec194cc97d555fc1b07d055def37"></a>ColorRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a27b4ade484b1111400d3848647f57bb9a8310f678e8315f77d1682fa8707346b5"></a>TypeRole&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a27b4ade484b1111400d3848647f57bb9aa2ee2da14745a1791e6aea4301f802fa"></a>IdRole&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a2cfd40c14ccbb018f6e92c44c9b06735"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MarkerListModel::MarkerListModel </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>clipId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td>
+          <td class="paramname"><em>undo_stack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a marker list bound to the bin clip with given id. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa815d0eeb123404f63ae0e6e7c0d0577"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MarkerListModel::MarkerListModel </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classDocUndoStack.html">DocUndoStack</a> &gt;&#160;</td>
+          <td class="paramname"><em>undo_stack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a guide list (bound to the timeline) </p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a313eb9b76a3d961148887ba761243363"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::addMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>comment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a marker at the given position. If there is already one, the comment will be overridden. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>defines the position of the marker, relative to the clip </td></tr>
+    <tr><td class="paramname">comment</td><td>is the text associated with the marker </td></tr>
+    <tr><td class="paramname">type</td><td>is the type (color) associated with the marker. If -1 is passed, then the value is pulled from kdenlive's defaults </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aac9fd60cd5f51206a1440bc0c5eda9cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::addMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>comment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same function but accumulates undo/redo. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3fae50a9372ce918727a811037cd5f49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> MarkerListModel::addMarker_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>comment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that generate a lambda to add given marker. </p>
+
+</div>
+</div>
+<a class="anchor" id="aae5a2f915ae91d3965d31d2084f8d2fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::addMarkers </td>
+          <td>(</td>
+          <td class="paramtype">QMap&lt; <a class="el" href="classGenTime.html">GenTime</a>, QString &gt;&#160;</td>
+          <td class="paramname"><em>markers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57d8e5880e1e86874d92433a75ff0f16"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MarkerListModel::addSnapPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a snap point at marker position in the registered snap models (those that are still valid) </p>
+
+</div>
+</div>
+<a class="anchor" id="a90465e6dbe2e671e56393bdf22ff9f86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> MarkerListModel::changeComment_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>comment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that generate a lambda to change comment / type of given marker. </p>
+
+</div>
+</div>
+<a class="anchor" id="af076558e530b7cea933b53a0920d3d91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant MarkerListModel::data </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>role</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5fde709b43da462e62c09a1721f4cbae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> MarkerListModel::deleteMarker_lambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that generate a lambda to remove given marker. </p>
+
+</div>
+</div>
+<a class="anchor" id="a73c1bd54f87bbc2c43568a31a6530c61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::editMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>oldPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>comment</em> = <code>QString()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Edit a marker. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">oldPos</td><td>is the old position of the marker </td></tr>
+    <tr><td class="paramname">pos</td><td>defines the new position of the marker, relative to the clip </td></tr>
+    <tr><td class="paramname">comment</td><td>is the text associated with the marker </td></tr>
+    <tr><td class="paramname">type</td><td>is the type (color) associated with the marker. If -1 is passed, then the value is pulled from kdenlive's defaults </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a48b9a1f14756e30337dd60ab6ca81e89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::editMarkerGui </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>createIfNotFound</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classClipController.html">ClipController</a> *&#160;</td>
+          <td class="paramname"><em>clip</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>createOnly</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shows a dialog to edit a marker/guide. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>position of the marker to edit, or new position for a marker </td></tr>
+    <tr><td class="paramname">widget</td><td>qt widget that will be the parent of the dialog </td></tr>
+    <tr><td class="paramname">createIfNotFound</td><td>if true, we create a marker if none is found at pos </td></tr>
+    <tr><td class="paramname">clip</td><td>pointer to the clip if we are editing a marker </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>true if dialog was accepted and modification successful </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7228ba357bf16ec7b4e8cb6c524d39bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="classCommentedTime.html">CommentedTime</a> &gt; MarkerListModel::getAllMarkers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all markers in model. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6442de914053a1663e2167b62dc2dc80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCommentedTime.html">CommentedTime</a> MarkerListModel::getMarker </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classGenTime.html">GenTime</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>ok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a marker data at given pos. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2956dd641ef8cdf810ba188f9ec3bd2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MarkerListModel::getMarkerPos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a marker position in frames given it's id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7fb5afcb675c5a0b7ffed48ba2069ec9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; int &gt; MarkerListModel::getMarkersIdInRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4bb61c5a8e243f85f04f96ad44e5c3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="classCommentedTime.html">CommentedTime</a> &gt; MarkerListModel::getMarkersInRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all markers of model that are intersect with a given range. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>is the position where start to search for markers </td></tr>
+    <tr><td class="paramname">end</td><td>is the position after which markers will not be returned, set to -1 to get all markers after start </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aad041220f5a42ef69b34c0001a7b064e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMarkerListModel.html">MarkerListModel</a> &gt; MarkerListModel::getModel </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>guide</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>clipId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function that retrieves a pointer to the markermodel, given whether it's a guide model and its clipId. </p>
+
+</div>
+</div>
+<a class="anchor" id="a21921207ecc2f5ef0cc156d0772bdab6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; MarkerListModel::getSnapPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all markers positions in model. </p>
+
+</div>
+</div>
+<a class="anchor" id="a74eb2a5af4fa65cf7f2c0ceb9633f1cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::hasMarker </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if a marker exists at given pos Notice that add/remove queries are done in real time (gentime), but this request is made in frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae634a27529daf0e3eadb50e27fab387c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::hasMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a70692c65e60de0a868f901a6cbafc54f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::importFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreConflicts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pushUndo</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Imports a list of markers from json data The data should be formatted as follows: [{"pos":0.2, "comment":"marker 1", "type":1}, {...}, ...] return true on success and logs undo object. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ignoreConflicts</td><td>if set to false, it aborts if the data contains a marker with same position but different comment and/or type. If set to true, such markers are overridden silently </td></tr>
+    <tr><td class="paramname">pushUndo</td><td>if true, create an undo object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1e753b1872efc4238bf6f83dcd4a867c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::importFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreConflicts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9bc162db7f53f179ebf2a9a6493079f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCommentedTime.html">CommentedTime</a> MarkerListModel::marker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2efb011b6ca54a9f1992effb7498ac5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MarkerListModel::modelChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad494ee6fb6e9a11c1d11e3fd2db67a27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::moveMarker </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf0b5f9a518c1b0f1047baf926e83fb9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::moveMarkers </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="classCommentedTime.html">CommentedTime</a> &gt;&#160;</td>
+          <td class="paramname"><em>markers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>fromPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>toPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves all markers from on to another position. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">markers</td><td>list of markers to move </td></tr>
+    <tr><td class="paramname">fromPos</td><td></td></tr>
+    <tr><td class="paramname">toPos</td><td></td></tr>
+    <tr><td class="paramname">undo</td><td></td></tr>
+    <tr><td class="paramname">redo</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac398fc196ff3cad5a8f1f4de22d5035e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MarkerListModel::moveMarkersWithoutUndo </td>
+          <td>(</td>
+          <td class="paramtype">QVector&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>markersId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateView</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad4c3da3c5cc637bc88deea10f0b0bba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MarkerListModel::registerSnapModel </td>
+          <td>(</td>
+          <td class="paramtype">const std::weak_ptr&lt; <a class="el" href="classSnapInterface.html">SnapInterface</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>snapModel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Registers a snapModel to the marker model. This is intended to be used for a guide model, so that the timelines can register their snapmodel to be updated when the guide moves. This is also used on the clip monitor to keep tracking the clip markers The snap logic for clips is managed from the Timeline Note that no deregistration is necessary, the weak_ptr will be discarded as soon as it becomes invalid. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5184772bb03123376d32877d7c723b62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::removeAllMarkers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete all the markers of the model. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e6a0405e461719043bed7f8cbf1ebf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::removeMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the marker at the given position. Returns false if no marker was found at given pos. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4a696c19f918dd187de740cfd86e35c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MarkerListModel::removeMarker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>undo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="undohelper_8hpp.html#a82e96eed53e9f458ab45ae8c74b00ea5">Fun</a> &amp;&#160;</td>
+          <td class="paramname"><em>redo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Same function but accumulates undo/redo. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae1e4a65490de6e200de52564c39878e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MarkerListModel::removeSnapPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classGenTime.html">GenTime</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a snap point at marker position in the registered snap models (those that are still valid) </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2f0ee16758895ec6ab8b41df36b50aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt; int, QByteArray &gt; MarkerListModel::roleNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa42144e97da8f0f7aaeffadaca9b49a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MarkerListModel::rowCount </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>QModelIndex()</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af058b0be9368536518eaaf7687da41b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MarkerListModel::setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Connects the signals of this object. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2b312b958e5bcdf6ad6cd261f576ca3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString MarkerListModel::toJson </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exports the model to json using format above. </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a42beeb11c98da85266e0872532ad9ede"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; QColor, 9 &gt; MarkerListModel::markerTypes {{QColor(QLatin1String(&quot;#9b59b6&quot;)), QColor(QLatin1String(&quot;#3daee9&quot;)),QColor(QLatin1String(&quot;#1abc9c&quot;)),QColor(QLatin1String(&quot;#1cdc9a&quot;)),QColor(QLatin1String(&quot;#c9ce3b&quot;)),QColor(QLatin1String(&quot;#fdbc4b&quot;)),QColor(QLatin1String(&quot;#f39c1f&quot;)),QColor(QLatin1String(&quot;#f47750&quot;)),QColor(QLatin1String(&quot;#da4453&quot;))}}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This describes the available markers type and their corresponding colors. </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>src/bin/model/<a class="el" href="markerlistmodel_8hpp_source.html">markerlistmodel.hpp</a></li>
+<li>src/bin/model/<a class="el" href="markerlistmodel_8cpp.html">markerlistmodel.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

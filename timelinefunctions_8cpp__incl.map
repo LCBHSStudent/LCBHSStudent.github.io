@@ -1,0 +1,26 @@
+<map id="src/timeline2/model/timelinefunctions.cpp" name="src/timeline2/model/timelinefunctions.cpp">
+<area shape="rect" id="node2" href="$timelinefunctions_8hpp.html" title="timelinefunctions.hpp" alt="" coords="2601,251,2765,278"/>
+<area shape="rect" id="node9" href="$bin_8h.html" title="bin/bin.h" alt="" coords="1308,251,1387,278"/>
+<area shape="rect" id="node26" href="$projectclip_8h.html" title="bin/projectclip.h" alt="" coords="1175,169,1301,196"/>
+<area shape="rect" id="node30" href="$projectfolder_8h.html" title="bin/projectfolder.h" alt="" coords="2739,169,2879,196"/>
+<area shape="rect" id="node31" href="$projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="1932,251,2107,278"/>
+<area shape="rect" id="node34" href="$subtitlemodel_8hpp.html" title="bin/model/subtitlemodel.hpp" alt="" coords="2408,169,2617,196"/>
+<area shape="rect" id="node35" href="$markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="2790,251,3017,278"/>
+<area shape="rect" id="node36" href="$clipmodel_8hpp.html" title="clipmodel.hpp" alt="" coords="3047,333,3162,360"/>
+<area shape="rect" id="node37" href="$compositionmodel_8hpp.html" title="compositionmodel.hpp" alt="" coords="2802,333,2973,360"/>
+<area shape="rect" id="node38" href="$core_8h.html" title="core.h" alt="" coords="2293,251,2356,278"/>
+<area shape="rect" id="node39" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2031,95,2171,121"/>
+<area shape="rect" id="node40" href="$effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="3141,244,3353,285"/>
+<area shape="rect" id="node41" href="$groupsmodel_8hpp.html" title="groupsmodel.hpp" alt="" coords="3708,251,3843,278"/>
+<area shape="rect" id="node42" href="$timelineitemmodel_8hpp.html" title="timelineitemmodel.hpp" alt="" coords="3244,169,3419,196"/>
+<area shape="rect" id="node43" href="$trackmodel_8hpp.html" title="trackmodel.hpp" alt="" coords="3867,251,3991,278"/>
+<area shape="rect" id="node44" href="$transitionsrepository_8hpp.html" title="transitions/transitionsrepository.hpp" alt="" coords="695,251,951,278"/>
+<area shape="rect" id="node45" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="1628,169,1744,196"/>
+<area shape="rect" id="node3" href="$definitions_8h.html" title="definitions.h" alt="" coords="2184,333,2287,360"/>
+<area shape="rect" id="node6" href="$undohelper_8hpp.html" title="undohelper.hpp" alt="" coords="3177,408,3299,435"/>
+<area shape="rect" id="node10" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="2362,333,2525,360"/>
+<area shape="rect" id="node11" href="$timecode_8h.html" title="timecode.h" alt="" coords="1835,333,1929,360"/>
+<area shape="rect" id="node27" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="1077,251,1284,278"/>
+<area shape="rect" id="node28" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="3427,251,3683,278"/>
+<area shape="rect" id="node32" href="$abstracttreemodel_8hpp.html" title="abstractmodel/abstracttreemodel.hpp" alt="" coords="3237,333,3505,360"/>
+</map>

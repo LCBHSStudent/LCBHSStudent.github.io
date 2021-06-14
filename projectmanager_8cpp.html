@@ -1,0 +1,184 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>SmartIP-Editor: src/project/projectmanager.cpp 文件参考</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">SmartIP-Editor </a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel " style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_00f0a3b1654669903f8939607e046ce9.html">project</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">projectmanager.cpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="projectmanager_8h_source.html">projectmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bin_8h_source.html">bin/bin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectitemmodel_8h_source.html">bin/projectitemmodel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_8h_source.html">core.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="kdenlivedoc_8h_source.html">doc/kdenlivedoc.h</a>&quot;</code><br />
+<code>#include &quot;kdenlivesettings.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="mainwindow_8h_source.html">mainwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="monitormanager_8h_source.html">monitor/monitormanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="profilemodel_8hpp_source.html">profiles/profilemodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="archivewidget_8h_source.html">project/dialogs/archivewidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="backupwidget_8h_source.html">project/dialogs/backupwidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="noteswidget_8h_source.html">project/dialogs/noteswidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectsettings_8h_source.html">project/dialogs/projectsettings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="thumbnailcache_8hpp_source.html">utils/thumbnailcache.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="xml_8hpp_source.html">xml/xml.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="markerlistmodel_8hpp_source.html">bin/model/markerlistmodel.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="profilerepository_8hpp_source.html">profiles/profilerepository.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="notesplugin_8h_source.html">project/notesplugin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="meltBuilder_8hpp_source.html">timeline2/model/builders/meltBuilder.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timelinecontroller_8h_source.html">timeline2/view/timelinecontroller.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timelinewidget_8h_source.html">timeline2/view/timelinewidget.h</a>&quot;</code><br />
+<code>#include &lt;KActionCollection&gt;</code><br />
+<code>#include &lt;KJob&gt;</code><br />
+<code>#include &lt;KMessageBox&gt;</code><br />
+<code>#include &lt;KRecentDirs&gt;</code><br />
+<code>#include &lt;klocalizedstring.h&gt;</code><br />
+<code>#include &quot;kdenlive_debug.h&quot;</code><br />
+<code>#include &lt;KConfigGroup&gt;</code><br />
+<code>#include &lt;QAction&gt;</code><br />
+<code>#include &lt;QCryptographicHash&gt;</code><br />
+<code>#include &lt;QFileDialog&gt;</code><br />
+<code>#include &lt;QLocale&gt;</code><br />
+<code>#include &lt;QMimeDatabase&gt;</code><br />
+<code>#include &lt;QMimeType&gt;</code><br />
+<code>#include &lt;QProgressDialog&gt;</code><br />
+<code>#include &lt;QTimeZone&gt;</code><br />
+<code>#include &lt;<a class="el" href="mixermanager_8hpp_source.html">audiomixer/mixermanager.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="localeHandling_8h_source.html">lib/localeHandling.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+projectmanager.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="projectmanager_8cpp__incl.png" border="0" usemap="#src_2project_2projectmanager_8cpp" alt=""/></div>
+<map name="src_2project_2projectmanager_8cpp" id="src_2project_2projectmanager_8cpp">
+<area shape="rect" id="node2" href="projectmanager_8h.html" title="projectmanager.h" alt="" coords="2675,87,2811,114"/>
+<area shape="rect" id="node14" href="bin_8h.html" title="bin/bin.h" alt="" coords="415,169,494,196"/>
+<area shape="rect" id="node16" href="projectitemmodel_8h.html" title="bin/projectitemmodel.h" alt="" coords="3691,87,3866,114"/>
+<area shape="rect" id="node17" href="core_8h.html" title="core.h" alt="" coords="453,87,515,114"/>
+<area shape="rect" id="node18" href="kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2459,87,2599,114"/>
+<area shape="rect" id="node21" href="mainwindow_8h.html" title="mainwindow.h" alt="" coords="313,87,429,114"/>
+<area shape="rect" id="node23" href="monitormanager_8h.html" title="monitor/monitormanager.h" alt="" coords="2835,87,3032,114"/>
+<area shape="rect" id="node24" href="profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="1184,87,1368,114"/>
+<area shape="rect" id="node25" href="archivewidget_8h.html" title="project/dialogs/archivewidget.h" alt="" coords="1392,87,1619,114"/>
+<area shape="rect" id="node26" href="backupwidget_8h.html" title="project/dialogs/backupwidget.h" alt="" coords="5,169,229,196"/>
+<area shape="rect" id="node27" href="noteswidget_8h.html" title="project/dialogs/noteswidget.h" alt="" coords="4057,87,4271,114"/>
+<area shape="rect" id="node28" href="projectsettings_8h.html" title="project/dialogs/projectsettings.h" alt="" coords="4295,87,4526,114"/>
+<area shape="rect" id="node29" href="thumbnailcache_8hpp.html" title="utils/thumbnailcache.hpp" alt="" coords="2248,87,2435,114"/>
+<area shape="rect" id="node30" href="xml_8hpp.html" title="xml/xml.hpp" alt="" coords="2120,87,2224,114"/>
+<area shape="rect" id="node31" href="markerlistmodel_8hpp.html" title="bin/model/markerlistmodel.hpp" alt="" coords="723,87,949,114"/>
+<area shape="rect" id="node32" href="profilerepository_8hpp.html" title="profiles/profilerepository.hpp" alt="" coords="1889,87,2095,114"/>
+<area shape="rect" id="node33" href="notesplugin_8h.html" title="project/notesplugin.h" alt="" coords="539,87,698,114"/>
+<area shape="rect" id="node34" href="meltBuilder_8hpp.html" title="timeline2/model/builders\l/meltBuilder.hpp" alt="" coords="974,80,1159,121"/>
+<area shape="rect" id="node35" href="timelinecontroller_8h.html" title="timeline2/view/timelinecontroller.h" alt="" coords="3315,87,3565,114"/>
+<area shape="rect" id="node37" href="timelinewidget_8h.html" title="timeline2/view/timelinewidget.h" alt="" coords="3057,87,3290,114"/>
+<area shape="rect" id="node49" href="mixermanager_8hpp.html" title="audiomixer/mixermanager.hpp" alt="" coords="1643,87,1864,114"/>
+<area shape="rect" id="node50" href="localeHandling_8h.html" title="lib/localeHandling.h" alt="" coords="6017,87,6167,114"/>
+<area shape="rect" id="node3" href="kdenlivecore__export_8h.html" title="kdenlivecore_export.h" alt="" coords="570,169,737,196"/>
+<area shape="rect" id="node11" href="timelineitemmodel_8hpp.html" title="timeline2/model/timelineitemmodel.hpp" alt="" coords="3115,169,3402,196"/>
+</map>
+</div>
+</div></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

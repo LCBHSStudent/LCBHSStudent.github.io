@@ -1,0 +1,31 @@
+<map id="src/bin/projectclip.cpp" name="src/bin/projectclip.cpp">
+<area shape="rect" id="node2" href="$projectclip_8h.html" title="projectclip.h" alt="" coords="2422,80,2525,107"/>
+<area shape="rect" id="node8" href="$clipcontroller_8h.html" title="mltcontroller/clipcontroller.h" alt="" coords="2562,162,2769,189"/>
+<area shape="rect" id="node13" href="$bin_8h.html" title="bin.h" alt="" coords="3322,162,3377,189"/>
+<area shape="rect" id="node14" href="$timecode_8h.html" title="timecode.h" alt="" coords="2613,244,2708,271"/>
+<area shape="rect" id="node21" href="$core_8h.html" title="core.h" alt="" coords="2162,162,2225,189"/>
+<area shape="rect" id="node22" href="$docundostack_8hpp.html" title="doc/docundostack.hpp" alt="" coords="2905,80,3072,107"/>
+<area shape="rect" id="node23" href="$kdenlivedoc_8h.html" title="doc/kdenlivedoc.h" alt="" coords="2845,162,2985,189"/>
+<area shape="rect" id="node24" href="$kthumb_8h.html" title="doc/kthumb.h" alt="" coords="3096,80,3206,107"/>
+<area shape="rect" id="node25" href="$effectstackmodel_8hpp.html" title="effects/effectstack\l/model/effectstackmodel.hpp" alt="" coords="1198,155,1410,196"/>
+<area shape="rect" id="node26" href="$audiolevelstask_8h.html" title="jobs/audiolevelstask.h" alt="" coords="3231,80,3399,107"/>
+<area shape="rect" id="node27" href="$cliploadtask_8h.html" title="jobs/cliploadtask.h" alt="" coords="347,162,491,189"/>
+<area shape="rect" id="node28" href="$proxytask_8h.html" title="jobs/proxytask.h" alt="" coords="3423,80,3554,107"/>
+<area shape="rect" id="node29" href="$cachetask_8h.html" title="jobs/cachetask.h" alt="" coords="566,162,696,189"/>
+<area shape="rect" id="node31" href="$audioStreamInfo_8h.html" title="lib/audio/audioStreamInfo.h" alt="" coords="1676,244,1879,271"/>
+<area shape="rect" id="node32" href="$clippropertiescontroller_8h.html" title="mltcontroller/clippropertiescontroller.h" alt="" coords="1586,162,1858,189"/>
+<area shape="rect" id="node33" href="$markerlistmodel_8hpp.html" title="model/markerlistmodel.hpp" alt="" coords="971,162,1174,189"/>
+<area shape="rect" id="node34" href="$profilemodel_8hpp.html" title="profiles/profilemodel.hpp" alt="" coords="410,244,594,271"/>
+<area shape="rect" id="node35" href="$projectcommands_8h.html" title="project/projectcommands.h" alt="" coords="1342,80,1542,107"/>
+<area shape="rect" id="node36" href="$projectmanager_8h.html" title="project/projectmanager.h" alt="" coords="3061,162,3246,189"/>
+<area shape="rect" id="node37" href="$projectfolder_8h.html" title="projectfolder.h" alt="" coords="504,80,620,107"/>
+<area shape="rect" id="node38" href="$projectitemmodel_8h.html" title="projectitemmodel.h" alt="" coords="44,162,194,189"/>
+<area shape="rect" id="node39" href="$projectsubclip_8h.html" title="projectsubclip.h" alt="" coords="771,162,896,189"/>
+<area shape="rect" id="node40" href="$snapmodel_8hpp.html" title="timeline2/model/snapmodel.hpp" alt="" coords="3745,80,3978,107"/>
+<area shape="rect" id="node41" href="$macros_8hpp.html" title="macros.hpp" alt="" coords="4003,80,4102,107"/>
+<area shape="rect" id="node42" href="$thumbnailcache_8hpp.html" title="utils/thumbnailcache.hpp" alt="" coords="2250,162,2436,189"/>
+<area shape="rect" id="node43" href="$xml_8hpp.html" title="xml/xml.hpp" alt="" coords="219,162,323,189"/>
+<area shape="rect" id="node3" href="$abstractprojectitem_8h.html" title="abstractprojectitem.h" alt="" coords="862,244,1024,271"/>
+<area shape="rect" id="node4" href="$definitions_8h.html" title="definitions.h" alt="" coords="1426,244,1529,271"/>
+<area shape="rect" id="node11" href="$timelinemodel_8hpp.html" title="timeline2/model/timelinemodel.hpp" alt="" coords="1882,162,2138,189"/>
+</map>
